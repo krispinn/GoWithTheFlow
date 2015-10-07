@@ -1,0 +1,13 @@
+Coding Standards:
+
+Everything:
+	-class names should be short and describe their primary function (what the output is)
+	-lines cannot be more than 100 characters long
+	-variable names should describe what they represent
+
+Comments:
+	-there should be a space immediately after every //
+	-comments that span more than one line should use the multiline comment tags
+
+Javadoc:
+	-all javadoc class comments must include all group members as the authors
