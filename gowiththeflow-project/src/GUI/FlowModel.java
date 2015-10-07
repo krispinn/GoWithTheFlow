@@ -2,13 +2,13 @@ package GUI;
 import java.awt.*;
 
 /**
- * The DemoModel class holds the information that is used by the GUI.
+ * The FlowModel class holds the information that is used by the GUI.
  * Ask yourself the question, what data would be needed to recreate
  * the state of the GUI?  This data is what should be stored in the
  * model.
  * @author Tom Bylander
  */
-public class DemoModel {
+public class FlowModel {
     /** 
      * The number of points 
      */
@@ -24,7 +24,7 @@ public class DemoModel {
 	 */
 	private Color selectedColor;
 	
-	public DemoModel() {
+	public FlowModel() {
 		pointCount = 0;
 		points = new Point[10000];
 		selectedColor = Color.CYAN;

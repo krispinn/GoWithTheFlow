@@ -4,7 +4,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
-import GUI.DemoController;
+import GUI.FlowController;
 
 /**
  * The view is responsible for displaying the information.
@@ -13,16 +13,16 @@ import GUI.DemoController;
  * painting is relatively flicker-free.
  * @author Tom Bylander
  */
-public class DemoView extends JFrame {
+public class FlowView extends JFrame {
     /** 
      * the model of this MVC example 
      */
-	private DemoModel model;
+	private FlowModel model;
 	
 	/** 
 	 * the JPanel where the user can paint
 	 */
-	private PaintPanel mousePanel;
+	private CourseGenerator mousePanel;
 	
 	/** 
 	 * for displaying a list of colors
@@ -52,22 +52,24 @@ public class DemoView extends JFrame {
 	/**
 	 * Create and organize the components of the window.
 	 */
-	public DemoView(DemoModel model) {
-		super("Illustrate Model-View-Controller");
+	public FlowView(FlowModel model) {
+		super("Major Flow Chart");
 		this.model = model;
 
 		/* CENTER: Add a panel that the user can draw on. */
-		mousePanel = new PaintPanel(model);
+		mousePanel = new CourseGenerator(model);
 		mousePanel.setBackground(Color.WHITE);
 		add(mousePanel, BorderLayout.CENTER);
 
-		/* WEST: Add a list so the user can select a color. */
+		/* EAST: Add a list so the user can select a color. */
 		listPanel = new JPanel();
-		add(listPanel, BorderLayout.WEST);
+		add(listPanel, BorderLayout.EAST);
 		colorList = new JList(colorNames);
-		colorList.setVisibleRowCount(5);
+		colorList.setVisibleRowCount(7);
 		colorList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-		listPanel.add(new JScrollPane(colorList), BorderLayout.CENTER);
+		listPanel.add(new JScrollPane(colorList), BorderLayout.NORTH);
+		JButton resetButton = new JButton("RESET");
+		listPanel.add(resetButton, BorderLayout.SOUTH);
 	} // end constructor
 
 	/**
@@ -75,7 +77,7 @@ public class DemoView extends JFrame {
 	 * MousePanel.
 	 * @param listener
 	 */
-	public void registerListener(DemoController listener) {
+	public void registerListener(FlowController listener) {
 		colorList.addListSelectionListener(listener);
 		mousePanel.addMouseMotionListener(listener);
 	}
