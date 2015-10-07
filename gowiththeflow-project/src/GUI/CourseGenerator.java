@@ -9,19 +9,19 @@ import javax.swing.JPanel;
  * @author Deitel & Associates, Inc.
  * @author Tom Bylander
  */
-public class PaintPanel extends JPanel {
+public class CourseGenerator extends JPanel {
     /** 
      * The model of this MVC example (it stores the points) 
      */
-	private DemoModel model;
+	private FlowModel model;
 
 	/**
 	 * Store the model that holds the points to be drawn.
 	 * @param model
 	 */
-	public PaintPanel(DemoModel model) {
+	public CourseGenerator(FlowModel model) {
 		this.model = model;
-	} // end PaintPanel constructor
+	} // end CourseGenerator constructor
 
 	/**
 	 * Draw ovals in a 4-by-4 bounding box at specified locations on
@@ -34,9 +34,10 @@ public class PaintPanel extends JPanel {
 		int i = 0;
 		Point point = model.getPoint(0);
 		while (point != null) {
-			g.fillOval(point.x, point.y, 4, 4);
+			g.setColor(model.getSelectedColor());
+			g.fillRect(point.x, point.y, 10, 10);
 			i++;
 			point = model.getPoint(i);
 		}
 	} // end method paintComponent
-} // end class PaintPanel
+} // end class CourseGenerator

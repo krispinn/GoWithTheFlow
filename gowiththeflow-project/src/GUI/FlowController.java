@@ -8,18 +8,18 @@ import javax.swing.event.*;
  * Adapted from Figures 12.23 and 12.34.
  * @author Tom Bylander
  */
-public class DemoController implements ListSelectionListener, MouseMotionListener {
+public class FlowController implements ListSelectionListener, MouseMotionListener {
     /** 
      * The model of this MVC example 
      */
-	private DemoModel model;
+	private FlowModel model;
 	
 	/** 
 	 * The view of this MVC example 
 	 */
-	private DemoView view;
+	private FlowView view;
 
-	public DemoController(DemoModel model, DemoView view) {
+	public FlowController(FlowModel model, FlowView view) {
 		this.model = model;
 		this.view = view;
 	}
