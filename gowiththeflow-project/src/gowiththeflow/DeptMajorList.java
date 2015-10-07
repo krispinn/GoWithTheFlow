@@ -38,6 +38,7 @@ public class DeptMajorList {
 		inputFile = inputFileName;				// file containing source code
 		expression = inputExpression;			// expression to search for
 		outputFile = new File(outputFileName);  // output to this file name
+		
 		match();
 	}
 	
@@ -56,6 +57,7 @@ public class DeptMajorList {
 	 */
 	public void match() throws Exception{
 		
+		if (!outputFile.exists()) outputFile.createNewFile();
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
 		Pattern compiledRegexPattern = Pattern.compile(expression);
 		FileWriter fileWriter = new FileWriter(outputFile.getAbsoluteFile());

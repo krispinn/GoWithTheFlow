@@ -32,6 +32,7 @@ public class DeptSourceCode {
 	public DeptSourceCode(String inputUrl, String outputFileName) throws Exception{
 		url = new URL(inputUrl);
 		outputFile = new File(outputFileName);
+		
 		writeToFile();
 	}
 	
@@ -54,7 +55,7 @@ public class DeptSourceCode {
 	 * @throws Exception
 	 */
 	private void writeToFile() throws Exception{
-		
+		if (!outputFile.exists()) outputFile.createNewFile();
 		BufferedReader bufferedReader = new BufferedReader(
 			new InputStreamReader(url.openStream()));
 		
