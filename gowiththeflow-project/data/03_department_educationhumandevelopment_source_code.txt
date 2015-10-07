@@ -1,0 +1,686 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>5. College of Education and Human Development &lt; The University of Texas at San Antonio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="a5pXKN_wGnOECKQikfGtjbtFrjO0IGkz5clLXrg_36s" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+</head>
+
+<body>
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+	<div class="accessible-menu">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.utsa.edu">Institution Home</a></li>
+		</ul>
+	</div>
+</div><!--end .accessible-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="top-bar" class="clearfix">
+	<div class="wrap">
+		<div id="logo" class="clearfix">
+			<a href="http://www.utsa.edu">The University of Texas at San Antonio</a>
+		</div>
+		<div id="top-right">
+	        <ul>
+	            <li class="main"><a href="http://my.utsa.edu/">myUTSA</a>
+	            	<ul>
+	                    <li><a href="http://asap.utsa.edu/"><span>&raquo;</span> ASAP</a></li>
+	                    <li><a href="http://bb.utsa.edu/"><span>&raquo;</span> Blackboard</a></li>
+	                    <li><a href="http://outlook.com/utsa.edu"><span>&raquo;</span> Staff Webmail</a></li>
+	                    <li><a href="http://lib.utsa.edu/"><span>&raquo;</span> Libraries</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/info/index.html">Info For</a>
+	                <ul>
+	                    <li><a href="http://utsa.edu/info/students.html"><span>&raquo;</span> Students</a></li>
+	                    <li><a href="http://utsa.edu/info/faculty.html"><span>&raquo;</span> Faculty</a></li>
+	                    <li><a href="http://utsa.edu/info/employees.html"><span>&raquo;</span> Staff</a></li>
+	                    <li><a href="http://utsa.edu/info/parents.html"><span>&raquo;</span> Parents</a></li>
+	                    <li><a href="http://utsa.edu/info/visitors.html"><span>&raquo;</span> Visitors</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/maps/">Locations</a>
+	            	<ul>
+	                    <li><a href="http://utsa.edu/maps/main-map.html"><span>&raquo;</span> Main</a></li>
+	                    <li><a href="http://utsa.edu/maps/dt-map.html"><span>&raquo;</span> Downtown</a></li>
+	                    <li><a href="http://utsa.edu/maps/hemisfair-map.html"><span>&raquo;</span> Hemisfair Park</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/directory/">Directory</a></li>
+	            <li class="main"><a href="http://utsa.edu/calendar/">Calendar</a></li>
+	            <li class="main"><a href="http://utsa.edu/about/index.html">About UTSA</a></li>
+			</ul>
+
+			<div id="search" class="clearfix">
+				<form id="cse-search-box" action="http://utsa.edu/search/searchresults.html" role="search">
+					<input type="hidden" name="cx" value="000238266656426684962:mzli4pte7ko" />
+					<input type="hidden" name="cof" value="FORID:11" />
+					<label for="q">Search</label>
+					<input class="searchfield" name="q" id="q" type="text" size="15" value="Search UTSA" onfocus="if (this.value == 'Search UTSA') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search UTSA';}" />
+					<input class="searchbutton" type="image" src="/images/icon-search.jpg" name="sa" value="search" alt="search"/>
+				</form>
+			</div><!--end #search-->
+		</div><!--end #top-right-->
+	</div><!--end #topbar .wrap-->
+</div><!--end #top-bar-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="drawer" class="clearfix" role="navigation">
+	<div class="wrap">
+		<div id="drawer-cols" class="clearfix">
+			<div class="drawer-col first">
+				<ul>
+					<li>
+						<a href="http://utsa.edu/admissions/index.html">Admissions</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/academics/index.html">Academics</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/research/index.html">Research</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/athletics/index.html">Athletics</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/campuslife/index.html">Campus Life</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/community/index.html">Community</a>
+					</li>
+					<li>
+						<a href="http://alumni.utsa.edu/">Alumni</a>
+					</li>
+					<li>
+						<a href="http://giving.utsa.edu/">Giving</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/admissions/">Future Students</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/admissions/">Apply to UTSA</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/financialaid/">Financial Aid</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/academics/academic-departments.html">Colleges + Programs</a>
+					</li>
+					<li>
+						<a href="http://bluebook.utsa.edu/">Bluebook: Course Info</a>
+					</li>
+					<li>
+						<a href="http://international.utsa.edu/">International Students</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/visitor/">Campus Tours</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/maps/">Campus Maps</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/campuslife/">Campus Life</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/students.html">Current Students</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://asap.utsa.edu/">ASAP</a> / <a href="http://bb.utsa.edu/">Blackboard</a>
+					</li>
+					<li>
+						<a href="http://bluebook.utsa.edu/">Bluebook: Course Info Online</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/calendar/index.cfm?calendar=academic">Academic Calendar</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/fiscalservices/">Fiscal Services</a>
+					</li>
+					<li>
+						<a href="http://lib.utsa.edu/">Libraries</a>
+					</li>
+					<li>
+						<a href="http://utsa.bkstr.com/">Bookstore</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/careercenter/">Career Services</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/employees.html">Faculty / Staff</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/hr/">Human Resources</a>
+					</li>
+					<li>
+						<a href="http://outlook.com/utsa.edu">Webmail</a>
+					</li>
+					<li>
+						<a href="https://utdirect.utexas.edu/">UT Direct</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/today/">UTSA Today</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/calendar/">UTSA Calendar</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/directory/">Directory</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/oit/">IT Support</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/utshare">UT Share</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/visitors.html">Visitors / Parents</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/visitor/">Visitor Center</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/maps/">Campus Maps</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/family/">Family Association</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/auxiliary/visitor.html">Parking</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/fiscalservices/">Fiscal Services</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/today/">UTSA Today</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/about/">About UTSA</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://alumni.utsa.edu/">Alumni</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://alumni.utsa.edu/joinrenew">Join the Association</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/sombrilla/">Sombrilla Online</a>
+					</li>
+					<li>
+						<a href="http://giving.utsa.edu/">Giving to UTSA</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/careercenter/">Career Services</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/registrar/transcripts.cfm">Transcript Request</a>
+					</li>
+					<li>
+						<a href="http://alumni.utsa.edu/calendar">Alumni Calendar</a>
+					</li>
+				</ul>
+			</div>
+		</div><!--end #drawer-cols-->
+</div><!--end #drawer .wrap-->
+</div><!--end #drawer-->
+
+<div id="drawer-button">
+	<div class="wrap">
+		<a href="#" class="btn-drawer">Show/Hide University Links</a>
+	</div><!--end #drawer-button .wrap-->
+</div><!--end #drawer-button-->
+<!--/htdig_noindex-->
+
+
+<div id="header">
+	<div class="wrap">
+		<div id="edition">
+<a href="/undergraduate/">2015-16 Undergraduate Catalog</a>		</div><!--end #edition-->
+	</div><!--end #header .wrap-->
+</div><!--end #header-->
+
+<div id="wrapper" class="clearfix">
+
+<!--htdig_noindex-->
+	<div id="left-col" role="complementary">
+
+		<div id="left-nav" class="clearfix">
+			<form id="cl-search" action="/search/" class="clearfix" role="search">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="P" size="25" class="searchbox" id="name" />
+				<input type="submit" value="Search" class="submit" />
+			</form>
+
+			<div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Toggle Navigation</a>
+                <a class="cl-menu-btn" href="#">Toggle Navigation</a>
+            </div><!--end #cl-menu-control-->
+
+<div id="cl-menu" role="navigation">
+<!-- Begin Nav -->
+<ul class="nav" id="/">
+	<li><a href="/informationbulletin/">Information Bulletin</a></li>
+	<li class="active"><a href="/undergraduate/">Undergraduate Catalog</a>
+	<ul class="nav" id="/undergraduate/">
+		<li><a href="/undergraduate/generalinformation/">General Information</a></li>
+		<li><a href="/undergraduate/bachelorsdegreeregulations/">Bachelor’s Degree Regulations</a></li>
+		<li><a href="/undergraduate/certificateprograms/">Undergraduate Certificate Programs</a></li>
+		<li><a href="/undergraduate/architecture/">College of Architecture, Construction and Planning</a></li>
+		<li><a href="/undergraduate/business/">College of Business</a></li>
+		<li class="active self"><a href="#" onclick="return false;">College of Education and Human Development</a>
+		<ul class="nav" id="/undergraduate/educationhumandevelopment/">
+			<li><a href="/undergraduate/educationhumandevelopment/biculturalbilingualstudies/">Department of Bicultural-&#8203;Bilingual Studies</a></li>
+			<li><a href="/undergraduate/educationhumandevelopment/counseling/">Department of Counseling</a></li>
+			<li><a href="/undergraduate/educationhumandevelopment/educationalleadershippolicystudies/">Department of Educational Leadership and Policy Studies</a></li>
+			<li><a href="/undergraduate/educationhumandevelopment/educationalpsychology/">Department of Educational Psychology</a></li>
+			<li><a href="/undergraduate/educationhumandevelopment/interdisciplinarylearningteaching/">Department of Interdisciplinary Learning and Teaching</a></li>
+			<li><a href="/undergraduate/educationhumandevelopment/healthkinesiology/">Department of Kinesiology, Health, and Nutrition </a></li>
+			<li><a href="/undergraduate/educationhumandevelopment/teachercertificationprograms/">Teacher Certification Programs</a></li>
+			<li><a href="/undergraduate/educationhumandevelopment/ba_in_womens_studies/">Women's Studies Program</a></li>
+		</ul>
+		</li>
+		<li><a href="/undergraduate/engineering/">College of Engineering</a></li>
+		<li><a href="/undergraduate/liberalfinearts/">College of Liberal and Fine Arts</a></li>
+		<li><a href="/undergraduate/publicpolicy/">College of Public Policy</a></li>
+		<li><a href="/undergraduate/sciences/">College of Sciences</a></li>
+		<li><a href="/undergraduate/universitycollege/">University College</a></li>
+		<li><a href="/undergraduate/honorscollege/">Honors College</a></li>
+		<li><a href="/undergraduate/coursedescriptions/">Course Descriptions</a></li>
+		<li><a href="/undergraduate/texascommoncoursenumberingsystem/">Texas Common Course Numbering System</a></li>
+		<li><a href="/undergraduate/nationalstandardizedtests/">National Standardized Tests: Minimum Scores Required for Credit at UTSA</a></li>
+		<li><a href="/undergraduate/faculty/">Faculty</a></li>
+		<li><a href="/undergraduate/azindex/">Undergraduate A-&#8203;Z Index</a></li>
+	</ul>
+	</li>
+	<li><a href="/graduate/">Graduate Catalog</a></li>
+	<li><a href="/previouscatalogs/">Previous Catalogs</a></li>
+</ul>
+<!-- End Nav -->
+</div><!--end #cl-menu-->
+
+			<ul class="print">
+				<li>
+					<a href="#print-dialog" onclick="showPrintDialog(); return false;">Print Options</a>
+				</li>
+			</ul>
+		</div><!--end #left-nav-->
+	</div><!--end #left-col-->
+<!--/htdig_noindex-->
+
+
+	<div id="right-col">
+<!--htdig_noindex-->
+<div id="breadcrumb" class="clearfix"  role="navigation">
+<ul><li><a href="/">Catalog</a><span class="crumbsep"> &gt; </span></li><li><a href="/undergraduate/">Undergraduate&nbsp;Catalog</a><span class="crumbsep"> &gt; </span></li><li><span class="active">College of Education and Human Development</span></li></ul>
+</div>
+<!--/htdig_noindex-->
+		<div id="content" role="main">
+
+<h1>5. College of Education and Human Development</h1>
+<script type="text/javascript">
+//<![CDATA[
+	var defshow = "text";
+	var bodycontainer = "#body";
+	var validhashes = ",text,minorstext,courseinventory,";
+
+if(window.location.hash.length) {
+	var hash = cleanHash(window.location.hash);
+	if(validhashes.indexOf("," + hash + ",") != -1)
+		defshow = hash;	
+}
+var ss = document.styleSheets;
+var workss = null;
+for(var i=0; i < ss.length; i++) {
+	var currmedia = "";
+	if (typeof ss[i].media == "string") 
+		currmedia = ss[i].media
+	else if (typeof ss[i].media == "object" && ss[i].media.mediaText) 
+		currmedia = ss[i].media.mediaText;
+	
+	if((currmedia == "screen" || currmedia == "all") && (ss[i].href.indexOf("/") == 0 || ss[i].href.indexOf(document.location.host) >= 0)) {
+		workss = ss[i];
+		break;	
+	}
+}
+if(workss && workss.insertRule) {
+	workss.insertRule(".tab_content { display: none; }", workss.cssRules.length)
+	workss.insertRule(".sectionheader { display: none; }", workss.cssRules.length)
+	workss.insertRule("#" + defshow + "container { display: block; }", workss.cssRules.length)
+} else if(workss && workss.addRule) {
+	workss.addRule(".tab_content", "display: none");
+	workss.addRule(".sectionheader", "display: none");
+	workss.addRule("#" + defshow + "container", "display: block");
+}
+else {
+	if (window.console)
+		window.console.log('screen.css <link> needs attribute media="screen"');
+}
+//]]>
+</script>
+	<div id="tabs">
+		<ul class="clearfix">
+			<li id="texttab" class="first"><a href="#text" onclick="return showSection('text');">Overview</a></li>
+			<li id="minorstexttab"><a href="#minorstext"  onclick="return showSection('minorstext');" >Minors</a></li>
+			<li id="courseinventorytab"><a href="#courseinventory" onclick="return showSection('courseinventory');">Courses</a></li>
+		</ul>
+	</div>
+
+<div id="textcontainer" class="tab_content">
+
+
+
+
+<div>
+
+<a name="visionstatement"></a>
+<h2>Vision Statement</h2>
+
+
+<p>The College of Education and Human Development (COEHD) at The University of Texas at San Antonio will be an international model for developing inclusive, transformative leaders guided by principles of community, equity, respect for diversity, integrity, service, and scholarship.</p>
+
+
+<a name="missionstatement"></a>
+<h2>Mission Statement</h2>
+
+
+<p>The College of Education and Human Development will create a democratic, collaborative learning organization in a way that:</p>
+
+
+<ul>
+	<li>promotes equity, fairness, and accountability</li>
+	<li>recognizes a healthy balance among scholarship, teaching, and service</li>
+	<li>develops and applies new knowledge of best practices</li>
+	<li>prepares educators/leaders to succeed in diverse contexts</li>
+	<li>retains students, faculty, and staff</li>
+	<li>builds community within and at large</li>
+	<li>fosters the holistic development of all its members</li>
+	<li>uses resources effectively and efficiently</li>
+</ul>
+
+
+<p>so that the College graduates citizens who are engaged in productive contributions to self, society, and the global community.</p>
+
+
+<a name="generalinformation"></a>
+<h2>General Information</h2>
+
+
+<p>The College of Education and Human Development is made up of six departments: Bicultural-Bilingual Studies; Counseling; Educational Leadership and Policy Studies; Educational Psychology; Kinesiology, Health, and Nutrition; and Interdisciplinary Learning and Teaching.</p>
+
+
+<p>Seven undergraduate degrees are offered within the College: the Bachelor of Applied Arts and Sciences in Infancy and Childhood Studies, the Bachelor of Arts in Interdisciplinary Studies, the Bachelor of Arts in Mexican American Studies, the Bachelor of Arts in Women’s Studies, the Bachelor of Science in Health, and the Bachelor of Science in Kinesiology, and the Bachelor of Science in Nutrition and Dietetics. Minors are also offered in African American Studies, Athletic Coaching, Bicultural Studies, English as a Second Language, Community Health, Wellness, and Women’s Studies. For more information related to the College, consult the webpage: <a href="http://education.utsa.edu" target="_blank">http://education.utsa.edu</a>.</p>
+
+
+<a name="advisingandcertificationcenter"></a>
+<h2>Advising and Certification Center</h2>
+
+
+<a name="academicadvising"></a>
+<h3>Academic Advising</h3>
+
+
+<p>Academic advising services are provided for students admitted to or currently enrolled at UTSA in the following majors: Health, Kinesiology, Interdisciplinary Studies, Infancy and Childhood Studies, Mexican American Studies, Nutrition and Dietetics, and Women’s Studies. Advising services are also provided for students seeking a teaching certificate for those Secondary and All-Level content areas that are available at UTSA. This includes students pursuing Secondary and All-Level certification, students with earned baccalaureate degrees who would like to become certified as teachers, and teachers wishing to add additional certificates to their credentials.</p>
+
+
+<a name="certification"></a>
+<h3>Certification</h3>
+
+
+<p>The University of Texas at San Antonio is approved by the State Board for Educator Certification (SBEC) to offer teacher certificate programs for Texas certification as elementary, middle school, and high school classroom teachers.</p>
+
+
+<p>Students interested in pursuing elementary and middle school teacher certification will major in Interdisciplinary Studies and follow the appropriate certification program for the desired level of the certificate. Students who would like to become high school teachers will major in the academic area in which certification is desired and simultaneously follow the certification program for this teaching field. Students pursuing All-Level certification will follow specialized All-Level programs in Art, Music or Kinesiology.</p>
+
+
+<p>Additional information about UTSA certification programs and teacher certification guidelines is available in the Teacher Certification section of this catalog and in the COEHD Advising and Certification Center.</p>
+
+
+</div>
+
+</div><!--end #textcontainer -->
+
+			<div id="minorstextcontainer" class="tab_content">
+				<a name="minorstext"></a><h2>Minor in African American Studies</h2>
+<p>The Minor in African American Studies provides an interdisciplinary approach to the political, cultural, historical, and social experiences of African Americans in the United States, and people of African descent globally. Literature and research methods drawn from several disciplines enable students to enhance their understanding of African Americans’ unique social circumstances, contributions, and heritage. The mission of the African American Studies program at UTSA is to promote academic and professional excellence. We achieve this goal by enhancing cultural competency skills, enriching the theoretical knowledge base and practical skills set of students related to working with diverse populations, and advancing critical thinking skills related to multiple facets of the African American experience and the African Diaspora.</p>
+<p>All students pursuing a Minor in African American Studies must complete 18 semester credit hours, at least 12 hours of which must be at the upper-division level.</p>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even areaheader firstrow"><td colspan="2"><span class="courselistcomment areaheader">A. Required courses:</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=AAS 2013" title="AAS&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'AAS 2013');">AAS&#160;2013</a></td><td>Introduction to African American Studies</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=AAS 2113" title="AAS&#160;2113" class="bubblelink code" onclick="return showCourse(this, 'AAS 2113');">AAS&#160;2113</a></td><td>African American Culture, Leadership and Social Issues</td><td class="hourscol">3</td></tr>
+<tr class="odd areaheader"><td colspan="2"><span class="courselistcomment areaheader">B. Two African American Studies courses selected from the following:</span></td><td class="hourscol">6</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=AAS 3013" title="AAS&#160;3013" class="bubblelink code" onclick="return showCourse(this, 'AAS 3013');">AAS&#160;3013</a></div></td><td>African American Cultural Experiences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=AAS 3113" title="AAS&#160;3113" class="bubblelink code" onclick="return showCourse(this, 'AAS 3113');">AAS&#160;3113</a></div></td><td>African American Studies Research Seminar</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=AAS 3123" title="AAS&#160;3123" class="bubblelink code" onclick="return showCourse(this, 'AAS 3123');">AAS&#160;3123</a></div></td><td>Civil Rights Movement &amp; African American Education</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=AAS 3133" title="AAS&#160;3133" class="bubblelink code" onclick="return showCourse(this, 'AAS 3133');">AAS&#160;3133</a></div></td><td>African Americans in Higher Education</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=AAS 4013" title="AAS&#160;4013" class="bubblelink code" onclick="return showCourse(this, 'AAS 4013');">AAS&#160;4013</a></div></td><td>Topics in African American Studies</td><td class="hourscol"></td></tr>
+<tr class="odd areaheader"><td colspan="2"><span class="courselistcomment areaheader">C. Two courses selected from the following:</span></td><td class="hourscol">6</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=AMS 3343" title="AMS&#160;3343" class="bubblelink code" onclick="return showCourse(this, 'AMS 3343');">AMS&#160;3343</a></div></td><td>Studies in Race and Ethnicity</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=BBL 2033" title="BBL&#160;2033" class="bubblelink code" onclick="return showCourse(this, 'BBL 2033');">BBL&#160;2033</a></div></td><td>Multiculturalism in the Southwest</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=BBL 3403" title="BBL&#160;3403" class="bubblelink code" onclick="return showCourse(this, 'BBL 3403');">BBL&#160;3403</a></div></td><td>Cultural and Linguistic Diversity in a Pluralistic Society</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=EDU 2103" title="EDU&#160;2103" class="bubblelink code" onclick="return showCourse(this, 'EDU 2103');">EDU&#160;2103</a></div></td><td>Social Foundations for Education in a Diverse U.S. Society</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=ENG 2383" title="ENG&#160;2383" class="bubblelink code" onclick="return showCourse(this, 'ENG 2383');">ENG&#160;2383</a></div></td><td>Multiethnic Literatures of the United States</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=ENG 3613" title="ENG&#160;3613" class="bubblelink code" onclick="return showCourse(this, 'ENG 3613');">ENG&#160;3613</a></div></td><td>African American Literature</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=GRG 3513" title="GRG&#160;3513" class="bubblelink code" onclick="return showCourse(this, 'GRG 3513');">GRG&#160;3513</a></div></td><td>Urban Geography</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=HIS 3113" title="HIS&#160;3113" class="bubblelink code" onclick="return showCourse(this, 'HIS 3113');">HIS&#160;3113</a></div></td><td>North American Indian Histories</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=HIS 3563" title="HIS&#160;3563" class="bubblelink code" onclick="return showCourse(this, 'HIS 3563');">HIS&#160;3563</a></div></td><td>African American History to the Civil War</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=HIS 3573" title="HIS&#160;3573" class="bubblelink code" onclick="return showCourse(this, 'HIS 3573');">HIS&#160;3573</a></div></td><td>African American History since the Civil War</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=HIS 3603" title="HIS&#160;3603" class="bubblelink code" onclick="return showCourse(this, 'HIS 3603');">HIS&#160;3603</a></div></td><td>Occupation, Revolution and Nation in Africa</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=HIS 3613" title="HIS&#160;3613" class="bubblelink code" onclick="return showCourse(this, 'HIS 3613');">HIS&#160;3613</a></div></td><td>Migration, Society and Culture in Africa</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=HIS 3623" title="HIS&#160;3623" class="bubblelink code" onclick="return showCourse(this, 'HIS 3623');">HIS&#160;3623</a></div></td><td>History of the Civil Rights Movement</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=LGS 3113" title="LGS&#160;3113" class="bubblelink code" onclick="return showCourse(this, 'LGS 3113');">LGS&#160;3113</a></div></td><td>Minorities and the Law</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=MUS 2663" title="MUS&#160;2663" class="bubblelink code" onclick="return showCourse(this, 'MUS 2663');">MUS&#160;2663</a></div></td><td>History and Styles of Jazz</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=POL 1213" title="POL&#160;1213" class="bubblelink code" onclick="return showCourse(this, 'POL 1213');">POL&#160;1213</a></div></td><td>Civil Rights in Texas and America (when the topic is Civil Rights)</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=POL 3203" title="POL&#160;3203" class="bubblelink code" onclick="return showCourse(this, 'POL 3203');">POL&#160;3203</a></div></td><td>African American Political Thought</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=POL 3303" title="POL&#160;3303" class="bubblelink code" onclick="return showCourse(this, 'POL 3303');">POL&#160;3303</a></div></td><td>Race, Ethnicity and Public Policy</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=SOC 4053" title="SOC&#160;4053" class="bubblelink code" onclick="return showCourse(this, 'SOC 4053');">SOC&#160;4053</a></div></td><td>Health Care System</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left: 20px;"><span class="courselistcomment commentindent">Other course substitutions require pre-approval of the advisor and program director.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Students may take the following courses under section C with  approval of program director:</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=AAS 4913" title="AAS&#160;4913" class="bubblelink code" onclick="return showCourse(this, 'AAS 4913');">AAS&#160;4913</a></div></td><td>Independent Study</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left: 20px;"><a href="/search/?P=AAS 4933" title="AAS&#160;4933" class="bubblelink code" onclick="return showCourse(this, 'AAS 4933');">AAS&#160;4933</a></div></td><td>Internship in African American Studies</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Credit Hours</td><td class="hourscol">18</td></tr></tbody></table>
+
+<p> To declare a Minor in African American Studies, obtain advice, or seek approval of substitutions for course requirements, students should consult their academic advisor.</p>
+			</div>
+<div id="courseinventorycontainer" class="tab_content">
+<div class="courses">
+<h3 class="keepwithnext">African American Studies (AAS) Courses</h3>
+
+<div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;2013.  Introduction to African American Studies.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Offers an interdisciplinary introduction to major topics in African American Studies. Course materials will address basic contours of the black experience in the United States. Topics that may be investigated include historical, autobiographical, political, cultural, sociological, literary, and/or popular responses to and representation of African Americans in the United States. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;2113.  African American Culture, Leadership and Social Issues.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+This course examines topics related to twentieth-century African American culture, leadership, and social experiences. The focus of this course includes emphasis on civic engagement, leadership, and/or cultural expression (i.e., music, performance arts, film, visual arts) that informs collective identities, social movements, and/or relevant social issues. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;3013.  African American Cultural Experiences.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+This course examines cultural expressions (e.g., art, music, film, literature, cultural identity) in the African American experience. The substantive and disciplinary emphasis can vary from one semester to another.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;3113.  African American Studies Research Seminar.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+This course is designed to introduce students to basic research methods and methodological issues in African American Studies. The course covers methods of social science research, research conceptualization, and research design.  Students will become familiar with various methods of data collection, data analysis, and theoretical concepts that pertain to developing critical thinking, analytical, and writing skills.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;3123.  Civil Rights Movement &amp; African American Education.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+This course provides an introduction to the period of struggle in American history known as the Civil Rights Movement. The objective is to survey the major historical figures, organizations, locations, strategies and ideas that coalesce to make the history of the movement. The course will analyze the historical trajectory of educational policies with particular emphasis on the Brown v. Board of Education decision in 1954 and its implications over the following 20 years.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;3133.  African Americans in Higher Education.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+This course explores the history of African Americans in higher education. The course examines especially significant post-secondary issues and topics in the twentieth century, such as access, equity, diversity, student organizations, institutional leadership, and current events.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;4013.  Topics in African American Studies.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+This course analyzes historical and contemporary issues and phenomena associated with African Americans. It explores different methodological approaches by inquiring about these issues and phenomena, and presents varying arguments and ideological positions concerning these public-affairs matters. May be repeated for credit when topics vary. Two or more topics courses may be taken concurrently.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;4911.  Independent Study.  (0-0) 1 Credit Hour.</strong></p>
+<p class="courseblockdesc">
+Prerequisites: Permission in writing (form available) from the instructor, the student’s advisor, the program director, and Dean of the College in which the course is offered.
+Independent reading, research, discussion, and/or writing under the direction of a faculty member. May be repeated for credit, but not more than 6 semester credit hours of independent study, regardless of discipline, will apply to a bachelor’s degree. A maximum of 3 semester credit hours may be applied to the minor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;4912.  Independent Study.  (0-0) 2 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisites: Permission in writing (form available) from the instructor, the student’s advisor, the program director, and Dean of the College in which the course is offered.
+Independent reading, research, discussion, and/or writing under the direction of a faculty member. May be repeated for credit, but not more than 6 semester credit hours of independent study, regardless of discipline, will apply to a bachelor’s degree. A maximum of 3 semester credit hours may be applied to the minor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;4913.  Independent Study.  (0-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisites: Permission in writing (form available) from the instructor, the student’s advisor, the program director, and Dean of the College in which the course is offered.
+Independent reading, research, discussion, and/or writing under the direction of a faculty member. May be repeated for credit, but not more than 6 semester credit hours of independent study, regardless of discipline, will apply to a bachelor’s degree. A maximum of 3 semester credit hours may be applied to the minor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>AAS&#160;4933.  Internship in African American Studies.  (0-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite: Consent of internship coordinator.
+Supervised experience relevant to African American studies within selected community organizations. A maximum of 3 semester credit hours may be applied to the minor.<br />
+</p>
+</div>
+</div>
+</div>
+		</div><!--end #content-->
+	</div><!--end #right-col-->
+</div><!--end #wrapper-->
+
+<!--htdig_noindex-->
+<div id="contact">
+	<div class="wrap">
+	<h2>Contact Us</h2>
+		<p>
+			The University of Texas at San Antonio
+			<br />
+			Office of the Registrar
+			<br />
+			One UTSA Circle
+			<br />
+			San Antonio, TX 78249
+		</p>
+		<ul>
+			<li><strong>Phone:</strong> 210-458-8000</li>
+			<li><strong>Toll Free Phone:</strong> 800-669-0919</li>
+			<li><strong>Email:</strong> <a href="mailto:registrar@utsa.edu">registrar@utsa.edu</a></li>
+		</ul>
+
+	</div><!--end #contact .wrap-->
+</div><!--end #contact-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="footer" role="contentinfo">
+	<div class="wrap">
+		<div id="foot-logo">
+			<a href="http://www.utsa.edu">The University of Texas at San Antonio</a>
+		</div>
+		<ul>
+			<li><a href=" http://utsa.edu/ada/">ADA</a></li>
+		    <li><a href="http://www.utsa.edu/sitemap/">Sitemap</a></li>
+		    <li><a href="http://www.utsa.edu/maps/">Locations</a></li>
+		    <li><a href="http://www.utsa.edu/job.html">Jobs</a></li>
+		    <li><a href="http://alerts.utsa.edu/">Campus Alerts</a></li>
+		    <li><a href="http://www.utsa.edu/policies/">Policies</a></li>
+		    <li><a href="http://www.utsa.edu/openrecords/">Open Records</a></li>
+		    <li><a href="http://www.utsa.edu/acrs/Compliance/comply_hotline.htm">Report Fraud</a></li>
+		    <li><a href="http://www.utsa.edu/policies/reqlinks.html">Required Links</a></li>
+		    <li><a href="http://www.utsa.edu/identity/">Identity</a></li>
+		    <li><a href="http://www.utsystem.edu/">UT System</a></li>
+		    <li><a href="http://www.utsa.edu/directory/contact/">Contact Us</a></li>
+		</ul>
+	    <p><a href="http://www.utsa.edu">&copy; The University of Texas at San Antonio</a> | One UTSA Circle, San Antonio TX 78249 | Information: 210-458-4011 | UTSA Police: 210-458-4242</p>
+	</div><!--end #footer .wrap-->
+</div><!--end #footer-->
+<!--/htdig_noindex-->
+
+
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+
+<a href="educationhumandevelopment.pdf" target="_blank">Download PDF of this page</a>
+			</div>
+			<p>
+				<em>The PDF will include all information unique to this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+				Download PDF of the entire publication (XX MB)
+			</div>
+			<p>
+				<em>All pages in the publication.</em>
+			</p>
+		</div>
+	</div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

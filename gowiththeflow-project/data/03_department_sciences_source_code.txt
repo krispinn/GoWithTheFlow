@@ -1,0 +1,495 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>9. College of Sciences &lt; The University of Texas at San Antonio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="a5pXKN_wGnOECKQikfGtjbtFrjO0IGkz5clLXrg_36s" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+</head>
+
+<body>
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+	<div class="accessible-menu">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.utsa.edu">Institution Home</a></li>
+		</ul>
+	</div>
+</div><!--end .accessible-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="top-bar" class="clearfix">
+	<div class="wrap">
+		<div id="logo" class="clearfix">
+			<a href="http://www.utsa.edu">The University of Texas at San Antonio</a>
+		</div>
+		<div id="top-right">
+	        <ul>
+	            <li class="main"><a href="http://my.utsa.edu/">myUTSA</a>
+	            	<ul>
+	                    <li><a href="http://asap.utsa.edu/"><span>&raquo;</span> ASAP</a></li>
+	                    <li><a href="http://bb.utsa.edu/"><span>&raquo;</span> Blackboard</a></li>
+	                    <li><a href="http://outlook.com/utsa.edu"><span>&raquo;</span> Staff Webmail</a></li>
+	                    <li><a href="http://lib.utsa.edu/"><span>&raquo;</span> Libraries</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/info/index.html">Info For</a>
+	                <ul>
+	                    <li><a href="http://utsa.edu/info/students.html"><span>&raquo;</span> Students</a></li>
+	                    <li><a href="http://utsa.edu/info/faculty.html"><span>&raquo;</span> Faculty</a></li>
+	                    <li><a href="http://utsa.edu/info/employees.html"><span>&raquo;</span> Staff</a></li>
+	                    <li><a href="http://utsa.edu/info/parents.html"><span>&raquo;</span> Parents</a></li>
+	                    <li><a href="http://utsa.edu/info/visitors.html"><span>&raquo;</span> Visitors</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/maps/">Locations</a>
+	            	<ul>
+	                    <li><a href="http://utsa.edu/maps/main-map.html"><span>&raquo;</span> Main</a></li>
+	                    <li><a href="http://utsa.edu/maps/dt-map.html"><span>&raquo;</span> Downtown</a></li>
+	                    <li><a href="http://utsa.edu/maps/hemisfair-map.html"><span>&raquo;</span> Hemisfair Park</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/directory/">Directory</a></li>
+	            <li class="main"><a href="http://utsa.edu/calendar/">Calendar</a></li>
+	            <li class="main"><a href="http://utsa.edu/about/index.html">About UTSA</a></li>
+			</ul>
+
+			<div id="search" class="clearfix">
+				<form id="cse-search-box" action="http://utsa.edu/search/searchresults.html" role="search">
+					<input type="hidden" name="cx" value="000238266656426684962:mzli4pte7ko" />
+					<input type="hidden" name="cof" value="FORID:11" />
+					<label for="q">Search</label>
+					<input class="searchfield" name="q" id="q" type="text" size="15" value="Search UTSA" onfocus="if (this.value == 'Search UTSA') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search UTSA';}" />
+					<input class="searchbutton" type="image" src="/images/icon-search.jpg" name="sa" value="search" alt="search"/>
+				</form>
+			</div><!--end #search-->
+		</div><!--end #top-right-->
+	</div><!--end #topbar .wrap-->
+</div><!--end #top-bar-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="drawer" class="clearfix" role="navigation">
+	<div class="wrap">
+		<div id="drawer-cols" class="clearfix">
+			<div class="drawer-col first">
+				<ul>
+					<li>
+						<a href="http://utsa.edu/admissions/index.html">Admissions</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/academics/index.html">Academics</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/research/index.html">Research</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/athletics/index.html">Athletics</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/campuslife/index.html">Campus Life</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/community/index.html">Community</a>
+					</li>
+					<li>
+						<a href="http://alumni.utsa.edu/">Alumni</a>
+					</li>
+					<li>
+						<a href="http://giving.utsa.edu/">Giving</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/admissions/">Future Students</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/admissions/">Apply to UTSA</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/financialaid/">Financial Aid</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/academics/academic-departments.html">Colleges + Programs</a>
+					</li>
+					<li>
+						<a href="http://bluebook.utsa.edu/">Bluebook: Course Info</a>
+					</li>
+					<li>
+						<a href="http://international.utsa.edu/">International Students</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/visitor/">Campus Tours</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/maps/">Campus Maps</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/campuslife/">Campus Life</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/students.html">Current Students</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://asap.utsa.edu/">ASAP</a> / <a href="http://bb.utsa.edu/">Blackboard</a>
+					</li>
+					<li>
+						<a href="http://bluebook.utsa.edu/">Bluebook: Course Info Online</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/calendar/index.cfm?calendar=academic">Academic Calendar</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/fiscalservices/">Fiscal Services</a>
+					</li>
+					<li>
+						<a href="http://lib.utsa.edu/">Libraries</a>
+					</li>
+					<li>
+						<a href="http://utsa.bkstr.com/">Bookstore</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/careercenter/">Career Services</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/employees.html">Faculty / Staff</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/hr/">Human Resources</a>
+					</li>
+					<li>
+						<a href="http://outlook.com/utsa.edu">Webmail</a>
+					</li>
+					<li>
+						<a href="https://utdirect.utexas.edu/">UT Direct</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/today/">UTSA Today</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/calendar/">UTSA Calendar</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/directory/">Directory</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/oit/">IT Support</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/utshare">UT Share</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/visitors.html">Visitors / Parents</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/visitor/">Visitor Center</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/maps/">Campus Maps</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/family/">Family Association</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/auxiliary/visitor.html">Parking</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/fiscalservices/">Fiscal Services</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/today/">UTSA Today</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/about/">About UTSA</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://alumni.utsa.edu/">Alumni</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://alumni.utsa.edu/joinrenew">Join the Association</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/sombrilla/">Sombrilla Online</a>
+					</li>
+					<li>
+						<a href="http://giving.utsa.edu/">Giving to UTSA</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/careercenter/">Career Services</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/registrar/transcripts.cfm">Transcript Request</a>
+					</li>
+					<li>
+						<a href="http://alumni.utsa.edu/calendar">Alumni Calendar</a>
+					</li>
+				</ul>
+			</div>
+		</div><!--end #drawer-cols-->
+</div><!--end #drawer .wrap-->
+</div><!--end #drawer-->
+
+<div id="drawer-button">
+	<div class="wrap">
+		<a href="#" class="btn-drawer">Show/Hide University Links</a>
+	</div><!--end #drawer-button .wrap-->
+</div><!--end #drawer-button-->
+<!--/htdig_noindex-->
+
+
+<div id="header">
+	<div class="wrap">
+		<div id="edition">
+<a href="/undergraduate/">2015-16 Undergraduate Catalog</a>		</div><!--end #edition-->
+	</div><!--end #header .wrap-->
+</div><!--end #header-->
+
+<div id="wrapper" class="clearfix">
+
+<!--htdig_noindex-->
+	<div id="left-col" role="complementary">
+
+		<div id="left-nav" class="clearfix">
+			<form id="cl-search" action="/search/" class="clearfix" role="search">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="P" size="25" class="searchbox" id="name" />
+				<input type="submit" value="Search" class="submit" />
+			</form>
+
+			<div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Toggle Navigation</a>
+                <a class="cl-menu-btn" href="#">Toggle Navigation</a>
+            </div><!--end #cl-menu-control-->
+
+<div id="cl-menu" role="navigation">
+<!-- Begin Nav -->
+<ul class="nav" id="/">
+	<li><a href="/informationbulletin/">Information Bulletin</a></li>
+	<li class="active"><a href="/undergraduate/">Undergraduate Catalog</a>
+	<ul class="nav" id="/undergraduate/">
+		<li><a href="/undergraduate/generalinformation/">General Information</a></li>
+		<li><a href="/undergraduate/bachelorsdegreeregulations/">Bachelor’s Degree Regulations</a></li>
+		<li><a href="/undergraduate/certificateprograms/">Undergraduate Certificate Programs</a></li>
+		<li><a href="/undergraduate/architecture/">College of Architecture, Construction and Planning</a></li>
+		<li><a href="/undergraduate/business/">College of Business</a></li>
+		<li><a href="/undergraduate/educationhumandevelopment/">College of Education and Human Development</a></li>
+		<li><a href="/undergraduate/engineering/">College of Engineering</a></li>
+		<li><a href="/undergraduate/liberalfinearts/">College of Liberal and Fine Arts</a></li>
+		<li><a href="/undergraduate/publicpolicy/">College of Public Policy</a></li>
+		<li class="active self"><a href="#" onclick="return false;">College of Sciences</a>
+		<ul class="nav" id="/undergraduate/sciences/">
+			<li><a href="/undergraduate/sciences/biology/">Department of Biology</a></li>
+			<li><a href="/undergraduate/sciences/env_science/">Environmental Science</a></li>
+			<li><a href="/undergraduate/sciences/chemistry/">Department of Chemistry</a></li>
+			<li><a href="/undergraduate/sciences/computerscience/">Department of Computer Science</a></li>
+			<li><a href="/undergraduate/sciences/geologicalsciences/">Department of Geological Sciences</a></li>
+			<li><a href="/undergraduate/sciences/mathematics/">Department of Mathematics</a></li>
+			<li><a href="/undergraduate/sciences/physicsandastronomy/">Department of Physics and Astronomy</a></li>
+		</ul>
+		</li>
+		<li><a href="/undergraduate/universitycollege/">University College</a></li>
+		<li><a href="/undergraduate/honorscollege/">Honors College</a></li>
+		<li><a href="/undergraduate/coursedescriptions/">Course Descriptions</a></li>
+		<li><a href="/undergraduate/texascommoncoursenumberingsystem/">Texas Common Course Numbering System</a></li>
+		<li><a href="/undergraduate/nationalstandardizedtests/">National Standardized Tests: Minimum Scores Required for Credit at UTSA</a></li>
+		<li><a href="/undergraduate/faculty/">Faculty</a></li>
+		<li><a href="/undergraduate/azindex/">Undergraduate A-&#8203;Z Index</a></li>
+	</ul>
+	</li>
+	<li><a href="/graduate/">Graduate Catalog</a></li>
+	<li><a href="/previouscatalogs/">Previous Catalogs</a></li>
+</ul>
+<!-- End Nav -->
+</div><!--end #cl-menu-->
+
+			<ul class="print">
+				<li>
+					<a href="#print-dialog" onclick="showPrintDialog(); return false;">Print Options</a>
+				</li>
+			</ul>
+		</div><!--end #left-nav-->
+	</div><!--end #left-col-->
+<!--/htdig_noindex-->
+
+
+	<div id="right-col">
+<!--htdig_noindex-->
+<div id="breadcrumb" class="clearfix"  role="navigation">
+<ul><li><a href="/">Catalog</a><span class="crumbsep"> &gt; </span></li><li><a href="/undergraduate/">Undergraduate&nbsp;Catalog</a><span class="crumbsep"> &gt; </span></li><li><span class="active">College of Sciences</span></li></ul>
+</div>
+<!--/htdig_noindex-->
+		<div id="content" role="main">
+
+<h1>9. College of Sciences</h1>
+
+<div id="textcontainer" class="tab_content">
+
+
+
+
+<div class="group story" id="x09_COS_12-14.html">
+
+<a name="missionstatement"></a>
+<h2>Mission Statement</h2>
+
+
+<p>The College of Sciences aims to:</p>
+
+
+<ul>
+	<li>Advance scientific literacy through excellence in education and community outreach.</li>
+	<li>Conduct cutting-edge research to expand the frontiers of science and mathematics.</li>
+	<li>Establish broad partnerships to enhance scientific competence at all levels.</li>
+	<li>Provide leadership in the education of under­represented and disadvantaged groups.</li>
+</ul>
+
+
+<a name="collegehonors"></a>
+<h2>College Honors</h2>
+
+
+<p>The College of Sciences provides an opportunity for a select group of outstanding students to do advanced study under close faculty supervision. Students who successfully complete the requirements, graduate with College Honors.</p>
+
+
+<p>Selection for honors designation is based on the student’s academic performance and recommendation by the faculty of the student’s major discipline in the College of Sciences. To be eligible for the program, students must have a minimum institutional and overall grade point average of 3.0 and a minimum grade point average of 3.0 in the degree requirements of their major in the College of Sciences at UTSA. These minimum averages must be maintained for students to receive the approval of the Dean of the College of Sciences and the discipline faculty. Students applying for College Honors are expected to enroll in the appropriate honors research course during their final two semesters. The completed research paper must be approved by the supervising faculty sponsor and another college faculty member prior to graduation. Interested students should contact their faculty advisors for additional information.</p>
+
+
+</div>
+
+</div><!--end #textcontainer -->
+
+<div id="courseinventorycontainer" class="tab_content">
+</div>
+		</div><!--end #content-->
+	</div><!--end #right-col-->
+</div><!--end #wrapper-->
+
+<!--htdig_noindex-->
+<div id="contact">
+	<div class="wrap">
+	<h2>Contact Us</h2>
+		<p>
+			The University of Texas at San Antonio
+			<br />
+			Office of the Registrar
+			<br />
+			One UTSA Circle
+			<br />
+			San Antonio, TX 78249
+		</p>
+		<ul>
+			<li><strong>Phone:</strong> 210-458-8000</li>
+			<li><strong>Toll Free Phone:</strong> 800-669-0919</li>
+			<li><strong>Email:</strong> <a href="mailto:registrar@utsa.edu">registrar@utsa.edu</a></li>
+		</ul>
+
+	</div><!--end #contact .wrap-->
+</div><!--end #contact-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="footer" role="contentinfo">
+	<div class="wrap">
+		<div id="foot-logo">
+			<a href="http://www.utsa.edu">The University of Texas at San Antonio</a>
+		</div>
+		<ul>
+			<li><a href=" http://utsa.edu/ada/">ADA</a></li>
+		    <li><a href="http://www.utsa.edu/sitemap/">Sitemap</a></li>
+		    <li><a href="http://www.utsa.edu/maps/">Locations</a></li>
+		    <li><a href="http://www.utsa.edu/job.html">Jobs</a></li>
+		    <li><a href="http://alerts.utsa.edu/">Campus Alerts</a></li>
+		    <li><a href="http://www.utsa.edu/policies/">Policies</a></li>
+		    <li><a href="http://www.utsa.edu/openrecords/">Open Records</a></li>
+		    <li><a href="http://www.utsa.edu/acrs/Compliance/comply_hotline.htm">Report Fraud</a></li>
+		    <li><a href="http://www.utsa.edu/policies/reqlinks.html">Required Links</a></li>
+		    <li><a href="http://www.utsa.edu/identity/">Identity</a></li>
+		    <li><a href="http://www.utsystem.edu/">UT System</a></li>
+		    <li><a href="http://www.utsa.edu/directory/contact/">Contact Us</a></li>
+		</ul>
+	    <p><a href="http://www.utsa.edu">&copy; The University of Texas at San Antonio</a> | One UTSA Circle, San Antonio TX 78249 | Information: 210-458-4011 | UTSA Police: 210-458-4242</p>
+	</div><!--end #footer .wrap-->
+</div><!--end #footer-->
+<!--/htdig_noindex-->
+
+
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+
+<a href="sciences.pdf" target="_blank">Download PDF of this page</a>
+			</div>
+			<p>
+				<em>The PDF will include all information unique to this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+				Download PDF of the entire publication (XX MB)
+			</div>
+			<p>
+				<em>All pages in the publication.</em>
+			</p>
+		</div>
+	</div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

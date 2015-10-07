@@ -1,0 +1,657 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>7. College of Liberal and Fine Arts &lt; The University of Texas at San Antonio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="a5pXKN_wGnOECKQikfGtjbtFrjO0IGkz5clLXrg_36s" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+</head>
+
+<body>
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+	<div class="accessible-menu">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.utsa.edu">Institution Home</a></li>
+		</ul>
+	</div>
+</div><!--end .accessible-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="top-bar" class="clearfix">
+	<div class="wrap">
+		<div id="logo" class="clearfix">
+			<a href="http://www.utsa.edu">The University of Texas at San Antonio</a>
+		</div>
+		<div id="top-right">
+	        <ul>
+	            <li class="main"><a href="http://my.utsa.edu/">myUTSA</a>
+	            	<ul>
+	                    <li><a href="http://asap.utsa.edu/"><span>&raquo;</span> ASAP</a></li>
+	                    <li><a href="http://bb.utsa.edu/"><span>&raquo;</span> Blackboard</a></li>
+	                    <li><a href="http://outlook.com/utsa.edu"><span>&raquo;</span> Staff Webmail</a></li>
+	                    <li><a href="http://lib.utsa.edu/"><span>&raquo;</span> Libraries</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/info/index.html">Info For</a>
+	                <ul>
+	                    <li><a href="http://utsa.edu/info/students.html"><span>&raquo;</span> Students</a></li>
+	                    <li><a href="http://utsa.edu/info/faculty.html"><span>&raquo;</span> Faculty</a></li>
+	                    <li><a href="http://utsa.edu/info/employees.html"><span>&raquo;</span> Staff</a></li>
+	                    <li><a href="http://utsa.edu/info/parents.html"><span>&raquo;</span> Parents</a></li>
+	                    <li><a href="http://utsa.edu/info/visitors.html"><span>&raquo;</span> Visitors</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/maps/">Locations</a>
+	            	<ul>
+	                    <li><a href="http://utsa.edu/maps/main-map.html"><span>&raquo;</span> Main</a></li>
+	                    <li><a href="http://utsa.edu/maps/dt-map.html"><span>&raquo;</span> Downtown</a></li>
+	                    <li><a href="http://utsa.edu/maps/hemisfair-map.html"><span>&raquo;</span> Hemisfair Park</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/directory/">Directory</a></li>
+	            <li class="main"><a href="http://utsa.edu/calendar/">Calendar</a></li>
+	            <li class="main"><a href="http://utsa.edu/about/index.html">About UTSA</a></li>
+			</ul>
+
+			<div id="search" class="clearfix">
+				<form id="cse-search-box" action="http://utsa.edu/search/searchresults.html" role="search">
+					<input type="hidden" name="cx" value="000238266656426684962:mzli4pte7ko" />
+					<input type="hidden" name="cof" value="FORID:11" />
+					<label for="q">Search</label>
+					<input class="searchfield" name="q" id="q" type="text" size="15" value="Search UTSA" onfocus="if (this.value == 'Search UTSA') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search UTSA';}" />
+					<input class="searchbutton" type="image" src="/images/icon-search.jpg" name="sa" value="search" alt="search"/>
+				</form>
+			</div><!--end #search-->
+		</div><!--end #top-right-->
+	</div><!--end #topbar .wrap-->
+</div><!--end #top-bar-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="drawer" class="clearfix" role="navigation">
+	<div class="wrap">
+		<div id="drawer-cols" class="clearfix">
+			<div class="drawer-col first">
+				<ul>
+					<li>
+						<a href="http://utsa.edu/admissions/index.html">Admissions</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/academics/index.html">Academics</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/research/index.html">Research</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/athletics/index.html">Athletics</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/campuslife/index.html">Campus Life</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/community/index.html">Community</a>
+					</li>
+					<li>
+						<a href="http://alumni.utsa.edu/">Alumni</a>
+					</li>
+					<li>
+						<a href="http://giving.utsa.edu/">Giving</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/admissions/">Future Students</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/admissions/">Apply to UTSA</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/financialaid/">Financial Aid</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/academics/academic-departments.html">Colleges + Programs</a>
+					</li>
+					<li>
+						<a href="http://bluebook.utsa.edu/">Bluebook: Course Info</a>
+					</li>
+					<li>
+						<a href="http://international.utsa.edu/">International Students</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/visitor/">Campus Tours</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/maps/">Campus Maps</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/campuslife/">Campus Life</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/students.html">Current Students</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://asap.utsa.edu/">ASAP</a> / <a href="http://bb.utsa.edu/">Blackboard</a>
+					</li>
+					<li>
+						<a href="http://bluebook.utsa.edu/">Bluebook: Course Info Online</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/calendar/index.cfm?calendar=academic">Academic Calendar</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/fiscalservices/">Fiscal Services</a>
+					</li>
+					<li>
+						<a href="http://lib.utsa.edu/">Libraries</a>
+					</li>
+					<li>
+						<a href="http://utsa.bkstr.com/">Bookstore</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/careercenter/">Career Services</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/employees.html">Faculty / Staff</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/hr/">Human Resources</a>
+					</li>
+					<li>
+						<a href="http://outlook.com/utsa.edu">Webmail</a>
+					</li>
+					<li>
+						<a href="https://utdirect.utexas.edu/">UT Direct</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/today/">UTSA Today</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/calendar/">UTSA Calendar</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/directory/">Directory</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/oit/">IT Support</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/utshare">UT Share</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/visitors.html">Visitors / Parents</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/visitor/">Visitor Center</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/maps/">Campus Maps</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/family/">Family Association</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/auxiliary/visitor.html">Parking</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/fiscalservices/">Fiscal Services</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/today/">UTSA Today</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/about/">About UTSA</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://alumni.utsa.edu/">Alumni</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://alumni.utsa.edu/joinrenew">Join the Association</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/sombrilla/">Sombrilla Online</a>
+					</li>
+					<li>
+						<a href="http://giving.utsa.edu/">Giving to UTSA</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/careercenter/">Career Services</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/registrar/transcripts.cfm">Transcript Request</a>
+					</li>
+					<li>
+						<a href="http://alumni.utsa.edu/calendar">Alumni Calendar</a>
+					</li>
+				</ul>
+			</div>
+		</div><!--end #drawer-cols-->
+</div><!--end #drawer .wrap-->
+</div><!--end #drawer-->
+
+<div id="drawer-button">
+	<div class="wrap">
+		<a href="#" class="btn-drawer">Show/Hide University Links</a>
+	</div><!--end #drawer-button .wrap-->
+</div><!--end #drawer-button-->
+<!--/htdig_noindex-->
+
+
+<div id="header">
+	<div class="wrap">
+		<div id="edition">
+<a href="/undergraduate/">2015-16 Undergraduate Catalog</a>		</div><!--end #edition-->
+	</div><!--end #header .wrap-->
+</div><!--end #header-->
+
+<div id="wrapper" class="clearfix">
+
+<!--htdig_noindex-->
+	<div id="left-col" role="complementary">
+
+		<div id="left-nav" class="clearfix">
+			<form id="cl-search" action="/search/" class="clearfix" role="search">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="P" size="25" class="searchbox" id="name" />
+				<input type="submit" value="Search" class="submit" />
+			</form>
+
+			<div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Toggle Navigation</a>
+                <a class="cl-menu-btn" href="#">Toggle Navigation</a>
+            </div><!--end #cl-menu-control-->
+
+<div id="cl-menu" role="navigation">
+<!-- Begin Nav -->
+<ul class="nav" id="/">
+	<li><a href="/informationbulletin/">Information Bulletin</a></li>
+	<li class="active"><a href="/undergraduate/">Undergraduate Catalog</a>
+	<ul class="nav" id="/undergraduate/">
+		<li><a href="/undergraduate/generalinformation/">General Information</a></li>
+		<li><a href="/undergraduate/bachelorsdegreeregulations/">Bachelor’s Degree Regulations</a></li>
+		<li><a href="/undergraduate/certificateprograms/">Undergraduate Certificate Programs</a></li>
+		<li><a href="/undergraduate/architecture/">College of Architecture, Construction and Planning</a></li>
+		<li><a href="/undergraduate/business/">College of Business</a></li>
+		<li><a href="/undergraduate/educationhumandevelopment/">College of Education and Human Development</a></li>
+		<li><a href="/undergraduate/engineering/">College of Engineering</a></li>
+		<li class="active self"><a href="#" onclick="return false;">College of Liberal and Fine Arts</a>
+		<ul class="nav" id="/undergraduate/liberalfinearts/">
+			<li><a href="/undergraduate/liberalfinearts/anthropology/">Department of Anthropology</a></li>
+			<li><a href="/undergraduate/liberalfinearts/artandarthistory/">Department of Art and Art History</a></li>
+			<li><a href="/undergraduate/liberalfinearts/communication/">Department of Communication</a></li>
+			<li><a href="/undergraduate/liberalfinearts/english/">Department of English</a></li>
+			<li><a href="/undergraduate/liberalfinearts/history/">Department of History</a></li>
+			<li><a href="/undergraduate/liberalfinearts/modernlanguagesliteratures/">Department of Modern Languages and Literatures</a></li>
+			<li><a href="/undergraduate/liberalfinearts/music/">Department of Music</a></li>
+			<li><a href="/undergraduate/liberalfinearts/philosophyandclassics/">Department of Philosophy and Classics</a></li>
+			<li><a href="/undergraduate/liberalfinearts/politicalscienceandgeography/">Department of Political Science and Geography</a></li>
+			<li><a href="/undergraduate/liberalfinearts/psychology/">Department of Psychology</a></li>
+			<li><a href="/undergraduate/liberalfinearts/sociology/">Department of Sociology</a></li>
+		</ul>
+		</li>
+		<li><a href="/undergraduate/publicpolicy/">College of Public Policy</a></li>
+		<li><a href="/undergraduate/sciences/">College of Sciences</a></li>
+		<li><a href="/undergraduate/universitycollege/">University College</a></li>
+		<li><a href="/undergraduate/honorscollege/">Honors College</a></li>
+		<li><a href="/undergraduate/coursedescriptions/">Course Descriptions</a></li>
+		<li><a href="/undergraduate/texascommoncoursenumberingsystem/">Texas Common Course Numbering System</a></li>
+		<li><a href="/undergraduate/nationalstandardizedtests/">National Standardized Tests: Minimum Scores Required for Credit at UTSA</a></li>
+		<li><a href="/undergraduate/faculty/">Faculty</a></li>
+		<li><a href="/undergraduate/azindex/">Undergraduate A-&#8203;Z Index</a></li>
+	</ul>
+	</li>
+	<li><a href="/graduate/">Graduate Catalog</a></li>
+	<li><a href="/previouscatalogs/">Previous Catalogs</a></li>
+</ul>
+<!-- End Nav -->
+</div><!--end #cl-menu-->
+
+			<ul class="print">
+				<li>
+					<a href="#print-dialog" onclick="showPrintDialog(); return false;">Print Options</a>
+				</li>
+			</ul>
+		</div><!--end #left-nav-->
+	</div><!--end #left-col-->
+<!--/htdig_noindex-->
+
+
+	<div id="right-col">
+<!--htdig_noindex-->
+<div id="breadcrumb" class="clearfix"  role="navigation">
+<ul><li><a href="/">Catalog</a><span class="crumbsep"> &gt; </span></li><li><a href="/undergraduate/">Undergraduate&nbsp;Catalog</a><span class="crumbsep"> &gt; </span></li><li><span class="active">College of Liberal and Fine Arts</span></li></ul>
+</div>
+<!--/htdig_noindex-->
+		<div id="content" role="main">
+
+<h1>7. College of Liberal and Fine Arts</h1>
+<script type="text/javascript">
+//<![CDATA[
+	var defshow = "text";
+	var bodycontainer = "#body";
+	var validhashes = ",text,minorstext,courseinventory,";
+
+if(window.location.hash.length) {
+	var hash = cleanHash(window.location.hash);
+	if(validhashes.indexOf("," + hash + ",") != -1)
+		defshow = hash;	
+}
+var ss = document.styleSheets;
+var workss = null;
+for(var i=0; i < ss.length; i++) {
+	var currmedia = "";
+	if (typeof ss[i].media == "string") 
+		currmedia = ss[i].media
+	else if (typeof ss[i].media == "object" && ss[i].media.mediaText) 
+		currmedia = ss[i].media.mediaText;
+	
+	if((currmedia == "screen" || currmedia == "all") && (ss[i].href.indexOf("/") == 0 || ss[i].href.indexOf(document.location.host) >= 0)) {
+		workss = ss[i];
+		break;	
+	}
+}
+if(workss && workss.insertRule) {
+	workss.insertRule(".tab_content { display: none; }", workss.cssRules.length)
+	workss.insertRule(".sectionheader { display: none; }", workss.cssRules.length)
+	workss.insertRule("#" + defshow + "container { display: block; }", workss.cssRules.length)
+} else if(workss && workss.addRule) {
+	workss.addRule(".tab_content", "display: none");
+	workss.addRule(".sectionheader", "display: none");
+	workss.addRule("#" + defshow + "container", "display: block");
+}
+else {
+	if (window.console)
+		window.console.log('screen.css <link> needs attribute media="screen"');
+}
+//]]>
+</script>
+	<div id="tabs">
+		<ul class="clearfix">
+			<li id="texttab" class="first"><a href="#text" onclick="return showSection('text');">Overview</a></li>
+			<li id="minorstexttab"><a href="#minorstext"  onclick="return showSection('minorstext');" >Minors</a></li>
+			<li id="courseinventorytab"><a href="#courseinventory" onclick="return showSection('courseinventory');">Courses</a></li>
+		</ul>
+	</div>
+
+<div id="textcontainer" class="tab_content">
+
+
+
+
+<div>
+
+<a name="visionstatement"></a>
+<h2>Vision Statement</h2>
+
+
+<p>The College of Liberal and Fine Arts will become an internationally recognized college of liberal and fine arts providing the core intellectual experience that prepares students for their role as responsible citizens in a free society.</p>
+
+
+<a name="missionstatement"></a>
+<h2>Mission Statement</h2>
+
+
+<p>The College of Liberal and Fine Arts will meet the needs of the diverse population of Texas through quality research and creative work, exemplary teaching, and professional contributions to the community.</p>
+
+
+<a name="generalinformation"></a>
+<h2>General Information</h2>
+
+
+<p>The College of Liberal and Fine Arts (COLFA) includes 11 departments in the fine arts, humanities, and social sciences. COLFA is responsible for one-third of all the instruction delivered at the University and serves all University students through the Core Curriculum. In addition, the College offers 19 major degree programs and 28 minors. One-fourth of all UTSA undergraduate degree recipients annually are COLFA majors.</p>
+
+
+<p>COLFA faculty are among the University’s leading researchers, recognized regionally, nationally, and internationally. Faculty and their students play a major role in improving the community through the creation and application of new knowledge in numerous artistic, cultural, business, and public policy settings.</p>
+
+
+<a name="thecolfasignatureexperience"></a>
+<h2>The COLFA Signature Experience</h2>
+
+
+<p>Every undergraduate degree program in the College includes a capstone experience that involves the practical application of liberal and fine arts training in a professional setting. The Signature Experience may be pursued through an organized class assignment, independent study research project, internship, performance, public presentation, or other activity as deemed appropriate to the discipline. Students should consult with their advisor or department chair to learn about Signature Experience opportunities in their major.</p>
+
+
+</div>
+
+</div><!--end #textcontainer -->
+
+			<div id="minorstextcontainer" class="tab_content">
+				<a name="minorstext"></a><ul>
+	<li><a href="#fs_minor">Minor in Film Studies</a></li>
+	<li><a href="#msm_minor">Minor in Museum Studies</a></li>
+</ul>
+<h2><a id="fs_minor" name="fs_minor"></a>Minor in Film Studies</h2>
+<p>The Minor in Film Studies provides a broad, interdisciplinary approach to film analysis and criticism, history of cinema, film production, and the uses of film in the fine arts, humanities, and social science disciplines.</p>
+<p>All students pursuing a Minor in Film Studies must complete 18 semester credit hours from among the following courses:</p>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=ANT 3803" title="ANT&#160;3803" class="bubblelink code" onclick="return showCourse(this, 'ANT 3803');">ANT&#160;3803</a></td><td>Media, Power, and Public Culture</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ANT 4243" title="ANT&#160;4243" class="bubblelink code" onclick="return showCourse(this, 'ANT 4243');">ANT&#160;4243</a></td><td>Ethnographic Film</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CSH 2113" title="CSH&#160;2113" class="bubblelink code" onclick="return showCourse(this, 'CSH 2113');">CSH&#160;2113</a></td><td>The Foreign Film</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=HIS 3803" title="HIS&#160;3803" class="bubblelink code" onclick="return showCourse(this, 'HIS 3803');">HIS&#160;3803</a></td><td>World History in the Cinema</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=HUM 2053" title="HUM&#160;2053" class="bubblelink code" onclick="return showCourse(this, 'HUM 2053');">HUM&#160;2053</a></td><td>History of Film</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=HUM 3103" title="HUM&#160;3103" class="bubblelink code" onclick="return showCourse(this, 'HUM 3103');">HUM&#160;3103</a></td><td>American Film</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=HUM 3203" title="HUM&#160;3203" class="bubblelink code" onclick="return showCourse(this, 'HUM 3203');">HUM&#160;3203</a></td><td>Film Genres</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=HUM 3303" title="HUM&#160;3303" class="bubblelink code" onclick="return showCourse(this, 'HUM 3303');">HUM&#160;3303</a></td><td>Major Filmmaker</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=HUM 3403" title="HUM&#160;3403" class="bubblelink code" onclick="return showCourse(this, 'HUM 3403');">HUM&#160;3403</a></td><td>Literature into Film</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MES 3113" title="MES&#160;3113" class="bubblelink code" onclick="return showCourse(this, 'MES 3113');">MES&#160;3113</a></td><td>Film Studies</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MES 3333" title="MES&#160;3333" class="bubblelink code" onclick="return showCourse(this, 'MES 3333');">MES&#160;3333</a></td><td>Digital Video Production</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MES 4333" title="MES&#160;4333" class="bubblelink code" onclick="return showCourse(this, 'MES 4333');">MES&#160;4333</a></td><td>Digital Video Practicum</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MUS 2743" title="MUS&#160;2743" class="bubblelink code" onclick="return showCourse(this, 'MUS 2743');">MUS&#160;2743</a></td><td>Music and Film</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=POL 3743" title="POL&#160;3743" class="bubblelink code" onclick="return showCourse(this, 'POL 3743');">POL&#160;3743</a></td><td>Politics in Film</td><td class="hourscol">3</td></tr>
+<tr class="even lastrow"><td class="codecol"><a href="/search/?P=SOC 3423" title="SOC&#160;3423" class="bubblelink code" onclick="return showCourse(this, 'SOC 3423');">SOC&#160;3423</a></td><td>Mass Media in Society</td><td class="hourscol">3</td></tr>
+</tbody></table>
+
+<p>The following topics courses may also be applied toward the 18-hour requirement when they examine film or cinema:</p>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=AHC 4333" title="AHC&#160;4333" class="bubblelink code" onclick="return showCourse(this, 'AHC 4333');">AHC&#160;4333</a></td><td>Topics in Art History and Criticism</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=AMS 3343" title="AMS&#160;3343" class="bubblelink code" onclick="return showCourse(this, 'AMS 3343');">AMS&#160;3343</a></td><td>Studies in Race and Ethnicity</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=AMS 4823" title="AMS&#160;4823" class="bubblelink code" onclick="return showCourse(this, 'AMS 4823');">AMS&#160;4823</a></td><td>Topics in American Culture</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ART 4033" title="ART&#160;4033" class="bubblelink code" onclick="return showCourse(this, 'ART 4033');">ART&#160;4033</a></td><td>Studio Art Problems</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ENG 4613" title="ENG&#160;4613" class="bubblelink code" onclick="return showCourse(this, 'ENG 4613');">ENG&#160;4613</a></td><td>Topics in Mexican American Literature</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ENG 4953" title="ENG&#160;4953" class="bubblelink code" onclick="return showCourse(this, 'ENG 4953');">ENG&#160;4953</a></td><td>Special Studies in English</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ENG 4973" title="ENG&#160;4973" class="bubblelink code" onclick="return showCourse(this, 'ENG 4973');">ENG&#160;4973</a></td><td>Seminar for English Majors</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=FRN 4213" title="FRN&#160;4213" class="bubblelink code" onclick="return showCourse(this, 'FRN 4213');">FRN&#160;4213</a></td><td>Topics in French Culture and Linguistics</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=GER 4213" title="GER&#160;4213" class="bubblelink code" onclick="return showCourse(this, 'GER 4213');">GER&#160;4213</a></td><td>Topics in German Culture and Linguistics</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=HUM 3703" title="HUM&#160;3703" class="bubblelink code" onclick="return showCourse(this, 'HUM 3703');">HUM&#160;3703</a></td><td>Topics in Popular Culture</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=HUM 4953" title="HUM&#160;4953" class="bubblelink code" onclick="return showCourse(this, 'HUM 4953');">HUM&#160;4953</a></td><td>Special Studies in Humanities</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=HUM 4973" title="HUM&#160;4973" class="bubblelink code" onclick="return showCourse(this, 'HUM 4973');">HUM&#160;4973</a></td><td>Senior Seminar in Humanities</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=RUS 3633" title="RUS&#160;3633" class="bubblelink code" onclick="return showCourse(this, 'RUS 3633');">RUS&#160;3633</a></td><td>Topics in Russian Culture</td><td class="hourscol">3</td></tr>
+<tr class="odd lastrow"><td class="codecol"><a href="/search/?P=SPN 4303" title="SPN&#160;4303" class="bubblelink code" onclick="return showCourse(this, 'SPN 4303');">SPN&#160;4303</a></td><td>Topics in Hispanic Cultures</td><td class="hourscol">3</td></tr>
+</tbody></table>
+
+<p>Other courses that include a focus on film or cinema may be proposed as substitutions in satisfying requirements for the Minor.</p>
+<p>To declare a Minor in Film Studies, obtain advice, or seek approval of substitutions for course requirements, students should consult their advisor.</p>
+<h2><a id="msm_minor" name="msm_minor"></a>Minor in Museum Studies</h2>
+<p>The Minor in Museum Studies will provide students, through theoretical and practical training in the display and interpretation of exhibited objects, opportunities to develop an interdisciplinary relationship with the arts, material culture, cultural production, cultural history, and natural history. This minor also provides undergraduates with the opportunity to undertake systematic coursework that emphasizes both conceptual and applied approaches in the museum field, coupled with work in language and writing skills.</p>
+<p>All students pursuing a Minor in Museum Studies must complete 18 semester credit hours:</p>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Required Courses:</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MSM 3003" title="MSM&#160;3003" class="bubblelink code" onclick="return showCourse(this, 'MSM 3003');">MSM&#160;3003</a></td><td>Fundamentals of Museum Studies</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MSM 4813" title="MSM&#160;4813" class="bubblelink code" onclick="return showCourse(this, 'MSM 4813');">MSM&#160;4813</a></td><td>Topics in Museum Science</td><td class="hourscol">3</td></tr>
+<tr class="odd lastrow"><td class="codecol"><a href="/search/?P=MSM 4933" title="MSM&#160;4933" class="bubblelink code" onclick="return showCourse(this, 'MSM 4933');">MSM&#160;4933</a></td><td>Museum Internship</td><td class="hourscol">3</td></tr>
+</tbody></table>
+
+<p>Students will choose 9 additional semester credit hours from the following courses:</p>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Elective Courses:</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=AHC 3113" title="AHC&#160;3113" class="bubblelink code" onclick="return showCourse(this, 'AHC 3113');">AHC&#160;3113</a></td><td>Contemporary Art</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=AHC 4333" title="AHC&#160;4333" class="bubblelink code" onclick="return showCourse(this, 'AHC 4333');">AHC&#160;4333</a></td><td>Topics in Art History and Criticism (Histories of Display)</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ANT 3383" title="ANT&#160;3383" class="bubblelink code" onclick="return showCourse(this, 'ANT 3383');">ANT&#160;3383</a></td><td>Folklore and Folklife</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ANT 3413" title="ANT&#160;3413" class="bubblelink code" onclick="return showCourse(this, 'ANT 3413');">ANT&#160;3413</a></td><td>The Ethnographic Experience</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ANT 3543" title="ANT&#160;3543" class="bubblelink code" onclick="return showCourse(this, 'ANT 3543');">ANT&#160;3543</a></td><td>Museum Studies in Anthropology</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ANT 3713" title="ANT&#160;3713" class="bubblelink code" onclick="return showCourse(this, 'ANT 3713');">ANT&#160;3713</a></td><td>Anthropology of Material Culture</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ANT 3803" title="ANT&#160;3803" class="bubblelink code" onclick="return showCourse(this, 'ANT 3803');">ANT&#160;3803</a></td><td>Media, Power, and Public Culture</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ART 4833" title="ART&#160;4833" class="bubblelink code" onclick="return showCourse(this, 'ART 4833');">ART&#160;4833</a></td><td>Internship in the Visual Arts</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ART 4983" title="ART&#160;4983" class="bubblelink code" onclick="return showCourse(this, 'ART 4983');">ART&#160;4983</a></td><td>Senior Seminar and Exhibition</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CLA 3063" title="CLA&#160;3063" class="bubblelink code" onclick="return showCourse(this, 'CLA 3063');">CLA&#160;3063</a></td><td>Topics in the Art and Architecture of the Classical World</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CLA 3123" title="CLA&#160;3123" class="bubblelink code" onclick="return showCourse(this, 'CLA 3123');">CLA&#160;3123</a></td><td>Cultural Issues in Classical Antiquity</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ENG 4433" title="ENG&#160;4433" class="bubblelink code" onclick="return showCourse(this, 'ENG 4433');">ENG&#160;4433</a></td><td>Advanced Professional Writing</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=HIS 3493" title="HIS&#160;3493" class="bubblelink code" onclick="return showCourse(this, 'HIS 3493');">HIS&#160;3493</a></td><td>History of San Antonio</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=HIS 4133" title="HIS&#160;4133" class="bubblelink code" onclick="return showCourse(this, 'HIS 4133');">HIS&#160;4133</a></td><td>History and the Public</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MES 3333" title="MES&#160;3333" class="bubblelink code" onclick="return showCourse(this, 'MES 3333');">MES&#160;3333</a></td><td>Digital Video Production</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MES 4333" title="MES&#160;4333" class="bubblelink code" onclick="return showCourse(this, 'MES 4333');">MES&#160;4333</a></td><td>Digital Video Practicum</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MUS 3103" title="MUS&#160;3103" class="bubblelink code" onclick="return showCourse(this, 'MUS 3103');">MUS&#160;3103</a></td><td>Audio Technology I</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MSM 4913" title="MSM&#160;4913" class="bubblelink code" onclick="return showCourse(this, 'MSM 4913');">MSM&#160;4913</a></td><td>Independent Study in Museum Studies</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MUS 3163" title="MUS&#160;3163" class="bubblelink code" onclick="return showCourse(this, 'MUS 3163');">MUS&#160;3163</a></td><td>Audio Technology II</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=NPO 3003" title="NPO&#160;3003" class="bubblelink code" onclick="return showCourse(this, 'NPO 3003');">NPO&#160;3003</a></td><td>Fundraising in Nonprofit Agencies</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=SOC 4433" title="SOC&#160;4433" class="bubblelink code" onclick="return showCourse(this, 'SOC 4433');">SOC&#160;4433</a></td><td>Culture and Society</td><td class="hourscol">3</td></tr>
+<tr class="even lastrow"><td class="codecol"><a href="/search/?P=SOC 4853" title="SOC&#160;4853" class="bubblelink code" onclick="return showCourse(this, 'SOC 4853');">SOC&#160;4853</a></td><td>Special Studies in Sociology (Multimedia Applications in Sociology)</td><td class="hourscol">3</td></tr>
+</tbody></table>
+
+			</div>
+<div id="courseinventorycontainer" class="tab_content">
+<div class="courses">
+<h3 class="keepwithnext">Museum Studies (MSM) Courses</h3>
+
+<div class="courseblock">
+<p class="courseblocktitle"><strong>MSM&#160;3003.  Fundamentals of Museum Studies.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+A general overview of the field of museum studies, including curatorship, collections management, fieldwork, exhibits, interpretation, educational and public programming, marketing, fundraising, and administration.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>MSM&#160;4813.  Topics in Museum Science.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite:  MSM 3003 or consent of instructor.  Advanced examination of one or more topics in the museum profession.  May be repeated for credit when topics vary.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>MSM&#160;4913.  Independent Study in Museum Studies.  (0-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite:  consent of instructor.  Scholarly research under the supervision of a faculty member on method, theory, or practice in the museum profession.   May be repeated for credit, but not more than 6 hours of independent study, regardless of discipline, may apply to the Museum Studies minor or a bachelor’s degree.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>MSM&#160;4933.  Museum Internship.  (0-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite:  consent of instructor.  Supervised work at a museum in one or more areas of museum studies.  Internships in other major or minor disciplines may be substituted for the Museum Internship course when conducted at museums or galleries.  May be repeated for credit in the minor, up to 6 hours.<br />
+</p>
+</div>
+</div>
+</div>
+		</div><!--end #content-->
+	</div><!--end #right-col-->
+</div><!--end #wrapper-->
+
+<!--htdig_noindex-->
+<div id="contact">
+	<div class="wrap">
+	<h2>Contact Us</h2>
+		<p>
+			The University of Texas at San Antonio
+			<br />
+			Office of the Registrar
+			<br />
+			One UTSA Circle
+			<br />
+			San Antonio, TX 78249
+		</p>
+		<ul>
+			<li><strong>Phone:</strong> 210-458-8000</li>
+			<li><strong>Toll Free Phone:</strong> 800-669-0919</li>
+			<li><strong>Email:</strong> <a href="mailto:registrar@utsa.edu">registrar@utsa.edu</a></li>
+		</ul>
+
+	</div><!--end #contact .wrap-->
+</div><!--end #contact-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="footer" role="contentinfo">
+	<div class="wrap">
+		<div id="foot-logo">
+			<a href="http://www.utsa.edu">The University of Texas at San Antonio</a>
+		</div>
+		<ul>
+			<li><a href=" http://utsa.edu/ada/">ADA</a></li>
+		    <li><a href="http://www.utsa.edu/sitemap/">Sitemap</a></li>
+		    <li><a href="http://www.utsa.edu/maps/">Locations</a></li>
+		    <li><a href="http://www.utsa.edu/job.html">Jobs</a></li>
+		    <li><a href="http://alerts.utsa.edu/">Campus Alerts</a></li>
+		    <li><a href="http://www.utsa.edu/policies/">Policies</a></li>
+		    <li><a href="http://www.utsa.edu/openrecords/">Open Records</a></li>
+		    <li><a href="http://www.utsa.edu/acrs/Compliance/comply_hotline.htm">Report Fraud</a></li>
+		    <li><a href="http://www.utsa.edu/policies/reqlinks.html">Required Links</a></li>
+		    <li><a href="http://www.utsa.edu/identity/">Identity</a></li>
+		    <li><a href="http://www.utsystem.edu/">UT System</a></li>
+		    <li><a href="http://www.utsa.edu/directory/contact/">Contact Us</a></li>
+		</ul>
+	    <p><a href="http://www.utsa.edu">&copy; The University of Texas at San Antonio</a> | One UTSA Circle, San Antonio TX 78249 | Information: 210-458-4011 | UTSA Police: 210-458-4242</p>
+	</div><!--end #footer .wrap-->
+</div><!--end #footer-->
+<!--/htdig_noindex-->
+
+
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+
+<a href="liberalfinearts.pdf" target="_blank">Download PDF of this page</a>
+			</div>
+			<p>
+				<em>The PDF will include all information unique to this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+				Download PDF of the entire publication (XX MB)
+			</div>
+			<p>
+				<em>All pages in the publication.</em>
+			</p>
+		</div>
+	</div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

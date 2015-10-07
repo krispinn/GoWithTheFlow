@@ -1,0 +1,801 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>6. College of Engineering &lt; The University of Texas at San Antonio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="a5pXKN_wGnOECKQikfGtjbtFrjO0IGkz5clLXrg_36s" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+</head>
+
+<body>
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+	<div class="accessible-menu">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.utsa.edu">Institution Home</a></li>
+		</ul>
+	</div>
+</div><!--end .accessible-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="top-bar" class="clearfix">
+	<div class="wrap">
+		<div id="logo" class="clearfix">
+			<a href="http://www.utsa.edu">The University of Texas at San Antonio</a>
+		</div>
+		<div id="top-right">
+	        <ul>
+	            <li class="main"><a href="http://my.utsa.edu/">myUTSA</a>
+	            	<ul>
+	                    <li><a href="http://asap.utsa.edu/"><span>&raquo;</span> ASAP</a></li>
+	                    <li><a href="http://bb.utsa.edu/"><span>&raquo;</span> Blackboard</a></li>
+	                    <li><a href="http://outlook.com/utsa.edu"><span>&raquo;</span> Staff Webmail</a></li>
+	                    <li><a href="http://lib.utsa.edu/"><span>&raquo;</span> Libraries</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/info/index.html">Info For</a>
+	                <ul>
+	                    <li><a href="http://utsa.edu/info/students.html"><span>&raquo;</span> Students</a></li>
+	                    <li><a href="http://utsa.edu/info/faculty.html"><span>&raquo;</span> Faculty</a></li>
+	                    <li><a href="http://utsa.edu/info/employees.html"><span>&raquo;</span> Staff</a></li>
+	                    <li><a href="http://utsa.edu/info/parents.html"><span>&raquo;</span> Parents</a></li>
+	                    <li><a href="http://utsa.edu/info/visitors.html"><span>&raquo;</span> Visitors</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/maps/">Locations</a>
+	            	<ul>
+	                    <li><a href="http://utsa.edu/maps/main-map.html"><span>&raquo;</span> Main</a></li>
+	                    <li><a href="http://utsa.edu/maps/dt-map.html"><span>&raquo;</span> Downtown</a></li>
+	                    <li><a href="http://utsa.edu/maps/hemisfair-map.html"><span>&raquo;</span> Hemisfair Park</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/directory/">Directory</a></li>
+	            <li class="main"><a href="http://utsa.edu/calendar/">Calendar</a></li>
+	            <li class="main"><a href="http://utsa.edu/about/index.html">About UTSA</a></li>
+			</ul>
+
+			<div id="search" class="clearfix">
+				<form id="cse-search-box" action="http://utsa.edu/search/searchresults.html" role="search">
+					<input type="hidden" name="cx" value="000238266656426684962:mzli4pte7ko" />
+					<input type="hidden" name="cof" value="FORID:11" />
+					<label for="q">Search</label>
+					<input class="searchfield" name="q" id="q" type="text" size="15" value="Search UTSA" onfocus="if (this.value == 'Search UTSA') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search UTSA';}" />
+					<input class="searchbutton" type="image" src="/images/icon-search.jpg" name="sa" value="search" alt="search"/>
+				</form>
+			</div><!--end #search-->
+		</div><!--end #top-right-->
+	</div><!--end #topbar .wrap-->
+</div><!--end #top-bar-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="drawer" class="clearfix" role="navigation">
+	<div class="wrap">
+		<div id="drawer-cols" class="clearfix">
+			<div class="drawer-col first">
+				<ul>
+					<li>
+						<a href="http://utsa.edu/admissions/index.html">Admissions</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/academics/index.html">Academics</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/research/index.html">Research</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/athletics/index.html">Athletics</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/campuslife/index.html">Campus Life</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/community/index.html">Community</a>
+					</li>
+					<li>
+						<a href="http://alumni.utsa.edu/">Alumni</a>
+					</li>
+					<li>
+						<a href="http://giving.utsa.edu/">Giving</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/admissions/">Future Students</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/admissions/">Apply to UTSA</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/financialaid/">Financial Aid</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/academics/academic-departments.html">Colleges + Programs</a>
+					</li>
+					<li>
+						<a href="http://bluebook.utsa.edu/">Bluebook: Course Info</a>
+					</li>
+					<li>
+						<a href="http://international.utsa.edu/">International Students</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/visitor/">Campus Tours</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/maps/">Campus Maps</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/campuslife/">Campus Life</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/students.html">Current Students</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://asap.utsa.edu/">ASAP</a> / <a href="http://bb.utsa.edu/">Blackboard</a>
+					</li>
+					<li>
+						<a href="http://bluebook.utsa.edu/">Bluebook: Course Info Online</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/calendar/index.cfm?calendar=academic">Academic Calendar</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/fiscalservices/">Fiscal Services</a>
+					</li>
+					<li>
+						<a href="http://lib.utsa.edu/">Libraries</a>
+					</li>
+					<li>
+						<a href="http://utsa.bkstr.com/">Bookstore</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/careercenter/">Career Services</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/employees.html">Faculty / Staff</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/hr/">Human Resources</a>
+					</li>
+					<li>
+						<a href="http://outlook.com/utsa.edu">Webmail</a>
+					</li>
+					<li>
+						<a href="https://utdirect.utexas.edu/">UT Direct</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/today/">UTSA Today</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/calendar/">UTSA Calendar</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/directory/">Directory</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/oit/">IT Support</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/utshare">UT Share</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/visitors.html">Visitors / Parents</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/visitor/">Visitor Center</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/maps/">Campus Maps</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/family/">Family Association</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/auxiliary/visitor.html">Parking</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/fiscalservices/">Fiscal Services</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/today/">UTSA Today</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/about/">About UTSA</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://alumni.utsa.edu/">Alumni</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://alumni.utsa.edu/joinrenew">Join the Association</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/sombrilla/">Sombrilla Online</a>
+					</li>
+					<li>
+						<a href="http://giving.utsa.edu/">Giving to UTSA</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/careercenter/">Career Services</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/registrar/transcripts.cfm">Transcript Request</a>
+					</li>
+					<li>
+						<a href="http://alumni.utsa.edu/calendar">Alumni Calendar</a>
+					</li>
+				</ul>
+			</div>
+		</div><!--end #drawer-cols-->
+</div><!--end #drawer .wrap-->
+</div><!--end #drawer-->
+
+<div id="drawer-button">
+	<div class="wrap">
+		<a href="#" class="btn-drawer">Show/Hide University Links</a>
+	</div><!--end #drawer-button .wrap-->
+</div><!--end #drawer-button-->
+<!--/htdig_noindex-->
+
+
+<div id="header">
+	<div class="wrap">
+		<div id="edition">
+<a href="/undergraduate/">2015-16 Undergraduate Catalog</a>		</div><!--end #edition-->
+	</div><!--end #header .wrap-->
+</div><!--end #header-->
+
+<div id="wrapper" class="clearfix">
+
+<!--htdig_noindex-->
+	<div id="left-col" role="complementary">
+
+		<div id="left-nav" class="clearfix">
+			<form id="cl-search" action="/search/" class="clearfix" role="search">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="P" size="25" class="searchbox" id="name" />
+				<input type="submit" value="Search" class="submit" />
+			</form>
+
+			<div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Toggle Navigation</a>
+                <a class="cl-menu-btn" href="#">Toggle Navigation</a>
+            </div><!--end #cl-menu-control-->
+
+<div id="cl-menu" role="navigation">
+<!-- Begin Nav -->
+<ul class="nav" id="/">
+	<li><a href="/informationbulletin/">Information Bulletin</a></li>
+	<li class="active"><a href="/undergraduate/">Undergraduate Catalog</a>
+	<ul class="nav" id="/undergraduate/">
+		<li><a href="/undergraduate/generalinformation/">General Information</a></li>
+		<li><a href="/undergraduate/bachelorsdegreeregulations/">Bachelor’s Degree Regulations</a></li>
+		<li><a href="/undergraduate/certificateprograms/">Undergraduate Certificate Programs</a></li>
+		<li><a href="/undergraduate/architecture/">College of Architecture, Construction and Planning</a></li>
+		<li><a href="/undergraduate/business/">College of Business</a></li>
+		<li><a href="/undergraduate/educationhumandevelopment/">College of Education and Human Development</a></li>
+		<li class="active self"><a href="#" onclick="return false;">College of Engineering</a>
+		<ul class="nav" id="/undergraduate/engineering/">
+			<li><a href="/undergraduate/engineering/biomedicalengineering/">Department of Biomedical Engineering</a></li>
+			<li><a href="/undergraduate/engineering/civilenvironmentalengineering/">Department of Civil and Environmental Engineering</a></li>
+			<li><a href="/undergraduate/engineering/electricalcomputerengineering/">Department of Electrical and Computer Engineering</a></li>
+			<li><a href="/undergraduate/engineering/mechanicalengineering/">Department of Mechanical Engineering</a></li>
+		</ul>
+		</li>
+		<li><a href="/undergraduate/liberalfinearts/">College of Liberal and Fine Arts</a></li>
+		<li><a href="/undergraduate/publicpolicy/">College of Public Policy</a></li>
+		<li><a href="/undergraduate/sciences/">College of Sciences</a></li>
+		<li><a href="/undergraduate/universitycollege/">University College</a></li>
+		<li><a href="/undergraduate/honorscollege/">Honors College</a></li>
+		<li><a href="/undergraduate/coursedescriptions/">Course Descriptions</a></li>
+		<li><a href="/undergraduate/texascommoncoursenumberingsystem/">Texas Common Course Numbering System</a></li>
+		<li><a href="/undergraduate/nationalstandardizedtests/">National Standardized Tests: Minimum Scores Required for Credit at UTSA</a></li>
+		<li><a href="/undergraduate/faculty/">Faculty</a></li>
+		<li><a href="/undergraduate/azindex/">Undergraduate A-&#8203;Z Index</a></li>
+	</ul>
+	</li>
+	<li><a href="/graduate/">Graduate Catalog</a></li>
+	<li><a href="/previouscatalogs/">Previous Catalogs</a></li>
+</ul>
+<!-- End Nav -->
+</div><!--end #cl-menu-->
+
+			<ul class="print">
+				<li>
+					<a href="#print-dialog" onclick="showPrintDialog(); return false;">Print Options</a>
+				</li>
+			</ul>
+		</div><!--end #left-nav-->
+	</div><!--end #left-col-->
+<!--/htdig_noindex-->
+
+
+	<div id="right-col">
+<!--htdig_noindex-->
+<div id="breadcrumb" class="clearfix"  role="navigation">
+<ul><li><a href="/">Catalog</a><span class="crumbsep"> &gt; </span></li><li><a href="/undergraduate/">Undergraduate&nbsp;Catalog</a><span class="crumbsep"> &gt; </span></li><li><span class="active">College of Engineering</span></li></ul>
+</div>
+<!--/htdig_noindex-->
+		<div id="content" role="main">
+
+<h1>6. College of Engineering</h1>
+<script type="text/javascript">
+//<![CDATA[
+	var defshow = "text";
+	var bodycontainer = "#body";
+	var validhashes = ",text,certificatestext,courseinventory,";
+
+if(window.location.hash.length) {
+	var hash = cleanHash(window.location.hash);
+	if(validhashes.indexOf("," + hash + ",") != -1)
+		defshow = hash;	
+}
+var ss = document.styleSheets;
+var workss = null;
+for(var i=0; i < ss.length; i++) {
+	var currmedia = "";
+	if (typeof ss[i].media == "string") 
+		currmedia = ss[i].media
+	else if (typeof ss[i].media == "object" && ss[i].media.mediaText) 
+		currmedia = ss[i].media.mediaText;
+	
+	if((currmedia == "screen" || currmedia == "all") && (ss[i].href.indexOf("/") == 0 || ss[i].href.indexOf(document.location.host) >= 0)) {
+		workss = ss[i];
+		break;	
+	}
+}
+if(workss && workss.insertRule) {
+	workss.insertRule(".tab_content { display: none; }", workss.cssRules.length)
+	workss.insertRule(".sectionheader { display: none; }", workss.cssRules.length)
+	workss.insertRule("#" + defshow + "container { display: block; }", workss.cssRules.length)
+} else if(workss && workss.addRule) {
+	workss.addRule(".tab_content", "display: none");
+	workss.addRule(".sectionheader", "display: none");
+	workss.addRule("#" + defshow + "container", "display: block");
+}
+else {
+	if (window.console)
+		window.console.log('screen.css <link> needs attribute media="screen"');
+}
+//]]>
+</script>
+	<div id="tabs">
+		<ul class="clearfix">
+			<li id="texttab" class="first"><a href="#text" onclick="return showSection('text');">Overview</a></li>
+			<li id="certificatestexttab"><a href="#certificatestext"  onclick="return showSection('certificatestext');" >Certificates</a></li>
+			<li id="courseinventorytab"><a href="#courseinventory" onclick="return showSection('courseinventory');">Courses</a></li>
+		</ul>
+	</div>
+
+<div id="textcontainer" class="tab_content">
+
+
+
+
+<div class="story">
+
+<p>The College of Engineering offers five Bachelor of Science degree programs in: Biomedical Engineering (BME); Civil Engineering (CE); Computer Engineering (CpE); Electrical Engineering (EE); and Mechanical Engineering (ME). The three programs of CE, EE and ME are accredited by the Engineering Accreditation Commission (EAC) of ABET. The BME and CpE are newly established programs. While the latter are not currently ABET accredited, plans are underway for the accreditation of these programs.</p>
+
+
+<p>The College has excellent laboratory facilities where students receive hands-on instruction by faculty. Computer-aided design (CAD) facilities, including state-of-the-art workstations, are routinely used in all programs. Some classes are taught by adjunct faculty from local industries, giving students the opportunity to interact with engineering professionals engaged in relevant engineering practice.</p>
+
+
+<p>This engineering education incorporates demonstrable attributes of ABET-2000 criteria as core values. Graduates from the College of Engineering should have excellent opportunities for employment and pursuit of graduate degrees.</p>
+
+
+<a name="collegehonors"></a>
+<h2>College Honors</h2>
+
+
+<p>The College of Engineering designates certain of its outstanding ­students as Honors students and provides the opportunity for advanced study under close faculty supervision. Selection for the honors designation is based on the student’s academic performance and recommendation by a faculty member in the student’s major discipline. To be eligible for the program, students must have a minimum UTSA grade point average of 3.25 and a minimum grade point average of 3.25 in their major at UTSA. These minimum averages must be maintained by the student to receive approval of the College Honors Committee. Students applying for College Honors must enroll in <span class="sc_courseinline"><a href="/search/?P=EGR 4993" title="EGR 4993" class="bubblelink code" onclick="return showCourse(this, 'EGR 4993');">EGR 4993</a> Honors Research</span> during their final two semesters. The completed research paper must be approved by the supervising faculty sponsor and by at least one of the faculty members in the student’s major discipline. Students interested in this program should contact a faculty advisor for additional information.</p>
+
+
+
+<a name="admissiontothecollegeofengineering"></a>
+<h2>Admission to the College of Engineering</h2>
+
+
+<p>The admission to any undergraduate program in the College of Engineering at UTSA is based on UTSA’s undergraduate admission requirements plus the following additional admission criteria for the College of Engineering. A student is admitted directly into a major only if all College of Engineering admission criteria are met. Students interested in pursuing the Biomedical Engineering major must meet additional requirements. See the Department of Biomedical Engineering section for information on admission to the Biomedical Engineering major.</p>
+
+
+<p>The following are the requirements for direct admission to the College of Engineering majors including Civil Engineering, Computer Engineering, Electrical Engineering, and Mechanical Engineering:</p>
+
+
+<ol>
+	<li>Requirements for direct admission to a College of Engineering major for new freshmen or freshman transfers who have been admitted to the University (freshman transfers are transfer ­students who have earned fewer than 30 hours):
+	<ol>
+		<li>Qualify for enrollment in <span class="sc_courseinline"><a href="/search/?P=MAT 1214" title="MAT 1214" class="bubblelink code" onclick="return showCourse(this, 'MAT 1214');">MAT 1214</a> Calculus I</span>, or higher<strong>.</strong></li>
+
+		<li>Meet high school rank in class and standardized test score requirements:
+		<ol>
+			<li>Graduated in the top quartile of their high school graduating class, <strong>or</strong></li>
+			<li>Graduated in the second quartile of their high school class and have a combined SAT critical reading and mathematics score of at least 1100 with a minimum mathematics score of 550, or an ACT score of at least 24, with a minimum mathematics score of 22, <strong>or</strong></li>
+			<li>Must be granted admission into a College of Engineering major by holistic review by the College, if not meeting the criteria in i. and ii.</li>
+		</ol>
+		</li>
+		<li>New freshmen and freshman transfers applying for admission to the College of Engineering and not meeting the mathematics requirement in the above criteria (criterion a) will be placed into University College as pre-engineering majors.</li>
+		<li>
+		<p class="ListsABC">New freshmen and freshman transfers not admitted directly to a College of Engineer­ing major, nor placed into University College as a pre-engineering major, must select a different major at the University.</p>
+		</li>
+	</ol>
+
+	</li>
+
+	<li>Requirements for direct admission to a College of Engineering major for transfer students who have earned 30 or more hours and have been admitted to the University:
+	<ol>
+		<li>Completed <span class="sc_courseinline"><a href="/search/?P=MAT 1214" title="MAT 1214" class="bubblelink code" onclick="return showCourse(this, 'MAT 1214');">MAT 1214</a> Calculus I</span>, or the equivalent with a grade of “C–�? or better.</li>
+
+		<li>Meet GPA requirements:
+		<ol>
+			<li>Have a transfer grade point average of at least 2.50 and a grade point average of at least 2.50 in all mathematics, sciences, and engineering coursework, or</li>
+			<li>Have a transfer grade point average of at least 2.25 and a grade point average of at least 2.25 in all mathematics, sciences, and engineering coursework, and be granted admission to the College of Engineering major by ­holistic review by the College.</li>
+		</ol>
+		</li>
+		<li>Transfer students not admitted directly to a College of Engineer­ing major should select a different major at the University.</li>
+	</ol>
+
+	</li>
+
+</ol>
+
+
+
+<p>After completing 15 credit hours of required courses, including <span class="sc_courseinline"><a href="/search/?P=MAT 1214" title="MAT 1214" class="bubblelink code" onclick="return showCourse(this, 'MAT 1214');">MAT 1214</a> Calculus I</span> with a grade of “C-“ or better, pre-engineering majors who have at least a 2.50 grade point average in each of the Two-Calculation Grade Point Average (see below) should meet with their academic advisor to be classified as a College of Engineering major. Pre-engineering students have a maximum of three semesters from the first semester enrolled to become an engineering major.</p>
+
+
+
+<a name="placementasanengineeringmajor"></a>
+<h2>Placement as an Engineering Major</h2>
+
+
+<p>Incoming students who meet all admission criteria either directly from high school or with transfer credits will be admitted into one of the following majors: Biomedical Engineering (BME), Civil Engineering (CE), Computer Engineering (CpE), Electrical Engineering (EE), or Mechanical Engineering (ME). All students admitted to engineering majors should follow their major curriculum. If a student cannot meet all the admission criteria for an engineering major, he or she may be admitted as a pre-engineering student in University College.</p>
+
+
+<a name="01Cc01301Dgraderule"></a>
+<h2>“C–�? Grade Rule</h2>
+
+
+<p>A grade of “D+�? or lower in any science or mathematics course required for an engineering degree or any other course that is a prerequisite to a required Biomedical Engineering (BME), Civil Engineering (CE), Electrical Engineering (EE), Mechanical Engineering (ME), or Engineering (EGR) course indicates unsatisfactory preparation for further engineering education. Any such course in which a grade of “D+,�? “D,�? “D–,�? “F,�? or “W�? is received must be repeated before enrolling in any course for which it is a prerequisite. This requirement is subject to the three-attempt limit.</p>
+
+
+<a name="three-attemptlimitforthecollegeofengineering"></a>
+<h2>Three-Attempt Limit for the College of Engineering</h2>
+
+
+<p>A student unable to achieve the minimum required grade in a required engineering course or in a prerequisite to a required engineering course within three enrollments (attempts) shall be required to change his or her major to a field outside of the College of Engineering. Enrollment in a course for a period of time sufficient for assignment of a grade, including a grade of “W,�? is considered an attempt.</p>
+
+
+<a name="two-calculationgradepointaverage"></a>
+<h2>Two-Calculation Grade Point Average</h2>
+
+
+<p>The two grade point average calculations employ only the grades received in courses that are applicable to the engineering degree being sought. The grade point averages used in the two-calculation grade point average (GPA) are:</p>
+
+
+<ul>
+	<li>overall grade point average of all courses (Overall GPA),</li>
+	<li>grade point average of all mathematics, science, and engineering courses.</li>
+</ul>
+
+
+<a name="cooperativeeducationinengineeringprogram"></a>
+<h2>Cooperative Education in Engineering Program</h2>
+
+
+<p>The Cooperative Education in Engineering Program formally integrates University studies with institutionally supervised work experiences at cooperating organizations. Students participating in this program alternate periods of study at the University with periods of employment in industry. This combination of experiences enhances the student’s knowledge, personal development, and preparation for a professional career. Participants register at the University each semester. During the work periods, students register for the 1-semester-credit-hour Engineering Co-op course. At the end of each work period, students submit reports covering the period. These reports are the basis of the student’s grades in the course. The cooperative education work periods also provide students with a source of income to help pay for their college expenses.</p>
+
+
+<p>Students may petition to apply 3 semester credit hours of Engineering Co-op as a technical elective toward their degree in engineering. They must petition prior to co-op activities.</p>
+
+
+<p>To qualify for the Cooperative Education in Engineering Program, a student must: have declared a major in the College of Engineering; have completed at least 36 semester credit hours of major and support work, including 7 hours of college-level calculus and 8 hours of college-level physics; and have a minimum cumulative grade point average of 2.50 and a minimum grade point average of 2.50 in their College of Engineering courses. Students are advised that many co-op employers require cumulative grade point averages higher than 2.50, and some require a minimum cumulative grade point average of 3.0. Transfer students may participate in the program after completing at least one semester at the University.</p>
+
+
+<p>For more information and to apply to the Cooperative Education in Engineering Program, students should contact their academic advisor.</p>
+
+
+<a name="degreerequirementscommontoallengineeringprograms"></a>
+<h2>Degree Requirements Common to All Engineering Programs</h2>
+
+
+<p>During their first semester, students should specify their interest in a specific engineering program by selecting biomedical, civil, computer, electrical, or mechanical engineering as a major. Undecided engineering students should select a major closest to their area of interest (refer to the following program descriptions). Students may obtain additional information about each program from their academic advisor or a faculty advisor in the appropriate department.</p>
+
+
+<p>Prerequisites for Biomedical Engineering (BME), Civil Engineering (CE), Computer Engineering (CpE), Electrical Engineering (EE), Mechanical Engineering (ME), and Engineering (EGR) courses must be completed with a grade of “C–�? or better. A minimum grade of “C–�? is required for all science and mathematics courses required in the Engineering programs. Students must satisfy the University’s Core Curriculum and ABET accreditation requirements. Recommended degree plans and current ABET requirements may be obtained from the College of Engineering.</p>
+
+
+<p>All students admitted to the College of Engineering must complete at least 42 semester credit hours from their required major courses at UTSA before graduation.</p>
+
+
+<p>Course requirements common to all engineering degree programs follow.</p>
+
+
+<a name="i.corecurriculumrequirements"></a>
+<h3>I. Core Curriculum requirements</h3>
+
+
+<p>Students seeking the Bachelor of Science degree in any engineering field must fulfill University Core Curriculum requirements in the same manner as other students at UTSA.</p>
+
+
+<p><span class="sc_courseinline"><a href="/search/?P=MAT 1214" title="MAT 1214" class="bubblelink code" onclick="return showCourse(this, 'MAT 1214');">MAT 1214</a> Calculus I</span>, <span class="sc_courseinline"><a href="/search/?P=PHY 1943" title="PHY 1943" class="bubblelink code" onclick="return showCourse(this, 'PHY 1943');">PHY 1943</a> Physics for Scientists and Engineers I</span>, and <span class="sc_courseinline"><a href="/search/?P=PHY 1963" title="PHY 1963" class="bubblelink code" onclick="return showCourse(this, 'PHY 1963');">PHY 1963</a> Physics for Scientists and Engineers II</span> (also listed under section  II, General Engineering requirements) may be used to satisfy the Core Curriculum requirements for Mathematics and Life and Physical Sciences.</p>
+
+
+
+<a name="ii.generalengineeringrequirements"></a>
+<h3>II. General Engineering requirements</h3>
+
+
+<p>All degree-seeking candidates in engineering must complete the following:</p>
+
+
+<table class="sc_courselist" width="100%"><colgroup><col class="codecol"/><col class="titlecol"/><col align="char" char="." class="hourscol"/></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=CHE 1103" title="CHE 1103" class="bubblelink code" onclick="return showCourse(this, 'CHE 1103');">CHE 1103</a></td><td>General Chemistry I</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=EGR 2323" title="EGR 2323" class="bubblelink code" onclick="return showCourse(this, 'EGR 2323');">EGR 2323</a></td><td>Applied Engineering Analysis I</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MAT 1214" title="MAT 1214" class="bubblelink code" onclick="return showCourse(this, 'MAT 1214');">MAT 1214</a></td><td>Calculus I</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MAT 1224" title="MAT 1224" class="bubblelink code" onclick="return showCourse(this, 'MAT 1224');">MAT 1224</a></td><td>Calculus II</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=PHY 1943" title="PHY 1943" class="bubblelink code" onclick="return showCourse(this, 'PHY 1943');">PHY 1943</a><br/>   &amp; <a href="/search/?P=PHY 1951" title="PHY 1951" class="bubblelink code" onclick="return showCourse(this, 'PHY 1951');">PHY 1951</a></td><td>Physics for Scientists and Engineers I<br/>   and Physics for Scientists and Engineers I Laboratory</td><td class="hourscol">4</td></tr>
+<tr class="odd lastrow"><td class="codecol"><a href="/search/?P=PHY 1963" title="PHY 1963" class="bubblelink code" onclick="return showCourse(this, 'PHY 1963');">PHY 1963</a><br/>   &amp; <a href="/search/?P=PHY 1971" title="PHY 1971" class="bubblelink code" onclick="return showCourse(this, 'PHY 1971');">PHY 1971</a></td><td>Physics for Scientists and Engineers II<br/>   and Physics for Scientists and Engineers II Laboratory</td><td class="hourscol">4</td></tr>
+<tr class="listsum"><td colspan="2">Total Credit Hours</td><td class="hourscol">22</td></tr></tbody></table>
+
+
+
+</div>
+
+
+
+
+</div><!--end #textcontainer -->
+
+			<div id="certificatestextcontainer" class="tab_content">
+				<a name="certificatestext"></a><h2 class="DegreeName11pt">Certificate in Data Center Design</h2>
+<p>The certificate program in Data Center Design is designed so that students in mechanical, civil, and electrical engineering  disciplines will take all the required courses in their disciplines, then, take additional courses from other majors (options A, B and C shown below). For instance, in order to be certified, a mechanical engineering student not only has to satisfy the mechanical engineering degree requirements, but also needs to complete courses in option A, shown below. All students must satisfy the prerequisites for courses in the option before registering for courses. Regardless of the option, all participating students must complete a 3 semester credit hour data center design project. The following exhibits the description of the project:</p>
+<p class="DegreeName11pt" style="margin-left:.25in"><strong><span class="sc_courseinline"><a href="/search/?P=EGR 4953" title="EGR&#160;4953" class="bubblelink code" onclick="return showCourse(this, 'EGR 4953');">EGR&#160;4953</a> Special Studies in Engineering</span>: Overview of Data Center Design and Operation</strong>
+</p>
+
+<p class="DegreeName11pt" style="margin-left:.25in">The goal of this course is to provide the student with a broad overview of the application of technical course material and to utilize that knowledge in completion of an approved data center project. The scope of the project encompasses all of the requisite phases in planning for a system deployment into a data center. The phases are: planning, requirement analysis, facility design and installation, system deployment, check out and transitioning to operations. Students should propose the projects, an advisor will be assigned (either from UTSA or industry), and the project will be evaluated as the principal element of the student’s grade. Additionally, the course will include field trips to data centers, and guest lecturers to be provided. Some examples of the lecture topics include: Information Technology set up considerations, PSC management and systems monitoring, fire protection/detection at room and cabinet level, future power projections for servers and high performance computers, future cooling applications, physical security measures, etc. Successful course completion includes completing a class project and project presentation.</p>
+<h3>Option A. Mechanical Engineering Students</h3>
+<p>Requires 15 semester credit hours in addition to the Bachelor of Science in Mechanical Engineering degree requirements. Mechanical Engineering students pursuing a certificate in Data Center Design must complete the following courses:</p>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=CE 3113" title="CE&#160;3113" class="bubblelink code" onclick="return showCourse(this, 'CE 3113');">CE&#160;3113</a></td><td>Structural Analysis</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CE 3213" title="CE&#160;3213" class="bubblelink code" onclick="return showCourse(this, 'CE 3213');">CE&#160;3213</a></td><td>Reinforced Concrete Design</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=EE 3413" title="EE&#160;3413" class="bubblelink code" onclick="return showCourse(this, 'EE 3413');">EE&#160;3413</a></td><td>Analysis and Design of Control Systems</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=EE 4953" title="EE&#160;4953" class="bubblelink code" onclick="return showCourse(this, 'EE 4953');">EE&#160;4953</a></td><td>Special Studies in Electrical and Computer Engineering (Power Electronics)</td><td class="hourscol">3</td></tr>
+<tr class="even lastrow"><td class="codecol"><a href="/search/?P=EGR 4953" title="EGR&#160;4953" class="bubblelink code" onclick="return showCourse(this, 'EGR 4953');">EGR&#160;4953</a></td><td>Special Studies in Engineering (Overview of Data Center Design and Operation)</td><td class="hourscol">3</td></tr>
+<tr class="listsum"><td colspan="2">Total Credit Hours</td><td class="hourscol">15</td></tr></tbody></table>
+
+<h3>Option B. Civil Engineering Students</h3>
+<p>Requires 21 semester credit hours in addition to the Bachelor of Science of Civil Engineering degree requirements. Civil Engineering students pursuing a certificate in Data Center Design must complete the following courses:</p>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=EE 2213" title="EE&#160;2213" class="bubblelink code" onclick="return showCourse(this, 'EE 2213');">EE&#160;2213</a></td><td>Electric Circuits and Electronics</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=EE 3413" title="EE&#160;3413" class="bubblelink code" onclick="return showCourse(this, 'EE 3413');">EE&#160;3413</a></td><td>Analysis and Design of Control Systems</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=EE 4953" title="EE&#160;4953" class="bubblelink code" onclick="return showCourse(this, 'EE 4953');">EE&#160;4953</a></td><td>Special Studies in Electrical and Computer Engineering (Power Electronics)</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=EGR 4953" title="EGR&#160;4953" class="bubblelink code" onclick="return showCourse(this, 'EGR 4953');">EGR&#160;4953</a></td><td>Special Studies in Engineering (Overview of Data Center Design and Operation)</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ME 3293" title="ME&#160;3293" class="bubblelink code" onclick="return showCourse(this, 'ME 3293');">ME&#160;3293</a></td><td>Thermodynamics I</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ME 4293" title="ME&#160;4293" class="bubblelink code" onclick="return showCourse(this, 'ME 4293');">ME&#160;4293</a></td><td>Thermodynamics II</td><td class="hourscol">3</td></tr>
+<tr class="even lastrow"><td class="codecol"><a href="/search/?P=ME 4313" title="ME&#160;4313" class="bubblelink code" onclick="return showCourse(this, 'ME 4313');">ME&#160;4313</a></td><td>Heat Transfer</td><td class="hourscol">3</td></tr>
+<tr class="listsum"><td colspan="2">Total Credit Hours</td><td class="hourscol">21</td></tr></tbody></table>
+
+<h3>Option C. Electrical Engineering Students</h3>
+<p>Requires 18 semester credit hours in addition to the Bachelor of Science in Electrical Engineering degree requirements. Electrical Engineering students pursuing a certificate in Data Center Design must complete the following courses:</p>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=EE 4953" title="EE&#160;4953" class="bubblelink code" onclick="return showCourse(this, 'EE 4953');">EE&#160;4953</a></td><td>Special Studies in Electrical and Computer Engineering (Power Electronics)</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=EGR 4953" title="EGR&#160;4953" class="bubblelink code" onclick="return showCourse(this, 'EGR 4953');">EGR&#160;4953</a></td><td>Special Studies in Engineering (Overview of Data Center Design and Operation)</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ME 3293" title="ME&#160;3293" class="bubblelink code" onclick="return showCourse(this, 'ME 3293');">ME&#160;3293</a></td><td>Thermodynamics I</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ME 3663" title="ME&#160;3663" class="bubblelink code" onclick="return showCourse(this, 'ME 3663');">ME&#160;3663</a></td><td>Fluid Mechanics</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ME 4293" title="ME&#160;4293" class="bubblelink code" onclick="return showCourse(this, 'ME 4293');">ME&#160;4293</a></td><td>Thermodynamics II</td><td class="hourscol">3</td></tr>
+<tr class="odd lastrow"><td class="codecol"><a href="/search/?P=ME 4313" title="ME&#160;4313" class="bubblelink code" onclick="return showCourse(this, 'ME 4313');">ME&#160;4313</a></td><td>Heat Transfer</td><td class="hourscol">3</td></tr>
+<tr class="listsum"><td colspan="2">Total Credit Hours</td><td class="hourscol">18</td></tr></tbody></table>
+
+			</div>
+<div id="courseinventorycontainer" class="tab_content">
+<div class="courses">
+<h3 class="keepwithnext">Engineering (EGR) Courses</h3>
+
+<div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;1313.  Calculus with Engineering Applications.  (3-2) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite: Completion of precalculus or satisfactory performance on a placement examination.
+The first of a two-part integrated physics and calculus course. Calculus topics include an introduction to the concepts of limit, continuity, and derivative, mean value theorem, and applications of derivatives such as velocity and acceleration; introduction to the Riemann integral and the fundamental theorem of calculus. Physics topics include an introduction to vectors, force and Newton’s Laws of Physics. Classes meet weekly for three hours of lecture and two hours of problem solving tutorials.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;1323.  Physics with Engineering Applications.  (3-2) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite: EGR 1313.
+The second of a two-part integrated physics and calculus course. Calculus topics include applications of derivatives to maximization and curve sketching, evaluation of definite and indefinite integrals and an introduction to differential equations. Physics topics include applications of Newton’s Laws and the concepts of momentum, energy, work and power. Classes meet weekly for three hours of lecture and two hours of problem solving tutorials.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;1343.  The Impact of Modern Technologies on Society.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisites: Basic background in high school mathematics and physical sciences. This course is designed to inform students of the social impact of modern technologies. The course explores the issues faced by society as technology becomes an integral part of human life. The course prepares students to think critically, practically, creatively and responsively about technological and sociological challenges, and encourages them to examine solutions of their own. The course also explores and discusses the socio-technological interplay. May be applied toward the core curriculum requirement in Social and Behavioral Sciences.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;1403.  Technical Communication.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite: WRC 1013.
+Oral, written, graphical and visual communication; technical instructions; design project with presentation; team-work; and personal responsibility. May be applied toward the Core Curriculum requirement in the Component Area Option.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;2103.  Statics.  (3-0) 3 Credit Hours. (TCCN = ENGR 2301)</strong></p>
+<p class="courseblockdesc">
+Prerequisites: MAT 1224 and PHY 1943. 
+Vector analysis of force systems applied to particles and rigid bodies and free body diagrams. Engineering applications of equilibrium; of moments, internal forces, and friction; and of centroids, centers of gravity, and moments of inertia.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;2213.  Statics and Dynamics.  (3-0) 3 Credit Hours. (TCCN = ENGR 2303)</strong></p>
+<p class="courseblockdesc">
+Prerequisites: MAT 1224 and PHY 1943.
+Force, moment, equilibrium, centroids and moments of inertia, kinematics, and kinetics of particles. Not open to students in Civil or Mechanical Engineering. May not be substituted for EGR 2103.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;2323.  Applied Engineering Analysis I.  (3-1) 3 Credit Hours. (TCCN = MATH 2321)</strong></p>
+<p class="courseblockdesc">
+Prerequisite: MAT 1224.
+Application of mathematical principles to the analysis of engineering problems using linear algebra and ordinary differential equations (ODE’s). Use of software tools. Topics include: mathematical modeling of engineering problems; separable ODE’s; first-, second-, and higher-order linear constant coefficient ODE’s; characteristic equation of an ODE; systems of coupled first-order ODE’s; matrix addition and multiplication; solution of a linear system of equations via Gauss elimination and Cramer’s rule; rank, determinant, and inverse of a matrix; eigenvalues and eigenvectors; solution of an ODE via Laplace transform; numerical solution of ODE’s. One hour of problem solving recitation.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;2513.  Dynamics.  (3-0) 3 Credit Hours. (TCCN = ENGR 2302)</strong></p>
+<p class="courseblockdesc">
+Prerequisite: EGR 2103.
+Kinetics of particles and plane rigid bodies, work and energy, impulse and momentum, equations of motion and engineering applications.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;3303.  Engineering Co-op.  (0-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite: Acceptance into the Cooperative Education in Engineering Program.
+Designed for students participating in Cooperative Education in Engineering Program. Problems related to students’ work assignments during their work for co-op employers. No more than 3 semester credit hours of Engineering Co-op may apply to a bachelor’s degree. To apply 3 semester credit hours of Engineering Co-op as a technical elective toward a degree in engineering, a student must petition and get approval of a faculty advisor prior to co-op activities. The grade report for the course is either “CR�? (satisfactory performance) or “NC�? (unsatisfactory performance). Formerly EGR 3301.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;3323.  Applied Engineering Analysis II.  (3-1) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite: EGR 2323.
+Application of mathematical principles to the analysis of engineering problems using vector differential and integral calculus, partial differential equations, and Fourier series; complex variables; discrete mathematics; and use of software tools. One hour of problem solving recitation.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;3713.  Engineering Economic Analysis.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisites: ECO 2013 or ECO 2023, and MAT 1224.
+Time-value of money concepts; techniques for economic evaluation of engineering alternatives; depreciation and taxes; inflation and market rates; contracting practices; funding public projects and related public policy issues.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;4953.  Special Studies in Engineering.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite: Consent of instructor.
+An organized course offering the opportunity for specialized study not normally or not often available as part of the regular course offerings. Special Studies may be repeated for credit when topics vary, but not more than 6 semester credit hours, regardless of discipline, will apply to a bachelor’s degree.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>EGR&#160;4993.  Honors Research.  (0-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisite: Enrollment limited to candidates for college honors during their last two semesters; approval by the College Honors Committee.
+Supervised research and preparation of an honors thesis. May be repeated once with approval.<br />
+</p>
+</div>
+</div>
+</div>
+		</div><!--end #content-->
+	</div><!--end #right-col-->
+</div><!--end #wrapper-->
+
+<!--htdig_noindex-->
+<div id="contact">
+	<div class="wrap">
+	<h2>Contact Us</h2>
+		<p>
+			The University of Texas at San Antonio
+			<br />
+			Office of the Registrar
+			<br />
+			One UTSA Circle
+			<br />
+			San Antonio, TX 78249
+		</p>
+		<ul>
+			<li><strong>Phone:</strong> 210-458-8000</li>
+			<li><strong>Toll Free Phone:</strong> 800-669-0919</li>
+			<li><strong>Email:</strong> <a href="mailto:registrar@utsa.edu">registrar@utsa.edu</a></li>
+		</ul>
+
+	</div><!--end #contact .wrap-->
+</div><!--end #contact-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="footer" role="contentinfo">
+	<div class="wrap">
+		<div id="foot-logo">
+			<a href="http://www.utsa.edu">The University of Texas at San Antonio</a>
+		</div>
+		<ul>
+			<li><a href=" http://utsa.edu/ada/">ADA</a></li>
+		    <li><a href="http://www.utsa.edu/sitemap/">Sitemap</a></li>
+		    <li><a href="http://www.utsa.edu/maps/">Locations</a></li>
+		    <li><a href="http://www.utsa.edu/job.html">Jobs</a></li>
+		    <li><a href="http://alerts.utsa.edu/">Campus Alerts</a></li>
+		    <li><a href="http://www.utsa.edu/policies/">Policies</a></li>
+		    <li><a href="http://www.utsa.edu/openrecords/">Open Records</a></li>
+		    <li><a href="http://www.utsa.edu/acrs/Compliance/comply_hotline.htm">Report Fraud</a></li>
+		    <li><a href="http://www.utsa.edu/policies/reqlinks.html">Required Links</a></li>
+		    <li><a href="http://www.utsa.edu/identity/">Identity</a></li>
+		    <li><a href="http://www.utsystem.edu/">UT System</a></li>
+		    <li><a href="http://www.utsa.edu/directory/contact/">Contact Us</a></li>
+		</ul>
+	    <p><a href="http://www.utsa.edu">&copy; The University of Texas at San Antonio</a> | One UTSA Circle, San Antonio TX 78249 | Information: 210-458-4011 | UTSA Police: 210-458-4242</p>
+	</div><!--end #footer .wrap-->
+</div><!--end #footer-->
+<!--/htdig_noindex-->
+
+
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+
+<a href="engineering.pdf" target="_blank">Download PDF of this page</a>
+			</div>
+			<p>
+				<em>The PDF will include all information unique to this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+				Download PDF of the entire publication (XX MB)
+			</div>
+			<p>
+				<em>All pages in the publication.</em>
+			</p>
+		</div>
+	</div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

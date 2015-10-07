@@ -1,0 +1,51 @@
+CS 1023 Cultural Implications of the Information Society | P | C
+CS 1033 Microcomputer Applications | P | C
+CS 1063 Introduction to Computer Programming I | P MAT 1073 | C
+CS 1073 Introductory Computer Programming for Scientific Applications | P MAT 1073 | C
+CS 1143 Web Design | P | C
+CS 1153 Game Programming | P | C
+CS 1173 Data Analysis and Visualization using MATLAB | P MAT 1023 | C
+CS 1711 Introduction to Computer Programming II Recitation | P CS 1063 | C
+CS 1713 Introduction to Computer Programming II | P CS 1063 | C
+CS 2073 Computer Programming with Engineering Applications | P MAT 1214 | C
+CS 2121 Data Structures Recitation | P CS 1711 CS 1713 | C
+CS 2123 Data Structures | P CS 1711 CS 1713 | C
+CS 2153 Game Design | P CS 1153 | C
+CS 2233 Discrete Mathematical Structures | P CS 1711 CS 1713 MAT 1214 | C
+CS 3333 Mathematical Foundations of Computer Science | P CS 1711 CS 1713 MAT 1224 | C
+CS 3341 Analysis of Algorithms Recitation | P CS 2121 CS 2123 CS 2233 CS 3333 | C
+CS 3343 Analysis of Algorithms | P CS 2121 CS 2123 CS 2233 CS 3333 | C
+CS 3421 Systems Programming Recitation | P CS 2121 CS 2123 | C
+CS 3423 Systems Programming | P CS 2121 CS 2123 | C
+CS 3433 Principles of Computer and Information Security | P CS 3421 CS 3423 | C
+CS 3443 Application Programming | P CS 2121 CS 2123 | C
+CS 3723 Programming Languages | P CS 2233 CS 3443 | C
+CS 3731 Operating Systems Recitation | P CS 3421 CS 3423 CS 3443 CS 3841 CS 3843 | C
+CS 3733 Operating Systems | P CS 3421 CS 3423 CS 3443 CS 3841 CS 3843 | C
+CS 3743 Introduction to Database Systems | P CS 2233 CS 3421 CS 3423 | C
+CS 3773 Software Engineering | P CS 3443 | C
+CS 3793 Introduction to Artificial Intelligence | P CS 3341 CS 3343 | C
+CS 3841 Computer Organization Recitation | P CS 2121 CS 2123 | C
+CS 3843 Computer Organization | P CS 2121 CS 2123 | C
+CS 3851 Computer Architecture Recitation | P CS 3421 CS 3423 CS 3841 CS 3843 | C
+CS 3853 Computer Architecture | P CS 3421 CS 3423 CS 3841 CS 3843 | C
+CS 3873 Computer Networks | P CS 3841 CS 3843 | C
+CS 4313 Automata | P CS 3341 CS 3343 | C
+CS 4353 Unix and Network Security | P CS 3433 | C
+CS 4363 Cryptography | P CS 3341 CS 3343 CS 3433 | C
+CS 4383 Computer Graphics | P CS 2121 CS 2123 CS 3341 CS 3343 | C
+CS 4393 User Interfaces | P CS 3443 | C
+CS 4413 Web Technologies | P CS 3421 CS 3423 | C
+CS 4593 Topics in Computer Science | P | C
+CS 4633 Simulation | P CS 3341 CS 3343 | C
+CS 4713 Compiler Construction | P CS 3341 CS 3343 CS 3841 CS 3843 | C
+CS 4723 Software Validation and Quality Assurance | P CS 3443 | C
+CS 4733 Project Management | P CS 3443 | C
+CS 4743 Applied Software Engineering | P CS 3443 | C
+CS 4773 Object | P CS 3443 | C
+CS 4823 Introduction to Parallel Programming | P CS 3341 CS 3343 CS 3421 CS 3423 | C
+CS 4833 Embedded Systems | P CS 3341 CS 3343 CS 3731 CS 3733 CS 3851 CS 3853 | C
+CS 4913 Independent Study | P | C
+CS 4933 Internship in Computer Science | P | C
+CS 4953 Special Studies in Computer Science | P | C
+CS 4993 Honors Research | P | C

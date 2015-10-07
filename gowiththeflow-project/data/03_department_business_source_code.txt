@@ -1,0 +1,955 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>4. College of Business &lt; The University of Texas at San Antonio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="a5pXKN_wGnOECKQikfGtjbtFrjO0IGkz5clLXrg_36s" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+</head>
+
+<body>
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+	<div class="accessible-menu">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.utsa.edu">Institution Home</a></li>
+		</ul>
+	</div>
+</div><!--end .accessible-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="top-bar" class="clearfix">
+	<div class="wrap">
+		<div id="logo" class="clearfix">
+			<a href="http://www.utsa.edu">The University of Texas at San Antonio</a>
+		</div>
+		<div id="top-right">
+	        <ul>
+	            <li class="main"><a href="http://my.utsa.edu/">myUTSA</a>
+	            	<ul>
+	                    <li><a href="http://asap.utsa.edu/"><span>&raquo;</span> ASAP</a></li>
+	                    <li><a href="http://bb.utsa.edu/"><span>&raquo;</span> Blackboard</a></li>
+	                    <li><a href="http://outlook.com/utsa.edu"><span>&raquo;</span> Staff Webmail</a></li>
+	                    <li><a href="http://lib.utsa.edu/"><span>&raquo;</span> Libraries</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/info/index.html">Info For</a>
+	                <ul>
+	                    <li><a href="http://utsa.edu/info/students.html"><span>&raquo;</span> Students</a></li>
+	                    <li><a href="http://utsa.edu/info/faculty.html"><span>&raquo;</span> Faculty</a></li>
+	                    <li><a href="http://utsa.edu/info/employees.html"><span>&raquo;</span> Staff</a></li>
+	                    <li><a href="http://utsa.edu/info/parents.html"><span>&raquo;</span> Parents</a></li>
+	                    <li><a href="http://utsa.edu/info/visitors.html"><span>&raquo;</span> Visitors</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/maps/">Locations</a>
+	            	<ul>
+	                    <li><a href="http://utsa.edu/maps/main-map.html"><span>&raquo;</span> Main</a></li>
+	                    <li><a href="http://utsa.edu/maps/dt-map.html"><span>&raquo;</span> Downtown</a></li>
+	                    <li><a href="http://utsa.edu/maps/hemisfair-map.html"><span>&raquo;</span> Hemisfair Park</a></li>
+	                </ul>
+	            </li>
+	            <li class="main"><a href="http://utsa.edu/directory/">Directory</a></li>
+	            <li class="main"><a href="http://utsa.edu/calendar/">Calendar</a></li>
+	            <li class="main"><a href="http://utsa.edu/about/index.html">About UTSA</a></li>
+			</ul>
+
+			<div id="search" class="clearfix">
+				<form id="cse-search-box" action="http://utsa.edu/search/searchresults.html" role="search">
+					<input type="hidden" name="cx" value="000238266656426684962:mzli4pte7ko" />
+					<input type="hidden" name="cof" value="FORID:11" />
+					<label for="q">Search</label>
+					<input class="searchfield" name="q" id="q" type="text" size="15" value="Search UTSA" onfocus="if (this.value == 'Search UTSA') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search UTSA';}" />
+					<input class="searchbutton" type="image" src="/images/icon-search.jpg" name="sa" value="search" alt="search"/>
+				</form>
+			</div><!--end #search-->
+		</div><!--end #top-right-->
+	</div><!--end #topbar .wrap-->
+</div><!--end #top-bar-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="drawer" class="clearfix" role="navigation">
+	<div class="wrap">
+		<div id="drawer-cols" class="clearfix">
+			<div class="drawer-col first">
+				<ul>
+					<li>
+						<a href="http://utsa.edu/admissions/index.html">Admissions</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/academics/index.html">Academics</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/research/index.html">Research</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/athletics/index.html">Athletics</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/campuslife/index.html">Campus Life</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/community/index.html">Community</a>
+					</li>
+					<li>
+						<a href="http://alumni.utsa.edu/">Alumni</a>
+					</li>
+					<li>
+						<a href="http://giving.utsa.edu/">Giving</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/admissions/">Future Students</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/admissions/">Apply to UTSA</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/financialaid/">Financial Aid</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/academics/academic-departments.html">Colleges + Programs</a>
+					</li>
+					<li>
+						<a href="http://bluebook.utsa.edu/">Bluebook: Course Info</a>
+					</li>
+					<li>
+						<a href="http://international.utsa.edu/">International Students</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/visitor/">Campus Tours</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/maps/">Campus Maps</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/campuslife/">Campus Life</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/students.html">Current Students</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://asap.utsa.edu/">ASAP</a> / <a href="http://bb.utsa.edu/">Blackboard</a>
+					</li>
+					<li>
+						<a href="http://bluebook.utsa.edu/">Bluebook: Course Info Online</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/calendar/index.cfm?calendar=academic">Academic Calendar</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/fiscalservices/">Fiscal Services</a>
+					</li>
+					<li>
+						<a href="http://lib.utsa.edu/">Libraries</a>
+					</li>
+					<li>
+						<a href="http://utsa.bkstr.com/">Bookstore</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/careercenter/">Career Services</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/employees.html">Faculty / Staff</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/hr/">Human Resources</a>
+					</li>
+					<li>
+						<a href="http://outlook.com/utsa.edu">Webmail</a>
+					</li>
+					<li>
+						<a href="https://utdirect.utexas.edu/">UT Direct</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/today/">UTSA Today</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/calendar/">UTSA Calendar</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/directory/">Directory</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/oit/">IT Support</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/utshare">UT Share</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://utsa.edu/info/visitors.html">Visitors / Parents</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://utsa.edu/visitor/">Visitor Center</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/maps/">Campus Maps</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/family/">Family Association</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/auxiliary/visitor.html">Parking</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/fiscalservices/">Fiscal Services</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/today/">UTSA Today</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/about/">About UTSA</a>
+					</li>
+				</ul>
+			</div>
+			<div class="drawer-col">
+				<p>
+					<a href="http://alumni.utsa.edu/">Alumni</a>
+				</p>
+				<ul>
+					<li>
+						<a href="http://alumni.utsa.edu/joinrenew">Join the Association</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/sombrilla/">Sombrilla Online</a>
+					</li>
+					<li>
+						<a href="http://giving.utsa.edu/">Giving to UTSA</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/careercenter/">Career Services</a>
+					</li>
+					<li>
+						<a href="http://utsa.edu/registrar/transcripts.cfm">Transcript Request</a>
+					</li>
+					<li>
+						<a href="http://alumni.utsa.edu/calendar">Alumni Calendar</a>
+					</li>
+				</ul>
+			</div>
+		</div><!--end #drawer-cols-->
+</div><!--end #drawer .wrap-->
+</div><!--end #drawer-->
+
+<div id="drawer-button">
+	<div class="wrap">
+		<a href="#" class="btn-drawer">Show/Hide University Links</a>
+	</div><!--end #drawer-button .wrap-->
+</div><!--end #drawer-button-->
+<!--/htdig_noindex-->
+
+
+<div id="header">
+	<div class="wrap">
+		<div id="edition">
+<a href="/undergraduate/">2015-16 Undergraduate Catalog</a>		</div><!--end #edition-->
+	</div><!--end #header .wrap-->
+</div><!--end #header-->
+
+<div id="wrapper" class="clearfix">
+
+<!--htdig_noindex-->
+	<div id="left-col" role="complementary">
+
+		<div id="left-nav" class="clearfix">
+			<form id="cl-search" action="/search/" class="clearfix" role="search">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="P" size="25" class="searchbox" id="name" />
+				<input type="submit" value="Search" class="submit" />
+			</form>
+
+			<div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Toggle Navigation</a>
+                <a class="cl-menu-btn" href="#">Toggle Navigation</a>
+            </div><!--end #cl-menu-control-->
+
+<div id="cl-menu" role="navigation">
+<!-- Begin Nav -->
+<ul class="nav" id="/">
+	<li><a href="/informationbulletin/">Information Bulletin</a></li>
+	<li class="active"><a href="/undergraduate/">Undergraduate Catalog</a>
+	<ul class="nav" id="/undergraduate/">
+		<li><a href="/undergraduate/generalinformation/">General Information</a></li>
+		<li><a href="/undergraduate/bachelorsdegreeregulations/">Bachelor’s Degree Regulations</a></li>
+		<li><a href="/undergraduate/certificateprograms/">Undergraduate Certificate Programs</a></li>
+		<li><a href="/undergraduate/architecture/">College of Architecture, Construction and Planning</a></li>
+		<li class="active self"><a href="#" onclick="return false;">College of Business</a>
+		<ul class="nav" id="/undergraduate/business/">
+			<li><a href="/undergraduate/business/accounting/">Department of Accounting</a></li>
+			<li><a href="/undergraduate/business/economics/">Department of Economics</a></li>
+			<li><a href="/undergraduate/business/finance/">Department of Finance</a></li>
+			<li><a href="/undergraduate/business/informationsystemscybersecurity/">Department of Information Systems and Cyber Security</a></li>
+			<li><a href="/undergraduate/business/management/">Department of Management</a></li>
+			<li><a href="/undergraduate/business/managementsciencestatistics/">Department of Management Science and Statistics</a></li>
+			<li><a href="/undergraduate/business/marketing/">Department of Marketing</a></li>
+		</ul>
+		</li>
+		<li><a href="/undergraduate/educationhumandevelopment/">College of Education and Human Development</a></li>
+		<li><a href="/undergraduate/engineering/">College of Engineering</a></li>
+		<li><a href="/undergraduate/liberalfinearts/">College of Liberal and Fine Arts</a></li>
+		<li><a href="/undergraduate/publicpolicy/">College of Public Policy</a></li>
+		<li><a href="/undergraduate/sciences/">College of Sciences</a></li>
+		<li><a href="/undergraduate/universitycollege/">University College</a></li>
+		<li><a href="/undergraduate/honorscollege/">Honors College</a></li>
+		<li><a href="/undergraduate/coursedescriptions/">Course Descriptions</a></li>
+		<li><a href="/undergraduate/texascommoncoursenumberingsystem/">Texas Common Course Numbering System</a></li>
+		<li><a href="/undergraduate/nationalstandardizedtests/">National Standardized Tests: Minimum Scores Required for Credit at UTSA</a></li>
+		<li><a href="/undergraduate/faculty/">Faculty</a></li>
+		<li><a href="/undergraduate/azindex/">Undergraduate A-&#8203;Z Index</a></li>
+	</ul>
+	</li>
+	<li><a href="/graduate/">Graduate Catalog</a></li>
+	<li><a href="/previouscatalogs/">Previous Catalogs</a></li>
+</ul>
+<!-- End Nav -->
+</div><!--end #cl-menu-->
+
+			<ul class="print">
+				<li>
+					<a href="#print-dialog" onclick="showPrintDialog(); return false;">Print Options</a>
+				</li>
+			</ul>
+		</div><!--end #left-nav-->
+	</div><!--end #left-col-->
+<!--/htdig_noindex-->
+
+
+	<div id="right-col">
+<!--htdig_noindex-->
+<div id="breadcrumb" class="clearfix"  role="navigation">
+<ul><li><a href="/">Catalog</a><span class="crumbsep"> &gt; </span></li><li><a href="/undergraduate/">Undergraduate&nbsp;Catalog</a><span class="crumbsep"> &gt; </span></li><li><span class="active">College of Business</span></li></ul>
+</div>
+<!--/htdig_noindex-->
+		<div id="content" role="main">
+
+<h1>4. College of Business</h1>
+<script type="text/javascript">
+//<![CDATA[
+	var defshow = "text";
+	var bodycontainer = "#body";
+	var validhashes = ",text,degreestext,minorstext,courseinventory,";
+
+if(window.location.hash.length) {
+	var hash = cleanHash(window.location.hash);
+	if(validhashes.indexOf("," + hash + ",") != -1)
+		defshow = hash;	
+}
+var ss = document.styleSheets;
+var workss = null;
+for(var i=0; i < ss.length; i++) {
+	var currmedia = "";
+	if (typeof ss[i].media == "string") 
+		currmedia = ss[i].media
+	else if (typeof ss[i].media == "object" && ss[i].media.mediaText) 
+		currmedia = ss[i].media.mediaText;
+	
+	if((currmedia == "screen" || currmedia == "all") && (ss[i].href.indexOf("/") == 0 || ss[i].href.indexOf(document.location.host) >= 0)) {
+		workss = ss[i];
+		break;	
+	}
+}
+if(workss && workss.insertRule) {
+	workss.insertRule(".tab_content { display: none; }", workss.cssRules.length)
+	workss.insertRule(".sectionheader { display: none; }", workss.cssRules.length)
+	workss.insertRule("#" + defshow + "container { display: block; }", workss.cssRules.length)
+} else if(workss && workss.addRule) {
+	workss.addRule(".tab_content", "display: none");
+	workss.addRule(".sectionheader", "display: none");
+	workss.addRule("#" + defshow + "container", "display: block");
+}
+else {
+	if (window.console)
+		window.console.log('screen.css <link> needs attribute media="screen"');
+}
+//]]>
+</script>
+	<div id="tabs">
+		<ul class="clearfix">
+			<li id="texttab" class="first"><a href="#text" onclick="return showSection('text');">Overview</a></li>
+			<li id="degreestexttab"><a href="#degreestext"  onclick="return showSection('degreestext');" >Degrees</a></li>
+			<li id="minorstexttab"><a href="#minorstext"  onclick="return showSection('minorstext');" >Minors</a></li>
+			<li id="courseinventorytab"><a href="#courseinventory" onclick="return showSection('courseinventory');">Courses</a></li>
+		</ul>
+	</div>
+
+<div id="textcontainer" class="tab_content">
+
+
+
+
+<a name="missionstatement"></a>
+<h2>Mission Statement</h2>
+
+
+
+
+<div>
+
+<p>The College of Business is dedicated to creating and sharing knowledge that enhances the translation of theory to practice. The College combines rigor with relevance and provides innovative solutions to global business challenges. </p>
+
+
+<a name="generalinformation"></a>
+<h2>General Information</h2>
+
+
+<p>The College of Business welcomes all students dedicated to academic success in the study of business. The College is accredited by AACSB (Association to Advance Collegiate Schools of Business) International and is one of only 75 programs internationally with separate accreditation at the undergraduate, master’s and doctoral levels in accounting. With 17 majors and 19 minors in the undergraduate program, the College of Business seeks to give students a competitive edge in obtaining and securing employment.</p>
+
+
+<p>The College offers comprehensive career preparation and services provided through the Center for Student Professional Development (CSPD). The CSPD is devoted to transforming business students into business professionals and to meeting the recruitment needs of employers locally and globally. The Center enhances the business curriculum by helping students build the skills and knowledge that will help them be more confident and polished when they enter the business world.  Workshops and events are woven into the academic curriculum of the College.</p>
+
+
+<p>The College of Business offers a wide variety of programs on campus and abroad to develop students’ international business skills. On-campus programs include the Global Business Club for networking and career development. International faculty come to campus each semester and provide lessons for success in diverse cultures. For travel study, the College offers traditional and innovative programs to fit different student needs. Traditional study abroad programs are offered for students who want to spend a semester studying in a foreign country. The College of Business faculty also takes groups of students for international immersion study at locations where they meet executives, take classes and experience an international culture for themselves. Students who participate in College of Business international programs will develop skills to help them succeed in business anywhere in the world.</p>
+
+
+<p>The Leadership Challenge program, in partnership with the Honors College, provides high-achieving students, primarily in business-related disciplines, with an opportunity to explore and enhance their leadership skills and capacities. Admission to this program is highly competitive, based on academic achievement, extracurricular activities, faculty nominations and personal interviews. The program is housed in the College of Business’s Center for Professional Excellence. Class selection occurs each Spring Semester for the program, which spans the following Fall and Spring semesters. The program involves participation in experiential activities, dialogues, reflective writing and a community service project. Honors College students are required to register for 1 semester credit hour (<span class="sc_courseinline"><a href="/search/?P=HON 4941" title="HON 4941" class="bubblelink code" onclick="return showCourse(this, 'HON 4941');">HON 4941</a></span>) in the Fall Semester, and for 3 semester credit hours (<span class="sc_courseinline"><a href="/search/?P=MGT 4953" title="MGT 4953" class="bubblelink code" onclick="return showCourse(this, 'MGT 4953');">MGT 4953</a></span>) in the Spring Semester. Non-Honors students have the option of registering for 1 semester credit hour in the Fall (<span class="sc_courseinline"><a href="/search/?P=MGT 4951" title="MGT 4951" class="bubblelink code" onclick="return showCourse(this, 'MGT 4951');">MGT 4951</a></span>), but are required to register for 3 semester credit hours (<span class="sc_courseinline"><a href="/search/?P=MGT 4953" title="MGT 4953" class="bubblelink code" onclick="return showCourse(this, 'MGT 4953');">MGT 4953</a></span>) in the Spring.</p>
+
+
+
+<p>Students in the College of Business may not enroll in specified 3000- and 4000-level courses in the College of Business before declaring a major.</p>
+
+
+<p>Students with majors outside of the College of Business may not seek more than one business minor. </p>
+
+
+<a name="collegeofbusinessundergraduateadmissionpolicyforthebachelorofbusinessadministrationdegree"></a>
+<h2>College of Business Undergraduate Admission Policy for the Bachelor of Business Administration Degree</h2>
+
+
+<a name="admissionsphilosophy"></a>
+<h3>Admissions Philosophy</h3>
+
+
+<p>The College of Business (COB) at UTSA seeks to use available resources in ways that best prepare as many qualified students as possible for careers in business. Because there are many more students interested in the study of business than the College has resources for, the undergraduate admission policy gives all interested students a specified time to show they can succeed in the College of Business. Students who meet admission requirements may declare their B.B.A. major. Students who do not meet the requirements for declaration of a B.B.A. major are not admitted to the College but may complete requirements for any other major at UTSA for which they are eligible. A business minor is available to all UTSA students who seek a strong foundation in business.</p>
+
+
+<a name="qualifyingasaprebusinessstudent"></a>
+<h3 class="Bodytext9pt">Qualifying as a Prebusiness Student</h3>
+
+
+<p class="Bodytext9pt">All students seeking to be Prebusiness (PRB) must: </p>
+
+
+<ul>
+	<li class="Bodytext9pt">have successfully completed evaluation under the Texas Success Initiative (TSI), and</li>
+	<li class="Bodytext9pt">qualify for enrollment in <span class="sc_courseinline"><a href="/search/?P=MAT 1033" title="MAT 1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT 1033</a> Algebra with Calculus for Business</span> or a higher level mathematics course, and</li>
+
+	<li class="Bodytext9pt">qualify for enrollment in <span class="sc_courseinline"><a href="/search/?P=WRC 1013" title="WRC 1013" class="bubblelink code" onclick="return showCourse(this, 'WRC 1013');">WRC 1013</a> Freshman Composition I (Q)</span> or higher</li>
+
+</ul>
+
+
+
+<p class="Bodytext9pt">Students who do not meet the criteria above will be classified as undeclared until they are college-ready in math and English. Undeclared students may not register for any College of Business courses until they qualify to be PRB.</p>
+
+
+<a name="gatewaycourse"></a>
+<h3>Gateway Course</h3>
+
+
+<p>Students pursuing a Bachelor of Business Administration degree (B.B.A ) must successfully complete <span class="sc_courseinline"><a href="/search/?P=MAT 1033" title="MAT 1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT 1033</a> Algebra with Calculus for Business</span>, the Gateway Course, with a grade of &quot;C-&quot; or better in no more than two attempts. A student who is unable to successfully complete this course within two attempts, including dropping the course with a grade of “W�? or taking an equivalent course at another institution, will be required to change his or her major outside of business.</p>
+
+
+
+<a name="admissiontothecollegeofbusiness"></a>
+<h3>Admission to the College of Business</h3>
+
+
+<p>As of Fall 2015, all students seeking admission to the College of Business must meet the requirements of the College of Business as set forth in this catalog. To declare a B.B.A. major, students must be designated as prebusiness.  Prebusiness students must complete a total of seven required courses – 21 semester credit hours including 15 business credit hours. </p>
+
+
+<p class="ListsABC-courses">In the semester that a prebusiness student completes the 15 required business hours, he/she will be evaluated for admission to the College of Business. The <strong><em>15-hour rule</em></strong> requires that by the time students complete their 15<sup>th</sup> business hour, they must have taken the required two nonbusiness courses and the required five business courses  from List 1.  If any of the required business courses have been completed prior to entering UTSA, students must take additional business courses at UTSA from List 2 in order to meet the 15-hour rule.  Students who earn 15 business hours without completing List 1 forfeit their chance to be evaluated for admission to the College of Business and they must choose another major outside of business. </p>
+
+
+<p>The size of the newly admitted class is decided by the College each semester and is determined by the available enrollment capacity, and the size and quality of the application pool. Therefore, admission  to the UTSA College of Business <strong>is not guaranteed.</strong> </p>
+
+
+<p class="ListsABC-courses">Students will have one chance to be evaluated for admission once they earn 15 business hours. At that time they must have completed the required seven courses (five business and two nonbusiness courses) and they will be admitted based on their UTSA and COB grade point averages (GPAs), students with the highest GPAs being admitted first until the incoming class is filled.  The UTSA GPA includes all courses taken at UTSA. The COB GPA includes only business courses taken at UTSA. </p>
+
+
+<p class="ListsABC-courses">Admissions decision will be sent to the email address on file with the university. </p>
+
+
+<p class="ListsABC-courses">Students who are not admitted to the college in the semester they are evaluated are not eligible to complete a bachelor’s degree in business at UTSA. They will be changed from Prebusiness (PRB) to Undeclared (UND) and may select any nonbusiness major for which they qualify. </p>
+
+
+<p>Students who complete 15 hours in business without completing the required courses for admission will no longer be candidates for the College of Business.  Students will be changed from Prebusiness (PRB) to Undeclared (UND) and must choose a major other than a business discipline. </p>
+
+
+<p>Non-admitted students may elect to complete a business minor approved for nonbusiness students and will only be permitted to take additional business courses that are required for these minors</p>
+
+
+<a name="requiredcoursesforcobadmission013list1"></a>
+<h4>Required Courses for COB Admission – List 1</h4>
+
+
+<table class="sc_courselist" width="100%"><colgroup><col class="codecol"/><col class="titlecol"/><col align="char" char="." class="hourscol"/></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=MAT 1033" title="MAT 1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT 1033</a></td><td>Algebra with Calculus for Business (or equivalent or higher course with grade of &quot;C-&quot; or better. MAT 1214 Calculus I for majors in Actuarial Science, grade of &quot;C-&quot; or better.)</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=WRC 1013" title="WRC 1013" class="bubblelink code" onclick="return showCourse(this, 'WRC 1013');">WRC 1013</a></td><td>Freshman Composition I (Q) (grade of &quot;C-&quot; or better)</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ACC 2013" title="ACC 2013" class="bubblelink code" onclick="return showCourse(this, 'ACC 2013');">ACC 2013</a></td><td>Principles of Accounting I (grade of &quot;C-&quot; or better)</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ECO 2013" title="ECO 2013" class="bubblelink code" onclick="return showCourse(this, 'ECO 2013');">ECO 2013</a></td><td>Introductory Macroeconomics (grade of &quot;C-&quot; or better)</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ECO 2023" title="ECO 2023" class="bubblelink code" onclick="return showCourse(this, 'ECO 2023');">ECO 2023</a></td><td>Introductory Microeconomics (grade of &quot;C-&quot; or better)</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=IS 1403" title="IS 1403" class="bubblelink code" onclick="return showCourse(this, 'IS 1403');">IS 1403</a></td><td>Business Information Systems Fluency (grade of &quot;C-&quot; or better)</td><td class="hourscol">3</td></tr>
+<tr class="even lastrow"><td class="codecol"><a href="/search/?P=MS 1023" title="MS 1023" class="bubblelink code" onclick="return showCourse(this, 'MS 1023');">MS 1023</a></td><td>Business Statistics with Computer Applications I (grade of &quot;C-&quot; or better. STA 3023 Statistical Mathematics for majors in Actuarial Science, grade of &quot;C-&quot; or better.)</td><td class="hourscol">3</td></tr>
+</tbody></table>
+
+
+
+<p>If any of the required business courses have been completed prior to entering UTSA, students must take additional business courses at UTSA from List 2 below  in order to meet the <strong><em>15-hour rule</em></strong>. Students who begin courses on List 2 before completing List 1 and reach 15 business hours will forfeit their right to be evaluated for admission to the College of Business.</p>
+
+
+<a name="requiredcoursesforcobadmission013list2.maybeselectedonlyafterlist1coursesarecompleted."></a>
+<h4>Required courses for COB Admission – List 2. (May be selected <em>only after</em> List 1 courses are completed.)</h4>
+
+
+<table class="sc_courselist" width="100%"><colgroup><col class="codecol"/><col class="titlecol"/><col align="char" char="." class="hourscol"/></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=ACC 2033" title="ACC 2033" class="bubblelink code" onclick="return showCourse(this, 'ACC 2033');">ACC 2033</a></td><td>Principles of Accounting II</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=FIN 3014" title="FIN 3014" class="bubblelink code" onclick="return showCourse(this, 'FIN 3014');">FIN 3014</a></td><td>Principles of Business Finance</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=GBA 2013" title="GBA 2013" class="bubblelink code" onclick="return showCourse(this, 'GBA 2013');">GBA 2013</a></td><td>Social and Ethical Issues in Business</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=IS 3003" title="IS 3003" class="bubblelink code" onclick="return showCourse(this, 'IS 3003');">IS 3003</a></td><td>Principles of Information Systems for Management</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MGT 3003" title="MGT 3003" class="bubblelink code" onclick="return showCourse(this, 'MGT 3003');">MGT 3003</a></td><td>Business Communication and Professional Development</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MGT 3013" title="MGT 3013" class="bubblelink code" onclick="return showCourse(this, 'MGT 3013');">MGT 3013</a></td><td>Introduction to Organization Theory, Behavior, and Management</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MKT 3013" title="MKT 3013" class="bubblelink code" onclick="return showCourse(this, 'MKT 3013');">MKT 3013</a></td><td>Principles of Marketing</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MS 3043" title="MS 3043" class="bubblelink code" onclick="return showCourse(this, 'MS 3043');">MS 3043</a></td><td>Business Statistics with Computer Applications II (Actuarial Science majors must take STA 3003 in lieu of MS 3043)</td><td class="hourscol">3</td></tr>
+<tr class="even lastrow"><td class="codecol"><a href="/search/?P=MS 3053" title="MS 3053" class="bubblelink code" onclick="return showCourse(this, 'MS 3053');">MS 3053</a></td><td>Management Science and Operations Technology</td><td class="hourscol">3</td></tr>
+</tbody></table>
+
+
+
+<a name="declarationofmajorpolicyforthebachelorofartsineconomicsandthebachelorofscienceinstatistics"></a>
+<h2 class="DegreeName11pt">Declaration of Major Policy for the Bachelor of Arts in Economics and the Bachelor of Science in Statistics</h2>
+
+
+<p class="Bodytext9pt">Students seeking a B.A. in Economics or a B.S. in Statistics must have a 2.0 UTSA GPA and transfer students must have a 2.0 transfer GPA to declare the major. Declaration of major forms may be submitted to the student's primary academic advisor.  Students seeking these degrees are subject to the academic standing policy of the College of Business.</p>
+
+
+<a name="academicstandingfordeclaredbusinessmajors"></a>
+<h2>Academic Standing for Declared Business Majors</h2>
+
+
+<p class="ListsABC">College of Business majors (B.B.A. degrees, B.A. degree in Economics and B.S. degree in Statistics) must maintain good academic standing. This requires that the student maintain a UTSA grade point average of at least 2.0 every semester and meet all University regulations related to good academic standing. Students on probation with UTSA may remain in the College of Business, however, students who are dismissed from UTSA for low academic performance may not return to the College of Business. If the student chooses to return to UTSA, the student must select a new major outside of business.</p>
+
+
+<p class="Bodytext9pt">In order to graduate, all College of Business majors must be in good academic standing (i.e., students must maintain a UTSA, College of Business, and Major GPA of 2.0).</p>
+
+
+<a name="businesshonors"></a>
+<h2>Business Honors</h2>
+
+
+<p class="Bodytext9pt">Bachelor of Business Administration (B.B.A.) majors who have been admitted to the Honors College may earn Business Honors if they maintain a minimum UTSA grade point average of 3.25 and complete an Honors section of five of the following Common Body of Knowledge courses: <span class="sc_courseinline"><a href="/search/?P=ACC 2013" title="ACC 2013" class="bubblelink code" onclick="return showCourse(this, 'ACC 2013');">ACC 2013</a></span>, <span class="sc_courseinline"><a href="/search/?P=ACC 2033" title="ACC 2033" class="bubblelink code" onclick="return showCourse(this, 'ACC 2033');">ACC 2033</a></span>, <span class="sc_courseinline"><a href="/search/?P=ECO 2013" title="ECO 2013" class="bubblelink code" onclick="return showCourse(this, 'ECO 2013');">ECO 2013</a></span>, <span class="sc_courseinline"><a href="/search/?P=ECO 2023" title="ECO 2023" class="bubblelink code" onclick="return showCourse(this, 'ECO 2023');">ECO 2023</a></span>, <span class="sc_courseinline"><a href="/search/?P=FIN 3014" title="FIN 3014" class="bubblelink code" onclick="return showCourse(this, 'FIN 3014');">FIN 3014</a></span>, <span class="sc_courseinline"><a href="/search/?P=GBA 2013" title="GBA 2013" class="bubblelink code" onclick="return showCourse(this, 'GBA 2013');">GBA 2013</a></span>, <span class="sc_courseinline"><a href="/search/?P=IS 3003" title="IS 3003" class="bubblelink code" onclick="return showCourse(this, 'IS 3003');">IS 3003</a></span>, <span class="sc_courseinline"><a href="/search/?P=MGT 3013" title="MGT 3013" class="bubblelink code" onclick="return showCourse(this, 'MGT 3013');">MGT 3013</a></span>, <span class="sc_courseinline"><a href="/search/?P=MGT 4893" title="MGT 4893" class="bubblelink code" onclick="return showCourse(this, 'MGT 4893');">MGT 4893</a></span>, <span class="sc_courseinline"><a href="/search/?P=MKT 3013" title="MKT 3013" class="bubblelink code" onclick="return showCourse(this, 'MKT 3013');">MKT 3013</a></span>, <span class="sc_courseinline"><a href="/search/?P=MS 1023" title="MS 1023" class="bubblelink code" onclick="return showCourse(this, 'MS 1023');">MS 1023</a></span>, and <span class="sc_courseinline"><a href="/search/?P=MS 3043" title="MS 3043" class="bubblelink code" onclick="return showCourse(this, 'MS 3043');">MS 3043</a></span>. Certain 5003-numbered courses in the M.B.A. degree program may, subject to approval, substitute for Common Body of Knowledge courses. These undergraduate courses are offered once per year, and enrollment is targeted for B.B.A. degree program majors seeking University Honors. Contingent upon available space, students with outstanding academic records, including exceptional freshmen and transfer students, can apply for admission into these classes subject to approval by the faculty member, department chair, and Dean of the College of Business. Honors classes emphasize class discussion, presentations, and business research.</p>
+
+
+
+<a name="scholarships"></a>
+<h2>Scholarships</h2>
+
+
+<p>The College of Business has many scholarships available to assist students in reaching their educational and career goals. The scholarship program within the College is managed generally by the College of Business Office of the Dean. Students should visit the College of Business website for information and application procedures for all scholarships within the College. Detailed information and eligibility requirements for specific scholarships administered through the College are available at <a href="http://business.utsa.edu/undergraduate/" target="_blank">http://business.utsa.edu/undergraduate/</a>. Other scholarship information is available through the UTSA Scholarship Office. The number and amounts of scholarship awards vary. Additionally, scholarship eligibility requirements differ, but may include considerations of grade point average, financial need, number of semester credit hours completed, enrollment status, activities, residency status, or bilingualism. Students must complete the application process and submit required documentation by the deadlines stated on application materials. Students will be considered for all awards for which they meet the eligibility criteria. Award amounts are generally disbursed equally among the semesters covered by the scholarship as long as recipients continue to meet grade point average, enrollment, and other scholarship criteria.</p>
+
+
+<a name="minorsinthecollegeofbusiness"></a>
+<h2>Minors in the College of Business</h2>
+
+
+<p>The following College of Business minors are open to any UTSA major: Actuarial Science; Adaptive Decision Models for Business; Statistics; Digital Forensics; Economics; Entrepreneurship-Nonbusiness; Cyber Security; Information Systems; Network and Data Center Management; and Management Science.</p>
+
+
+<p>Students with majors outside of the College of Business may not seek more than one business minor.</p>
+
+
+<p>The following College of Business minors are open to B.B.A. majors only: Entrepreneurship; Finance; International Management; Management; Marketing; and Real Estate.</p>
+
+
+<p>The following College of Business minors are open to nonbusiness majors, B.A. in Economics majors, and B.S. in Statistics majors only: Business Administration and Technology Management.</p>
+
+
+<p>The following College of Business minors are open only to students pursuing the B.B.A. in Real Estate Finance and Development: Construction Management<strong><em><u>. </u></em></strong></p>
+
+
+<a name="enrollmentincollegeofbusinesscourses"></a>
+<h2>Enrollment in College of Business Courses</h2>
+
+
+<p class="Bodytext9pt">Enrollment in College of Business courses, with the exception of <span class="sc_courseinline"><a href="/search/?P=ACC 2003" title="ACC 2003" class="bubblelink code" onclick="return showCourse(this, 'ACC 2003');">ACC 2003</a></span> and <span class="sc_courseinline"><a href="/search/?P=ECO 2003" title="ECO 2003" class="bubblelink code" onclick="return showCourse(this, 'ECO 2003');">ECO 2003</a></span> (which are courses that may not be counted toward a business major), is restricted to ­students who have successfully completed evaluation under the Texas Success Initiative (TSI) and qualify for enrollment in <span class="sc_courseinline"><a href="/search/?P=MAT 1033" title="MAT 1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT 1033</a> Algebra with Calculus for Business</span> (or a higher level mathematics course) and <span class="sc_courseinline"><a href="/search/?P=WRC 1013" title="WRC 1013" class="bubblelink code" onclick="return showCourse(this, 'WRC 1013');">WRC 1013</a> Freshman Composition I (Q)</span> (or higher). Additionally <span class="sc_courseinline"><a href="/search/?P=ACC 2033" title="ACC 2033" class="bubblelink code" onclick="return showCourse(this, 'ACC 2033');">ACC 2033</a></span> will be open to prebusiness and declared business majors and restricted to undeclared (UND) majors.</p>
+
+
+
+<p class="Bodytext9pt">A specific B.B.A. major cannot be guaranteed and will depend on departmental resources.</p>
+
+
+<p>College of Business courses at the 3000- and 4000-level are restricted to College of Business majors or to students who require the courses for their particular degree, with the exception of  <span class="sc_courseinline"><a href="/search/?P=BLW 3013" title="BLW 3013" class="bubblelink code" onclick="return showCourse(this, 'BLW 3013');">BLW 3013</a></span>, <span class="sc_courseinline"><a href="/search/?P=FIN 3003" title="FIN 3003" class="bubblelink code" onclick="return showCourse(this, 'FIN 3003');">FIN 3003</a></span>, <span class="sc_courseinline"><a href="/search/?P=MGT 3013" title="MGT 3013" class="bubblelink code" onclick="return showCourse(this, 'MGT 3013');">MGT 3013</a></span>, and <span class="sc_courseinline"><a href="/search/?P=MKT 3013" title="MKT 3013" class="bubblelink code" onclick="return showCourse(this, 'MKT 3013');">MKT 3013</a></span>,  which are open to all students who meet course prerequisites.</p>
+
+
+
+<p>Enrollment in all other 3000- and 4000-level College of Business courses may be open to nonbusiness majors provided that (a) the course applies to their degree plan, (b) the student has a UTSA GPA of 2.75, and (c) the student meets all prerequisites. If all of these conditions are met, the student may submit their petition to take their course through their advisor. Approval of the Department Chair and College Dean is required. Enrollment in <span class="sc_courseinline"><a href="/search/?P=MGT 3003" title="MGT 3003" class="bubblelink code" onclick="return showCourse(this, 'MGT 3003');">MGT 3003</a></span> is restricted to prebusiness and declared business majors only. Students majoring in fields outside the College of Business may not take more than 27 semester credit hours in the College without approval of the Dean of the College of Business.</p>
+
+
+
+<p>All degrees in the College of Business require 120 hours.  If a student elects to take a course that satisfies both a University Core Curriculum and COB requirement, students may need to take an additional course to meet the 120 hours.</p>
+
+
+<a name="collegeofbusinessacademiccreditinternshippolicy"></a>
+<h2>College of Business Academic Credit Internship Policy</h2>
+
+
+<p>The policy for undergraduate students to enroll in internships for academic credit includes the following provisions:</p>
+
+
+<ol>
+	<li>The student must be a declared major in the College of Business and in good academic standing at UTSA and in the College of Business.</li>
+	<li>The student must:
+	<ul>
+		<li>Have completed a minimum of 75 semester credit hours, of which a minimum of 15 credit hours have been completed at UTSA.</li>
+		<li>Meet all internship course prerequisites, including the minimum grade point average required for enrolling in the internship.</li>
+	</ul>
+	</li>
+	<li>The internship must be in (or related to) the student’s declared major. The student should consult his/her major degree requirements for specific details.</li>
+	<li>Internships at all for-profit companies must be paid at an hourly rated equivalent to the minimum wage to be in compliance with the Department of Labor guidelines.</li>
+	<li>Each student must meet the requirements of his/her catalog of graduation regarding the total number of semester credit hours that may be earned through internships for academic credit, and meet the following provisions:
+	<ul>
+		<li>Each 3-credit-hour academic internship must be completed with a different company/organization.</li>
+		<li>An academic credit internship with a firm at which a student is currently employed may be considered, but only if clear evidence shows that the internship is substantially and programmatically different from such employment.</li>
+	</ul>
+	</li>
+</ol>
+
+
+<a name="independentstudy"></a>
+<h2 class="DegreeName11pt">Independent Study</h2>
+
+
+<p class="DegreeName11pt">In order to qualify for an independent study, students must have a COB GPA of 3.0, permission in writing from the instructor, Department Chair, and the Dean of the College in addition to any departmental prerequisites.</p>
+
+
+<a name="thetexashighereducationcoordinatingboardfieldofstudycurriculumforbusiness"></a>
+<h2>The Texas Higher Education Coordinating Board Field of Study Curriculum for Business</h2>
+
+
+<p>The Texas Higher Education Coordinating Board has mandated a field of study curriculum for Business which consists of seven (7) courses with the following Texas Common Course Numbers (TCCN). UTSA courses satisfying this requirement are listed in parentheses (see Appendix B in this catalog for a list of TCCN courses).</p>
+
+
+<p>2 courses in Accounting:<br/>
+TCCN: ACCT 2301 (<span class="sc_courseinline"><a href="/search/?P=ACC 2013" title="ACC 2013" class="bubblelink code" onclick="return showCourse(this, 'ACC 2013');">ACC 2013</a> Principles of Accounting I</span>)<br/>
+TCCN: ACCT 2302 (<span class="sc_courseinline"><a href="/search/?P=ACC 2033" title="ACC 2033" class="bubblelink code" onclick="return showCourse(this, 'ACC 2033');">ACC 2033</a> Principles of Accounting II</span>)</p>
+
+
+
+<p>1 course in Computer Literacy:<br/>
+TCCN: BCIS 1305 (<span class="sc_courseinline"><a href="/search/?P=IS 1403" title="IS 1403" class="bubblelink code" onclick="return showCourse(this, 'IS 1403');">IS 1403</a> Business Information Systems Fluency</span>)</p>
+
+
+
+<p>2 courses in Economics:<br/>
+TCCN: ECON 2301 (<span class="sc_courseinline"><a href="/search/?P=ECO 2013" title="ECO 2013" class="bubblelink code" onclick="return showCourse(this, 'ECO 2013');">ECO 2013</a> Introductory Macroeconomics</span>)<br/>
+TCCN: ECON 2302 (<span class="sc_courseinline"><a href="/search/?P=ECO 2023" title="ECO 2023" class="bubblelink code" onclick="return showCourse(this, 'ECO 2023');">ECO 2023</a> Introductory Microeconomics</span>)</p>
+
+
+
+<p>1 course in Mathematics:<br/>
+TCCN: MATH 1325 (<span class="sc_courseinline"><a href="/search/?P=MAT 1033" title="MAT 1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT 1033</a> Algebra with Calculus for Business</span>)</p>
+
+
+
+<p>1 course in Speech:<br/>
+TCCN: SPCH 1321 (<span class="sc_courseinline"><a href="/search/?P=COM 1053" title="COM 1053" class="bubblelink code" onclick="return showCourse(this, 'COM 1053');">COM 1053</a> Business and Professional Speech</span>)</p>
+
+
+
+<a name="commonbodyofknowledgecbk"></a>
+<h2>Common Body of Knowledge (CBK)</h2>
+
+
+<p>All students seeking a B.B.A. degree in the College of Business must complete the following Common Body of Knowledge (CBK) courses in addition to the Core Curriculum.</p>
+
+ 
+<table class="sc_courselist" width="100%"><colgroup><col class="codecol"/><col class="titlecol"/><col align="char" char="." class="hourscol"/></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=ACC 2013" title="ACC 2013" class="bubblelink code" onclick="return showCourse(this, 'ACC 2013');">ACC 2013</a></td><td>Principles of Accounting I</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ACC 2033" title="ACC 2033" class="bubblelink code" onclick="return showCourse(this, 'ACC 2033');">ACC 2033</a></td><td>Principles of Accounting II</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=BLW 3013" title="BLW 3013" class="bubblelink code" onclick="return showCourse(this, 'BLW 3013');">BLW 3013</a></td><td>Business Law</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=COM 1053" title="COM 1053" class="bubblelink code" onclick="return showCourse(this, 'COM 1053');">COM 1053</a></td><td>Business and Professional Speech</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ECO 2013" title="ECO 2013" class="bubblelink code" onclick="return showCourse(this, 'ECO 2013');">ECO 2013</a></td><td>Introductory Macroeconomics (satisfies Social and Behavioral Sciences Core Curriculum requirement)</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ECO 2023" title="ECO 2023" class="bubblelink code" onclick="return showCourse(this, 'ECO 2023');">ECO 2023</a></td><td>Introductory Microeconomics</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=FIN 3014" title="FIN 3014" class="bubblelink code" onclick="return showCourse(this, 'FIN 3014');">FIN 3014</a></td><td>Principles of Business Finance</td><td class="hourscol">4</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=GBA 2013" title="GBA 2013" class="bubblelink code" onclick="return showCourse(this, 'GBA 2013');">GBA 2013</a></td><td>Social and Ethical Issues in Business</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=IS 1403" title="IS 1403" class="bubblelink code" onclick="return showCourse(this, 'IS 1403');">IS 1403</a></td><td>Business Information Systems Fluency</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=IS 3003" title="IS 3003" class="bubblelink code" onclick="return showCourse(this, 'IS 3003');">IS 3003</a></td><td>Principles of Information Systems for Management</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MAT 1033" title="MAT 1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT 1033</a></td><td>Algebra with Calculus for Business (satisfies Mathematics Core Curriculum requirement, Actuarial Science majors must take MAT 1214 in lieu of MAT 1033)</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MGT 3003" title="MGT 3003" class="bubblelink code" onclick="return showCourse(this, 'MGT 3003');">MGT 3003</a></td><td>Business Communication and Professional Development</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MGT 3013" title="MGT 3013" class="bubblelink code" onclick="return showCourse(this, 'MGT 3013');">MGT 3013</a></td><td>Introduction to Organization Theory, Behavior, and Management</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MGT 4893" title="MGT 4893" class="bubblelink code" onclick="return showCourse(this, 'MGT 4893');">MGT 4893</a></td><td>Management Strategy (taken in semester of graduation)</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MKT 3013" title="MKT 3013" class="bubblelink code" onclick="return showCourse(this, 'MKT 3013');">MKT 3013</a></td><td>Principles of Marketing</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MS 1023" title="MS 1023" class="bubblelink code" onclick="return showCourse(this, 'MS 1023');">MS 1023</a></td><td>Business Statistics with Computer Applications I (Actuarial Science majors must take STA 1053 in lieu of MS 1023)</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MS 3043" title="MS 3043" class="bubblelink code" onclick="return showCourse(this, 'MS 3043');">MS 3043</a></td><td>Business Statistics with Computer Applications II (Actuarial Science majors must take STA 3003 in lieu of MS 3043)</td><td class="hourscol">3</td></tr> <tr class="odd lastrow"><td class="codecol"><a href="/search/?P=MS 3053" title="MS 3053" class="bubblelink code" onclick="return showCourse(this, 'MS 3053');">MS 3053</a></td><td>Management Science and Operations Technology</td><td class="hourscol">3</td></tr> </tbody></table>
+ 
+
+<p>Students completing degree course requirements with fewer than 120 semester credit hours will augment their program with electives.</p>
+
+
+</div>
+
+
+
+
+</div><!--end #textcontainer -->
+
+			<div id="degreestextcontainer" class="tab_content">
+				<a name="degreestext"></a><ul>
+	<li><a href="#bbagenbus">Bachelor of Business Administration degree in General Business</a></li>
+	<li><a href="#bbaent">Bachelor of Business Administration degree in Entrepreneurship</a></li>
+</ul>
+<h2><a id="bbagenbus" name="bbagenbus"></a>Bachelor of Business Administration Degree in General Business</h2>
+<p>The Bachelor of Business Administration degree in General Business is an interdisciplinary program within the College of Business. The minimum number of semester credit hours for this degree is 120, at least 39 of which must be at the upper-division level.</p>
+<p>All candidates seeking this degree must fulfill the Core Curriculum requirements, the Common Body of Knowledge requirements, and the degree requirements, which are listed below.</p>
+<h3>Core Curriculum Requirements (42 semester credit hours)</h3>
+<p>Students seeking the Bachelor of Business Administration degree in General Business must fulfill University Core Curriculum requirements in the same manner as other students. The courses listed below satisfy both degree requirements and Core Curriculum requirements; however, if these courses are taken to satisfy both requirements, then students may need to take additional courses in order to meet the minimum number of semester credit hours required for this degree. For a complete listing of courses that satisfy the Core Curriculum requirements, see below.</p>
+<p><span class="sc_courseinline"><a href="/search/?P=MAT 1033" title="MAT&#160;1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT&#160;1033</a></span> should be used to satisfy the core requirement in Mathematics. <span class="sc_courseinline"><a href="/search/?P=ECO 2013" title="ECO&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ECO 2013');">ECO&#160;2013</a></span> should be used to satisfy the core requirement in Social and Behavioral Sciences.</p>
+
+ <div class="notinpdf"> <h4 class="toggle">First Year Experience Requirement (3 semester credit hours)</h4> <p>All students must complete the following course, for a total of 3 semester credit hours:</p> <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even lastrow firstrow"><td class="codecol"><a href="/search/?P=AIS 1203" title="AIS&#160;1203" class="bubblelink code" onclick="return showCourse(this, 'AIS 1203');">AIS&#160;1203</a></td><td>Academic Inquiry and Scholarship</td><td class="hourscol">3</td></tr> </tbody></table>  <h4 class="toggle">Communication (6 semester credit hours)</h4> <p>Students must complete the following courses, for a total of 6 semester credit hours:</p> <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=WRC 1013" title="WRC&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'WRC 1013');">WRC&#160;1013</a></td><td>Freshman Composition I (Q)</td><td class="hourscol">3</td></tr> <tr class="odd lastrow"><td class="codecol"><a href="/search/?P=WRC 1023" title="WRC&#160;1023" class="bubblelink code" onclick="return showCourse(this, 'WRC 1023');">WRC&#160;1023</a></td><td>Freshman Composition II (Q)</td><td class="hourscol">3</td></tr> </tbody></table>  <h4 class="toggle">Mathematics (3 semester credit hours)</h4> <p>Students must complete one of the following courses, for a total of 3 semester credit hours:</p> <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=MAT 1023" title="MAT&#160;1023" class="bubblelink code" onclick="return showCourse(this, 'MAT 1023');">MAT&#160;1023</a></td><td>College Algebra with Applications</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MAT 1033" title="MAT&#160;1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT&#160;1033</a></td><td>Algebra with Calculus for Business</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MAT 1043" title="MAT&#160;1043" class="bubblelink code" onclick="return showCourse(this, 'MAT 1043');">MAT&#160;1043</a></td><td>Introduction to Mathematics</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MAT 1073" title="MAT&#160;1073" class="bubblelink code" onclick="return showCourse(this, 'MAT 1073');">MAT&#160;1073</a></td><td>Algebra for Scientists and Engineers</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MAT 1093" title="MAT&#160;1093" class="bubblelink code" onclick="return showCourse(this, 'MAT 1093');">MAT&#160;1093</a></td><td>Precalculus</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MAT 1193" title="MAT&#160;1193" class="bubblelink code" onclick="return showCourse(this, 'MAT 1193');">MAT&#160;1193</a></td><td>Calculus for the Biosciences</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MAT 1214" title="MAT&#160;1214" class="bubblelink code" onclick="return showCourse(this, 'MAT 1214');">MAT&#160;1214</a></td><td>Calculus I</td><td class="hourscol">4</td></tr> <tr class="odd lastrow"><td class="codecol"><a href="/search/?P=STA 1053" title="STA&#160;1053" class="bubblelink code" onclick="return showCourse(this, 'STA 1053');">STA&#160;1053</a></td><td>Basic Statistics</td><td class="hourscol">3</td></tr> </tbody></table>  <h4 class="toggle">Life and Physical Sciences (6 semester credit hours)</h4> <p>Students must complete two of the following courses for a total of 6 semester credit hours:</p> <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=ANT 2033" title="ANT&#160;2033" class="bubblelink code" onclick="return showCourse(this, 'ANT 2033');">ANT&#160;2033</a></td><td>Introduction to Biological Anthropology</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=AST 1013" title="AST&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'AST 1013');">AST&#160;1013</a></td><td>Introduction to Astronomy</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=AST 1033" title="AST&#160;1033" class="bubblelink code" onclick="return showCourse(this, 'AST 1033');">AST&#160;1033</a></td><td>Exploration of the Solar System</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=BIO 1233" title="BIO&#160;1233" class="bubblelink code" onclick="return showCourse(this, 'BIO 1233');">BIO&#160;1233</a></td><td>Contemporary Biology I</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=BIO 1243" title="BIO&#160;1243" class="bubblelink code" onclick="return showCourse(this, 'BIO 1243');">BIO&#160;1243</a></td><td>Contemporary Biology II</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=BIO 1404" title="BIO&#160;1404" class="bubblelink code" onclick="return showCourse(this, 'BIO 1404');">BIO&#160;1404</a></td><td>Biosciences I</td><td class="hourscol">4</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=BIO 1414" title="BIO&#160;1414" class="bubblelink code" onclick="return showCourse(this, 'BIO 1414');">BIO&#160;1414</a></td><td>Biosciences II</td><td class="hourscol">4</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ES 1113" title="ES&#160;1113" class="bubblelink code" onclick="return showCourse(this, 'ES 1113');">ES&#160;1113</a></td><td>Environmental Botany</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ES 1123" title="ES&#160;1123" class="bubblelink code" onclick="return showCourse(this, 'ES 1123');">ES&#160;1123</a></td><td>Environmental Zoology</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ES 2013" title="ES&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ES 2013');">ES&#160;2013</a></td><td>Introduction to Environmental Systems I</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ES 2023" title="ES&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'ES 2023');">ES&#160;2023</a></td><td>Introduction to Environmental Systems II</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=GEO 1013" title="GEO&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'GEO 1013');">GEO&#160;1013</a></td><td>The Third Planet</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=GEO 1123" title="GEO&#160;1123" class="bubblelink code" onclick="return showCourse(this, 'GEO 1123');">GEO&#160;1123</a></td><td>Life Through Time</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=GRG 2613" title="GRG&#160;2613" class="bubblelink code" onclick="return showCourse(this, 'GRG 2613');">GRG&#160;2613</a></td><td>Physical Geography</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=PHY 1013" title="PHY&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'PHY 1013');">PHY&#160;1013</a></td><td>Universes</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=PHY 1943" title="PHY&#160;1943" class="bubblelink code" onclick="return showCourse(this, 'PHY 1943');">PHY&#160;1943</a></td><td>Physics for Scientists and Engineers I</td><td class="hourscol">3</td></tr> <tr class="even lastrow"><td class="codecol"><a href="/search/?P=PHY 1963" title="PHY&#160;1963" class="bubblelink code" onclick="return showCourse(this, 'PHY 1963');">PHY&#160;1963</a></td><td>Physics for Scientists and Engineers II</td><td class="hourscol">3</td></tr> </tbody></table>  <h4 class="toggle">Language, Philosophy and Culture (3 semester credit hours)</h4> <p>Students must complete one of the following courses, for a total of 3 semester credit hours:</p> <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=AAS 2013" title="AAS&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'AAS 2013');">AAS&#160;2013</a></td><td>Introduction to African American Studies</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=AAS 2113" title="AAS&#160;2113" class="bubblelink code" onclick="return showCourse(this, 'AAS 2113');">AAS&#160;2113</a></td><td>African American Culture, Leadership and Social Issues</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ANT 2063" title="ANT&#160;2063" class="bubblelink code" onclick="return showCourse(this, 'ANT 2063');">ANT&#160;2063</a></td><td>Language, Thought, and Culture</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ARA 1014" title="ARA&#160;1014" class="bubblelink code" onclick="return showCourse(this, 'ARA 1014');">ARA&#160;1014</a></td><td>Elementary Arabic I</td><td class="hourscol">4</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ARC 1113" title="ARC&#160;1113" class="bubblelink code" onclick="return showCourse(this, 'ARC 1113');">ARC&#160;1113</a></td><td>Introduction to the Built Environment</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ARC 1413" title="ARC&#160;1413" class="bubblelink code" onclick="return showCourse(this, 'ARC 1413');">ARC&#160;1413</a></td><td>Architecture and Culture</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=CHN 1014" title="CHN&#160;1014" class="bubblelink code" onclick="return showCourse(this, 'CHN 1014');">CHN&#160;1014</a></td><td>Elementary Chinese I</td><td class="hourscol">4</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=CLA 2013" title="CLA&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'CLA 2013');">CLA&#160;2013</a></td><td>Introduction to Ancient Greece</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=CLA 2023" title="CLA&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'CLA 2023');">CLA&#160;2023</a></td><td>Introduction to Ancient Rome</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=CLA 2323" title="CLA&#160;2323" class="bubblelink code" onclick="return showCourse(this, 'CLA 2323');">CLA&#160;2323</a></td><td>Classical Mythology</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=CSH 1103" title="CSH&#160;1103" class="bubblelink code" onclick="return showCourse(this, 'CSH 1103');">CSH&#160;1103</a></td><td>Literary Masterpieces of Western Culture I</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=CSH 1113" title="CSH&#160;1113" class="bubblelink code" onclick="return showCourse(this, 'CSH 1113');">CSH&#160;1113</a></td><td>Literary Masterpieces of Western Culture II</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=CSH 1213" title="CSH&#160;1213" class="bubblelink code" onclick="return showCourse(this, 'CSH 1213');">CSH&#160;1213</a></td><td>Topics in World Cultures</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=CSH 2113" title="CSH&#160;2113" class="bubblelink code" onclick="return showCourse(this, 'CSH 2113');">CSH&#160;2113</a></td><td>The Foreign Film</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ENG 2013" title="ENG&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ENG 2013');">ENG&#160;2013</a></td><td>Introduction to Literature</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ENG 2213" title="ENG&#160;2213" class="bubblelink code" onclick="return showCourse(this, 'ENG 2213');">ENG&#160;2213</a></td><td>Literary Criticism and Analysis</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ENG 2383" title="ENG&#160;2383" class="bubblelink code" onclick="return showCourse(this, 'ENG 2383');">ENG&#160;2383</a></td><td>Multiethnic Literatures of the United States</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ENG 2423" title="ENG&#160;2423" class="bubblelink code" onclick="return showCourse(this, 'ENG 2423');">ENG&#160;2423</a></td><td>Literature of Texas and the Southwest</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=FRN 1014" title="FRN&#160;1014" class="bubblelink code" onclick="return showCourse(this, 'FRN 1014');">FRN&#160;1014</a></td><td>Elementary French I</td><td class="hourscol">4</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=FRN 2333" title="FRN&#160;2333" class="bubblelink code" onclick="return showCourse(this, 'FRN 2333');">FRN&#160;2333</a></td><td>French Literature in English Translation</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=GER 1014" title="GER&#160;1014" class="bubblelink code" onclick="return showCourse(this, 'GER 1014');">GER&#160;1014</a></td><td>Elementary German I</td><td class="hourscol">4</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=GER 2333" title="GER&#160;2333" class="bubblelink code" onclick="return showCourse(this, 'GER 2333');">GER&#160;2333</a></td><td>German Literature in English Translation</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=GLA 1013" title="GLA&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'GLA 1013');">GLA&#160;1013</a></td><td>U.S. in the Global Arena</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=GRG 1023" title="GRG&#160;1023" class="bubblelink code" onclick="return showCourse(this, 'GRG 1023');">GRG&#160;1023</a></td><td>World Regional Geography</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=GRK 1114" title="GRK&#160;1114" class="bubblelink code" onclick="return showCourse(this, 'GRK 1114');">GRK&#160;1114</a></td><td>Introductory Classical Greek I</td><td class="hourscol">4</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=HIS 2123" title="HIS&#160;2123" class="bubblelink code" onclick="return showCourse(this, 'HIS 2123');">HIS&#160;2123</a></td><td>Introduction to World Civilization to the Fifteenth Century</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=HIS 2133" title="HIS&#160;2133" class="bubblelink code" onclick="return showCourse(this, 'HIS 2133');">HIS&#160;2133</a></td><td>Introduction to World Civilization since the Fifteenth Century</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=HIS 2533" title="HIS&#160;2533" class="bubblelink code" onclick="return showCourse(this, 'HIS 2533');">HIS&#160;2533</a></td><td>Introduction to Latin American Civilization</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=HIS 2543" title="HIS&#160;2543" class="bubblelink code" onclick="return showCourse(this, 'HIS 2543');">HIS&#160;2543</a></td><td>Introduction to Islamic Civilization</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=HIS 2553" title="HIS&#160;2553" class="bubblelink code" onclick="return showCourse(this, 'HIS 2553');">HIS&#160;2553</a></td><td>Introduction to East Asian Civilization</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=HIS 2573" title="HIS&#160;2573" class="bubblelink code" onclick="return showCourse(this, 'HIS 2573');">HIS&#160;2573</a></td><td>Introduction to African Civilization</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=HIS 2583" title="HIS&#160;2583" class="bubblelink code" onclick="return showCourse(this, 'HIS 2583');">HIS&#160;2583</a></td><td>Introduction to South Asian Civilization</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=HUM 2093" title="HUM&#160;2093" class="bubblelink code" onclick="return showCourse(this, 'HUM 2093');">HUM&#160;2093</a></td><td>World Religions</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ITL 1014" title="ITL&#160;1014" class="bubblelink code" onclick="return showCourse(this, 'ITL 1014');">ITL&#160;1014</a></td><td>Elementary Italian I</td><td class="hourscol">4</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ITL 2333" title="ITL&#160;2333" class="bubblelink code" onclick="return showCourse(this, 'ITL 2333');">ITL&#160;2333</a></td><td>Italian Literature in English Translation</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=JPN 1014" title="JPN&#160;1014" class="bubblelink code" onclick="return showCourse(this, 'JPN 1014');">JPN&#160;1014</a></td><td>Elementary Japanese I</td><td class="hourscol">4</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=LAT 1114" title="LAT&#160;1114" class="bubblelink code" onclick="return showCourse(this, 'LAT 1114');">LAT&#160;1114</a></td><td>Introductory Latin I</td><td class="hourscol">4</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MAS 2013" title="MAS&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'MAS 2013');">MAS&#160;2013</a></td><td>Introduction to Chicano(a) Studies</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=PHI 1043" title="PHI&#160;1043" class="bubblelink code" onclick="return showCourse(this, 'PHI 1043');">PHI&#160;1043</a></td><td>Critical Thinking</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=PHI 2023" title="PHI&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'PHI 2023');">PHI&#160;2023</a></td><td>Introduction to Ancient Philosophy</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=PHI 2033" title="PHI&#160;2033" class="bubblelink code" onclick="return showCourse(this, 'PHI 2033');">PHI&#160;2033</a></td><td>Introduction to Early Modern Philosophy</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=PHI 2123" title="PHI&#160;2123" class="bubblelink code" onclick="return showCourse(this, 'PHI 2123');">PHI&#160;2123</a></td><td>Contemporary Moral Issues</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=RUS 1014" title="RUS&#160;1014" class="bubblelink code" onclick="return showCourse(this, 'RUS 1014');">RUS&#160;1014</a></td><td>Elementary Russian I</td><td class="hourscol">4</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=RUS 2333" title="RUS&#160;2333" class="bubblelink code" onclick="return showCourse(this, 'RUS 2333');">RUS&#160;2333</a></td><td>Russian Literature in English Translation</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=SPN 1014" title="SPN&#160;1014" class="bubblelink code" onclick="return showCourse(this, 'SPN 1014');">SPN&#160;1014</a></td><td>Elementary Spanish I</td><td class="hourscol">4</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=SPN 2333" title="SPN&#160;2333" class="bubblelink code" onclick="return showCourse(this, 'SPN 2333');">SPN&#160;2333</a></td><td>Hispanic Literature in English Translation</td><td class="hourscol">3</td></tr> <tr class="even lastrow"><td class="codecol"><a href="/search/?P=WS 2013" title="WS&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'WS 2013');">WS&#160;2013</a></td><td>Introduction to Women’s Studies</td><td class="hourscol">3</td></tr> </tbody></table>  <h4 class="toggle">Creative Arts (3 semester credit hours)</h4> <p class="Bodytext9pt">Students must complete one of the following courses, for a total of 3 semester credit hours:</p> <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=AHC 1113" title="AHC&#160;1113" class="bubblelink code" onclick="return showCourse(this, 'AHC 1113');">AHC&#160;1113</a></td><td>Survey of Art and Architecture from Prehistoric Times to 1350</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=AHC 1123" title="AHC&#160;1123" class="bubblelink code" onclick="return showCourse(this, 'AHC 1123');">AHC&#160;1123</a></td><td>Survey of Art and Architecture in Europe and the New World from 1350 to 1750</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=AHC 1133" title="AHC&#160;1133" class="bubblelink code" onclick="return showCourse(this, 'AHC 1133');">AHC&#160;1133</a></td><td>Survey of Modern Art</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ARC 1214" title="ARC&#160;1214" class="bubblelink code" onclick="return showCourse(this, 'ARC 1214');">ARC&#160;1214</a></td><td>Design I</td><td class="hourscol">4</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ARC 1513" title="ARC&#160;1513" class="bubblelink code" onclick="return showCourse(this, 'ARC 1513');">ARC&#160;1513</a></td><td>Great Buildings and Cities of the World</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ART 1103" title="ART&#160;1103" class="bubblelink code" onclick="return showCourse(this, 'ART 1103');">ART&#160;1103</a></td><td>Introduction to Visual Arts</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ART 1143" title="ART&#160;1143" class="bubblelink code" onclick="return showCourse(this, 'ART 1143');">ART&#160;1143</a></td><td>Art for Non-Art Majors</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=CLA 2033" title="CLA&#160;2033" class="bubblelink code" onclick="return showCourse(this, 'CLA 2033');">CLA&#160;2033</a></td><td>Introduction to Classical Literature</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=DAN 2003" title="DAN&#160;2003" class="bubblelink code" onclick="return showCourse(this, 'DAN 2003');">DAN&#160;2003</a></td><td>Introduction to Dance</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ENG 1113" title="ENG&#160;1113" class="bubblelink code" onclick="return showCourse(this, 'ENG 1113');">ENG&#160;1113</a></td><td>Introduction to Creative Literary Arts</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=HUM 2023" title="HUM&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'HUM 2023');">HUM&#160;2023</a></td><td>Introduction to the Humanities I</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=HUM 2033" title="HUM&#160;2033" class="bubblelink code" onclick="return showCourse(this, 'HUM 2033');">HUM&#160;2033</a></td><td>Introduction to the Humanities II</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=HUM 2053" title="HUM&#160;2053" class="bubblelink code" onclick="return showCourse(this, 'HUM 2053');">HUM&#160;2053</a></td><td>History of Film</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MAS 2023" title="MAS&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'MAS 2023');">MAS&#160;2023</a></td><td>Latino Cultural Expressions</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MUS 2243" title="MUS&#160;2243" class="bubblelink code" onclick="return showCourse(this, 'MUS 2243');">MUS&#160;2243</a></td><td>World Music in Society</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MUS 2623" title="MUS&#160;2623" class="bubblelink code" onclick="return showCourse(this, 'MUS 2623');">MUS&#160;2623</a></td><td>Fundamentals of Music for the Non-Music Major</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MUS 2633" title="MUS&#160;2633" class="bubblelink code" onclick="return showCourse(this, 'MUS 2633');">MUS&#160;2633</a></td><td>American Roots Music</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MUS 2663" title="MUS&#160;2663" class="bubblelink code" onclick="return showCourse(this, 'MUS 2663');">MUS&#160;2663</a></td><td>History and Styles of Jazz</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MUS 2673" title="MUS&#160;2673" class="bubblelink code" onclick="return showCourse(this, 'MUS 2673');">MUS&#160;2673</a></td><td>History and Styles of Rock</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MUS 2683" title="MUS&#160;2683" class="bubblelink code" onclick="return showCourse(this, 'MUS 2683');">MUS&#160;2683</a></td><td>Masterpieces of Music</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MUS 2693" title="MUS&#160;2693" class="bubblelink code" onclick="return showCourse(this, 'MUS 2693');">MUS&#160;2693</a></td><td>The Music of Latin America and the Caribbean</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MUS 2743" title="MUS&#160;2743" class="bubblelink code" onclick="return showCourse(this, 'MUS 2743');">MUS&#160;2743</a></td><td>Music and Film</td><td class="hourscol">3</td></tr> <tr class="even lastrow"><td class="codecol"><a href="/search/?P=PHI 2073" title="PHI&#160;2073" class="bubblelink code" onclick="return showCourse(this, 'PHI 2073');">PHI&#160;2073</a></td><td>Philosophy of Art</td><td class="hourscol">3</td></tr> </tbody></table>  <h4 class="toggle">American History (6 semester credit hours)</h4> <p class="Bodytext9pt">Students must complete two of the following courses, for a total of 6 semester credit hours:</p> <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=HIS 1043" title="HIS&#160;1043" class="bubblelink code" onclick="return showCourse(this, 'HIS 1043');">HIS&#160;1043</a></td><td>United States History: Pre-Columbus to Civil War Era</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=HIS 1053" title="HIS&#160;1053" class="bubblelink code" onclick="return showCourse(this, 'HIS 1053');">HIS&#160;1053</a></td><td>United States History: Civil War Era to Present</td><td class="hourscol">3</td></tr> <tr class="even lastrow"><td class="codecol"><a href="/search/?P=HIS 2053" title="HIS&#160;2053" class="bubblelink code" onclick="return showCourse(this, 'HIS 2053');">HIS&#160;2053</a></td><td>Texas History</td><td class="hourscol">3</td></tr> </tbody></table>  <h4 class="toggle">Government-Political Science (6 semester credit hours)</h4> <p>Students must complete two of the following courses, for a total of 6 semester credit hours:</p> <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=POL 1013" title="POL&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'POL 1013');">POL&#160;1013</a></td><td>Introduction to American Politics</td><td class="hourscol">3</td></tr> <tr class="odd"><td colspan="2"><span class="courselistcomment">and one of the following two courses:</span></td><td class="hourscol"></td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=POL 1133" title="POL&#160;1133" class="bubblelink code" onclick="return showCourse(this, 'POL 1133');">POL&#160;1133</a></td><td>Texas Politics and Society</td><td class="hourscol">3</td></tr> <tr class="odd lastrow"><td class="codecol"><a href="/search/?P=POL 1213" title="POL&#160;1213" class="bubblelink code" onclick="return showCourse(this, 'POL 1213');">POL&#160;1213</a></td><td>Civil Rights in Texas and America</td><td class="hourscol">3</td></tr> </tbody></table>  <h4 class="toggle">Social and Behavioral Sciences (3 semester credit hours)</h4> <p>Students must complete one of the following courses, for a total of 3 semester credit hours:</p> <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=AMS 2043" title="AMS&#160;2043" class="bubblelink code" onclick="return showCourse(this, 'AMS 2043');">AMS&#160;2043</a></td><td>Approaches to American Culture</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ANT 1013" title="ANT&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'ANT 1013');">ANT&#160;1013</a></td><td>Introduction to Anthropology</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ANT 2043" title="ANT&#160;2043" class="bubblelink code" onclick="return showCourse(this, 'ANT 2043');">ANT&#160;2043</a></td><td>Introduction to Archaeology</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ANT 2053" title="ANT&#160;2053" class="bubblelink code" onclick="return showCourse(this, 'ANT 2053');">ANT&#160;2053</a></td><td>Introduction to Cultural Anthropology</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=BBL 2003" title="BBL&#160;2003" class="bubblelink code" onclick="return showCourse(this, 'BBL 2003');">BBL&#160;2003</a></td><td>Language, Culture, and Society</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=BBL 2243" title="BBL&#160;2243" class="bubblelink code" onclick="return showCourse(this, 'BBL 2243');">BBL&#160;2243</a></td><td>Globalizing the Local: Bilingual Families, Communities, and Schools</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=CRJ 1113" title="CRJ&#160;1113" class="bubblelink code" onclick="return showCourse(this, 'CRJ 1113');">CRJ&#160;1113</a></td><td>The American Criminal Justice System</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ECO 2003" title="ECO&#160;2003" class="bubblelink code" onclick="return showCourse(this, 'ECO 2003');">ECO&#160;2003</a></td><td>Economic Principles and Issues</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ECO 2013" title="ECO&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ECO 2013');">ECO&#160;2013</a></td><td>Introductory Macroeconomics</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ECO 2023" title="ECO&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'ECO 2023');">ECO&#160;2023</a></td><td>Introductory Microeconomics</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=EGR 1343" title="EGR&#160;1343" class="bubblelink code" onclick="return showCourse(this, 'EGR 1343');">EGR&#160;1343</a></td><td>The Impact of Modern Technologies on Society</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=GRG 1013" title="GRG&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'GRG 1013');">GRG&#160;1013</a></td><td>Fundamentals of Geography</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=GRG 2623" title="GRG&#160;2623" class="bubblelink code" onclick="return showCourse(this, 'GRG 2623');">GRG&#160;2623</a></td><td>Human Geography</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=HTH 2413" title="HTH&#160;2413" class="bubblelink code" onclick="return showCourse(this, 'HTH 2413');">HTH&#160;2413</a></td><td>Introduction to Community and Public Health</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=HTH 2513" title="HTH&#160;2513" class="bubblelink code" onclick="return showCourse(this, 'HTH 2513');">HTH&#160;2513</a></td><td>Personal Health</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=IDS 2113" title="IDS&#160;2113" class="bubblelink code" onclick="return showCourse(this, 'IDS 2113');">IDS&#160;2113</a></td><td>Society and Social Issues</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=PSY 1013" title="PSY&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'PSY 1013');">PSY&#160;1013</a></td><td>Introduction to Psychology</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=SOC 1013" title="SOC&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'SOC 1013');">SOC&#160;1013</a></td><td>Introduction to Sociology</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=SOC 2013" title="SOC&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'SOC 2013');">SOC&#160;2013</a></td><td>Social Problems</td><td class="hourscol">3</td></tr> <tr class="odd lastrow"><td class="codecol"><a href="/search/?P=SOC 2023" title="SOC&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'SOC 2023');">SOC&#160;2023</a></td><td>Social Context of Drug Use</td><td class="hourscol">3</td></tr> </tbody></table>  <h4 class="toggle">Component Area Option (CAO) (3 semester credit hours)</h4> <p>Students must complete either one of the following courses or any additional core curriculum course not previously used to satisfy a core competent area requirement, for a total of 3 semester credit hours:</p> <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=COM 2113" title="COM&#160;2113" class="bubblelink code" onclick="return showCourse(this, 'COM 2113');">COM&#160;2113</a></td><td>Public Speaking</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=CS 1173" title="CS&#160;1173" class="bubblelink code" onclick="return showCourse(this, 'CS 1173');">CS&#160;1173</a></td><td>Data Analysis and Visualization using MATLAB</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=EGR 1403" title="EGR&#160;1403" class="bubblelink code" onclick="return showCourse(this, 'EGR 1403');">EGR&#160;1403</a></td><td>Technical Communication</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ENG 2413" title="ENG&#160;2413" class="bubblelink code" onclick="return showCourse(this, 'ENG 2413');">ENG&#160;2413</a></td><td>Technical Writing</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=PAD 1113" title="PAD&#160;1113" class="bubblelink code" onclick="return showCourse(this, 'PAD 1113');">PAD&#160;1113</a></td><td>Public Administration in American Society</td><td class="hourscol">3</td></tr> <tr class="odd lastrow"><td class="codecol"><a href="/search/?P=PHI 2043" title="PHI&#160;2043" class="bubblelink code" onclick="return showCourse(this, 'PHI 2043');">PHI&#160;2043</a></td><td>Introductory Logic</td><td class="hourscol">3</td></tr> </tbody></table>  </div> 
+<h3>Common Body of Knowledge (CBK)</h3>
+<p>All students seeking a B.B.A. degree in the College of Business must complete the following Common Body of Knowledge (CBK) courses in addition to the Core Curriculum.</p>
+ <table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=ACC 2013" title="ACC&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ACC 2013');">ACC&#160;2013</a></td><td>Principles of Accounting I</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ACC 2033" title="ACC&#160;2033" class="bubblelink code" onclick="return showCourse(this, 'ACC 2033');">ACC&#160;2033</a></td><td>Principles of Accounting II</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=BLW 3013" title="BLW&#160;3013" class="bubblelink code" onclick="return showCourse(this, 'BLW 3013');">BLW&#160;3013</a></td><td>Business Law</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=COM 1053" title="COM&#160;1053" class="bubblelink code" onclick="return showCourse(this, 'COM 1053');">COM&#160;1053</a></td><td>Business and Professional Speech</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=ECO 2013" title="ECO&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ECO 2013');">ECO&#160;2013</a></td><td>Introductory Macroeconomics (satisfies Social and Behavioral Sciences Core Curriculum requirement)</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=ECO 2023" title="ECO&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'ECO 2023');">ECO&#160;2023</a></td><td>Introductory Microeconomics</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=FIN 3014" title="FIN&#160;3014" class="bubblelink code" onclick="return showCourse(this, 'FIN 3014');">FIN&#160;3014</a></td><td>Principles of Business Finance</td><td class="hourscol">4</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=GBA 2013" title="GBA&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'GBA 2013');">GBA&#160;2013</a></td><td>Social and Ethical Issues in Business</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=IS 1403" title="IS&#160;1403" class="bubblelink code" onclick="return showCourse(this, 'IS 1403');">IS&#160;1403</a></td><td>Business Information Systems Fluency</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=IS 3003" title="IS&#160;3003" class="bubblelink code" onclick="return showCourse(this, 'IS 3003');">IS&#160;3003</a></td><td>Principles of Information Systems for Management</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MAT 1033" title="MAT&#160;1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT&#160;1033</a></td><td>Algebra with Calculus for Business (satisfies Mathematics Core Curriculum requirement, Actuarial Science majors must take MAT 1214 in lieu of MAT 1033)</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MGT 3003" title="MGT&#160;3003" class="bubblelink code" onclick="return showCourse(this, 'MGT 3003');">MGT&#160;3003</a></td><td>Business Communication and Professional Development</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MGT 3013" title="MGT&#160;3013" class="bubblelink code" onclick="return showCourse(this, 'MGT 3013');">MGT&#160;3013</a></td><td>Introduction to Organization Theory, Behavior, and Management</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MGT 4893" title="MGT&#160;4893" class="bubblelink code" onclick="return showCourse(this, 'MGT 4893');">MGT&#160;4893</a></td><td>Management Strategy (taken in semester of graduation)</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MKT 3013" title="MKT&#160;3013" class="bubblelink code" onclick="return showCourse(this, 'MKT 3013');">MKT&#160;3013</a></td><td>Principles of Marketing</td><td class="hourscol">3</td></tr> <tr class="odd"><td class="codecol"><a href="/search/?P=MS 1023" title="MS&#160;1023" class="bubblelink code" onclick="return showCourse(this, 'MS 1023');">MS&#160;1023</a></td><td>Business Statistics with Computer Applications I (Actuarial Science majors must take STA 1053 in lieu of MS 1023)</td><td class="hourscol">3</td></tr> <tr class="even"><td class="codecol"><a href="/search/?P=MS 3043" title="MS&#160;3043" class="bubblelink code" onclick="return showCourse(this, 'MS 3043');">MS&#160;3043</a></td><td>Business Statistics with Computer Applications II (Actuarial Science majors must take STA 3003 in lieu of MS 3043)</td><td class="hourscol">3</td></tr> <tr class="odd lastrow"><td class="codecol"><a href="/search/?P=MS 3053" title="MS&#160;3053" class="bubblelink code" onclick="return showCourse(this, 'MS 3053');">MS&#160;3053</a></td><td>Management Science and Operations Technology</td><td class="hourscol">3</td></tr> </tbody></table> 
+<p>In addition to the Core Curriculum requirements and requirements of the College of Business Common Body of Knowledge (CBK), all candidates for the degree must complete the following degree requirements.</p>
+<h3>Gateway Course</h3>
+<p>Students pursuing the B.B.A. degree in General Business must successfully complete the following Gateway Course with a grade of “C-�? or better in no more than two attempts.  A student who is unable to successfully complete this courses within two attempts, including dropping the course with a grade of “W�? or taking an equivalent course at another institution, will be required to change his or her major.</p>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even lastrow firstrow"><td class="codecol"><a href="/search/?P=MAT 1033" title="MAT&#160;1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT&#160;1033</a></td><td>Algebra with Calculus for Business</td><td class="hourscol"></td></tr>
+</tbody></table>
+
+<h3>Degree Requirements</h3>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td colspan="2"><span class="courselistcomment">A. Required courses in the major:</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=BLW 3023" title="BLW&#160;3023" class="bubblelink code" onclick="return showCourse(this, 'BLW 3023');">BLW&#160;3023</a></td><td>Business Organizations and Commercial Law</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ECO 3033" title="ECO&#160;3033" class="bubblelink code" onclick="return showCourse(this, 'ECO 3033');">ECO&#160;3033</a></td><td>Economics of Managerial Decisions</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=FIN 3033" title="FIN&#160;3033" class="bubblelink code" onclick="return showCourse(this, 'FIN 3033');">FIN&#160;3033</a></td><td>Principles of Investment</td><td class="hourscol">3</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or&#160;<a href="/search/?P=FIN 3313" title="FIN&#160;3313" class="bubblelink code" onclick="return showCourse(this, 'FIN 3313');">FIN&#160;3313</a></td><td colspan="2"> Money and Banking</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Any upper-division management (MGT) elective</span> <sup>1</sup></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Any upper-division management (MKT) elective</span> <sup>1</sup></td><td class="hourscol">3</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">3000 or 4000 level Business elective</span> <sup>2</sup></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">3000 or 4000 level Business elective</span> <sup>2</sup></td><td class="hourscol">3</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">4000 level Business elective</span> <sup>2</sup></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">B.  Technical Writing</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ENG 2413" title="ENG&#160;2413" class="bubblelink code" onclick="return showCourse(this, 'ENG 2413');">ENG&#160;2413</a></td><td>Technical Writing</td><td class="hourscol">3</td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">C.  Lower-division or upper-division business or non-business electives</span></td><td class="hourscol">2</td></tr>
+<tr class="listsum"><td colspan="2">Total Credit Hours</td><td class="hourscol">29</td></tr></tbody></table>
+
+<table border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol"><sup>1</sup></td><td class="notecol"><p>Excludes Common Body of Knowledge (CBK) courses and <span class="sc_courseinline"><a href="/search/?P=FIN 3003" title="FIN&#160;3003" class="bubblelink code" onclick="return showCourse(this, 'FIN 3003');">FIN&#160;3003</a></span>.</p></td></tr><tr><td valign="top" class="symcol"><sup>2</sup></td><td class="notecol"><p>No more than 6 semester credit hours may be chosen from the same discipline for the above electives.&#160;&#160;</p></td></tr></table>
+<h3>Course Sequence Guide for B.B.A. Degree in General Business</h3>
+<p>This course sequence guide is designed to assist students in completing their UTSA undergraduate business degree requirements. This is a term-by-term sample course guide. Students must satisfy other requirements in their catalog and meet with their academic advisor for an individualized degree plan. Progress within this guide depends upon such factors as course availability, individual student academic preparation, student time management, work obligations, and individual financial considerations. Students may choose to take courses during Summer terms to reduce course loads during long semesters.</p>
+<h4>Recommended Four-Year Academic Plan</h4>
+<table class="sc_plangrid "><tr><th class="year" colspan="3">First Year</th></tr>
+<tr><th colspan="2">Fall</th><th class="hourscol">Credit Hours</th></tr>
+<tr><td class="codecol"><a href="/search/?P=AIS 1203" title="AIS&#160;1203" class="bubblelink code" onclick="return showCourse(this, 'AIS 1203');">AIS&#160;1203</a></td><td>Academic Inquiry and Scholarship (core) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=MAT 1033" title="MAT&#160;1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT&#160;1033</a></td><td>Algebra with Calculus for Business (core and CBK) <sup>2</sup></td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=WRC 1013" title="WRC&#160;1013" class="bubblelink code" onclick="return showCourse(this, 'WRC 1013');">WRC&#160;1013</a></td><td>Freshman Composition I (Q) (core) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">American History (core) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Creative Arts (core) </td><td class="hourscol">3</td></tr>
+<tr><th colspan="2">Spring</th><th class="hourscol"></th></tr>
+<tr><td class="codecol"><a href="/search/?P=COM 1053" title="COM&#160;1053" class="bubblelink code" onclick="return showCourse(this, 'COM 1053');">COM&#160;1053</a></td><td>Business and Professional Speech (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=IS 1403" title="IS&#160;1403" class="bubblelink code" onclick="return showCourse(this, 'IS 1403');">IS&#160;1403</a></td><td>Business Information Systems Fluency (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=WRC 1023" title="WRC&#160;1023" class="bubblelink code" onclick="return showCourse(this, 'WRC 1023');">WRC&#160;1023</a></td><td>Freshman Composition II (Q) (core) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=ECO 2013" title="ECO&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ECO 2013');">ECO&#160;2013</a></td><td>Introductory Macroeconomics (core and CBK) <sup>1,2</sup></td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">American History (core) </td><td class="hourscol">3</td></tr>
+<tr><th class="year" colspan="3">Second Year</th></tr>
+<tr><th colspan="2">Fall</th><th class="hourscol"></th></tr>
+<tr><td class="codecol"><a href="/search/?P=ACC 2013" title="ACC&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ACC 2013');">ACC&#160;2013</a></td><td>Principles of Accounting I (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=ECO 2023" title="ECO&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'ECO 2023');">ECO&#160;2023</a></td><td>Introductory Microeconomics <sup>1</sup></td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=MS 1023" title="MS&#160;1023" class="bubblelink code" onclick="return showCourse(this, 'MS 1023');">MS&#160;1023</a></td><td>Business Statistics with Computer Applications I (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Government-Political Science (core) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Life &amp; Physical Sciences (core) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="3" class="codecol"><div style="margin-left: 20px;">Evaluated for Admission to the College of Business </div></td></tr>
+<tr><th colspan="2">Spring</th><th class="hourscol"></th></tr>
+<tr><td class="codecol"><a href="/search/?P=ACC 2033" title="ACC&#160;2033" class="bubblelink code" onclick="return showCourse(this, 'ACC 2033');">ACC&#160;2033</a></td><td>Principles of Accounting II (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=MGT 3003" title="MGT&#160;3003" class="bubblelink code" onclick="return showCourse(this, 'MGT 3003');">MGT&#160;3003</a></td><td>Business Communication and Professional Development (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=MS 3043" title="MS&#160;3043" class="bubblelink code" onclick="return showCourse(this, 'MS 3043');">MS&#160;3043</a></td><td>Business Statistics with Computer Applications II (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Language, Philosophy &amp; Culture (core) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Life &amp; Physical Sciences (core) </td><td class="hourscol">3</td></tr>
+<tr><th class="year" colspan="3">Third Year</th></tr>
+<tr><th colspan="2">Fall</th><th class="hourscol"></th></tr>
+<tr><td class="codecol"><a href="/search/?P=GBA 2013" title="GBA&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'GBA 2013');">GBA&#160;2013</a></td><td>Social and Ethical Issues in Business (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=IS 3003" title="IS&#160;3003" class="bubblelink code" onclick="return showCourse(this, 'IS 3003');">IS&#160;3003</a></td><td>Principles of Information Systems for Management (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=MGT 3013" title="MGT&#160;3013" class="bubblelink code" onclick="return showCourse(this, 'MGT 3013');">MGT&#160;3013</a></td><td>Introduction to Organization Theory, Behavior, and Management (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=MS 3053" title="MS&#160;3053" class="bubblelink code" onclick="return showCourse(this, 'MS 3053');">MS&#160;3053</a></td><td>Management Science and Operations Technology (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Government-Political Science (core) </td><td class="hourscol">3</td></tr>
+<tr><th colspan="2">Spring</th><th class="hourscol"></th></tr>
+<tr><td class="codecol"><a href="/search/?P=BLW 3013" title="BLW&#160;3013" class="bubblelink code" onclick="return showCourse(this, 'BLW 3013');">BLW&#160;3013</a></td><td>Business Law (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=FIN 3014" title="FIN&#160;3014" class="bubblelink code" onclick="return showCourse(this, 'FIN 3014');">FIN&#160;3014</a></td><td>Principles of Business Finance (CBK) </td><td class="hourscol">4</td></tr>
+<tr><td class="codecol"><a href="/search/?P=MKT 3013" title="MKT&#160;3013" class="bubblelink code" onclick="return showCourse(this, 'MKT 3013');">MKT&#160;3013</a></td><td>Principles of Marketing (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Component Area Option (core) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Any upper-division MGT course (3XXX or 4XXX) (major) </td><td class="hourscol">3</td></tr>
+<tr><th class="year" colspan="3">Fourth Year</th></tr>
+<tr><th colspan="2">Fall</th><th class="hourscol"></th></tr>
+<tr><td class="codecol"><a href="/search/?P=BLW 3023" title="BLW&#160;3023" class="bubblelink code" onclick="return showCourse(this, 'BLW 3023');">BLW&#160;3023</a></td><td>Business Organizations and Commercial Law (major) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=ECO 3033" title="ECO&#160;3033" class="bubblelink code" onclick="return showCourse(this, 'ECO 3033');">ECO&#160;3033</a></td><td>Economics of Managerial Decisions (major) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=ENG 2413" title="ENG&#160;2413" class="bubblelink code" onclick="return showCourse(this, 'ENG 2413');">ENG&#160;2413</a></td><td>Technical Writing (major) </td><td class="hourscol">3</td></tr>
+<tr><td class="codecol"><a href="/search/?P=FIN 3313" title="FIN&#160;3313" class="bubblelink code" onclick="return showCourse(this, 'FIN 3313');">FIN&#160;3313</a> or <a href="/search/?P=FIN 3033" title="FIN&#160;3033" class="bubblelink code" onclick="return showCourse(this, 'FIN 3033');"> 3033</a></td><td>Money and Banking or Principles of Investment (major) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Upper division Business elective (4xxx-level) </td><td class="hourscol">3</td></tr>
+<tr><th colspan="2">Spring</th><th class="hourscol"></th></tr>
+<tr><td class="codecol"><a href="/search/?P=MGT 4893" title="MGT&#160;4893" class="bubblelink code" onclick="return showCourse(this, 'MGT 4893');">MGT&#160;4893</a></td><td>Management Strategy (CBK) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Upper-division MKT elective (3xxx or 4xxx level) (major) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Upper-division Business elective (3xxx or 4xxx level) (major) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Upper-division Business elective (3xxx or 4xxx level) (major) </td><td class="hourscol">3</td></tr>
+<tr><td colspan="2" class="codecol">Business or non-business elective </td><td class="hourscol">2</td></tr>
+<tr class="plangridtotal lastrow"><td>&#160;</td><td>Total Credit Hours: </td><td  class="hourscol">120.0</td></tr>
+</table>
+<table border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol"><sup>1</sup></td><td class="notecol"><p><span class="sc_courseinline"><a href="/search/?P=ECO 2013" title="ECO&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ECO 2013');">ECO&#160;2013</a></span> and <span class="sc_courseinline"><a href="/search/?P=ECO 2023" title="ECO&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'ECO 2023');">ECO&#160;2023</a></span> may be taken in either sequence.</p></td></tr><tr><td valign="top" class="symcol"><sup>2</sup></td><td class="notecol"><p> College of Business students should take <span class="sc_courseinline"><a href="/search/?P=MAT 1033" title="MAT&#160;1033" class="bubblelink code" onclick="return showCourse(this, 'MAT 1033');">MAT&#160;1033</a></span> and <span class="sc_courseinline"><a href="/search/?P=ECO 2013" title="ECO&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ECO 2013');">ECO&#160;2013</a></span> to satisfy both Core Curriculum and  CBK requirements.</p></td></tr></table>
+<p>All degrees in the College of Business require 120 hours.  If students elect to take a course that satisfies both a Core and COB requirement, students may need to take an additional course to meet the 120 hours.</p>
+<h2><a id="bbaent" name="bbaent"></a>Bachelor of Business Administration Degree in Entrepreneurship</h2>
+<p>The Bachelor of Business Administration degree in Entrepreneurship is a college-wide program.  Faculty are drawn from across the College of Business. See the Management section of this catalog for the <a href="/undergraduate/business/management/#degreestext">Entrepreneurship degree plan</a> and the Entrepreneurship website for more information.</p>
+			</div>
+			<div id="minorstextcontainer" class="tab_content">
+				<a name="minorstext"></a><h2>Minor in Business Administration</h2>
+<p>The Minor in Business Administration is open to all University majors (including B.A. in Economics and B.S. in Statistics), except business students seeking a B.B.A. degree. The following 24 semester credit hours are required in the College of Business:</p>
+<table class="sc_courselist"  width="100%"><colgroup><col class="codecol" /><col class="titlecol" /><col align="char" char="." class="hourscol" /></colgroup><tbody><tr class="even firstrow"><td class="codecol"><a href="/search/?P=ACC 2003" title="ACC&#160;2003" class="bubblelink code" onclick="return showCourse(this, 'ACC 2003');">ACC&#160;2003</a></td><td>Foundations of Accounting</td><td class="hourscol">3</td></tr>
+<tr class="orclass even firstrow"><td class="codecol orclass">or&#160;<a href="/search/?P=ACC 2013" title="ACC&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'ACC 2013');">ACC&#160;2013</a></td><td colspan="2"> Principles of Accounting I</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=BLW 3013" title="BLW&#160;3013" class="bubblelink code" onclick="return showCourse(this, 'BLW 3013');">BLW&#160;3013</a></td><td>Business Law</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ECO 2023" title="ECO&#160;2023" class="bubblelink code" onclick="return showCourse(this, 'ECO 2023');">ECO&#160;2023</a></td><td>Introductory Microeconomics</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=FIN 3003" title="FIN&#160;3003" class="bubblelink code" onclick="return showCourse(this, 'FIN 3003');">FIN&#160;3003</a></td><td>Survey of Finance</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=GBA 2013" title="GBA&#160;2013" class="bubblelink code" onclick="return showCourse(this, 'GBA 2013');">GBA&#160;2013</a></td><td>Social and Ethical Issues in Business (prerequisite  for BLW 3013)</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=IS 1403" title="IS&#160;1403" class="bubblelink code" onclick="return showCourse(this, 'IS 1403');">IS&#160;1403</a></td><td>Business Information Systems Fluency</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MGT 3013" title="MGT&#160;3013" class="bubblelink code" onclick="return showCourse(this, 'MGT 3013');">MGT&#160;3013</a></td><td>Introduction to Organization Theory, Behavior, and Management</td><td class="hourscol">3</td></tr>
+<tr class="odd lastrow"><td class="codecol"><a href="/search/?P=MKT 3013" title="MKT&#160;3013" class="bubblelink code" onclick="return showCourse(this, 'MKT 3013');">MKT&#160;3013</a></td><td>Principles of Marketing</td><td class="hourscol">3</td></tr>
+<tr class="listsum"><td colspan="2">Total Credit Hours</td><td class="hourscol">24</td></tr></tbody></table>
+
+<p>To declare a Minor in Business Administration, obtain advice and seek approval of substitutions for course requirements with your academic advisor.</p>
+			</div>
+<div id="courseinventorycontainer" class="tab_content">
+<div class="courses">
+<h3 class="keepwithnext">General Business Administration (GBA) Courses</h3>
+
+<div class="courseblock">
+<p class="courseblocktitle"><strong>GBA&#160;2013.  Social and Ethical Issues in Business.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+A study of the social and ethical responsibilities of business organizations and of the people who work in those organizations.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>GBA&#160;4951.  Special Studies in General Business Administration.  (1-0) 1 Credit Hour.</strong></p>
+<p class="courseblockdesc">
+Prerequisites: MGT 3003 and consent of instructor, Department Chair, and Dean of the College.
+An organized course offering the opportunity for specialized study not normally or not often available as part of the regular course offerings. Special Studies may be repeated for credit when the topics vary, but not more than 6 semester credit hours, regardless of discipline, will apply to a bachelor's degree.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>GBA&#160;4952.  Special Studies in General Business Administration.  (2-0) 2 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisites: MGT 3003 and consent of instructor, Department Chair, and Dean of the College.
+An organized course offering the opportunity for specialized study not normally or not often available as part of the regular course offerings. Special Studies may be repeated for credit when the topics vary, but not more than 6 semester credit hours, regardless of discipline, will apply to a bachelor's degree.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>GBA&#160;4953.  Special Studies in General Business Administration.  (3-0) 3 Credit Hours.</strong></p>
+<p class="courseblockdesc">
+Prerequisites: MGT 3003 and consent of instructor, Department Chair, and Dean of the College.
+An organized course offering the opportunity for specialized study not normally or not often available as part of the regular course offerings. Special Studies may be repeated for credit when the topics vary, but not more than 6 semester credit hours, regardless of discipline, will apply to a bachelor's degree.<br />
+</p>
+</div>
+</div>
+</div>
+		</div><!--end #content-->
+	</div><!--end #right-col-->
+</div><!--end #wrapper-->
+
+<!--htdig_noindex-->
+<div id="contact">
+	<div class="wrap">
+	<h2>Contact Us</h2>
+		<p>
+			The University of Texas at San Antonio
+			<br />
+			Office of the Registrar
+			<br />
+			One UTSA Circle
+			<br />
+			San Antonio, TX 78249
+		</p>
+		<ul>
+			<li><strong>Phone:</strong> 210-458-8000</li>
+			<li><strong>Toll Free Phone:</strong> 800-669-0919</li>
+			<li><strong>Email:</strong> <a href="mailto:registrar@utsa.edu">registrar@utsa.edu</a></li>
+		</ul>
+
+	</div><!--end #contact .wrap-->
+</div><!--end #contact-->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="footer" role="contentinfo">
+	<div class="wrap">
+		<div id="foot-logo">
+			<a href="http://www.utsa.edu">The University of Texas at San Antonio</a>
+		</div>
+		<ul>
+			<li><a href=" http://utsa.edu/ada/">ADA</a></li>
+		    <li><a href="http://www.utsa.edu/sitemap/">Sitemap</a></li>
+		    <li><a href="http://www.utsa.edu/maps/">Locations</a></li>
+		    <li><a href="http://www.utsa.edu/job.html">Jobs</a></li>
+		    <li><a href="http://alerts.utsa.edu/">Campus Alerts</a></li>
+		    <li><a href="http://www.utsa.edu/policies/">Policies</a></li>
+		    <li><a href="http://www.utsa.edu/openrecords/">Open Records</a></li>
+		    <li><a href="http://www.utsa.edu/acrs/Compliance/comply_hotline.htm">Report Fraud</a></li>
+		    <li><a href="http://www.utsa.edu/policies/reqlinks.html">Required Links</a></li>
+		    <li><a href="http://www.utsa.edu/identity/">Identity</a></li>
+		    <li><a href="http://www.utsystem.edu/">UT System</a></li>
+		    <li><a href="http://www.utsa.edu/directory/contact/">Contact Us</a></li>
+		</ul>
+	    <p><a href="http://www.utsa.edu">&copy; The University of Texas at San Antonio</a> | One UTSA Circle, San Antonio TX 78249 | Information: 210-458-4011 | UTSA Police: 210-458-4242</p>
+	</div><!--end #footer .wrap-->
+</div><!--end #footer-->
+<!--/htdig_noindex-->
+
+
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+
+<a href="business.pdf" target="_blank">Download PDF of this page</a>
+			</div>
+			<p>
+				<em>The PDF will include all information unique to this page.</em>
+			</p>
+		</div>
+		<div class="print-option">
+			<div class="option-head">
+				Download PDF of the entire publication (XX MB)
+			</div>
+			<p>
+				<em>All pages in the publication.</em>
+			</p>
+		</div>
+	</div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

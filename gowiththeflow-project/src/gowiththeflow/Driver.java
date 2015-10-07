@@ -33,32 +33,22 @@ public class Driver {
 	 */
 	public static void main(String[] args) throws Exception {
 
-		// STEP 1:
-
-		// Name of catalog text file
+		// Declare Variables
 		String catalogFileName = "data/01_undergraduate_source_code.txt";
-		
-		// Name of department text file
 		String departmentFileName = "data/02_list_of_departments.txt";
-
-		// List of departments not used
 		ArrayList<String> departmentsNotUsedList = new ArrayList<String>(
 				Arrays.asList("generalinformation", "bachelorsdegreeregulations",
 						"certificateprograms", "universitycollege", "honorscollege",
 						"coursedescriptions", "texascommoncoursenumberingsystem",
 						"nationalstandardizedtests", "faculty", "azindex"));
-
-		// List of departments used
 		ArrayList<String> departmentsUsedList = new ArrayList<String>();
-
-		// Grab source code from undergraduate URL
+		
+		// STEP 1:
 		DeptSourceCode catalogDepartments = new DeptSourceCode(
 				"http://catalog.utsa.edu/undergraduate/", catalogFileName);
-		
+				
 		// STEP 2:
-
-		// Match pattern for departments from source code
-		DeptMajorList match = new DeptMajorList(catalogDepartments.getFileName(),
+		DeptMajorList match = new DeptMajorList(catalogFileName,
 				"^.*undergraduate/(.*)/\">", departmentFileName);
 
 		// STEP 3:
@@ -91,7 +81,6 @@ public class Driver {
 		// STEP 5:
 		// Merge departments and majors into one file
 		String tempFileName = "data/05_list_of_all_departments_and_majors.txt";
-		System.out.println("test");
 		File finalFile = new File(tempFileName);
 		if (finalFile.exists()) {
 			finalFile.delete();
