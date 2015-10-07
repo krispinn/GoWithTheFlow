@@ -67,9 +67,15 @@ public class FlowView extends JFrame {
 		colorList = new JList(colorNames);
 		colorList.setVisibleRowCount(7);
 		colorList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-		listPanel.add(new JScrollPane(colorList), BorderLayout.NORTH);
-		JButton resetButton = new JButton("RESET");
-		listPanel.add(resetButton, BorderLayout.SOUTH);
+		listPanel.setLayout(new GridLayout(6, 2));
+		listPanel.add(new JScrollPane(colorList));
+		listPanel.add(new JLabel());
+		listPanel.add(new JLabel());
+		listPanel.add(new JLabel());
+		listPanel.add(new JLabel("Prerequisites:"));
+		listPanel.add(new JLabel());
+		listPanel.add(new JLabel("Concurrent Courses:"));
+		listPanel.add(new JLabel());
 	} // end constructor
 
 	/**

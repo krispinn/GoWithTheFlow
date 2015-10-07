@@ -24,6 +24,7 @@ public class FlowController implements ListSelectionListener, MouseMotionListene
 		this.view = view;
 	}
 
+	
 	/**
 	 * Add a point to the model when the user drags the mouse, and
 	 * repaint the window.  Need more logic to draw solid lines.
@@ -51,4 +52,9 @@ public class FlowController implements ListSelectionListener, MouseMotionListene
 		model.setSelectedColor(color);
 		view.repaint();
 	}
+	
+	/*public void actionPerformed(ActionEvent e) {
+		
+		
+	}*/
 }

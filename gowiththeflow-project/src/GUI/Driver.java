@@ -23,7 +23,7 @@ public class Driver {
 		
 		// start it up
 		view.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		view.setSize(500, 600);
+		view.setSize(800, 500);
 		view.setVisible(true);
 	}
 }
