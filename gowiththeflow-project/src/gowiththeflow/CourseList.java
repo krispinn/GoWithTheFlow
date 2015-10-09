@@ -34,7 +34,8 @@ public class CourseList {
 		URL coursePage = new URL(address);
 
 		// if file doesn't exist, create it
-		if (!courseFile.exists()) courseFile.createNewFile();
+		if (!courseFile.exists())
+			courseFile.createNewFile();
 
 		// used to write to the output file
 		FileWriter fw = new FileWriter(courseFile.getAbsoluteFile());
@@ -54,36 +55,9 @@ public class CourseList {
 						+ courseData.group(3));
 
 				// get the prerequisites
-				getPrereq(in, bw);
-
-				// create a separator for the concurrent enrollment courses
-				bw.write(" | C");
-
-				// check if there are concurrent enrollment courses
-				if (inputLine.matches(".*[Cc]oncurrent.*")) {
-					// create an array of strings using a space field separator
-					String[] inputFields = inputLine.split(" ");
-					// find where concurrent enrollment courses begin in the sentence
-					int conIndex = Arrays.asList(inputFields).indexOf("Concurrent");
-					// if the above statement returns -1, then "concurrent" has a lower-case 'c'
-					if (conIndex == -1)
-						conIndex = Arrays.asList(inputFields).indexOf("concurrent");
-
-					// look for the concurrent enrollment courses in the sentence
-					for (int i = conIndex + 1; i < inputFields.length; i++) {
-						// checks to see if a course subject was found
-						if (inputFields[i].matches("[A-Z]+")) {
-							// remove unnecessary punctuation from the next element (course number)
-							inputFields[i + 1] = inputFields[i + 1].replace(",", "");
-							inputFields[i + 1] = inputFields[i + 1].replace(".", "");
-							// write the course subject and number to the output file
-							bw.write(" " + inputFields[i] + " " + inputFields[i + 1]);
-							// used to skip past the already read/written course number
-							i++;
-						}
-					}
-				}
-
+				String tmp = getPrereq(in, bw);
+				// get the concurrent enrollment courses
+				getConcurrent(in, bw, tmp);
 				// move to the next line so that each course will be on its own line
 				bw.newLine();
 			}
@@ -92,7 +66,7 @@ public class CourseList {
 		bw.close();
 	}
 
-	public void getPrereq(BufferedReader in, BufferedWriter bw) throws Exception {
+	public String getPrereq(BufferedReader in, BufferedWriter bw) throws Exception {
 		// temporary input buffer
 		String inputLine;
 		// prereqs and concurrent enrollment courses are always two lines below course data
@@ -110,7 +84,43 @@ public class CourseList {
 			for (int i = 1; i < inputFields.length; i++) {
 				// if we started reading concurrent enrollment classes, break out of loop
 				if (inputFields[i].matches("[Cc]oncurrent"))
-					return;
+					return inputLine;
+				// checks to see if a course subject was found
+				if (inputFields[i].matches("[A-Z]+")) {
+					// remove unnecessary punctuation from the next element (course number)
+					inputFields[i + 1] = inputFields[i + 1].replace(",", "");
+					inputFields[i + 1] = inputFields[i + 1].replace(".", "");
+					// write the course subject and number to the output file
+					bw.write(" " + inputFields[i] + " " + inputFields[i + 1]);
+					// used to skip past the already read/written course number
+					i++;
+				}
+			}
+			return "none";
+		}
+		return inputLine;
+	}
+
+	public void getConcurrent(BufferedReader in, BufferedWriter bw, String inputLine) throws Exception {
+		// create a separator for the concurrent enrollment courses
+		bw.write(" | C");
+		
+		// return if there are no concurrent enrollment courses
+		if (inputLine.equals("none"))
+			return;
+
+		// check if there are concurrent enrollment courses
+		if (inputLine.matches(".*[Cc]oncurrent.*")) {
+			// create an array of strings using a space field separator
+			String[] inputFields = inputLine.split(" ");
+			// find where concurrent enrollment courses begin in the sentence
+			int conIndex = Arrays.asList(inputFields).indexOf("Concurrent");
+			// if the above statement returns -1, then "concurrent" has a lower-case 'c'
+			if (conIndex == -1)
+				conIndex = Arrays.asList(inputFields).indexOf("concurrent");
+
+			// look for the concurrent enrollment courses in the sentence
+			for (int i = conIndex + 1; i < inputFields.length; i++) {
 				// checks to see if a course subject was found
 				if (inputFields[i].matches("[A-Z]+")) {
 					// remove unnecessary punctuation from the next element (course number)
@@ -123,13 +133,7 @@ public class CourseList {
 				}
 			}
 		}
-
 	}
-
-	public void getConcurrent() {
-
-	}
-
 }
 
 /*
