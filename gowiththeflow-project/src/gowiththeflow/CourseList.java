@@ -137,6 +137,7 @@ public class CourseList {
 }
 
 /*
- * Sample Output Lines: CS 1143 Web Design | P | C CS 3423 Systems Programming | P CS 2121 CS 2123 |
- * C CS 3421
+ * Sample Output Lines:
+ * CS 1143 Web Design | P | C 
+ * CS 3423 Systems Programming | P CS 2121 CS 2123 | C CS 3421
  */
