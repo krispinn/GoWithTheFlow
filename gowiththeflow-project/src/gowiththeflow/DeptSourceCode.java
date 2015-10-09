@@ -34,21 +34,7 @@ public class DeptSourceCode {
 		if (!outputFile.exists())
 			outputFile.createNewFile();
 		writeToFile();
-	}
-
-	/**
-	 * @return Returns name of output file.
-	 */
-	public String getFileName() {
-		return outputFile.getName();
-	}
-
-	/**
-	 * @return Returns the output file.
-	 */
-	public File getFile() {
-		return outputFile;
-	}
+	}//end constructor
 
 	/**
 	 * Writes the source code to the given output file
@@ -58,22 +44,17 @@ public class DeptSourceCode {
 	private void writeToFile() throws Exception {
 
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(url.openStream()));
-
 		FileWriter fileWriter = new FileWriter(outputFile.getAbsoluteFile());
 		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 		String inputLine;
+		
 		while ((inputLine = bufferedReader.readLine()) != null) {
 			bufferedWriter.write(inputLine);
 			bufferedWriter.newLine();
-		}
-
+		} //end while
+		
 		bufferedReader.close();
 		bufferedWriter.close();
-
-	}
-
-	@Override
-	public String toString() {
-		return "UrlToSourceCode [catalog=" + url + ", file=" + outputFile + "]";
-	}
-}
+	}//end method writeToFile
+	
+}//end class DeptSourceCode

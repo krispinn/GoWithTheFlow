@@ -41,7 +41,7 @@ public class DeptMajorList {
 		if (!outputFile.exists())
 			outputFile.createNewFile();
 		match();
-	}
+	} //end constructor
 
 	/**
 	 * match method creates four objects: BufferedReader - used to read data
@@ -60,22 +60,25 @@ public class DeptMajorList {
 	 */
 	public void match() throws Exception {
 
-		if (!outputFile.exists())
-			outputFile.createNewFile();
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
 		Pattern compiledRegexPattern = Pattern.compile(expression);
 		FileWriter fileWriter = new FileWriter(outputFile.getAbsoluteFile());
 		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
 		while (bufferedReader.ready()) {
+			
 			String temporaryString = bufferedReader.readLine();
+			
 			if (temporaryString.matches("^\\s+.*href=\"/undergraduate/.*$")) {
 				Matcher matcher = compiledRegexPattern.matcher(temporaryString);
+				
 				while (matcher.find()) {
 					bufferedWriter.write(matcher.group(1));
 					bufferedWriter.newLine();
 				} // end while
+				
 			} // end if
+			
 		} // end while
 		bufferedReader.close();
 		bufferedWriter.close();

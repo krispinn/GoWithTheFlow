@@ -40,7 +40,7 @@ public class Driver {
 	 */
 	public static void main(String[] args) throws Exception {
 
-		// Declare Variables
+		// Declaring Variables
 		String catalogFileName = "data/01_undergraduate_source_code.txt";
 		String departmentFileName = "data/02_list_of_departments.txt";
 		ArrayList<String> departmentsNotUsedList = new ArrayList<String>(
