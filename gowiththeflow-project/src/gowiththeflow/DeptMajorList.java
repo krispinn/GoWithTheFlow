@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.io.*;
 
 /**
- * MatchPatternFromSourceCode finds a regular expression from source code and
+ * DeptMajorList finds a regular expression from source code and
  * outputs what it finds to a text file.
  * 
  * @author gowiththeflow: Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel

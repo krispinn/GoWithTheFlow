@@ -6,19 +6,44 @@ import java.util.Arrays;
 import java.net.*;
 import java.io.*;
 
+/**
+ * CourseList generates a list of all courses of a specific subject.
+ * 
+ * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
+ */
 public class CourseList {
 
-	// the department of the major
+	/**
+	 * The department of the major.
+	 */
 	private String department;
-	private String major;
-	// the subject of the courses
 
+	/**
+	 * The subject of the courses to be generated.
+	 */
+	private String major;
+
+	/**
+	 * The constructor initializes the fields and calls a function to generate the course list.
+	 * 
+	 * @param department
+	 *            the department of the major
+	 * @param major
+	 *            the subject of the courses to be generated
+	 * @throws Exception
+	 */
 	public CourseList(String department, String major) throws Exception {
 		this.department = department;
 		this.major = major;
 		generateCourses();
 	}
 
+	/**
+	 * Creates a url to a major's courses page with the two fields and generates a list of courses
+	 * by parsing the page's HTML data with pattern matching.
+	 * 
+	 * @throws Exception
+	 */
 	public void generateCourses() throws Exception {
 
 		// pattern to match the subject, course number, and course name, respectively
@@ -66,6 +91,16 @@ public class CourseList {
 		bw.close();
 	}
 
+	/**
+	 * This method checks for prerequisites and writes them to the output file if any are found.
+	 * 
+	 * @param in
+	 *            the input stream from the web page
+	 * @param bw
+	 *            the output stream to the course list text file
+	 * @return a String if there may be concurrent enrollment courses; otherwise returns "none"
+	 * @throws Exception
+	 */
 	public String getPrereq(BufferedReader in, BufferedWriter bw) throws Exception {
 		// temporary input buffer
 		String inputLine;
@@ -101,10 +136,23 @@ public class CourseList {
 		return inputLine;
 	}
 
-	public void getConcurrent(BufferedReader in, BufferedWriter bw, String inputLine) throws Exception {
+	/**
+	 * This method checks for concurrent enrollment courses and writes them to the output file if
+	 * any are found.
+	 * 
+	 * @param in
+	 *            the input stream from the web page
+	 * @param bw
+	 *            the output stream to the course list text file
+	 * @param inputLine
+	 *            the line that may contain concurrent enrollment courses
+	 * @throws Exception
+	 */
+	public void getConcurrent(BufferedReader in, BufferedWriter bw, String inputLine)
+			throws Exception {
 		// create a separator for the concurrent enrollment courses
 		bw.write(" | C");
-		
+
 		// return if there are no concurrent enrollment courses
 		if (inputLine.equals("none"))
 			return;
@@ -138,6 +186,6 @@ public class CourseList {
 
 /*
  * Sample Output Lines:
- * CS 1143 Web Design | P | C 
- * CS 3423 Systems Programming | P CS 2121 CS 2123 | C CS 3421
+ * CS 1033 Microcomputer Applications | P | C
+ * CS 3843 Computer Organization | P CS 2121 CS 2123 | C CS 3841
  */
