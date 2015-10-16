@@ -13,6 +13,7 @@ public class Driver {
 	/**
 	 * main method starts the application
 	 */
+	
 	public static void main(String[] args) {
 		FlowModel model = new FlowModel();
 		FlowView view = new FlowView(model);

@@ -1,8 +1,6 @@
 package GUI;
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
-import javax.swing.event.*;
 
 import GUI.FlowController;
 
@@ -49,6 +47,7 @@ public class FlowView extends JFrame {
 		Color.LIGHT_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK, 
 		Color.RED, Color.WHITE, Color.YELLOW};
 
+	private String[] sampleList = { "COURSE 1", "COURSE 2", "COURSE 3" };
 	/**
 	 * Create and organize the components of the window.
 	 */
@@ -62,11 +61,22 @@ public class FlowView extends JFrame {
 		add(mousePanel, BorderLayout.CENTER);
 		
 		
-		listPanel = new JPanel(new GridLayout(1,0));
+		listPanel = new JPanel(new GridLayout(7,1));
 		add(listPanel, BorderLayout.EAST);
         listPanel.setBorder(BorderFactory.createCompoundBorder(
                         BorderFactory.createTitledBorder("Course Info"),
-                        BorderFactory.createEmptyBorder(5,5,5,250)));
+                        BorderFactory.createEmptyBorder(5,5,5,150)));
+        // this adds a drop down menu to the list panel, problem is 
+        // the gridLayout form isn't stretching to fit the entire bordered box
+        // look into gridBagLayout instead
+        final JComboBox<String> courseBox = new JComboBox<String>(sampleList);
+        
+        JPanel smallerPanel = new JPanel(new GridLayout(2,1));
+        smallerPanel.setBackground(Color.WHITE);
+        smallerPanel.add(new JLabel("Select a Course:"));
+        smallerPanel.add(courseBox);
+        listPanel.add(smallerPanel);
+        
 		/* EAST: Add a list so the user can select a color. */
 		/*
 		 * listPanel = new JPanel();
@@ -110,7 +120,7 @@ public class FlowView extends JFrame {
 	 * to paint the components.
 	 */
 	public void paint(Graphics g) {
-		listPanel.setBackground(model.getSelectedColor());
+		listPanel.setBackground(Color.WHITE);
 		super.paint(g); // This will paint the components.
 	} // end method paint
 }
