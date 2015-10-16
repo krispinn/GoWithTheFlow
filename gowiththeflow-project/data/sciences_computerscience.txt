@@ -30,7 +30,7 @@ CS 3843 Computer Organization | P CS 2121 CS 2123 | C CS 3841
 CS 3851 Computer Architecture Recitation | P CS 3421 CS 3423 CS 3841 CS 3843 | C CS 3853
 CS 3853 Computer Architecture | P CS 3421 CS 3423 CS 3841 CS 3843 | C CS 3851
 CS 3873 Computer Networks | P CS 3841 CS 3843 | C
-CS 4313 Automata | P CS 3341 CS 3343 | C
+CS 4313 Automata, Computability, and Formal Languages | P CS 3341 CS 3343 | C
 CS 4353 Unix and Network Security | P CS 3433 | C
 CS 4363 Cryptography | P CS 3341 CS 3343 CS 3433 | C
 CS 4383 Computer Graphics | P CS 2121 CS 2123 CS 3341 CS 3343 | C
@@ -42,7 +42,7 @@ CS 4713 Compiler Construction | P CS 3341 CS 3343 CS 3841 CS 3843 | C
 CS 4723 Software Validation and Quality Assurance | P CS 3443 | C
 CS 4733 Project Management | P CS 3443 | C
 CS 4743 Applied Software Engineering | P CS 3443 | C
-CS 4773 Object | P CS 3443 | C
+CS 4773 Object-Oriented Systems | P CS 3443 | C
 CS 4823 Introduction to Parallel Programming | P CS 3341 CS 3343 CS 3421 CS 3423 | C
 CS 4833 Embedded Systems | P CS 3341 CS 3343 CS 3731 CS 3733 CS 3851 CS 3853 | C
 CS 4913 Independent Study | P | C
