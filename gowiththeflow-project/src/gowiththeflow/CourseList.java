@@ -1,10 +1,14 @@
 package gowiththeflow;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.Arrays;
-import java.net.*;
-import java.io.*;
 
 /**
  * CourseList generates a list of all courses of a specific subject.
@@ -185,7 +189,6 @@ public class CourseList {
 }
 
 /*
- * Sample Output Lines:
- * CS 1033 Microcomputer Applications | P | C
- * CS 3843 Computer Organization | P CS 2121 CS 2123 | C CS 3841
+ * Sample Output Lines: CS 1033 Microcomputer Applications | P | C CS 3843 Computer Organization | P
+ * CS 2121 CS 2123 | C CS 3841
  */

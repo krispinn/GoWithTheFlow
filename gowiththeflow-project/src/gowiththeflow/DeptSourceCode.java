@@ -1,7 +1,11 @@
 package gowiththeflow;
 
-import java.net.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.net.URL;
 
 /**
  * Takes a URL and returns the source code for that URL
