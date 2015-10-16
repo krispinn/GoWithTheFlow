@@ -37,14 +37,14 @@ public class FlowView extends JFrame {
 	/** 
 	 * the String names of the colors that the user can select 
 	 */
-	private static final String[] colorNames = {"Black", "Blue", "Cyan",
+	private static final String[] colorNames = {"Chemistry", "Computer Science", "Geological Sciences", "Mathematics", "Black", "Blue", "Cyan",
 		"Dark Gray", "Gray", "Green", "Light Gray", "Magenta",
 		"Orange", "Pink", "Red", "White", "Yellow"};
 	
 	/** 
 	 * the Colors that the user can select 
 	 */
-	private static final Color[] colors = {Color.BLACK, Color.BLUE,
+	private static final Color[] colors = {Color.BLACK, Color.ORANGE,
 		Color.CYAN, Color.DARK_GRAY, Color.GRAY, Color.GREEN, 
 		Color.LIGHT_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK, 
 		Color.RED, Color.WHITE, Color.YELLOW};
@@ -52,7 +52,7 @@ public class FlowView extends JFrame {
 	/**
 	 * Create and organize the components of the window.
 	 */
-	public FlowView(FlowModel model) {
+	public FlowView(FlowModel model) throws NullPointerException {
 		super("Major Flow Chart");
 		this.model = model;
 
@@ -60,22 +60,32 @@ public class FlowView extends JFrame {
 		mousePanel = new CourseGenerator(model);
 		mousePanel.setBackground(Color.WHITE);
 		add(mousePanel, BorderLayout.CENTER);
-
+		
+		
+		listPanel = new JPanel(new GridLayout(1,0));
+		add(listPanel, BorderLayout.EAST);
+        listPanel.setBorder(BorderFactory.createCompoundBorder(
+                        BorderFactory.createTitledBorder("Course Info"),
+                        BorderFactory.createEmptyBorder(5,5,5,250)));
 		/* EAST: Add a list so the user can select a color. */
-		listPanel = new JPanel();
+		/*
+		 * listPanel = new JPanel();
 		add(listPanel, BorderLayout.EAST);
 		colorList = new JList(colorNames);
 		colorList.setVisibleRowCount(7);
 		colorList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		listPanel.setLayout(new GridLayout(6, 2));
 		listPanel.add(new JScrollPane(colorList));
-		listPanel.add(new JLabel());
-		listPanel.add(new JLabel());
-		listPanel.add(new JLabel());
+		//listPanel.add(new JLabel());
+		listPanel.add(new JLabel("CS 1063 - Introduction to Computer Programming I   "));
+		//listPanel.add(new JLabel());
 		listPanel.add(new JLabel("Prerequisites:"));
 		listPanel.add(new JLabel());
 		listPanel.add(new JLabel("Concurrent Courses:"));
 		listPanel.add(new JLabel());
+		 */
+		
+		
 	} // end constructor
 
 	/**
@@ -84,7 +94,7 @@ public class FlowView extends JFrame {
 	 * @param listener
 	 */
 	public void registerListener(FlowController listener) {
-		colorList.addListSelectionListener(listener);
+		//colorList.addListSelectionListener(listener);
 		mousePanel.addMouseMotionListener(listener);
 	}
 
