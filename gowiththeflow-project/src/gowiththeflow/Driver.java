@@ -45,8 +45,8 @@ public class Driver {
 	public static void main(String[] args) throws Exception {
 
 		// Declaring Variables
-		String catalogFileName = "data/01_undergraduate_source_code.txt";
-		String departmentFileName = "data/02_list_of_departments.txt";
+		String catalogFileName = "data/deptmajorinfo/01_undergraduate_source_code.txt";
+		String departmentFileName = "data/deptmajorinfo/02_list_of_departments.txt";
 		ArrayList<String> departmentsNotUsedList = new ArrayList<String>(
 				Arrays.asList("generalinformation", "bachelorsdegreeregulations", "certificateprograms",
 						"universitycollege", "honorscollege", "coursedescriptions", "texascommoncoursenumberingsystem",
@@ -72,7 +72,7 @@ public class Driver {
 				continue;
 			}
 			String concatenatedUrl = "http://catalog.utsa.edu/undergraduate/" + departmentName;
-			String tempFileName = "data/03_department_" + departmentName + "_source_code.txt";
+			String tempFileName = "data/deptmajorinfo/03_department_" + departmentName + "_source_code.txt";
 			DeptSourceCode departments = new DeptSourceCode(concatenatedUrl, tempFileName);
 			departmentsUsedList.add(departmentName);
 		}
@@ -82,23 +82,23 @@ public class Driver {
 		
 		// STEP 4:
 		for (String department : departmentsUsedList) {
-			String inputFileName = "data/03_department_" + department + "_source_code.txt";
+			String inputFileName = "data/deptmajorinfo/03_department_" + department + "_source_code.txt";
 			String expression = "^.*undergraduate/" + department + "/(.*)/\"";
-			String outputFileName = "data/04_list_of_majors_in_" + department + ".txt";
+			String outputFileName = "data/deptmajorinfo/04_list_of_majors_in_" + department + ".txt";
 			DeptMajorList major = new DeptMajorList(inputFileName, expression, outputFileName);
 		}
 
 		System.out.println("Step 4");
 		
 		// STEP 5:
-		String tempFileName = "data/05_list_of_all_departments_and_majors.txt";
+		String tempFileName = "data/deptmajorinfo/05_list_of_all_departments_and_majors.txt";
 		File finalFile = new File(tempFileName);
 		if (finalFile.exists()) {
 			finalFile.delete();
 		}
 		for (String department : departmentsUsedList) {
 
-			String inputFileName = "data/04_list_of_majors_in_" + department + ".txt";
+			String inputFileName = "data/deptmajorinfo/04_list_of_majors_in_" + department + ".txt";
 			BufferedReader majorReader = new BufferedReader(new FileReader(inputFileName));
 			FileWriter fileWriter = new FileWriter(finalFile.getAbsoluteFile(), true);
 			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
@@ -115,7 +115,7 @@ public class Driver {
 		System.out.println("Step 5");
 		
 		// STEP 6
-			String inputFileName2 = "data/05_list_of_all_departments_and_majors.txt";
+			String inputFileName2 = "data/deptmajorinfo/05_list_of_all_departments_and_majors.txt";
 			BufferedReader allListReader = new BufferedReader(new FileReader(inputFileName2));
 			
 			String token2[];

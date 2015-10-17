@@ -57,7 +57,7 @@ public class CourseList {
 		// creates an output file named after the degree
 		String courseDataPattern = "([A-Z]+)&#160;(\\d+)\\.  ([A-Za-z-, ']+)";
 		Pattern coursePattern = Pattern.compile(courseDataPattern);
-		File courseFile = new File("data/" + this.department + "_" + this.major + ".txt");
+		File courseFile = new File("data/courselists/" + this.department + "_" + this.major + ".txt");
 		String address = "http://catalog.utsa.edu/undergraduate/" + this.department + "/"
 				+ this.major + "/#courseinventory";
 		URL coursePage = new URL(address);
