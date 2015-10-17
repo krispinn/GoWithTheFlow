@@ -1,6 +1,7 @@
 package test;
 
 import java.io.*;
+import java.util.ArrayList;
 
 public class Reader {
 	
@@ -13,6 +14,7 @@ public class Reader {
 	private String concurrentEnrollment;
 	private String line1;
 	private String line2;
+	private ArrayList<String[]> listOfCourses = new ArrayList<>();
 	
 	public Reader(String inputFileName) {
 		
@@ -20,29 +22,34 @@ public class Reader {
 		
 	}
 	
-	public void read() throws Exception{
+	public ArrayList<String[]> read() throws Exception{
 		
 		String line;
-		String tokens[];
+		String tokens[] = new String[7];
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
 		
 		while(bufferedReader.ready()) {
 			line = bufferedReader.readLine();
-			tokens = line.split("\\s\\|\\s");
-			subject = tokens[0];
-			courseNumber = Integer.parseInt(tokens[1]);
-			courseName = tokens[2];
-			prerequisites = tokens[3];
-			concurrentEnrollment = tokens[4];
-			line1 = tokens[5];
-			line2 = tokens[6];
+			tokens = line.split("\\|");
+			subject = tokens[0].trim();
+			courseNumber = Integer.parseInt(tokens[1].trim());
+			courseName = tokens[2].trim();
+			prerequisites = tokens[3].trim();
+			concurrentEnrollment = tokens[4].trim();
+			line1 = tokens[5].trim();
+			line2 = tokens[6].trim();
+			
 			System.out.println(subject + " " + courseNumber + " " + courseName + " " + prerequisites + " " + concurrentEnrollment
 					+ " " + line1 + " " + line2);
+			
+			listOfCourses.add(tokens);
+			
 		}
 		
 		bufferedReader.close();
 		
+		return listOfCourses;
+		
 	}
-	
 	
 }

@@ -93,7 +93,7 @@ public class CourseList {
 				if (inputLine.matches("</p>")) {
 					String tmp2 = tmp.replaceAll("<br />", "");
 					if (tmp.matches("^Prerequisite.*") || tmp.matches(".*[Cc]oncurrent.*"))
-						bw.write(" | " + tmp2 + " |");
+						bw.write(" | " + tmp2 + " | ");
 					else
 						bw.write(" | | " + tmp2);
 				} else {
