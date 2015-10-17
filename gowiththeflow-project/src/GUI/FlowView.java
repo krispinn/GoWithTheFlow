@@ -61,6 +61,7 @@ public class FlowView extends JFrame {
 		add(mousePanel, BorderLayout.CENTER);
 		
 		
+		
 		listPanel = new JPanel(new GridLayout(7,1));
 		add(listPanel, BorderLayout.EAST);
         listPanel.setBorder(BorderFactory.createCompoundBorder(
