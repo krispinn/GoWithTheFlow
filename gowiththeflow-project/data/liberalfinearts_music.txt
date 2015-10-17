@@ -1,0 +1,125 @@
+DAN | 1013 | Ballet I | P | C
+DAN | 1113 | Introduction to Modern Dance | P | C
+DAN | 2003 | Introduction to Dance | P | C
+DAN | 2013 | Ballet II | P | C
+DAN | 2113 | Modern Dance II | P | C
+DAN | 2213 | Jazz and Musical Theater Dance | P | C
+DAN | 2783 | Topics in Dance | P | C
+DAN | 3013 | Ballet III | P | C
+DAN | 3103 | History of Dance | P | C
+DAN | 3113 | Modern Dance III | P | C
+MUS | 1102 | Aural Skills I | P | C
+MUS | 1112 | Basic Skills of Music I | P | C
+MUS | 1122 | Aural Skills II | P MUS 1102 | C
+MUS | 1132 | Basic Skills of Music II | P MUS 1112 | C
+MUS | 1141 | Beginning Composition | P MUS 1102 MUS 1112 | C
+MUS | 1511 | Music Performance-Secondary Instrument | P | C
+MUS | 1512 | Music Performance-Private Instruction | P | C
+MUS | 1521 | Class Piano  | P | C
+MUS | 1531 | Class Voice | P | C
+MUS | 1542 | Music Performance-Private Instruction I | P MUS 1512 | C
+MUS | 1552 | Functional Piano for Keyboard Principals | P | C
+MUS | 1621 | Class Piano  | P MUS 1521 | C
+MUS | 2001 | Concert Music | P | C
+MUS | 2102 | Aural Skills III | P MUS 1122 | C
+MUS | 2112 | Aural Skills IV | P MUS 2102 | C
+MUS | 2122 | Aural Skills Review | P | C
+MUS | 2132 | Introduction to Improvisation | P | C MUS 3771
+MUS | 2141 | Composition II | P MUS 1102 MUS 1112 MUS 1141 | C
+MUS | 2152 | Basic Skills of Music III | P MUS 1132 | C
+MUS | 2162 | Basic Skills of Music IV | P MUS 2152 | C
+MUS | 2183 | Jazz Skills | P MUS 1122 MUS 1132 | C
+MUS | 2232 | Introduction to Guitar Literature | P | C
+MUS | 2243 | World Music in Society | P | C
+MUS | 2263 | Introduction to the Music Industry | P | C
+MUS | 2273 | Introduction to Music Nonprofit Organizations | P | C
+MUS | 2403 | Conducting I | P MUS 1132 | C
+MUS | 2421 | Class Piano  | P MUS 1621 | C
+MUS | 2501 | Accompanying | P | C
+MUS | 2521 | Class Piano  | P MUS 2421 | C
+MUS | 2542 | Music Performance-Private Instruction II | P MUS 1542 | C
+MUS | 2601 | Diction Survey | P | C
+MUS | 2603 | Beginning Guitar | P | C
+MUS | 2613 | Intermediate Guitar | P MUS 2603 | C
+MUS | 2623 | Fundamentals of Music for the Non-Music Major | P | C
+MUS | 2633 | American Roots Music | P | C
+MUS | 2663 | History and Styles of Jazz | P | C
+MUS | 2673 | History and Styles of Rock | P | C
+MUS | 2683 | Masterpieces of Music | P | C
+MUS | 2693 | The Music of Latin America and the Caribbean | P | C
+MUS | 2743 | Music and Film | P | C
+MUS | 3013 | Digital Music Production | P | C
+MUS | 3103 | Audio Technology I | P | C
+MUS | 3113 | Tonal Analysis Review | P MUS 2162 | C
+MUS | 3123 | Introduction to Electronic and Computer Music | P | C
+MUS | 3133 | Analysis of Twentieth-Century Music | P MUS 2112 MUS 2162 | C
+MUS | 3143 | Orchestration | P MUS 2112 MUS 2162 | C
+MUS | 3153 | Conducting II | P MUS 2112 MUS 2162 MUS 2403 | C
+MUS | 3162 | Composition III | P MUS 2112 MUS 2141 MUS 2162 | C
+MUS | 3163 | Audio Technology II | P MUS 3103 | C
+MUS | 3213 | Music in Civilization I | P MUS 2112 MUS 2162 | C
+MUS | 3223 | Music in Civilization II | P MUS 2112 MUS 2162 | C
+MUS | 3232 | Wind and Percussion Literature | P MUS 2112 MUS 2162 | C
+MUS | 3242 | String Literature | P MUS 2112 MUS 2162 | C
+MUS | 3252 | Topics in Music Literature | P MUS 2112 MUS 2162 | C
+MUS | 3263 | Music Since  | P MUS 2112 MUS 2162 | C
+MUS | 3272 | Choral Literature | P MUS 2112 MUS 2162 | C
+MUS | 3282 | Vocal Literature | P MUS 2112 MUS 2162 | C
+MUS | 3292 | Operatic Literature | P MUS 2112 MUS 2162 | C
+MUS | 3312 | Music Technology for Music Educators | P | C
+MUS | 3322 | Keyboard Literature | P MUS 2112 MUS 2162 | C
+MUS | 3332 | Advanced Guitar Literature | P MUS 2112 MUS 2232 MUS 2162 | C
+MUS | 3342 | Wind and Percussion Literature for Performance Majors | P MUS 2112 MUS 2162 | C
+MUS | 3352 | String Literature for Performance Majors | P MUS 2112 MUS 2162 | C
+MUS | 3401 | Brass Instruments | P MUS 1132 | C
+MUS | 3413 | Psychology of Music | P MUS 2112 MUS 2162 | C
+MUS | 3421 | Vocal Techniques for Instrumental Majors | P | C
+MUS | 3431 | Woodwind Instruments | P MUS 1132 | C
+MUS | 3453 | Teaching Elementary Music | P MUS 1122 MUS 1132 | C
+MUS | 3463 | Teaching Secondary Vocal Music | P MUS 2112 MUS 2152 | C
+MUS | 3471 | String Instruments | P MUS 1132 | C
+MUS | 3481 | Percussion Instruments | P MUS 1132 | C
+MUS | 3491 | Instrumental Techniques for Voice Majors | P | C
+MUS | 3511 | Diction for Singers | P | C
+MUS | 3523 | Music and the Internet | P MUS 1122 MUS 1132 MUS 2263 | C
+MUS | 3532 | Music Performance-Private Instruction III | P MUS 2112 MUS 2162 MUS 2542 | C
+MUS | 3543 | Music Performance-Private Instruction IV | P MUS 2112 MUS 2162 MUS 2542 | C
+MUS | 3583 | Advanced Improvisation | P MUS 2132 MUS 2183 | C
+MUS | 3613 | Entrepreneurship in Music | P MUS 2263 | C
+MUS | 3701 | Chamber Singers | P | C
+MUS | 3711 | Mariachi Ensemble | P | C
+MUS | 3712 | Concert Choir | P | C
+MUS | 3721 | UTSA Men | P | C
+MUS | 3722 | Women | P | C
+MUS | 3731 | UTSA University Band | P | C
+MUS | 3741 | Chamber Orchestra | P | C
+MUS | 3742 | UTSA Wind Ensemble | P | C
+MUS | 3752 | UTSA Symphonic Band | P | C
+MUS | 3762 | UTSA Orchestra | P | C
+MUS | 3771 | Jazz Ensemble | P | C
+MUS | 3792 | Lyric Theatre | P | C
+MUS | 3802 | UTSA Marching Band | P | C
+MUS | 4113 | Counterpoint | P MUS 2112 MUS 2162 | C
+MUS | 4142 | Composition IV | P MUS 2112 MUS 2162 MUS 3162 | C
+MUS | 4153 | Audio Technology III | P MUS 3163 | C
+MUS | 4163 | Topics in Music Theory | P MUS 2112 MUS 2162 | C
+MUS | 4183 | Jazz Composition and Arranging | P MUS 2112 MUS 2162 MUS 2183 | C
+MUS | 4263 | Topics in Music History | P MUS 2112 MUS 2162 MUS 3213 MUS 3223 | C
+MUS | 4433 | Multimedia Production | P | C
+MUS | 4452 | Marching Band Techniques | P MUS 2112 MUS 2162 | C
+MUS | 4531 | Vocal Pedagogy I | P MUS 2112 MUS 2162 | C
+MUS | 4532 | Music Pedagogy | P MUS 2112 MUS 2162 | C
+MUS | 4541 | Vocal Pedagogy II | P MUS 2112 MUS 2162 | C
+MUS | 4543 | Music Performance-Private Instruction V | P MUS 2112 MUS 2162 MUS 3543 | C
+MUS | 4552 | Supervised Student Teaching | P MUS 4532 | C
+MUS | 4561 | Senior Recital | P MUS 2112 MUS 2162 | C MUS 4543 MUS 4142
+MUS | 4581 | Chamber Music | P | C
+MUS | 4803 | Seminar in Music Marketing | P MUS 2263 MUS 3613 | C
+MUS | 4911 | Independent Study | P | C
+MUS | 4912 | Independent Study | P | C
+MUS | 4913 | Independent Study | P | C
+MUS | 4933 | Music Marketing Internship | P MKT 3013 MUS 3613 MUS 4803 | C
+MUS | 4951 | Special Studies in Music | P | C
+MUS | 4952 | Special Studies in Music | P | C
+MUS | 4953 | Special Studies in Music | P | C
+MUS | 4961 | Music Technology Project | P | C
