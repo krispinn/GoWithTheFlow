@@ -106,7 +106,7 @@ public class Driver {
 		}
 
 		// STEP 6:
-		CourseList list = new CourseList("liberalfinearts", "music");
+		CourseList list = new CourseList("sciences", "computerscience");
 
 	}
 }
