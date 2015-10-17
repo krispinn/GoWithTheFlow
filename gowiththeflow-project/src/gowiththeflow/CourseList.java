@@ -80,7 +80,7 @@ public class CourseList {
 
 			// if there was a pattern match, write the data to the output file
 			if (courseData.find()) {
-				bw.write(courseData.group(1) + " " + courseData.group(2) + " "
+				bw.write(courseData.group(1) + " | " + courseData.group(2) + " | "
 						+ courseData.group(3));
 
 				// get the prerequisites
@@ -125,12 +125,16 @@ public class CourseList {
 				if (inputFields[i].matches("[Cc]oncurrent"))
 					return inputLine;
 				// checks to see if a course subject was found
-				if (inputFields[i].matches("[A-Z]+")) {
+				if (inputFields[i].matches("[A-Z][A-Z]+")) {
 					// remove unnecessary punctuation from the next element (course number)
-					inputFields[i + 1] = inputFields[i + 1].replace(",", "");
-					inputFields[i + 1] = inputFields[i + 1].replace(".", "");
+					inputFields[i+1] = inputFields[i+1].replace(",", "");
+					inputFields[i+1] = inputFields[i+1].replace(".", "");
+					inputFields[i+1] = inputFields[i+1].replace(";", "");
+					// if next field is not a number, then it is not a course, so skip it
+					if (!(inputFields[i+1].matches("[0-9]{4}")))
+						continue;
 					// write the course subject and number to the output file
-					bw.write(" " + inputFields[i] + " " + inputFields[i + 1]);
+					bw.write(" " + inputFields[i] + " " + inputFields[i+1]);
 					// used to skip past the already read/written course number
 					i++;
 				}
@@ -174,12 +178,16 @@ public class CourseList {
 			// look for the concurrent enrollment courses in the sentence
 			for (int i = conIndex + 1; i < inputFields.length; i++) {
 				// checks to see if a course subject was found
-				if (inputFields[i].matches("[A-Z]+")) {
+				if (inputFields[i].matches("[A-Z][A-Z]+")) {
 					// remove unnecessary punctuation from the next element (course number)
-					inputFields[i + 1] = inputFields[i + 1].replace(",", "");
-					inputFields[i + 1] = inputFields[i + 1].replace(".", "");
+					inputFields[i+1] = inputFields[i+1].replace(",", "");
+					inputFields[i+1] = inputFields[i+1].replace(".", "");
+					inputFields[i+1] = inputFields[i+1].replace(";", "");
+					// if next field is not a number, then it is not a course, so skip it
+					if (!(inputFields[i+1].matches("[0-9]{4}")))
+						continue;
 					// write the course subject and number to the output file
-					bw.write(" " + inputFields[i] + " " + inputFields[i + 1]);
+					bw.write(" " + inputFields[i] + " " + inputFields[i+1]);
 					// used to skip past the already read/written course number
 					i++;
 				}
