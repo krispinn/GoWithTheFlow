@@ -1,0 +1,53 @@
+IS | 1022 | Programming and Formal Logic | P | C
+IS | 1403 | Business Information Systems Fluency | P | C
+IS | 1503 | Introduction to Cyber Security | P | C
+IS | 2031 | Introduction to Programming Concepts Laboratory | P | C IS 2033 IS 2033
+IS | 2033 | Introduction to Programming Concepts | P IS 1403 | C IS 2031
+IS | 2041 | Intermediate Object-Oriented Programming Laboratory | P | C IS 2043 IS 2043
+IS | 2043 | Intermediate Object-Oriented Programming | P IS 2031 IS 2033 | C IS 2041
+IS | 3003 | Principles of Information Systems for Management | P IS 1403 | C
+IS | 3033 | Operating Systems | P IS 2041 IS 2043 | C
+IS | 3043 | Mobile Application Development | P IS 2041 IS 2043 | C
+IS | 3063 | Database Management for Information Systems | P IS 2041 IS 2043 | C
+IS | 3073 | Application Development | P IS 2041 IS 2043 | C
+IS | 3413 | Introduction to Telecommunications for Business | P | C
+IS | 3423 | Network Security | P IS 3413 | C
+IS | 3433 | Introduction to Digital Forensics | P | C
+IS | 3453 | Networking Fundamentals | P IS 3413 | C
+IS | 3503 | Attack and Defend  | P | C
+IS | 3513 | Information Assurance and Security | P | C
+IS | 3523 | Intrusion Detection and Incident Response | P IS 3513 | C
+IS | 3533 | Cyber Law | P | C
+IS | 4033 | Network Operations | P IS 3453 | C
+IS | 4053 | Systems Analysis and Design | P IS 3063 MGT 3003 | C
+IS | 4063 | Advanced Topics in Information Systems | P MGT 3003 IS 1403 | C
+IS | 4073 | The Information Resource | P IS 3003 MGT 3003 MGT 3013 | C
+IS | 4103 | Business Process Management and Control | P IS 3003 | C
+IS | 4143 | Wide Area Networks | P IS 3413 MGT 3003 | C
+IS | 4153 | Web Site Development | P IS 3073 MGT 3003 | C
+IS | 4183 | Advanced Database Concepts | P IS 3063 MGT 3003 | C
+IS | 4213 | Data Center Infrastructure Planning | P IS 4033 | C
+IS | 4223 | Emerging Network Technologies | P IS 3453 | C
+IS | 4233 | Cloud Technologies for Business | P IS 3413 | C
+IS | 4463 | Web Application Security | P IS 3513 MGT 3003 | C
+IS | 4473 | Information Assurance Policy | P IS 3413 MGT 3003 | C
+IS | 4483 | Digital Forensic Analysis I | P | C
+IS | 4513 | Cyber and Physical Systems | P IS 3513 MGT 3003 | C
+IS | 4523 | Digital Forensic Analysis II | P IS 4483 | C
+IS | 4911 | Independent Study | P MGT 3003 | C
+IS | 4913 | Independent Study | P MGT 3003 | C
+IS | 4933 | Internship in Information Systems | P MGT 3003 IS 1403 | C
+IS | 4943 | Internship in Information Assurance | P MGT 3003 IS 1403 | C
+IS | 4951 | Special Studies in Information Systems | P | C
+IS | 4953 | Special Studies in Information Systems | P | C
+IS | 4993 | Honors Thesis | P MGT 3003 | C
+MOT | 4023 | Essentials of Technology Management | P MGT 3003 MGT 3003 | C
+MOT | 4143 | Introduction to Project Management | P MGT 3003 MGT 3003 | C
+MOT | 4203 | Strategic Management of Technology and Innovation | P MOT 4023 | C
+MOT | 4313 | Disruptive Innovations | P MOT 4023 | C
+MOT | 4911 | Independent Study | P MOT 4023 | C
+MOT | 4912 | Independent Study | P MOT 4023 | C
+MOT | 4913 | Independent Study | P MOT 4023 | C
+MOT | 4951 | Special Studies in Management of Technology | P MOT 4023 | C
+MOT | 4952 | Special Studies in Management of Technology | P MOT 4023 | C
+MOT | 4953 | Special Studies in Management of Technology | P MOT 4023 | C

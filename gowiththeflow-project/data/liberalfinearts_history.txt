@@ -1,0 +1,98 @@
+AMS | 2043 | Approaches to American Culture | P | C
+AMS | 3013 | Early American Culture | P | C
+AMS | 3023 | Modern American Culture | P | C
+AMS | 3123 | Applications of American Studies | P | C
+AMS | 3243 | Studies in Transnationalism | P | C
+AMS | 3343 | Studies in Race and Ethnicity | P | C
+AMS | 3443 | Studies in Gender and Sexuality | P | C
+AMS | 4823 | Topics in American Culture | P | C
+AMS | 4913 | Independent Study | P | C
+AMS | 4933 | Internship in American Studies | P | C
+AMS | 4936 | Internship in American Studies | P | C
+AMS | 4973 | Advanced Seminar in American Studies | P AMS 2043 AMS 3123 AMS 3243 AMS 3343 AMS 3443 | C
+AMS | 4993 | Honors Thesis | P | C
+HIS | 1043 | United States History | P | C
+HIS | 1053 | United States History | P | C
+HIS | 2003 | Historical Methods | P WRC 1013 | C
+HIS | 2053 | Texas History | P | C
+HIS | 2123 | Introduction to World Civilization to the Fifteenth Century | P | C
+HIS | 2133 | Introduction to World Civilization since the Fifteenth Century | P | C
+HIS | 2533 | Introduction to Latin American Civilization | P | C
+HIS | 2543 | Introduction to Islamic Civilization | P | C
+HIS | 2553 | Introduction to East Asian Civilization | P | C
+HIS | 2563 | Introduction to European Civilization | P | C
+HIS | 2573 | Introduction to African Civilization | P | C
+HIS | 2583 | Introduction to South Asian Civilization | P | C
+HIS | 3003 | Colonial America and the Formation of American Society | P | C
+HIS | 3023 | American Independence and National Unity,  | P | C
+HIS | 3033 | The Spanish and Mexican Borderlands | P | C
+HIS | 3043 | History of Women in the United States | P | C
+HIS | 3053 | History of Women in the United States | P | C
+HIS | 3083 | History of the American West | P | C
+HIS | 3093 | United States Constitutional History | P | C
+HIS | 3113 | North American Indian Histories | P | C
+HIS | 3123 | Colonial Texas under Spanish and Mexican Rule to  | P | C
+HIS | 3133 | Themes in the Social History of the United States | P | C
+HIS | 3173 | Modern America,  | P | C
+HIS | 3183 | Law and American Development | P | C
+HIS | 3193 | The South in American History | P | C
+HIS | 3223 | The Civil War in the Age of Nationalism | P | C
+HIS | 3243 | Europe in the Nineteenth Century | P | C
+HIS | 3253 | The United States since  | P | C
+HIS | 3263 | Seventeenth- and Eighteenth-Century Europe | P | C
+HIS | 3273 | The Early Middle Ages | P | C
+HIS | 3283 | Twentieth-Century Europe | P | C
+HIS | 3293 | Imperial Spain | P | C
+HIS | 3303 | History of Mexico | P | C
+HIS | 3313 | History of U | P | C
+HIS | 3323 | Latinas and Latinos in the United States to  | P | C
+HIS | 3333 | Latinas and Latinos in the United States from  | P | C
+HIS | 3353 | Latin America since Independence | P | C
+HIS | 3373 | Revolution in Latin America | P | C
+HIS | 3403 | Pre-Hispanic and Colonial Latin America | P | C
+HIS | 3423 | United States-Mexico Border | P | C
+HIS | 3433 | The Emergence of Modern America,  | P | C
+HIS | 3453 | History of Medicine in America | P | C
+HIS | 3463 | History of Religion in the United States | P | C
+HIS | 3493 | History of San Antonio | P | C
+HIS | 3513 | Warfare in the Premodern World | P | C
+HIS | 3523 | European Cultural History | P | C
+HIS | 3543 | History of Modern Warfare | P | C
+HIS | 3553 | Civil War America | P | C
+HIS | 3563 | African American History to the Civil War | P | C
+HIS | 3573 | African American History since the Civil War | P | C
+HIS | 3603 | Occupation, Revolution and Nation in Africa | P | C
+HIS | 3613 | Migration, Society and Culture in Africa | P | C
+HIS | 3623 | History of the Civil Rights Movement | P | C
+HIS | 3633 | Early Modern England,  | P | C
+HIS | 3723 | The High Middle Ages and the Early Renaissance | P | C
+HIS | 3733 | Europe in the High Renaissance and Reformation | P | C
+HIS | 3743 | Imperial Russia | P | C
+HIS | 3753 | The Soviet Union and After | P | C
+HIS | 3763 | Russia before Peter the Great | P | C
+HIS | 3773 | The Age of the Baroque | P | C
+HIS | 3803 | World History in the Cinema | P | C
+HIS | 3813 | American Political History | P | C
+HIS | 3823 | History of American Foreign Relations | P | C
+HIS | 3843 | Migration and History | P | C
+HIS | 3863 | Global History of World War I | P | C
+HIS | 3873 | History of World War II in Europe | P | C
+HIS | 3903 | Modern Japan | P | C
+HIS | 3913 | Late Imperial China | P | C
+HIS | 3923 | China in Revolution | P | C
+HIS | 3943 | History of India | P | C
+HIS | 3953 | Cultures and Empires of the Silk Road,  | P | C
+HIS | 3963 | Women and Gender in India | P | C
+HIS | 3973 | Muslim South Asia | P | C
+HIS | 3983 | Women and Gender in Latin America | P | C
+HIS | 4133 | History and the Public | P | C
+HIS | 4143 | History Standards and Their Public Reception | P | C
+HIS | 4223 | Environmental History of the United States | P | C
+HIS | 4233 | American Society in the  | P | C
+HIS | 4603 | Issues in History | P | C
+HIS | 4911 | Independent Study | P | C
+HIS | 4913 | Independent Study | P | C
+HIS | 4933 | Internship in History | P HIS 2003 | C
+HIS | 4953 | Special Studies in History | P | C
+HIS | 4973 | Seminar in History | P HIS 2003 | C
+HIS | 4993 | Honors Thesis | P | C

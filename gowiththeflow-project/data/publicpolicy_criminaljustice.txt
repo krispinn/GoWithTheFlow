@@ -1,0 +1,32 @@
+CRJ | 1113 | The American Criminal Justice System | P | C
+CRJ | 2153 | Criminological Theory | P | C
+CRJ | 2213 | Introduction to Policing | P | C
+CRJ | 2513 | Introduction to Corrections | P | C
+CRJ | 2813 | Introduction to Courts and the Legal System | P | C
+CRJ | 3013 | Research Design and Analysis in Criminal Justice | P | C
+CRJ | 3123 | Investigations | P | C
+CRJ | 3213 | Managing Criminal Justice Organizations | P | C
+CRJ | 3233 | Introduction to Forensic Science | P | C
+CRJ | 3533 | Community Corrections | P | C
+CRJ | 3563 | Juvenile Justice | P | C
+CRJ | 3573 | Restorative Justice | P | C
+CRJ | 3623 | Substantive Criminal Law | P | C
+CRJ | 3713 | Ethics in Criminal Justice Practice | P | C
+CRJ | 4303 | Victimology | P | C
+CRJ | 4403 | Race, Ethnicity, and Criminal Justice | P | C
+CRJ | 4413 | Contemporary Police Practices | P | C
+CRJ | 4443 | Special Topics in Policing and Crime Prevention | P | C
+CRJ | 4453 | Drugs and Crime | P | C
+CRJ | 4463 | Gender and Crime | P | C
+CRJ | 4603 | Institutional Corrections | P | C
+CRJ | 4633 | Constitutional Criminal Procedure | P | C
+CRJ | 4653 | White Collar Crime | P | C
+CRJ | 4663 | Special Topics in Corrections | P | C
+CRJ | 4703 | Life Course Criminology | P | C
+CRJ | 4833 | Violent Crime | P | C
+CRJ | 4843 | Study Abroad | P | C
+CRJ | 4863 | Special Topics in Legal Issues and Adjudication | P | C
+CRJ | 4913 | Independent Study | P | C
+CRJ | 4933 | Internship in Criminal Justice | P CRJ 1113 CRJ 2153 CRJ 3013 | C
+CRJ | 4953 | Special Studies in Criminal Justice | P | C
+CRJ | 4993 | Honors Thesis | P | C

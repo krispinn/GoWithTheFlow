@@ -1,0 +1,39 @@
+PSY | 1013 | Introduction to Psychology | P | C
+PSY | 2073 | Statistics for Psychology | P MAT 1023 MAT 1033 MAT 1073 STA 1053 | C
+PSY | 2503 | Developmental Psychology | P PSY 1013 | C
+PSY | 2513 | Abnormal Psychology | P PSY 1013 | C
+PSY | 2523 | Personality | P PSY 1013 | C
+PSY | 2533 | Social Psychology | P PSY 1013 | C
+PSY | 2543 | Theories of Learning | P PSY 1013 MAT 1023 | C
+PSY | 2573 | Psychology of Thought | P PSY 1013 MAT 1023 | C
+PSY | 3023 | Social Psychology of Small Groups | P PSY 2533 PSY 3403 | C
+PSY | 3053 | Cross-Cultural Psychology | P ANT 1013 ANT 2053 PSY 1013 PSY 3403 | C
+PSY | 3103 | Cognition | P PSY 2543 PSY 2573 PSY 3403 | C
+PSY | 3113 | Motivation and Emotion | P PSY 3403 | C
+PSY | 3123 | Attitudes | P PSY 2533 PSY 2543 PSY 3403 | C
+PSY | 3153 | Sensation and Perception | P PSY 2543 PSY 2573 PSY 3403 | C
+PSY | 3203 | Industrial and Organizational Psychology | P PSY 2073 PSY 3403 | C
+PSY | 3303 | Psychological Perspectives on Gender | P PSY 2503 PSY 2513 PSY 2523 PSY 2533 PSY 3403 | C
+PSY | 3403 | Experimental Psychology | P PSY 2503 PSY 2513 PSY 2523 PSY 2533 PSY 2543 PSY 2573 PSY 2073 | C PSY 3413
+PSY | 3413 | Experimental Psychology Laboratory | P | C PSY 3403
+PSY | 3513 | Developmental Psychopathology | P PSY 2513 PSY 3403 | C
+PSY | 3523 | Psychology of Adulthood and Aging | P PSY 2503 PSY 3403 | C
+PSY | 3543 | Introduction to Clinical Psychology | P PSY 2513 PSY 3403 | C
+PSY | 4003 | History of Psychology | P PSY 3403 | C
+PSY | 4013 | Social Psychology of the Self | P PSY 2523 PSY 2533 PSY 3403 | C
+PSY | 4103 | Social Psychology of Prejudice | P PSY 2533 PSY 3403 | C
+PSY | 4113 | Cognitive Development | P PSY 2503 PSY 2573 PSY 3403 | C
+PSY | 4133 | Social and Personality Development | P PSY 2503 PSY 2523 PSY 2533 PSY 3403 | C
+PSY | 4143 | Memory | P PSY 2543 PSY 2573 PSY 3403 | C
+PSY | 4183 | Physiological Psychology | P PSY 3403 | C
+PSY | 4193 | Relationships | P PSY 2533 PSY 2543 PSY 2073 | C
+PSY | 4213 | Social Cognition | P PSY 2533 PSY 2573 PSY 3403 | C
+PSY | 4253 | Psychology of Health | P PSY 3403 | C
+PSY | 4323 | Psychology of Language | P PSY 2543 PSY 2573 PSY 3403 | C
+PSY | 4911 | Independent Study | P | C
+PSY | 4913 | Independent Study | P | C
+PSY | 4923 | Current Topics in Psychology | P PSY 1013 PSY 3403 | C
+PSY | 4933 | Internship in Psychology | P | C
+PSY | 4936 | Internship in Psychology | P | C
+PSY | 4953 | Special Studies in Psychology | P | C
+PSY | 4993 | Honors Thesis | P | C

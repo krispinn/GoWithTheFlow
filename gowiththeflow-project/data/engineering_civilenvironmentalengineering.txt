@@ -1,0 +1,34 @@
+CE | 1301 | Introduction to Civil Engineering | P | C MAT 1093 WRC 1013
+CE | 2103 | Civil Engineering Measurements | P | C MAT 1214 CE 1301
+CE | 2633 | Environmental Engineering | P CE 1301 CHE 1103 | C
+CE | 3103 | Mechanics of Solids | P EGR 2103 MAT 1224 | C
+CE | 3113 | Structural Analysis | P CE 3103 | C
+CE | 3173 | Numerical Methods | P EGR 2323 | C
+CE | 3213 | Reinforced Concrete Design | P | C CE 3113 CE 3243
+CE | 3233 | Steel Design | P | C CE 3113 CE 3243
+CE | 3243 | Properties and Behavior of Engineering Materials | P CE 3103 STA 2303 | C
+CE | 3413 | Geotechnical Engineering and Applications | P CE 3103 | C CE 3173 GEO 4023
+CE | 3603 | Fluid Mechanics | P EGR 2103 EGR 2513 | C
+CE | 4013 | Civil Engineering Systems Analysis | P EGR 3713 | C
+CE | 4103 | Advanced Steel Design | P CE 3233 | C
+CE | 4123 | Highway Engineering | P CE 2103 CE 3243 | C
+CE | 4133 | Advanced Reinforced Concrete | P CE 3213 | C
+CE | 4153 | Prestressed Concrete | P CE 3213 | C
+CE | 4253 | Introduction to Masonry and Timber Design | P | C CE 3113 CE 3243
+CE | 4293 | Geographic Information Systems  | P CE 2103 GEO 4023 | C
+CE | 4303 | Hydrometeorology | P CE 3603 | C
+CE | 4313 | Computer-Aided Design in Civil Engineering | P EGR 1403 CE 2103 CE 3603 | C
+CE | 4403 | Advanced Characterization of Highway Materials | P CE 3243 | C
+CE | 4453 | Transportation Engineering | P CE 4123 | C
+CE | 4463 | Foundation Engineering | P CE 3413 | C
+CE | 4543 | Project Design and Construction Management | P CE 3113 EGR 3713 CE 3213 CE 3233 | C
+CE | 4603 | Water Resources Engineering | P CE 2633 CE 3603 CE 4633 | C
+CE | 4613 | Environmental Chemistry | P CE 4633 | C
+CE | 4633 | Water and Wastewater Treatment | P CE 2633 CE 3603 | C
+CE | 4723 | Hydraulic Systems Design | P CE 3603 | C
+CE | 4733 | Applied Hydrology | P CE 3603 | C
+CE | 4813 | Civil Engineering Design | P CE 3213 CE 3233 CE 3413 CE 3603 CE 4543 | C
+CE | 4911 | Independent Study | P | C
+CE | 4912 | Independent Study | P | C
+CE | 4913 | Independent Study | P | C
+CE | 4953 | Special Studies in Civil Engineering | P | C

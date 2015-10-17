@@ -1,0 +1,86 @@
+BIO | 1033 | Drugs and Society | P | C
+BIO | 1053 | Introductory Microbiology | P BIO 1233 BIO 1404 | C
+BIO | 1061 | Introductory Microbiology Laboratory | P BIO 1233 BIO 1404 | C BIO 1053
+BIO | 1233 | Contemporary Biology I | P | C
+BIO | 1243 | Contemporary Biology II | P | C
+BIO | 1404 | Biosciences I | P | C STA 1053 MAT 1023 MAT 1033 MAT 1073
+BIO | 1414 | Biosciences II | P BIO 1404 | C
+BIO | 1511 | Biomedical Research as a Career | P | C
+BIO | 1882 | Introduction to Health Professions | P | C
+BIO | 2003 | Biology of Human Reproduction | P | C
+BIO | 2043 | Nutrition | P BIO 1233 BIO 1404 | C
+BIO | 2051 | Human Anatomy and Physiology Laboratory I | P BIO 1233 BIO 1404 | C BIO 2053
+BIO | 2053 | Human Anatomy and Physiology I | P BIO 1233 BIO 1404 | C BIO 2051
+BIO | 2061 | Human Anatomy and Physiology Laboratory II | P BIO 2051 | C BIO 2063
+BIO | 2063 | Human Anatomy and Physiology II | P BIO 2053 | C BIO 2061
+BIO | 2083 | Human Anatomy | P BIO 1233 BIO 1404 BIO 2103 BIO 2103 | C
+BIO | 2091 | Human Anatomy Laboratory | P BIO 1233 BIO 1404 | C BIO 2083 BIO 2103 BIO 2103
+BIO | 2103 | Human Physiology | P BIO 1233 BIO 1404 BIO 2083 BIO 2083 | C
+BIO | 2111 | Human Physiology Laboratory | P BIO 1233 BIO 1404 | C BIO 2103 BIO 2083 BIO 2083
+BIO | 2313 | Genetics | P BIO 1414 | C BIO 2322
+BIO | 2322 | Genetics Laboratory | P BIO 1414 | C BIO 2313 MAT 1093 STA 1053
+BIO | 3003 | Introduction to Marine Ecology | P BIO 1414 | C
+BIO | 3013 | Introduction to Clinical Medicine and Pathology | P BIO 1404 | C
+BIO | 3063 | Invertebrate Biology | P BIO 1414 | C
+BIO | 3123 | Comparative Vertebrate Anatomy | P BIO 1414 | C BIO 3132
+BIO | 3172 | Histology and Cytology Laboratory | P BIO 2313 | C BIO 3163
+BIO | 3213 | Animal Behavior | P BIO 1414 | C
+BIO | 3263 | The Woody Plants | P | C
+BIO | 3273 | Biology of Flowering Plants | P | C
+BIO | 3283 | Principles of Ecology | P BIO 1414 | C BIO 3292
+BIO | 3292 | Principles of Ecology Laboratory | P BIO 1414 | C BIO 3283
+BIO | 3323 | Evolution | P BIO 2313 | C
+BIO | 3333 | Plants and Society | P BIO 2313 | C
+BIO | 3343 | Plant Cell Biology | P BIO 2313 | C
+BIO | 3413 | Advanced Physiology | P BIO 2313 MAT 1193 | C BIO 3422
+BIO | 3422 | Advanced Physiology Laboratory | P BIO 2313 MAT 1093 STA 1053 | C BIO 3413
+BIO | 3433 | Neurobiology | P | C BIO 3442
+BIO | 3442 | Neurobiology Laboratory | P | C BIO 3433
+BIO | 3513 | Biochemistry | P CHE 2603 CHE 2612 BIO 2313 CHE 3673 | C BIO 3522
+BIO | 3522 | Biochemistry Laboratory | P CHE 2603 CHE 2612 | C BIO 3513
+BIO | 3533 | FAME-Biophysics | P | C
+BIO | 3543 | FAME-Behavioral Health | P | C
+BIO | 3553 | FAME-Geriatrics | P | C
+BIO | 3563 | FAME-Maternal Health | P | C
+BIO | 3573 | FAME-Obesity | P | C
+BIO | 3583 | FAME-Cardiovascular Disease | P | C
+BIO | 3593 | FAME-Cancer | P | C
+BIO | 3613 | The Biology of Aging | P BIO 2313 | C
+BIO | 3623 | Neuropsychopharmacology | P BIO 1414 BIO 3433 | C
+BIO | 3663 | Human Embryology | P BIO 2313 | C
+BIO | 3713 | Microbiology | P BIO 1414 | C BIO 2313 BIO 3722
+BIO | 3722 | Microbiology Laboratory | P BIO 1414 | C BIO 3713
+BIO | 3743 | Bacteriology | P BIO 3713 BIO 3722 | C
+BIO | 3813 | Cell Biology | P BIO 2313 BIO 3513 | C BIO 3822
+BIO | 3822 | Cell Biology Laboratory | P BIO 2313 BIO 2322 CHE 1131 | C BIO 3813
+BIO | 3913 | Molecular Biology | P BIO 2313 BIO 3513 | C
+BIO | 3933 | Principles of Cancer Biology | P BIO 1414 BIO 3813 | C
+BIO | 4033 | Conservation Biology | P BIO 3283 | C
+BIO | 4053 | Wildlife Biology | P BIO 3283 | C
+BIO | 4063 | Ornithology | P BIO 1404 | C
+BIO | 4073 | Law, Ethics, and the Life Sciences | P | C
+BIO | 4143 | Developmental Biology | P BIO 2313 | C
+BIO | 4233 | Field Biology | P | C BIO 4241
+BIO | 4241 | Field Biology Laboratory | P | C BIO 4233
+BIO | 4453 | Endocrinology | P BIO 1414 | C
+BIO | 4473 | Advanced Clinical Medicine and Pathology | P BIO 3013 | C
+BIO | 4483 | Medical Mycology | P BIO 3713 BIO 3722 | C
+BIO | 4583 | The Computational Brain | P BIO 3433 | C
+BIO | 4643 | Medicinal Plants | P BIO 2313 BIO 3513 | C
+BIO | 4723 | Virology | P BIO 2313 BIO 3513 | C
+BIO | 4743 | Immunology | P BIO 2313 BIO 3713 | C BIO 4752
+BIO | 4752 | Immunology Laboratory | P BIO 3713 BIO 3722 | C BIO 4743
+BIO | 4763 | Parasitology | P BIO 1414 | C
+BIO | 4773 | Plant-Microbe Interactions | P BIO 2313 BIO 3713 | C
+BIO | 4783 | Microbial Genetics and Physiology | P BIO 2313 BIO 3713 | C
+BIO | 4813 | Brain and Behavior | P BIO 1414 | C
+BIO | 4823 | Cognitive Neuroscience | P BIO 3433 | C
+BIO | 4911 | Independent Study | P | C
+BIO | 4912 | Independent Study | P | C
+BIO | 4913 | Independent Study | P | C
+BIO | 4923 | Laboratory Research | P | C
+BIO | 4951 | Special Studies in Biology | P | C
+BIO | 4952 | Special Studies in Biology | P | C
+BIO | 4953 | Special Studies in Biology | P | C
+BIO | 4981 | Senior Seminar in Microbiology and Immunology | P | C
+BIO | 4993 | Honors Research | P | C

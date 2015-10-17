@@ -1,0 +1,37 @@
+COM | 1043 | Introduction to Communication | P WRC 1013 | C
+COM | 1053 | Business and Professional Speech | P WRC 1013 | C
+COM | 2113 | Public Speaking | P WRC 1013 | C
+COM | 2123 | Oral Interpretation | P WRC 1013 WRC 1023 | C
+COM | 2343 | Introduction to Mass Communication | P WRC 1013 WRC 1023 | C
+COM | 2433 | Editing | P ENG 2413 | C
+COM | 2733 | Introduction to Communication Technologies | P WRC 1013 WRC 1023 | C
+COM | 2801 | Forensic Activities | P | C
+COM | 3023 | Foundations of Communication | P WRC 1013 WRC 1023 | C
+COM | 3073 | Conduct of Communication Inquiry | P COM 3023 | C
+COM | 3083 | Language and Communication Theory | P | C COM 3023
+COM | 3113 | Argumentation and Debate | P COM 1043 COM 1053 COM 2113 | C
+COM | 3243 | Persuasion | P | C
+COM | 3253 | Rhetorical Communication Analysis | P | C
+COM | 3293 | Health Communication | P | C
+COM | 3383 | Interpersonal Communication | P COM 1053 COM 3023 | C
+COM | 3393 | Communication for Health Professionals | P | C
+COM | 3413 | Digital Media Production I | P COM 3023 ENG 2413 | C
+COM | 3523 | Public Relations | P COM 3023 | C
+COM | 3533 | Writing for Public Relations | P COM 3523 ENG 2413 | C
+COM | 3553 | Intercultural Communication | P COM 3023 | C COM 3083
+COM | 3563 | International Communication | P COM 3023 | C COM 3083
+COM | 3623 | Commercial Publications | P COM 3023 ENG 2413 | C
+COM | 3633 | Professional Presentation | P COM 1043 COM 1053 COM 2113 | C
+COM | 3883 | Small Group Communication | P | C
+COM | 3893 | Organizational Communication | P COM 1053 COM 3023 | C
+COM | 4383 | Relational Communication | P COM 3383 | C
+COM | 4413 | Topics in Communication | P | C
+COM | 4523 | Case Studies in Public Relations | P COM 3073 COM 3523 COM 3533 | C
+COM | 4533 | Public Relations Planning and Campaigns | P COM 3623 COM 4523 | C
+COM | 4723 | Digital Media Production II | P COM 2433 COM 3413 | C
+COM | 4813 | Theory and Practice of Social Interaction | P | C
+COM | 4911 | Independent Study in Communication | P | C
+COM | 4912 | Independent Study in Communication | P | C
+COM | 4913 | Independent Study in Communication | P | C
+COM | 4933 | Internship in Communication | P | C
+COM | 4993 | Honors Thesis | P | C

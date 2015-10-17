@@ -1,0 +1,42 @@
+GEO | 1013 | The Third Planet | P | C
+GEO | 1103 | Physical Geology | P | C CHE 1103 CHE 1121 MAT 1093 GEO 1111
+GEO | 1111 | Physical Geology Laboratory | P | C GEO 1103
+GEO | 1123 | Life Through Time | P | C GEO 1131
+GEO | 1131 | Life Through Time Laboratory | P | C GEO 1123
+GEO | 2003 | Mineralogy | P CHE 1103 CHE 1121 GEO 1103 GEO 1111 MAT 1093 | C GEO 2011
+GEO | 2011 | Mineralogy Laboratory | P | C
+GEO | 2113 | Fundamentals of Geographic Information Systems  | P CS 1173 | C
+GEO | 3004 | Rocks, Fossils, and Global Tectonics | P GEO 1103 GEO 1111 | C
+GEO | 3043 | Petrology | P GEO 2003 GEO 2011 MAT 1214 | C GEO 3051
+GEO | 3051 | Petrology Laboratory | P GEO 2003 GEO 2011 | C GEO 3043
+GEO | 3063 | Paleontology | P GEO 1103 GEO 1111 GEO 1123 GEO 1131 GEO 3123 GEO 3131 | C GEO 3071
+GEO | 3071 | Paleontology Laboratory | P GEO 1103 GEO 1111 GEO 1123 GEO 1131 GEO 3123 GEO 3131 | C GEO 3063
+GEO | 3103 | Structural Geology | P GEO 3043 GEO 3051 | C GEO 3111
+GEO | 3111 | Structural Geology Laboratory | P | C GEO 3103
+GEO | 3112 | Geologic Field Investigations | P GEO 1103 GEO 1111 GEO 1123 GEO 1131 GEO 2003 GEO 2011 WRC 1023 | C
+GEO | 3123 | Sedimentation and Stratigraphy | P GEO 1123 GEO 1131 GEO 2003 GEO 2011 GEO 3112 | C GEO 3131
+GEO | 3131 | Sedimentation and Stratigraphy Laboratory | P GEO 2003 GEO 2011 | C GEO 3123
+GEO | 3143 | Economic Geology | P GEO 2003 GEO 2011 | C GEO 3151
+GEO | 3151 | Economic Geology Laboratory | P GEO 2003 GEO 2011 | C GEO 3143
+GEO | 3163 | Oceanography | P | C
+GEO | 3173 | Polar Regions and Climate Change | P | C
+GEO | 3374 | Geochemistry | P GEO 1103 GEO 1111 CHE 1103 CHE 1121 MAT 1093 | C
+GEO | 3383 | General Geophysics | P | C MAT 1224 PHY 1623 PHY 1963
+GEO | 3393 | Introduction to Isotope Geochemistry | P GEO 1103 GEO 1111 CHE 1103 CHE 1121 MAT 1093 | C
+GEO | 4013 | Volcanology | P GEO 3043 | C
+GEO | 4023 | Engineering Geology | P PHY 1963 PHY 1603 PHY 1943 MAT 1214 | C
+GEO | 4063 | Environmental Geology | P GEO 1103 GEO 1111 | C
+GEO | 4093 | Principles of Remote Sensing | P MAT 1073 PHY 1603 PHY 1943 | C
+GEO | 4113 | Geomorphology | P GEO 1103 GRG 2613 | C GEO 4121
+GEO | 4121 | Geomorphology Laboratory | P GEO 1103 GRG 2613 | C GEO 4113
+GEO | 4623 | Groundwater Hydrogeology | P GEO 1103 GEO 1111 PHY 1603 PHY 1943 MAT 1214 | C
+GEO | 4911 | Independent Study | P | C
+GEO | 4912 | Independent Study | P | C
+GEO | 4913 | Independent Study | P | C
+GEO | 4933 | Field Geology Part I | P GEO 3103 GEO 3111 | C
+GEO | 4943 | Field Geology Part II | P GEO 4933 | C
+GEO | 4951 | Special Studies in Geology | P | C
+GEO | 4952 | Special Studies in Geology | P | C
+GEO | 4953 | Special Studies in Geology | P | C
+GEO | 4961 | Special Studies in Geology Laboratory | P | C
+GEO | 4993 | Honors Research | P | C

@@ -1,0 +1,48 @@
+SOC | 1013 | Introduction to Sociology | P | C
+SOC | 1043 | Introduction to Public Health | P | C
+SOC | 2013 | Social Problems | P | C
+SOC | 2023 | Social Context of Drug Use | P | C
+SOC | 2063 | Special Topics in Sociology | P | C
+SOC | 3013 | Social Stratification | P | C
+SOC | 3043 | Race and Ethnic Relations | P | C
+SOC | 3053 | Deviance and Difference | P | C
+SOC | 3063 | Collective Behavior | P SOC 1013 | C
+SOC | 3083 | Social Change and Development | P | C
+SOC | 3093 | Religion and Society | P | C
+SOC | 3113 | Criminology | P | C
+SOC | 3163 | Families in Society | P | C
+SOC | 3193 | The Sociology of Work and Occupations | P SOC 1013 | C
+SOC | 3203 | Gerontology | P | C
+SOC | 3213 | Medical Sociology | P | C
+SOC | 3223 | Population Dynamics and Demographic Techniques | P | C
+SOC | 3253 | The Individual and Society | P | C
+SOC | 3263 | Latinas in U | P | C
+SOC | 3283 | Poverty | P | C
+SOC | 3293 | Sociology of Gender | P | C
+SOC | 3323 | Introduction to Social Research | P SOC 1013 | C
+SOC | 3343 | Classical Sociological Theory | P SOC 1013 | C
+SOC | 3353 | Contemporary Sociological Theory | P SOC 1013 | C
+SOC | 3373 | Qualitative Research Methods | P SOC 3323 | C
+SOC | 3393 | Quantitative Research Methods | P SOC 1013 SOC 3323 | C
+SOC | 3413 | Sociology of the Mexican American Community | P | C
+SOC | 3423 | Mass Media in Society | P | C
+SOC | 3433 | Mexican Immigration and U | P | C
+SOC | 3463 | Sociology of Sport and Leisure | P | C
+SOC | 3503 | Sociology of Education | P | C
+SOC | 3513 | Children and Society | P | C
+SOC | 3543 | Data Management in Public Health | P | C
+SOC | 4023 | Violence and Society | P | C
+SOC | 4043 | Global Health | P | C
+SOC | 4053 | Health Care System | P | C
+SOC | 4073 | Social and Behavioral Theories in Public Health | P | C
+SOC | 4083 | Behavioral Epidemiology | P | C
+SOC | 4433 | Culture and Society | P | C
+SOC | 4683 | Health Disparities | P | C
+SOC | 4853 | Special Studies in Sociology | P | C
+SOC | 4863 | Topics in Sociology | P | C
+SOC | 4911 | Independent Study | P | C
+SOC | 4913 | Independent Study | P | C
+SOC | 4923 | Public Health Study Abroad | P | C
+SOC | 4933 | Internship in Sociology | P SOC 3343 SOC 3353 SOC 3373 SOC 3393 | C
+SOC | 4936 | Internship in Sociology | P SOC 3343 SOC 3353 SOC 3373 SOC 3393 | C
+SOC | 4993 | Honors Thesis | P | C

@@ -1,0 +1,48 @@
+MS | 1023 | Business Statistics with Computer Applications I | P IS 1403 MAT 1033 | C
+MS | 3043 | Business Statistics with Computer Applications II | P MAT 1033 IS 1403 MS 1023 | C
+MS | 3053 | Management Science and Operations Technology | P MAT 1033 IS 1403 MS 1023 MS 3043 | C
+MS | 3063 | Decision Support Systems | P | C
+MS | 3073 | Business Analytics | P | C
+MS | 3313 | Business Applications of Statistics | P | C
+MS | 3403 | Logistics Management | P | C
+MS | 3413 | Purchasing and Inventory Management | P | C
+MS | 4313 | Six Sigma and Lean Operations | P | C
+MS | 4323 | Simulation Applications in Business | P | C
+MS | 4333 | Project Management | P | C
+MS | 4343 | Production | P | C
+MS | 4353 | Service Operations Management | P | C
+MS | 4363 | Quality Management and Control | P | C
+MS | 4383 | Applied Forecasting in Operations | P | C
+MS | 4543 | Supply Chain Management | P | C
+MS | 4913 | Independent Study in Management Science | P | C
+MS | 4933 | Internship in Management Science | P | C
+MS | 4951 | Special Studies in Management Science | P | C
+MS | 4953 | Special Studies in Management Science | P | C
+STA | 1043 | Introduction to Quantitative Reasoning | P | C
+STA | 1053 | Basic Statistics | P | C
+STA | 1403 | Probability and Statistics for the Biosciences | P MAT 1193 | C
+STA | 2303 | Applied Probability and Statistics for Engineers | P MAT 1224 | C
+STA | 3003 | Applied Statistics | P | C MAT 1033 MAT 1093 MAT 1214 STA 3023
+STA | 3013 | Multivariate Analysis for the Life and Social Sciences | P STA 3003 STA 3513 | C
+STA | 3023 | Statistical Mathematics | P MAT 1093 | C
+STA | 3313 | Experiments and Sampling | P MS 1023 STA 1043 STA 1053 STA 2303 STA 3003 | C
+STA | 3433 | Applied Nonparametric Statistics | P MS 3313 STA 2303 STA 3003 STA 3513 | C
+STA | 3513 | Probability and Statistics | P STA 3003 STA 3023 MAT 1224 | C
+STA | 3523 | Mathematical Statistics | P STA 3513 | C
+STA | 3533 | Probability and Random Processes | P EGR 2323 | C
+STA | 3813 | Discrete Data Analysis | P STA 3003 STA 3513 | C
+STA | 4133 | Introduction to Programming and Data Management in SAS | P | C
+STA | 4143 | Data Mining | P STA 4133 | C
+STA | 4233 | Statistical Applications Using SAS Software | P STA 4133 MS 3313 STA 3003 STA 3513 STA 3523 | C
+STA | 4643 | Introduction to Stochastic Processes | P STA 3513 | C
+STA | 4713 | Applied Regression Analysis | P MS 3313 STA 3003 | C
+STA | 4723 | Introduction to the Design of Experiments | P MS 3313 STA 3003 | C
+STA | 4753 | Time-Series Analysis | P STA 3513 STA 3533 | C
+STA | 4803 | Statistical Quality Control | P STA 2303 STA 3003 STA 3513 | C
+STA | 4903 | Applied Survival Analysis | P STA 3523 | C
+STA | 4911 | Independent Study | P | C
+STA | 4913 | Independent Study | P | C
+STA | 4933 | Internship in Statistics | P | C
+STA | 4953 | Special Studies in Statistics | P | C
+STA | 4961 | Actuarial Science Examination Preparation | P | C
+STA | 4993 | Honors Thesis | P STA 3523 | C

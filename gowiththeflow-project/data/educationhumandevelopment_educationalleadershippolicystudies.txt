@@ -1,0 +1,7 @@
+EDL | 3003 | Introduction to Leadership | P | C
+EDL | 4953 | Special Studies in Educational Leadership | P | C
+EDU | 2103 | Social Foundations for Education in a Diverse U | P | C
+EDU | 4911 | Independent Study | P | C
+EDU | 4912 | Independent Study | P | C
+EDU | 4913 | Independent Study | P | C
+EDU | 4953 | Special Studies in Education | P | C

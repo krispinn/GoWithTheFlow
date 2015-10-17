@@ -1,0 +1,64 @@
+ANT | 1013 | Introduction to Anthropology | P | C
+ANT | 2033 | Introduction to Biological Anthropology | P | C
+ANT | 2043 | Introduction to Archaeology | P | C
+ANT | 2053 | Introduction to Cultural Anthropology | P | C
+ANT | 2063 | Language, Thought, and Culture | P | C
+ANT | 3023 | Great Discoveries in Archaeology | P | C
+ANT | 3133 | Ritual and Symbol | P ANT 1013 ANT 2053 | C
+ANT | 3153 | Indians of the Great Plains | P ANT 1013 ANT 2053 | C
+ANT | 3203 | Native North Americans | P ANT 1013 ANT 2053 | C
+ANT | 3223 | Anthropology and the Environment | P ANT 1013 ANT 2053 | C
+ANT | 3233 | Frauds, Myths, and Mysteries | P | C
+ANT | 3253 | The Archeology of South America | P ANT 1013 ANT 2043 | C
+ANT | 3263 | Archaeology of North America | P ANT 1013 ANT 2043 | C
+ANT | 3273 | Civilizations of Mexico | P ANT 1013 ANT 2043 | C
+ANT | 3293 | Analytical Methods in Anthropology | P ANT 2043 ANT 2053 | C
+ANT | 3303 | Nature and Culture in Greater Amazonia | P ANT 1013 ANT 2053 | C
+ANT | 3333 | Human Adaptability | P ANT 1013 ANT 2033 | C
+ANT | 3343 | The Contemporary Pacific | P ANT 1013 ANT 2053 | C
+ANT | 3363 | Indians of Mesoamerica | P ANT 1013 ANT 2053 | C
+ANT | 3383 | Folklore and Folklife | P ANT 1013 ANT 2053 | C
+ANT | 3403 | Field Course in Archaeology | P | C
+ANT | 3406 | Field Course in Archaeology | P | C
+ANT | 3413 | The Ethnographic Experience | P | C
+ANT | 3503 | Human Origins | P ANT 1013 ANT 2033 | C
+ANT | 3513 | The Human Skeleton | P ANT 1013 ANT 2033 | C
+ANT | 3523 | Medical Anthropology | P ANT 1013 ANT 2033 ANT 2053 | C
+ANT | 3543 | Museum Studies in Anthropology | P ANT 1013 ANT 2043 ANT 2053 | C
+ANT | 3603 | Sex, Gender, and Culture | P ANT 1013 ANT 2033 | C
+ANT | 3713 | Anthropology of Material Culture | P ANT 2043 ANT 2053 | C
+ANT | 3723 | Ancient Civilizations | P ANT 1013 ANT 2043 | C
+ANT | 3733 | Political and Legal Anthropology | P ANT 1013 ANT 2053 | C
+ANT | 3743 | The Anthropology of Cyber Cultures | P ANT 1013 | C
+ANT | 3803 | Media, Power, and Public Culture | P ANT 1013 ANT 2053 | C
+ANT | 3823 | Applied Anthropology | P ANT 1013 ANT 2053 | C
+ANT | 3833 | Indians of Texas | P ANT 1013 ANT 2053 | C
+ANT | 3843 | Introduction to Primate Diversity | P | C
+ANT | 3853 | Modern Ape Behavior and Ecology | P | C
+ANT | 3863 | The Evolution of Human Nature | P | C
+ANT | 3873 | Food, Culture, and Society | P | C
+ANT | 3883 | Death and Dying | P ANT 1013 ANT 2043 ANT 2053 | C
+ANT | 3893 | Primate Ecology | P | C
+ANT | 3903 | Introduction to Linguistics | P | C
+ANT | 4013 | Maya Civilization | P ANT 1013 ANT 2043 | C
+ANT | 4023 | Histories of Anthropology | P ANT 2033 ANT 2043 ANT 2053 ANT 2063 | C
+ANT | 4033 | Dogs, Wolves, and Human Evolution | P | C
+ANT | 4113 | Archaeology of Texas | P ANT 2043 ANT 3263 | C
+ANT | 4123 | Archaeology of the American Southwest | P ANT 2043 ANT 3263 | C
+ANT | 4143 | Primate Feeding Biology | P ANT 2033 ANT 3843 ANT 3893 | C
+ANT | 4183 | Diet, Nutrition and the Human Brain | P ANT 2033 ANT 3843 ANT 3893 | C
+ANT | 4233 | Conservation of Primates in Global Perspective | P ANT 2033 ANT 3843 | C
+ANT | 4243 | Ethnographic Film | P ANT 1013 ANT 2053 | C
+ANT | 4263 | Anthropology of Globalization and Development | P ANT 1013 ANT 2053 | C
+ANT | 4273 | The Anthropology of Oil | P ANT 1013 ANT 2053 | C
+ANT | 4283 | Culture in Theory and Practice | P ANT 2033 ANT 2043 ANT 2053 ANT 2063 | C
+ANT | 4333 | Ecology and Evolution of Human Diseases | P ANT 2033 | C
+ANT | 4363 | Primate Evolutionary Biology | P ANT 2033 | C
+ANT | 4911 | Independent Study | P | C
+ANT | 4912 | Independent Study | P | C
+ANT | 4913 | Independent Study | P | C
+ANT | 4933 | Internship in Anthropology | P | C
+ANT | 4936 | Internship in Anthropology | P | C
+ANT | 4953 | Special Studies in Anthropology | P | C
+ANT | 4983 | Anthropology Honors Research | P | C
+ANT | 4993 | Honors Thesis | P | C

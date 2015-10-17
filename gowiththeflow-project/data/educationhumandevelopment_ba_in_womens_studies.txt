@@ -1,0 +1,11 @@
+WS | 2013 | Introduction to Women | P | C
+WS | 2023 | Introduction to LGBTQ Studies | P | C
+WS | 3613 | Feminist Research Methodologies | P | C
+WS | 3953 | Special Topics in Women Writers | P | C
+WS | 4623 | Feminist Theories | P | C
+WS | 4863 | Feminism and Globalization | P | C
+WS | 4913 | Independent Study | P | C
+WS | 4933 | Internship in Women | P | C
+WS | 4953 | Special Topics in Women | P | C
+WS | 4973 | Seminar in Women | P | C
+WS | 4993 | Honors Thesis | P | C

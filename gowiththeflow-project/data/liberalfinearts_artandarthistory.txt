@@ -1,0 +1,40 @@
+AHC | 1113 | Survey of Art and Architecture from Prehistoric Times to  | P | C
+AHC | 1123 | Survey of Art and Architecture in Europe and the New World from  | P | C
+AHC | 1133 | Survey of Modern Art | P | C
+AHC | 3113 | Contemporary Art | P | C
+AHC | 3423 | Arts of Ancient America | P | C
+AHC | 3523 | Latin American Art | P | C
+AHC | 4333 | Topics in Art History and Criticism | P | C
+AHC | 4913 | Independent Study | P | C
+AHC | 4933 | Art Gallery and Museum Internship | P | C
+ART | 1003 | Two Dimensional Foundations | P | C
+ART | 1013 | Three Dimensional Foundations | P | C
+ART | 1103 | Introduction to Visual Arts | P | C
+ART | 1143 | Art for Non-Art Majors | P | C
+ART | 1213 | Drawing I | P | C
+ART | 1223 | Drawing II | P ART 1213 | C
+ART | 2113 | Painting | P ART 1003 ART 1223 | C
+ART | 2223 | New Media | P ART 1003 | C
+ART | 2313 | Photography | P ART 1003 | C
+ART | 2413 | Printmaking | P ART 1003 ART 1223 | C
+ART | 2613 | Sculpture | P ART 1013 | C
+ART | 2713 | Ceramics | P ART 1003 | C
+ART | 3023 | Color Theory and Practice | P ART 1003 ART 1013 ART 1223 | C
+ART | 3033 | Contemporary Studio | P | C
+ART | 3113 | Painting II | P ART 1003 ART 1223 ART 2113 | C
+ART | 3133 | Painting III | P ART 3113 | C
+ART | 3223 | Drawing | P ART 1223 | C
+ART | 3233 | Drawing | P ART 1223 | C
+ART | 3513 | Photography | P ART 2313 | C
+ART | 4033 | Studio Art Problems | P | C
+ART | 4133 | Painting  | P ART 3133 ART 3233 | C
+ART | 4233 | Drawing | P ART 3233 | C
+ART | 4313 | New Media | P ART 2223 | C
+ART | 4433 | Printmaking | P ART 2413 | C
+ART | 4533 | Photography | P ART 2313 ART 3513 | C
+ART | 4673 | Sculpture | P ART 1003 ART 2613 | C
+ART | 4753 | Ceramics | P ART 1003 ART 1013 ART 2713 | C
+ART | 4833 | Internship in the Visual Arts | P | C
+ART | 4913 | Independent Study | P | C
+ART | 4953 | Special Studies in Art | P | C
+ART | 4983 | Senior Seminar and Exhibition | P ART 3033 | C

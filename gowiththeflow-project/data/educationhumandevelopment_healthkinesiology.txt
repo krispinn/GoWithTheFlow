@@ -1,0 +1,110 @@
+HTH | 2133 | School Health | P | C
+HTH | 2413 | Introduction to Community and Public Health | P | C
+HTH | 2513 | Personal Health | P | C
+HTH | 2601 | Field-Based Skills in Community Health and Preventive Services | P HTH 2413 | C
+HTH | 2623 | Applied Technology for Research and Health Education | P | C
+HTH | 3003 | Survey of Drugs and Health | P | C
+HTH | 3013 | Survey of Human Nutrition | P | C
+HTH | 3023 | Survey of Human Sexuality | P | C
+HTH | 3043 | Principles of Weight Management | P | C
+HTH | 3303 | Physical Activity and Health | P HTH 3503 HTH 3663 | C
+HTH | 3503 | Theories of Health Behavior | P | C
+HTH | 3513 | Community Health | P HTH 2413 HTH 3503 | C
+HTH | 3523 | Worksite Health Promotion | P HTH 2413 HTH 3503 | C
+HTH | 3533 | Drugs and Health | P HTH 2413 HTH 3503 HTH 3663 | C
+HTH | 3543 | Growth and Development | P | C
+HTH | 3553 | Emotional Wellness | P | C
+HTH | 3563 | Child and Adolescent Health Promotion | P | C
+HTH | 3663 | Program Planning and Evaluation | P HTH 2413 HTH 3503 | C
+HTH | 4503 | Human Disease and Epidemiology | P | C
+HTH | 4513 | Consumer Health | P | C
+HTH | 4523 | Understanding Human Sexuality | P HTH 2413 HTH 3503 HTH 3663 | C
+HTH | 4533 | Nutrition and Health | P BIO 2083 BIO 2103 HTH 2413 HTH 3503 HTH 3663 | C
+HTH | 4543 | Environmental Health and Safety | P | C
+HTH | 4911 | Independent Study | P | C
+HTH | 4913 | Independent Study | P | C
+HTH | 4921 | Capstone for Community Health and Preventive Services | P | C
+HTH | 4936 | Internship in Health | P | C
+HTH | 4951 | Special Studies in Health | P | C
+HTH | 4952 | Special Studies in Health | P | C
+HTH | 4953 | Special Studies in Health | P | C
+HTH | 4993 | Honors Thesis | P | C
+KIN | 1001 | Individual Physical Activities | P | C
+KIN | 1013 | Freshman Topics in Kinesiology | P | C
+KIN | 1101 | Team Sports | P | C
+KIN | 2003 | Computer Applications in Kinesiology and Health | P KIN 2303 HTH 2413 | C
+KIN | 2123 | Fitness and Wellness Concepts | P KIN 2303 | C
+KIN | 2141 | Medical Terminology | P KIN 2303 | C
+KIN | 2303 | Foundations of Kinesiology | P | C
+KIN | 2421 | Outdoor Activities and Innovative Games | P KIN 2303 | C
+KIN | 2441 | Management and Organization in Kinesiology and Sports | P KIN 2303 | C
+KIN | 3001 | Skill Analysis in Physical Activity | P | C
+KIN | 3011 | Skill Analysis in Physical Activity | P | C
+KIN | 3013 | Theory of Coaching | P | C
+KIN | 3021 | Skill Analysis in Physical Activity | P | C
+KIN | 3031 | Skill Analysis in Physical Activity | P | C
+KIN | 3041 | Skill Analysis in Physical Activity | P | C
+KIN | 3051 | Group Fitness Instruction | P KIN 2303 | C
+KIN | 3061 | Foundational Movement | P | C
+KIN | 3071 | Musculoskeletal Fitness Instruction | P KIN 3313 | C
+KIN | 3103 | Motor Development | P | C
+KIN | 3113 | Scientific Principles of Physical Activity | P | C
+KIN | 3123 | Early Childhood Development Through Movement | P | C
+KIN | 3213 | First Aid and Injury Management | P KIN 2303 KIN 3013 | C
+KIN | 3303 | Athletic Injuries and Training Procedures | P KIN 3313 | C
+KIN | 3313 | Anatomy and Physiology for Kinesiology | P KIN 2303 HTH 2413 | C
+KIN | 3321 | Biomechanics Laboratory | P KIN 3313 | C KIN 3323
+KIN | 3323 | Biomechanics | P KIN 3313 | C
+KIN | 3413 | Tactics | P KIN 2303 | C
+KIN | 3431 | Exercise Physiology Laboratory | P KIN 3313 | C KIN 3433
+KIN | 3433 | Exercise Physiology | P KIN 3313 | C
+KIN | 3441 | Graded Exercise Testing and Fitness Assessment Laboratory | P KIN 3433 | C KIN 3443
+KIN | 3443 | Graded Exercise Testing and Fitness Assessment | P KIN 3433 | C
+KIN | 3453 | Fitness Programming and Exercise Prescription | P KIN 3071 KIN 3323 KIN 3433 | C
+KIN | 3463 | Musculoskeletal Anatomy | P KIN 3313 | C
+KIN | 4023 | Exercise Psychology | P KIN 2303 | C
+KIN | 4043 | Therapeutic Modalities | P KIN 3303 KIN 3463 | C
+KIN | 4113 | Evaluation | P | C
+KIN | 4123 | Psychosocial Aspects of Exercise and Sport | P KIN 2303 | C
+KIN | 4143 | Advanced Athletic Training | P KIN 3303 KIN 3463 | C
+KIN | 4203 | Teaching Secondary Physical Education | P KIN 4343 KIN 4423 | C
+KIN | 4233 | Advanced Topics in Exercise Physiology | P KIN 3433 | C
+KIN | 4243 | Musculoskeletal Rehabilitation | P KIN 3303 KIN 3463 | C
+KIN | 4253 | Exercise Nutrition | P KIN 3433 | C
+KIN | 4303 | Teaching Elementary Physical Education | P KIN 4343 KIN 4423 | C
+KIN | 4343 | Movement Awareness | P KIN 3413 | C
+KIN | 4401 | Motor Learning Laboratory | P KIN 3313 | C KIN 4403
+KIN | 4403 | Motor Learning | P KIN 3313 | C
+KIN | 4413 | Coaching Athletics | P | C
+KIN | 4423 | Developmental | P KIN 3103 KIN 3413 | C
+KIN | 4911 | Independent Study | P | C
+KIN | 4912 | Independent Study | P | C
+KIN | 4913 | Independent Study | P | C
+KIN | 4931 | Clinical Applications of Athletic Injuries | P | C
+KIN | 4936 | Internship in Kinesiology | P | C
+KIN | 4943 | Athletic Coaching Practicum | P | C
+KIN | 4953 | Special Studies | P | C
+KIN | 4973 | Wellness Counseling | P KIN 3443 KIN 4253 | C
+KIN | 4983 | Applied Exercise Science | P KIN 3323 KIN 3433 KIN 3443 KIN 3453 KIN 4253 | C
+KIN | 4993 | Honors Thesis | P | C
+NDT | 2043 | Introduction to Nutritional Sciences | P | C
+NDT | 3191 | Applied Food Science Practicum | P | C NDT 3313
+NDT | 3203 | Introduction to Nutrition and Dietetics Careers | P | C
+NDT | 3292 | Food Production Practicum | P | C NDT 3353
+NDT | 3313 | Applied Food Science | P NDT 2043 | C NDT 3191
+NDT | 3323 | Nutrition and Health Assessment | P NDT 2043 | C
+NDT | 3333 | Nutrition Counseling and Education | P NDT 2043 | C
+NDT | 3343 | Nutrition in the Life Span | P NDT 2043 | C
+NDT | 3353 | Production and Foodservice System Management I | P NDT 3313 | C NDT 3292
+NDT | 3413 | Advanced Human Nutrition | P NDT 2043 | C
+NDT | 4091 | Community Service Practicum | P | C
+NDT | 4191 | Nutrition Care Process Practicum | P | C NDT 4353
+NDT | 4313 | Production and Food Service System Management II | P NDT 3353 NDT 3292 | C
+NDT | 4323 | Medical Nutrition Therapy I | P NDT 3323 NDT 3333 | C
+NDT | 4333 | Community Nutrition | P | C
+NDT | 4343 | Nutrition in Disease Prevention and Health Promotion | P NDT 2043 NDT 4333 | C
+NDT | 4353 | Medical Nutrition Therapy II | P NDT 4323 | C
+NDT | 4363 | Current Issues in Nutrition | P | C
+NDT | 4951 | Independent Study in Nutrition and Dietetics | P | C
+NDT | 4952 | Independent Study in Nutrition and Dietetics | P | C
+NDT | 4953 | Independent Study in Nutrition and Dietetics | P | C

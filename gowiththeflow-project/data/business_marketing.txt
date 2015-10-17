@@ -1,0 +1,39 @@
+MKT | 3013 | Principles of Marketing | P | C
+MKT | 3043 | Advertising | P MKT 3013 | C
+MKT | 3063 | Personal Selling | P MKT 3013 | C
+MKT | 3083 | Marketing Research | P MKT 3013 MS 1023 MS 3043 | C
+MKT | 3113 | Retailing | P MKT 3013 | C
+MKT | 4063 | Multicultural Marketing | P MGT 3003 MKT 3013 | C
+MKT | 4073 | International Marketing | P MGT 3003 MKT 3013 | C
+MKT | 4093 | Consumer Behavior | P MGT 3003 MKT 3013 | C
+MKT | 4143 | Sports Marketing | P MGT 3003 MKT 3013 | C
+MKT | 4153 | Ethics in Marketing | P MGT 3003 MKT 3013 | C
+MKT | 4233 | Integrated Marketing Communications | P MGT 3003 MKT 3013 | C
+MKT | 4353 | Service Operations Management | P MGT 3003 MKT 3013 | C
+MKT | 4763 | Real Estate Marketing | P MGT 3003 MKT 3013 | C
+MKT | 4893 | Marketing Capstone | P MGT 3003 MKT 3013 | C
+MKT | 4913 | Independent Study | P MGT 3003 MKT 3013 | C
+MKT | 4933 | Internship in Marketing | P MGT 3003 MKT 3013 | C
+MKT | 4951 | Special Studies in Marketing | P MGT 3003 MKT 3013 | C
+MKT | 4953 | Special Studies in Marketing | P MGT 3003 MKT 3013 | C
+MKT | 4993 | Honors Thesis | P MGT 3003 | C
+SET | 2123 | Survey of Tourism | P | C
+SET | 3043 | Attractions Management | P SET 2123 | C
+SET | 3233 | Sport Management | P SET 2123 | C
+SET | 3283 | Sport and Event Media Relations | P SET 2123 | C
+SET | 3313 | Sport Tourism and Events | P SET 2123 | C
+SET | 3333 | Event Management | P SET 2123 | C
+SET | 3413 | Resort and Club Management | P SET 2123 | C
+SET | 3433 | Meetings and Conventions | P SET 2123 | C
+SET | 3543 | Economics of Tourism and Leisure | P ECO 2023 SET 2123 | C
+SET | 4233 | Sport Facility and Event Management | P SET 3233 | C
+SET | 4543 | Destination Marketing | P SET 2123 | C
+SET | 4811 | Special Topics in Sport, Event and Tourism Management | P | C
+SET | 4812 | Special Topics in Sport, Event and Tourism Management | P | C
+SET | 4813 | Special Topics in Sport, Event and Tourism Management | P | C
+SET | 4921 | Independent Study in Sport, Event and Tourism Management | P | C
+SET | 4922 | Independent Study in Sport, Event and Tourism Management | P | C
+SET | 4923 | Independent Study in Sport, Event and Tourism Management | P | C
+SET | 4941 | Internship in Sport, Event and Tourism Management | P MGT 3003 | C
+SET | 4942 | Internship in Sport, Event and Tourism Management | P MGT 3003 | C
+SET | 4943 | Internship in Sport, Event and Tourism Management | P MGT 3003 | C

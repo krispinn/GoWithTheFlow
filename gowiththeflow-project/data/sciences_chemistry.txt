@@ -1,0 +1,39 @@
+CHE | 1004 | Chemistry for Allied Health Sciences | P | C
+CHE | 1014 | Elementary Organic and Biochemistry | P CHE 1004 CHE 1003 | C
+CHE | 1073 | Basic Chemistry | P MAT 1073 | C
+CHE | 1103 | General Chemistry I | P CHE 1073 MAT 1073 | C CHE 1121
+CHE | 1113 | General Chemistry II | P CHE 1103 | C
+CHE | 1120 | General Chemistry I Laboratory  | P | C CHE 1121
+CHE | 1121 | General Chemistry I Laboratory | P | C CHE 1120
+CHE | 1130 | General Chemistry II Laboratory  | P | C CHE 1131
+CHE | 1131 | General Chemistry II Laboratory | P CHE 1103 CHE 1121 | C CHE 1130
+CHE | 1143 | Principles of Chemistry I | P CHE 1073 MAT 1073 | C
+CHE | 1153 | Principles of Chemistry II | P CHE 1143 CHE 1103 | C
+CHE | 2603 | Organic Chemistry I | P CHE 1113 | C
+CHE | 2610 | Organic Chemistry I Laboratory  | P | C CHE 2612
+CHE | 2612 | Organic Chemistry I Laboratory | P | C CHE 2610
+CHE | 2803 | Quantitative Topics for Chemists | P MAT 1224 | C
+CHE | 3214 | Analytical Chemistry | P CHE 1113 CHE 1131 | C
+CHE | 3464 | Descriptive Inorganic Chemistry | P CHE 1113 CHE 1131 | C CHE 2603
+CHE | 3643 | Organic Chemistry II | P CHE 2603 | C
+CHE | 3650 | Organic Chemistry II Laboratory  | P | C CHE 3652
+CHE | 3652 | Organic Chemistry II Laboratory | P CHE 2603 CHE 2612 | C CHE 3650
+CHE | 3673 | Organic Chemistry II with Biological Applications | P CHE 2603 | C
+CHE | 3804 | Physical Chemistry I and Laboratory | P CHE 1113 CHE 1131 CHE 2803 PHY 1963 PHY 1971 | C
+CHE | 3824 | Physical Chemistry II and Laboratory | P CHE 3804 PHY 1963 PHY 1971 | C
+CHE | 3854 | Basic Biophysical Chemistry | P CHE 2603 MAT 1214 PHY 1963 PHY 1971 | C
+CHE | 4213 | Instrumental Analysis | P CHE 3214 CHE 3652 | C CHE 3824
+CHE | 4303 | Biochemistry | P CHE 3643 | C
+CHE | 4463 | Inorganic Chemistry | P CHE 3464 | C CHE 3804 CHE 3854
+CHE | 4473 | Bioinorganic Chemistry | P CHE 3464 CHE 3804 CHE 4303 CHE 4463 | C CHE 4303
+CHE | 4623 | Chemistry of Heterocyclic Compounds | P CHE 3643 | C
+CHE | 4673 | Intermediate Organic Chemistry | P CHE 3643 | C
+CHE | 4853 | Computational Chemistry | P CHE 3824 | C
+CHE | 4883 | Introduction to Mass Spectrometry | P CHE 3804 | C
+CHE | 4911 | Independent Study | P | C
+CHE | 4912 | Independent Study | P | C
+CHE | 4913 | Independent Study | P | C
+CHE | 4923 | Special Project in Chemistry | P | C
+CHE | 4953 | Special Studies in Chemistry | P | C
+CHE | 4971 | Proseminar | P CHE 3643 | C
+CHE | 4993 | Honors Research | P | C

@@ -1,0 +1,57 @@
+AST | 1013 | Introduction to Astronomy | P MAT 1023 MAT 1073 | C
+AST | 1031 | Introduction to Astronomy Laboratory | P | C AST 1013
+AST | 1033 | Exploration of the Solar System | P MAT 1023 MAT 1073 | C
+AST | 1043 | Current Topics in Astronomy | P MAT 1023 MAT 1073 | C
+AST | 1073 | Astrobiology | P MAT 1023 MAT 1073 | C
+AST | 1113 | Astronomy for Educators | P MAT 1023 MAT 1073 | C
+AST | 3001 | Undergraduate Astronomy Seminar | P | C AST 3003
+AST | 3013 | Fundamentals of Astronomy | P PHY 1963 PHY 1923 MAT 1224 MAT 1193 | C
+AST | 3023 | Introduction to Astrophysics | P AST 3013 PHY 2103 | C
+AST | 3033 | Observational Techniques in Astronomy | P | C AST 3023
+AST | 3043 | Astrochemistry | P AST 3023 | C
+AST | 3103 | Observational Astronomy Laboratory | P | C AST 3033
+AST | 3303 | Introduction to Galactic and Extragalactic Astronomy | P AST 3023 | C
+AST | 4203 | Stellar Astrophysics | P AST 3023 | C
+AST | 4303 | Solar System Astrophysics | P AST 3023 | C
+AST | 4953 | Special Studies in Astronomy | P AST 3023 | C
+PHY | 1013 | Universes | P MAT 1023 MAT 1073 | C
+PHY | 1603 | Algebra-based Physics I | P MAT 1023 MAT 1073 | C PHY 1611
+PHY | 1611 | Algebra-based Physics I Laboratory | P | C PHY 1603
+PHY | 1623 | Algebra-based Physics II | P PHY 1603 | C PHY 1631
+PHY | 1631 | Algebra-based Physics II Laboratory | P PHY 1611 | C PHY 1623
+PHY | 1943 | Physics for Scientists and Engineers I | P MAT 1193 MAT 1214 | C PHY 1951
+PHY | 1951 | Physics for Scientists and Engineers I Laboratory | P | C PHY 1943
+PHY | 1963 | Physics for Scientists and Engineers II | P PHY 1943 MAT 1224 MAT 1193 | C PHY 1971
+PHY | 1971 | Physics for Scientists and Engineers II Laboratory | P PHY 1951 | C PHY 1963
+PHY | 2103 | Modern Physics | P PHY 1963 MAT 2214 | C PHY 3203
+PHY | 2111 | Modern Physics Laboratory | P PHY 1963 PHY 1971 | C PHY 2103
+PHY | 2823 | Mathematical Physics I | P MAT 2214 PHY 1963 | C
+PHY | 3003 | Current Research Topics in Physics | P PHY 1623 PHY 1631 PHY 1963 PHY 1971 | C
+PHY | 3143 | Introduction to Computational Physics | P PHY 2103 PHY 2823 PHY 3203 | C
+PHY | 3203 | Classical Mechanics I | P PHY 1963 | C PHY 2823
+PHY | 3293 | Thermal Physics | P PHY 1963 PHY 2823 | C
+PHY | 3313 | Materials Physics | P PHY 2103 | C
+PHY | 3343 | Physics Research Laboratory | P PHY 1971 PHY 2103 PHY 2111 | C
+PHY | 3423 | Electricity and Magnetism | P PHY 1963 PHY 2823 | C MAT 3613
+PHY | 3443 | Modern Optics | P PHY 3423 | C
+PHY | 3453 | Lasers | P PHY 2103 | C
+PHY | 3513 | Electrodynamics | P PHY 2823 PHY 3423 | C
+PHY | 3583 | Mathematical Physics II | P PHY 2823 | C
+PHY | 3603 | Cosmology | P PHY 1963 PHY 2103 | C
+PHY | 4013 | Relativity | P PHY 2823 PHY 3203 | C
+PHY | 4203 | Classical Mechanics II | P PHY 3203 | C
+PHY | 4263 | Quantum Mechanics I | P PHY 2103 PHY 3203 MAT 2233 | C PHY 3583
+PHY | 4423 | Quantum Mechanics II | P PHY 3583 PHY 4263 | C
+PHY | 4563 | Biophotonics | P PHY 3443 | C
+PHY | 4603 | Crystallography and Materials Characterization | P PHY 2103 | C
+PHY | 4623 | Nanotechnology | P PHY 2103 | C
+PHY | 4653 | Introduction to Micro and Nanotechnology | P PHY 3423 | C
+PHY | 4703 | Renewable Energy | P PHY 2103 | C
+PHY | 4833 | Molecular Biophysics | P PHY 2103 | C
+PHY | 4843 | Condensed Matter Theory | P PHY 3313 PHY 4263 | C
+PHY | 4911 | Independent Study | P | C
+PHY | 4912 | Independent Study | P | C
+PHY | 4913 | Independent Study | P | C
+PHY | 4953 | Special Studies in Physics | P | C
+PHY | 4983 | Unifying Concepts in Physics | P PHY 3293 PHY 3513 PHY 4263 | C PHY 3583
+PHY | 4993 | Honors Research | P | C

@@ -1,0 +1,8 @@
+EDP | 2113 | Development in the Elementary and Middle School Child | P | C
+EDP | 3133 | Learning and Development in the Early Elementary Context EC | P | C
+EDP | 3203 | Learning and Development in the Secondary School Adolescent | P | C
+EDP | 3303 | Learning and Development in the Middle School Context  | P | C
+EDP | 4203 | Assessment and Evaluation | P EDU 2103 EDP 3203 EDP 3303 | C
+EDP | 4913 | Independent Study | P | C
+EDP | 4953 | Special Studies in Educational Psychology | P | C
+EDP | 4993 | Honors Thesis | P | C

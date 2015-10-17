@@ -1,0 +1,28 @@
+NPO | 3003 | Fundraising in Nonprofit Agencies | P | C
+NPO | 3013 | Introduction to Nonprofit Agencies | P | C
+NPO | 4911 | Independent Study | P | C
+NPO | 4913 | Independent Study | P | C
+NPO | 4933 | Internship in Nonprofit Management | P | C
+NPO | 4936 | Internship in Nonprofit Management | P | C
+NPO | 4953 | Special Studies in Nonprofit Management | P | C
+PAD | 1113 | Public Administration in American Society | P | C
+PAD | 2153 | Analysis and Assessment for Public Administration | P | C
+PAD | 3013 | Introduction to Public Policy | P | C
+PAD | 3023 | Introduction to Urban Management and Policy | P | C
+PAD | 3033 | Introduction to Nonprofit Agencies | P | C
+PAD | 3043 | Public and Nonprofit Financial Management | P | C
+PAD | 3053 | Urban Economic Development | P | C
+PAD | 3113 | Managing Public and Nonprofit Organizations | P | C
+PAD | 3123 | Strategic Planning in the Public and Nonprofit Sectors | P | C
+PAD | 3133 | Politics and Policies of San Antonio and South Texas | P | C
+PAD | 3143 | Urban and Regional Planning | P | C
+PAD | 3153 | Legal Context of Public Policy and Administration | P | C
+PAD | 4843 | Study Abroad | P | C
+PAD | 4853 | Contemporary Issues in Public Administration  | P | C
+PAD | 4911 | Independent Study | P | C
+PAD | 4913 | Independent Study | P | C
+PAD | 4933 | Internship in Public Administration | P PAD 1113 PAD 2153 PAD 3023 PAD 3033 | C
+PAD | 4936 | Internship in Public Administration | P PAD 1113 PAD 2153 PAD 3023 PAD 3033 | C
+PAD | 4953 | Special Topics in Nonprofit Organizations | P | C
+PAD | 4963 | Special Topics in Public Administration | P | C
+PAD | 4993 | Honors Thesis | P | C

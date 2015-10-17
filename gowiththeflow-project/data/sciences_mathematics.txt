@@ -1,0 +1,45 @@
+GEM | 1011 | GEEMS Mathematics | P | C
+GEM | 1021 | GEEMS Mathematics | P GEM 1011 | C
+GEM | 1031 | GEEMS Mathematics | P GEM 1021 | C
+MAT | 0203 | Basic Mathematics | P | C
+MAT | 0213 | Intermediate Algebra | P | C
+MAT | 1023 | College Algebra with Applications | P | C
+MAT | 1033 | Algebra with Calculus for Business | P | C
+MAT | 1043 | Introduction to Mathematics | P | C
+MAT | 1073 | Algebra for Scientists and Engineers | P | C
+MAT | 1093 | Precalculus | P MAT 1073 | C
+MAT | 1153 | Essential Elements in Mathematics I | P MAT 1023 MAT 1073 | C
+MAT | 1163 | Essential Elements in Mathematics II | P MAT 1153 | C
+MAT | 1193 | Calculus for the Biosciences | P MAT 1093 | C
+MAT | 1214 | Calculus I | P MAT 1093 | C
+MAT | 1224 | Calculus II | P MAT 1193 MAT 1214 | C
+MAT | 2214 | Calculus III | P MAT 1224 | C
+MAT | 2233 | Linear Algebra | P MAT 1224 EGR 2323 | C
+MAT | 3013 | Foundations of Mathematics | P MAT 1214 | C
+MAT | 3103 | Data Analysis and Interpretation | P MAT 1093 | C
+MAT | 3123 | Fundamentals of Geometry | P MAT 1093 | C
+MAT | 3213 | Foundations of Analysis | P MAT 1224 MAT 3013 | C
+MAT | 3223 | Complex Variables | P MAT 2214 MAT 3013 | C
+MAT | 3233 | Modern Algebra | P MAT 1214 MAT 3013 | C
+MAT | 3273 | Applied Mathematics for Sciences and Engineering | P MAT 2214 MAT 3613 | C
+MAT | 3613 | Differential Equations I | P | C MAT 2233
+MAT | 3623 | Differential Equations II | P MAT 3613 | C
+MAT | 3633 | Numerical Analysis | P MAT 2233 MAT 3213 CS 1063 CS 1073 CS 1713 CS 2073 | C
+MAT | 3653 | Stochastic Calculus | P STA 3513 | C
+MAT | 4013 | Graphing Calculator Topics | P MAT 1214 | C
+MAT | 4113 | Computer Mathematical Topics | P MAT 1214 | C
+MAT | 4123 | History of Mathematics | P MAT 3233 MAT 4233 MAT 3123 MAT 4263 | C
+MAT | 4213 | Real Analysis I | P MAT 3213 | C
+MAT | 4223 | Real Analysis II | P MAT 4213 | C
+MAT | 4233 | Modern Abstract Algebra | P MAT 2233 MAT 3013 | C
+MAT | 4253 | Number Theory | P MAT 3233 MAT 4233 | C
+MAT | 4263 | Geometry | P MAT 3013 | C
+MAT | 4273 | Topology | P MAT 3213 | C
+MAT | 4303 | Capstone Course for Mathematics | P MAT 3123 MAT 4263 MAT 3233 MAT 4233 MAT 4013 MAT 4113 | C
+MAT | 4313 | Applied Combinatorics | P MAT 1224 | C
+MAT | 4323 | Applied Graph Theory | P MAT 1224 | C
+MAT | 4353 | Mathematical Foundations of Cryptography | P MAT 3233 MAT 4233 | C
+MAT | 4803 | Statistical Quality Control | P STA 3513 | C
+MAT | 4913 | Independent Study | P | C
+MAT | 4953 | Special Studies in Mathematics | P | C
+MAT | 4993 | Honors Research | P | C

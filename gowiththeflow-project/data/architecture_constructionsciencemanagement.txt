@@ -1,0 +1,31 @@
+CSM | 2113 | Construction Materials and Methods | P | C
+CSM | 2143 | Construction Materials and Testing | P CSM 2113 PHY 1603 | C
+CSM | 2323 | Construction Documents | P | C
+CSM | 2333 | Construction Culture and History | P | C
+CSM | 3011 | Construction Industry Contemporary Issues | P | C
+CSM | 3113 | Construction Surveying | P | C
+CSM | 3123 | Technical Communication | P MAT 1033 MAT 1073 | C
+CSM | 3143 | Structures I | P PHY 1603 | C
+CSM | 3621 | Construction Safety I | P | C
+CSM | 4013 | Construction Estimating I | P CSM 2113 CSM 3123 | C
+CSM | 4023 | Construction Estimating II | P CSM 2143 CSM 4013 | C
+CSM | 4143 | Structures II | P CSM 3143 | C
+CSM | 4513 | Project Management | P CSM 3123 | C
+CSM | 4523 | Project Planning and Scheduling | P CSM 4513 | C
+CSM | 4533 | Building Information Modeling for Construction Management | P CSM 3123 | C
+CSM | 4613 | Sustainable Building Practice | P | C
+CSM | 4623 | Construction Safety | P | C
+CSM | 4633 | Construction Law | P | C
+CSM | 4643 | Mechanical, Electrical and Plumbing Systems | P CSM 4533 | C
+CSM | 4713 | Construction Capstone | P CSM 4523 CSM 4023 CSM 4633 CSM 4643 | C
+CSM | 4911 | Independent Study | P | C
+CSM | 4913 | Independent Study | P | C
+CSM | 4916 | Independent Study | P | C
+CSM | 4931 | Summer Internship | P CSM 2323 CSM 3011 CSM 3621 | C
+CSM | 4932 | Internship | P CSM 2323 CSM 3011 CSM 3621 | C
+CSM | 4933 | Summer Internship | P CSM 4623 | C
+CSM | 4943 | Internship I | P CSM 4623 | C
+CSM | 4946 | Internship II | P CSM 4623 | C
+CSM | 4951 | Special Studies in Construction Science and Management | P | C
+CSM | 4953 | Special Studies in Construction Science and Management | P | C
+CSM | 4956 | Special Studies in Construction Science and Management | P | C

@@ -1,0 +1,66 @@
+ENG | 1113 | Introduction to Creative Literary Arts | P | C
+ENG | 2013 | Introduction to Literature | P | C
+ENG | 2213 | Literary Criticism and Analysis | P | C
+ENG | 2223 | British Literature I | P | C
+ENG | 2233 | British Literature II | P | C
+ENG | 2263 | American Literature I | P | C
+ENG | 2293 | American Literature II | P | C
+ENG | 2323 | Creative Writing | P | C
+ENG | 2333 | Creative Writing | P | C
+ENG | 2343 | Creative Writing | P | C
+ENG | 2383 | Multiethnic Literatures of the United States | P | C
+ENG | 2413 | Technical Writing | P | C
+ENG | 2423 | Literature of Texas and the Southwest | P | C
+ENG | 2433 | Editing | P ENG 2413 | C
+ENG | 2443 | Introduction to Rhetoric | P | C
+ENG | 3033 | American Literature,  | P | C
+ENG | 3063 | American Literature,  | P | C
+ENG | 3073 | Young Adult Literature | P | C
+ENG | 3113 | Studies in Individual Authors | P | C
+ENG | 3123 | Modern Fiction | P | C
+ENG | 3133 | Women and Literature | P | C
+ENG | 3153 | Topics in Drama | P | C
+ENG | 3213 | Chaucer | P | C
+ENG | 3223 | Shakespeare | P | C
+ENG | 3233 | Shakespeare | P | C
+ENG | 3243 | Topics in the British Novel | P | C
+ENG | 3253 | The American Novel | P | C
+ENG | 3303 | Theory and Practice of Composition | P | C
+ENG | 3313 | Advanced Composition | P | C
+ENG | 3323 | History of the English Language | P | C
+ENG | 3333 | Introduction to the Structure of English | P | C
+ENG | 3343 | Principles of English Linguistics | P | C
+ENG | 3363 | Topics in Rhetoric and Composition | P | C
+ENG | 3383 | Writing in Public, Professional, and Workplace Contexts | P ENG 2413 | C
+ENG | 3393 | Literary Theories | P ENG 2213 | C
+ENG | 3413 | Specialized Professional Writing | P ENG 2413 | C
+ENG | 3423 | Topics in Creative Writing | P ENG 2323 ENG 2333 ENG 2343 | C
+ENG | 3513 | Mexican American Literature | P | C
+ENG | 3613 | African American Literature | P | C
+ENG | 3713 | Topics in Multiethnic Literatures of the United States | P | C
+ENG | 3813 | Topics in Native American Literature | P | C
+ENG | 4013 | Restoration and Eighteenth-Century Literature | P | C
+ENG | 4023 | Romantic Literature | P | C
+ENG | 4033 | Literary Modes and Genres | P | C
+ENG | 4053 | Modern British and American Poetry | P | C
+ENG | 4063 | Medieval English Literature | P | C
+ENG | 4113 | Renaissance Literature | P | C
+ENG | 4143 | Victorian Literature | P | C
+ENG | 4393 | Feminist Theory of Literature | P | C
+ENG | 4423 | Studies in Advanced Linguistics | P ENG 3343 LNG 4013 | C
+ENG | 4433 | Advanced Professional Writing | P ENG 2413 | C
+ENG | 4523 | Writer | P | C
+ENG | 4533 | Writer | P | C
+ENG | 4613 | Topics in Mexican American Literature | P | C
+ENG | 4713 | Topics in African American Literature | P | C
+ENG | 4911 | Independent Study | P | C
+ENG | 4912 | Independent Study | P | C
+ENG | 4913 | Independent Study | P | C
+ENG | 4933 | Internship | P | C
+ENG | 4953 | Special Studies in English | P | C
+ENG | 4973 | Seminar for English Majors | P | C
+ENG | 4993 | Honors Thesis | P ENG 4973 | C
+THR | 1013 | Acting I | P | C
+THR | 1023 | Acting II | P | C
+THR | 2113 | Intermediate Acting I | P THR 1013 THR 1023 | C
+THR | 2123 | Intermediate Acting II | P THR 2113 | C

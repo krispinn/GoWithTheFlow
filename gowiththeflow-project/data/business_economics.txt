@@ -1,0 +1,24 @@
+ECO | 2003 | Economic Principles and Issues | P | C
+ECO | 2013 | Introductory Macroeconomics | P | C
+ECO | 2023 | Introductory Microeconomics | P | C
+ECO | 3013 | Intermediate Microeconomics | P ECO 2013 ECO 2023 MAT 1033 | C
+ECO | 3033 | Economics of Managerial Decisions | P ECO 2013 ECO 2023 MAT 1033 | C
+ECO | 3053 | Intermediate Macroeconomics | P ECO 2013 ECO 2023 | C
+ECO | 3113 | Introduction to Mathematical Economics | P ECO 2013 ECO 2023 MAT 1033 | C
+ECO | 3123 | Introduction to Econometrics and Business Forecasting | P MAT 1033 STA 1053 MS 1023 | C
+ECO | 3163 | Evolution of Economic Thought | P ECO 2003 ECO 2013 ECO 2023 | C
+ECO | 3183 | Economic History of the United States | P ECO 2003 ECO 2013 ECO 2023 | C
+ECO | 3193 | International Economics | P ECO 2003 ECO 2013 ECO 2023 | C
+ECO | 3213 | Economics of Antitrust and Regulation | P ECO 2003 ECO 2013 ECO 2023 | C
+ECO | 3253 | Economics of Public and Social Issues | P ECO 2003 ECO 2013 ECO 2023 | C
+ECO | 3263 | Industrial Organization | P ECO 2003 ECO 2023 | C
+ECO | 3273 | Introduction to Public Sector Economics | P ECO 2003 ECO 2023 | C
+ECO | 3283 | Labor Economics | P ECO 2003 ECO 2013 ECO 2023 | C
+ECO | 4273 | Environmental and Resource Economics | P ECO 2003 ECO 2023 | C
+ECO | 4303 | Economics of Developing Countries | P ECO 2003 ECO 2013 | C
+ECO | 4543 | Economics of School System Reform | P ECO 2003 ECO 2023 | C
+ECO | 4913 | Independent Study | P | C
+ECO | 4933 | Internship in Economics | P | C
+ECO | 4951 | Special Studies in Economics | P | C
+ECO | 4953 | Special Studies in Economics | P | C
+ECO | 4993 | Honors Thesis | P | C

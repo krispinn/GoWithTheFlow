@@ -1,0 +1,57 @@
+EE | 1322 | Introduction to Electrical and Computer Engineering | P MAT 1073 | C
+EE | 2213 | Electric Circuits and Electronics | P PHY 1963 EGR 2323 | C
+EE | 2423 | Network Theory | P EE 1322 | C EGR 2323 PHY 1963
+EE | 2511 | Logic Design Laboratory | P | C EE 2513
+EE | 2513 | Logic Design | P EE 1322 | C CS 2073
+EE | 3113 | Electrical and Computer Engineering Laboratory I | P EE 2423 EE 2513 | C EE 3313
+EE | 3213 | Electromagnetic Engineering | P EGR 3323 PHY 1963 | C
+EE | 3223 | C | P EE 3463 | C
+EE | 3313 | Electronic Circuits I | P EE 2423 PHY 1963 | C
+EE | 3323 | Electronic Devices | P CHE 1103 EE 2423 | C
+EE | 3413 | Analysis and Design of Control Systems | P EGR 2213 EGR 2323 EE 2213 | C
+EE | 3424 | Mathematics in Signals and Systems | P EE 2423 EGR 2323 | C
+EE | 3463 | Microcomputer Systems I | P EE 2513 CS 2073 | C
+EE | 3513 | Electromechanical Systems | P EGR 2213 | C
+EE | 3523 | Discrete Signals and Systems | P EE 3424 | C
+EE | 3533 | Random Signals and Noise | P EE 3424 EGR 2323 | C
+EE | 3563 | Digital Systems Design | P EE 2511 EE 2513 | C
+EE | 4113 | Electrical and Computer Engineering Laboratory II | P EE 3113 | C EE 3563 EE 4313
+EE | 4123 | Power Engineering Laboratory | P EE 3113 | C EE 4753 EE 4763
+EE | 4243 | Computer Organization and Architecture | P EE 3463 | C
+EE | 4313 | Electronic Circuits II | P EE 3313 EE 3323 | C
+EE | 4323 | Dielectric and Optoelectronic Engineering Laboratory | P EE 3213 | C EE 3323
+EE | 4443 | Discrete-Time and Computer-Controlled Systems | P EE 3413 | C EE 3523
+EE | 4453 | Selected Topics in Digital Signal Processing | P EE 4643 | C
+EE | 4513 | Introduction to VLSI Design | P EE 3323 EE 3463 | C
+EE | 4523 | Introduction to Micro and Nanotechnology | P | C EE 3323
+EE | 4543 | Advanced Topics in Micro and Nanotechnology | P | C EE 3323
+EE | 4553 | VLSI Testing | P EE 3463 | C
+EE | 4563 | FPGA-Based System Design | P EE 3463 EE 3563 | C
+EE | 4583 | Microcomputer Systems II | P EE 3463 | C
+EE | 4593 | Embedded System Design | P EE 3463 EE 3563 | C
+EE | 4613 | Communication Systems | P EE 3424 EE 3533 STA 3533 | C
+EE | 4623 | Digital Filtering | P EE 3424 | C EE 3463
+EE | 4643 | Digital Signal Processing | P | C EE 3523 EE 3533 STA 3533
+EE | 4653 | Digital Communications | P EE 3424 STA 3533 EE 3533 | C
+EE | 4663 | Digital Image Processing | P EE 3523 | C
+EE | 4673 | Data Communication and Networks | P EE 3223 | C EE 4613
+EE | 4683 | Wireless Communications | P EE 3424 EE 3533 STA 3533 | C
+EE | 4693 | Fiber Optic Communications | P EE 3313 EE 3424 | C EE 3213
+EE | 4723 | Intelligent Robotics | P EE 3413 ME 3543 | C
+EE | 4733 | Intelligent Control | P EE 3413 | C
+EE | 4743 | Embedded Control Systems | P EE 3413 EE 3463 | C
+EE | 4753 | Analysis of Power Systems | P EE 3413 | C
+EE | 4763 | Power Electronics | P EE 3113 EE 3413 | C
+EE | 4773 | Electric Drives | P | C EE 3513
+EE | 4811 | Electrical and Computer Engineering Design I | P EE 4313 EE 3563 | C EE 4113
+EE | 4813 | Electrical and Computer Engineering Design II | P EE 4113 EE 4811 | C
+EE | 4911 | Independent Study | P | C
+EE | 4912 | Independent Study | P | C
+EE | 4913 | Independent Study | P | C
+EE | 4953 | Special Studies in Electrical and Computer Engineering | P | C
+CPE | 4811 | Computer Engineering Design I | P EE 3563 | C EE 4113
+CPE | 4813 | Computer Engineering Design II | P EE 4113 CPE 4811 | C
+CPE | 4911 | Independent Study | P | C
+CPE | 4912 | Independent Study | P | C
+CPE | 4913 | Independent Study | P | C
+CPE | 4953 | Special Studies in Computer Engineering | P | C

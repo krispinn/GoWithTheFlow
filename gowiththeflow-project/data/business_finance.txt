@@ -1,0 +1,45 @@
+FM | 4233 | Sport and Event Facility Management | P MGT 3003 MGT 3013 | C
+FM | 4303 | Facility and Property Management Policies and Procedures | P MGT 3003 MGT 3013 | C
+FM | 4313 | Facility and Property Management Practices | P MGT 3003 MGT 3013 | C
+FIN | 3003 | Survey of Finance | P ACC 2003 ACC 2013 | C
+FIN | 3014 | Principles of Business Finance | P MAT 1033 MS 1023 ACC 2013 ECO 2013 | C ACC 2033
+FIN | 3023 | Intermediate Corporate Finance | P FIN 3014 | C ACC 3023 ACC 3053
+FIN | 3033 | Principles of Investment | P FIN 3014 | C
+FIN | 3313 | Money and Banking | P ECO 2013 | C
+FIN | 3413 | Introduction to Financial Markets | P FIN 3313 | C
+FIN | 3423 | Security Analysis | P FIN 3033 | C
+FIN | 3433 | Principles of Real Estate | P | C
+FIN | 3443 | Technical Analysis | P FIN 3014 | C
+FIN | 4323 | Financial Institutions Management | P FIN 3014 | C
+FIN | 4333 | Business Finance for Entrepreneurs | P FIN 3014 | C
+FIN | 4413 | Trading and Analysis of Financial Instruments | P FIN 3033 | C
+FIN | 4423 | Investment Portfolio Management | P MGT 3003 FIN 3033 | C
+FIN | 4523 | Introduction to Risk Management | P MGT 3003 FIN 3014 | C
+FIN | 4613 | Introduction to International Finance | P MGT 3003 FIN 3014 | C
+FIN | 4713 | Mortgage Banking and Real Estate Finance | P MGT 3003 FIN 3014 FIN 3433 | C
+FIN | 4723 | Principles of Real Estate Investment | P MGT 3003 FIN 3014 FIN 3433 | C
+FIN | 4733 | Principles of Sustainable Real Estate Development | P MGT 3003 FIN 3014 FIN 3433 FIN 4713 FIN 4723 | C
+FIN | 4813 | Property-Liability Insurance Finance | P MGT 3003 FIN 3014 | C
+FIN | 4823 | Life and Health Insurance Finance | P MGT 3003 FIN 3014 | C
+FIN | 4853 | Real Estate Appraisal | P MGT 3003 FIN 3014 FIN 3433 | C
+FIN | 4873 | Computer Modeling of Financial Applications | P MGT 3003 IS 3003 FIN 3014 | C
+FIN | 4893 | Cases and Problems in Finance | P FIN 3023 FIN 3033 FIN 3313 ACC 3023 | C
+FIN | 4913 | Independent Study | P MGT 3003 | C
+FIN | 4933 | Internship in Finance | P MGT 3003 | C
+FIN | 4951 | Special Studies in Finance | P MGT 3003 | C
+FIN | 4953 | Special Studies in Finance | P MGT 3003 | C
+FIN | 4993 | Honors Thesis | P MGT 3003 | C
+RFD | 3523 | Real Estate Law | P BLW 3013 | C
+RFD | 3533 | Principles of Construction for Real Estate Professionals | P | C
+RFD | 3571 | Real Estate Seminar | P | C
+RFD | 4733 | Principles of Sustainable Real Estate Development | P MGT 3003 FIN 3014 FIN 3433 FIN 4713 FIN 4723 | C
+RFD | 4763 | Real Estate Marketing | P MGT 3003 MKT 3013 | C
+RFD | 4853 | Real Estate Appraisal | P MGT 3003 FIN 3014 FIN 3433 | C
+RFD | 4903 | Internship in Construction Management | P MGT 3003 FIN 3014 | C
+RFD | 4911 | Independent Study | P MGT 3003 | C
+RFD | 4912 | Independent Study | P MGT 3003 | C
+RFD | 4913 | Independent Study | P MGT 3003 | C
+RFD | 4923 | Internship in Real Estate | P MGT 3003 | C
+RFD | 4951 | Special Studies in Real Estate | P MGT 3003 | C
+RFD | 4952 | Special Studies in Real Estate | P MGT 3003 | C
+RFD | 4953 | Special Studies in Real Estate | P MGT 3003 | C

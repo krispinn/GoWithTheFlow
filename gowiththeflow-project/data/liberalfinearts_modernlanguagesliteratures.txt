@@ -1,0 +1,115 @@
+ARA | 1014 | Elementary Arabic I | P | C
+ARA | 1024 | Elementary Arabic II | P ARA 1014 | C
+ARA | 2013 | Intermediate Arabic I | P ARA 1024 | C
+ARA | 2023 | Intermediate Arabic II | P ARA 2013 | C
+CHN | 1014 | Elementary Chinese I | P | C
+CHN | 1024 | Elementary Chinese II | P CHN 1014 | C
+CHN | 2013 | Intermediate Chinese I | P CHN 1024 | C
+CHN | 2023 | Intermediate Chinese II | P CHN 2013 | C
+CSH | 1103 | Literary Masterpieces of Western Culture I | P | C
+CSH | 1113 | Literary Masterpieces of Western Culture II | P | C
+CSH | 1213 | Topics in World Cultures | P | C
+CSH | 2113 | The Foreign Film | P | C
+CSH | 2313 | Introduction to Literary Studies | P WRC 1023 | C
+CSH | 3023 | Studies in Comparative Literature | P WRC 1023 | C
+CSH | 3823 | Advanced Topics in World Cultures | P WRC 1023 | C
+FL | 1034 | Beginning Language Study Abroad | P | C
+FL | 1038 | Beginning Language Study Abroad | P | C
+FL | 1044 | Individualized Instruction in Basic Language | P | C
+FL | 2033 | Intermediate Language Study Abroad | P | C
+FL | 2036 | Intermediate Language Study Abroad | P | C
+FL | 2043 | Individualized Instruction in Intermediate-Level Language | P | C
+FL | 3003 | Introduction to Translation and Interpretation | P | C
+FL | 3013 | Translation and Interpretation for the Language Specialist | P | C
+FL | 3033 | Advanced Language Study Abroad | P | C
+FL | 3036 | Advanced Language Study Abroad | P | C
+FL | 3043 | Individualized Instruction in Advanced-Level Language | P | C
+FL | 3101 | Languages Across the Curriculum | P | C
+FL | 4243 | Foreign Language Instruction | P | C
+FL | 4933 | Internship | P | C
+FL | 4953 | Special Projects | P | C
+FRN | 1014 | Elementary French I | P | C
+FRN | 1024 | Elementary French II | P FRN 1014 | C
+FRN | 2013 | Intermediate French I | P FRN 1024 | C
+FRN | 2023 | Intermediate French II | P FRN 2013 | C
+FRN | 2333 | French Literature in English Translation | P | C
+FRN | 3023 | Advanced Language Skills | P FRN 2023 | C
+FRN | 3053 | Business French | P FRN 2023 | C
+FRN | 3413 | Survey of French Literature and Culture | P FRN 2023 | C
+FRN | 4003 | Topics in French Literature | P FRN 2023 | C
+FRN | 4213 | Topics in French Culture and Linguistics | P FRN 2023 | C
+FRN | 4913 | Independent Study | P | C
+FRN | 4933 | Internship in French | P | C
+FRN | 4953 | Special Studies in French | P | C
+FRN | 4993 | Honors Research | P | C
+GER | 1014 | Elementary German I | P | C
+GER | 1024 | Elementary German II | P GER 1014 | C
+GER | 2013 | Intermediate German I | P GER 1024 | C
+GER | 2023 | Intermediate German II | P GER 2013 | C
+GER | 2333 | German Literature in English Translation | P | C
+GER | 3023 | Advanced Language Skills | P GER 2023 | C
+GER | 3413 | Survey of German Literature and Culture | P GER 2023 | C
+GER | 4003 | Topics in German Literature | P GER 2023 | C
+GER | 4213 | Topics in German Culture and Linguistics | P GER 2023 | C
+GER | 4913 | Independent Study | P | C
+GER | 4933 | Internship in German | P | C
+GER | 4953 | Special Studies in German | P | C
+GER | 4993 | Honors Research | P | C
+ITL | 1014 | Elementary Italian I | P | C
+ITL | 1024 | Elementary Italian II | P ITL 1014 | C
+ITL | 2013 | Intermediate Italian I | P ITL 1024 | C
+ITL | 2023 | Intermediate Italian II | P ITL 2013 | C
+ITL | 2333 | Italian Literature in English Translation | P | C
+JPN | 1014 | Elementary Japanese I | P | C
+JPN | 1024 | Elementary Japanese II | P JPN 1014 | C
+JPN | 2013 | Intermediate Japanese I | P JPN 1024 | C
+JPN | 2023 | Intermediate Japanese II | P JPN 2013 | C
+JPN | 3023 | Advanced Language Skills | P JPN 2023 | C
+JPN | 3053 | Business Japanese | P JPN 2023 | C
+JPN | 4213 | Topics in Japanese Culture | P JPN 2023 | C
+KOR | 1014 | Elementary Korean I | P | C
+KOR | 1024 | Elementary Korean II | P KOR 1014 | C
+LNG | 3813 | Introduction to Linguistics | P | C
+LNG | 3833 | Sociolinguistics | P | C
+LNG | 4013 | Topics in Linguistics | P | C
+MES | 3113 | Film Studies | P WRC 1023 CSH 2113 | C
+MES | 3333 | Digital Video Production | P WRC 1023 | C
+MES | 4333 | Digital Video Practicum | P MES 3333 | C
+RUS | 1014 | Elementary Russian I | P | C
+RUS | 1024 | Elementary Russian II | P RUS 1014 | C
+RUS | 2013 | Intermediate Russian I | P RUS 1024 | C
+RUS | 2023 | Intermediate Russian II | P RUS 2013 | C
+RUS | 2333 | Russian Literature in English Translation | P | C
+RUS | 3033 | Oral Communication Skills | P RUS 2013 | C
+RUS | 3143 | Structure of Russian Language | P RUS 2013 | C
+RUS | 3213 | Advanced Russian | P RUS 2023 | C
+RUS | 3633 | Topics in Russian Culture | P RUS 2013 | C
+SPN | 1014 | Elementary Spanish I | P | C
+SPN | 1024 | Elementary Spanish II | P SPN 1014 | C
+SPN | 2013 | Intermediate Spanish I | P SPN 1024 | C
+SPN | 2023 | Intermediate Spanish II | P SPN 2013 | C
+SPN | 2333 | Hispanic Literature in English Translation | P WRC 1013 | C
+SPN | 2513 | Spanish for Special Purposes | P SPN 2013 | C
+SPN | 3003 | Oral and Written Expression | P SPN 2023 | C
+SPN | 3013 | Spanish Phonetics and Phonology | P SPN 2023 SPN 3003 | C
+SPN | 3033 | Oral Communication Skills | P SPN 2023 SPN 3003 | C
+SPN | 3043 | Introduction to Literature | P SPN 3063 | C
+SPN | 3063 | Grammar and Composition | P SPN 2023 SPN 3003 | C
+SPN | 3113 | Linguistic Structures of Spanish | P SPN 3063 | C
+SPN | 3153 | Spanish for the Business | P SPN 2023 SPN 3003 | C
+SPN | 3413 | The Literature of Spain from the Middle Ages to  | P SPN 3043 | C
+SPN | 3423 | The Literature of Spain from  | P SPN 3043 | C
+SPN | 3463 | Latin American Literature to Modernism | P SPN 3043 | C
+SPN | 3473 | Latin American Literature since Modernism | P SPN 3043 | C
+SPN | 3493 | Mexican American Literature | P SPN 3003 SPN 3063 | C
+SPN | 3613 | Spanish Culture and Civilization | P SPN 3043 | C
+SPN | 3623 | Latin American Culture and Civilization | P SPN 3043 | C
+SPN | 4003 | Advanced Language Skills | P SPN 3043 SPN 3063 | C
+SPN | 4113 | Topics in Spanish Linguistics | P SPN 3113 | C
+SPN | 4123 | The Spanish of the United States | P SPN 3013 SPN 3113 | C
+SPN | 4203 | Topics in Hispanic Literatures | P | C
+SPN | 4303 | Topics in Hispanic Cultures | P SPN 3043 | C
+SPN | 4913 | Independent Study | P | C
+SPN | 4933 | Internship in Spanish | P | C
+SPN | 4953 | Special Studies in Spanish | P | C
+SPN | 4993 | Honors Research | P | C

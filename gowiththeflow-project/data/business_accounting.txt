@@ -1,0 +1,21 @@
+ACC | 2003 | Foundations of Accounting | P | C
+ACC | 2013 | Principles of Accounting I | P | C
+ACC | 2033 | Principles of Accounting II | P ACC 2013 | C
+ACC | 3023 | Intermediate Accounting I | P ACC 2013 ACC 2033 | C
+ACC | 3033 | Intermediate Accounting II | P ACC 3023 | C
+ACC | 3043 | Federal Income Taxation | P ACC 3023 | C
+ACC | 3053 | Intermediate Accounting for Finance Majors | P ACC 2013 ACC 2033 | C
+ACC | 3113 | Accounting Information Systems | P ACC 2033 IS 3003 | C
+ACC | 3123 | Cost Analysis | P ACC 2033 | C
+ACC | 4013 | Principles of Auditing | P ACC 3033 ACC 3113 | C
+ACC | 4103 | Business Process Management and Control | P ACC 3113 IS 3003 | C
+ACC | 4163 | Contemporary Issues in Accounting Practice | P | C
+ACC | 4911 | Independent Study | P MGT 3003 | C
+ACC | 4913 | Independent Study | P MGT 3003 | C
+ACC | 4933 | Internship in Accounting | P ACC 3033 | C
+ACC | 4953 | Special Studies in Accounting | P | C
+BLW | 3013 | Business Law | P GBA 2013 | C
+BLW | 3023 | Business Organizations and Commercial Law | P BLW 3013 | C
+BLW | 3523 | Real Estate Law | P BLW 3013 | C
+BLW | 4153 | Tourism Law | P MGT 3003 BLW 3013 | C
+BLW | 4953 | Special Studies in Business Law | P MGT 3003 | C

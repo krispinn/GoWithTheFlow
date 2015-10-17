@@ -1,0 +1,52 @@
+ES | 1111 | Environmental Botany Laboratory | P | C
+ES | 1113 | Environmental Botany | P | C
+ES | 1121 | Environmental Zoology Laboratory | P | C
+ES | 1123 | Environmental Zoology | P | C
+ES | 1211 | Environmental Geology Laboratory | P | C
+ES | 1213 | Environmental Geology | P | C
+ES | 1314 | Environmental Statistics | P | C
+ES | 2013 | Introduction to Environmental Systems I | P | C
+ES | 2021 | Introduction to Environmental Systems I Laboratory | P | C ES 2013
+ES | 2023 | Introduction to Environmental Systems II | P | C
+ES | 2031 | Introduction to Environmental Systems II Laboratory | P | C ES 2023
+ES | 2113 | Fundamentals of Geographic Information Systems  | P CS 1173 | C
+ES | 3033 | Environmental Ecology | P ES 2013 ES 2023 | C
+ES | 3042 | Environmental Ecology Laboratory | P ES 2013 ES 2021 ES 2023 ES 2031 | C ES 3033
+ES | 3053 | Environmental Remediation | P CHE 2603 ES 2013 ES 2023 | C
+ES | 3061 | Environmental Remediation Laboratory | P CHE 2603 CHE 2612 ES 2013 ES 2023 | C ES 3053
+ES | 3103 | Environmental Microbiology | P CHE 2603 ES 2013 ES 2023 | C
+ES | 3121 | Introduction to Soils Laboratory | P ES 2013 ES 2023 | C
+ES | 3123 | Introduction to Soils | P ES 2013 ES 2023 | C
+ES | 3141 | Watershed Processes Laboratory | P ES 2013 ES 2023 ES 1213 | C
+ES | 3143 | Watershed Processes | P ES 2013 ES 2023 ES 1213 | C
+ES | 3153 | Environmental Chemistry | P ES 2013 ES 2023 CHE 2603 | C
+ES | 3163 | Ornithology | P ES 3033 BIO 3283 | C
+ES | 3173 | Mammalogy | P ES 3033 BIO 3283 | C
+ES | 3183 | Entomology | P ES 3033 BIO 3283 | C
+ES | 3193 | Herpetology | P ES 3033 BIO 3283 | C
+ES | 3203 | Environmental Law | P | C
+ES | 3213 | Biology of Flowering Plants | P | C
+ES | 3223 | Woody Plants | P | C
+ES | 4003 | Environmental Chemistry and Toxicology | P CHE 2603 ES 2013 ES 2023 | C
+ES | 4011 | Environmental Chemistry and Toxicology Laboratory | P CHE 2603 ES 2013 ES 2023 | C ES 4003
+ES | 4103 | Global Change | P CHE 2603 ES 2013 ES 2023 | C
+ES | 4111 | Field Biology Laboratory | P | C ES 4113
+ES | 4113 | Field Biology | P | C ES 4111
+ES | 4123 | Desert Biology | P | C
+ES | 4133 | Natural Resource Policy and Administration | P ES 3203 | C
+ES | 4143 | Environmental Geomorphology | P ES 1213 | C
+ES | 4153 | Introduction to Sustainability | P ES 2023 | C
+ES | 4163 | Renewable Energy | P ES 2023 | C
+ES | 4173 | Waste Water Treatment | P ES 2023 | C
+ES | 4183 | Environmental Toxicology | P ES 2023 CHE 2603 | C
+ES | 4203 | Environmental Assessment | P ES 2013 ES 2023 | C
+ES | 4211 | Senior Seminar | P | C
+ES | 4213 | Conservation Biology | P ES 3033 BIO 3283 | C
+ES | 4233 | Restoration Ecology | P ES 3033 BIO 3283 | C
+ES | 4243 | Wildlife Management | P ES 3033 BIO 3283 | C
+ES | 4253 | Sources, Fate, and Transport of Chemicals in the Environment | P ES 2013 ES 2023 CHE 2603 | C
+ES | 4911 | Independent Study | P | C
+ES | 4912 | Independent Study | P | C
+ES | 4913 | Independent Study | P | C
+ES | 4951 | Special Studies in Environmental Science | P | C
+ES | 4953 | Special Studies in Environmental Science | P | C

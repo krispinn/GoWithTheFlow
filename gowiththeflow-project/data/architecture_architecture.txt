@@ -1,0 +1,69 @@
+ARC | 1113 | Introduction to the Built Environment | P | C ARC 1214 ARC 1313
+ARC | 1133 | Construction Material and Concepts | P | C
+ARC | 1151 | Introduction to Architecture and Design | P | C
+ARC | 1214 | Design I | P | C
+ARC | 1223 | Design II | P ARC 1214 ARC 1313 | C
+ARC | 1313 | Design Visualization | P | C ARC 1113 ARC 1214
+ARC | 1413 | Architecture and Culture | P | C
+ARC | 1513 | Great Buildings and Cities of the World | P | C
+ARC | 2133 | Principles of Architectural Structures | P | C
+ARC | 2156 | Drawing and Modeling Studio | P | C
+ARC | 2166 | Digital Design Studio | P | C
+ARC | 2233 | Principles of Environmental Systems | P | C
+ARC | 2413 | History of Architecture I | P | C
+ARC | 2423 | History of Architecture II | P | C
+ARC | 2513 | Digital Design Media | P | C
+ARC | 3113 | Advanced Design Visualization | P | C
+ARC | 3203 | Housing Planning | P | C
+ARC | 3433 | Topics in Architecture and Thought | P | C
+ARC | 3553 | Introduction to Architectural Theory | P | C
+ARC | 3613 | History of Modern Architecture | P WRC 1013 WRC 1023 | C
+ARC | 4143 | Architecture Topics | P ARC 2156 ARC 2166 | C
+ARC | 4153 | Topics in International Architecture | P ARC 2156 ARC 2166 | C
+ARC | 4156 | Building Design Studio | P ARC 2133 ARC 2156 ARC 2166 ARC 2233 | C
+ARC | 4183 | Environmental Systems | P ARC 2156 ARC 2166 ARC 2233 | C
+ARC | 4213 | Furniture Design and Construction | P ARC 2156 ARC 2166 | C
+ARC | 4223 | Topics in Design Computing | P ARC 2513 | C
+ARC | 4233 | Computer Projects in Design | P ARC 2513 | C
+ARC | 4283 | Architectural Structures | P ARC 2133 ARC 2156 ARC 2166 | C
+ARC | 4333 | Practicum | P ARC 2156 ARC 2166 | C
+ARC | 4816 | International Studies Studio | P ARC 2156 ARC 2166 | C
+ARC | 4823 | International Studies Theory Seminar | P ARC 2156 ARC 2166 | C
+ARC | 4833 | International Studies Drawing Seminar | P ARC 2156 ARC 2166 | C
+ARC | 4843 | International Studies History Seminar | P ARC 2156 ARC 2166 | C
+ARC | 4911 | Independent Study | P | C
+ARC | 4913 | Independent Study | P | C
+ARC | 4916 | Independent Study | P | C
+ARC | 4953 | Special Studies in Architecture | P | C
+ARC | 4956 | Special Studies in Architecture | P | C
+IDE | 2143 | Architecture and Interior Assemblies | P | C
+IDE | 2153 | Interior Materials and Assemblies | P | C
+IDE | 2413 | History of Interior Architecture I | P WRC 1013 WRC 1023 | C
+IDE | 2423 | History of Interior Architecture II | P WRC 1013 WRC 1023 | C
+IDE | 3013 | Color and Light | P | C
+IDE | 3133 | Interior Design Topics | P | C
+IDE | 3203 | Details and Construction Graphics | P | C
+IDE | 3236 | Interior Design Studio I | P IDE 2143 IDE 2423 | C
+IDE | 3246 | Interior Design Studio II | P IDE 2143 IDE 2153 ARC 4183 | C
+IDE | 3433 | Topics in Design Theory | P IDE 2423 | C
+IDE | 4213 | Furniture Design and Construction | P IDE 3236 | C
+IDE | 4233 | Computer Projects in Design | P ARC 2513 | C
+IDE | 4266 | Systems Integration Studio | P IDE 2143 IDE 2153 IDE 3133 IDE 3246 IDE 4816 ARC 4183 | C
+IDE | 4333 | Practicum | P IDE 3236 | C
+IDE | 4513 | Practice and Ethics | P ARC 2156 ARC 2166 | C
+IDE | 4816 | International Studies Studio | P ARC 2156 ARC 2166 | C
+IDE | 4823 | International Studies Theory Seminar | P ARC 2156 ARC 2166 | C
+IDE | 4833 | International Studies Drawing Seminar | P ARC 2156 ARC 2166 | C
+IDE | 4843 | International Studies History Seminar | P ARC 2156 ARC 2166 | C
+IDE | 4911 | Independent Study | P | C
+IDE | 4913 | Independent Study | P | C
+IDE | 4953 | Special Studies in Interior Architecture | P | C
+IDE | 4956 | Special Studies in Interior Architecture | P | C
+URP | 3123 | Introduction to Community and Regional Planning and Urban Design | P | C
+URP | 3153 | Comparative Urban and Regional Development | P | C
+URP | 3163 | Visual Communications for Community and Regional Planning | P | C
+URP | 4113 | Urban Project Development | P | C
+URP | 4123 | Sustainable Community Development | P | C
+URP | 4213 | Urban Planning and Public Health | P | C
+URP | 4913 | Independent Study | P | C
+URP | 4953 | Special Studies in Urban and Regional Planning | P | C

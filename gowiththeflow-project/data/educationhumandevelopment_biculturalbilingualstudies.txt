@@ -1,0 +1,51 @@
+BBL | 2003 | Language, Culture, and Society | P | C
+BBL | 2023 | Latino Cultural Expressions | P | C
+BBL | 2033 | Multiculturalism in the Southwest | P | C
+BBL | 2243 | Globalizing the Local | P | C
+BBL | 3013 | Language Analysis and Bilingualism | P | C
+BBL | 3023 | Mexican American Culture | P | C
+BBL | 3033 | Mexican Americans in the Southwest | P | C
+BBL | 3043 | Social Psychological Considerations in Mexican American Communities | P | C
+BBL | 3053 | Foundations of Bilingual Studies | P | C
+BBL | 3133 | Language Development in Bilinguals | P | C
+BBL | 3143 | Children | P | C
+BBL | 3403 | Cultural and Linguistic Diversity in a Pluralistic Society | P | C
+BBL | 4003 | Spanish for Bilingual Instructional Delivery | P | C
+BBL | 4013 | Advanced Spanish for Bilingual Teaching and Learning | P BBL 4003 | C
+BBL | 4033 | Assessment, Learning, and Motivation in Bicultural-Bilingual Classrooms | P BBL 3053 RDG 3823 BBL 4063 BBL 4073 BBL 4403 BBL 4063 BBL 4073 | C
+BBL | 4063 | Bilingual Approaches to Content-Based Learning | P BBL 3053 RDG 3823 BBL 4033 BBL 4073 BBL 4403 BBL 4033 BBL 4073 | C
+BBL | 4073 | Language Arts in a Bicultural-Bilingual Program | P BBL 3053 RDG 3823 BBL 4033 BBL 4063 BBL 4403 BBL 4033 BBL 4063 | C
+BBL | 4353 | Approaches to Teaching Science EC | P BBL 3053 IDS 2403 IDS 2413 IDS 3201 IDS 3211 | C
+BBL | 4403 | Approaches to Teaching Mathematics EC | P BBL 3053 RDG 3823 BBL 4033 BBL 4063 BBL 4073 | C
+BBL | 4913 | Independent Study | P | C
+BBL | 4953 | Special Studies in Bilingual and Bicultural Studies | P | C
+ESL | 3003 | Language and Schooling | P | C
+ESL | 3023 | Second Language Teaching and Learning in EC | P | C
+ESL | 3033 | Foundations of English as a Second Language | P | C
+ESL | 3053 | Literacy in a Second Language | P | C
+ESL | 3063 | Second Language Acquisition in Early Adolescence | P | C
+ESL | 4003 | Approaches to Second Language Teaching | P | C
+ESL | 4013 | Principles of First and Second Language Acquisition | P | C
+ESL | 4953 | Special Studies in English as a Second Language | P | C
+EIS | 1063 | ESL for International Students | P | C
+EIS | 1073 | ESL for International Students | P | C
+EIS | 1083 | English for Academic Purposes I | P | C
+EIS | 1093 | English for Academic Purposes II | P | C
+EIS | 1163 | Advanced Oral Communications | P | C
+EIS | 1183 | Advanced English for Academic Purposes I | P | C
+EIS | 1193 | Advanced English for Academic Purposes II | P | C
+MAS | 2013 | Introduction to Chicano | P | C
+MAS | 2023 | Latino Cultural Expressions | P | C
+MAS | 2033 | Multiculturalism in the Southwest | P | C
+MAS | 3003 | Musical Mestizaje | P | C
+MAS | 3013 | Chicana | P | C
+MAS | 3023 | Historical Legacies | P | C
+MAS | 3033 | Mexican Americans in the Southwest | P | C
+MAS | 3043 | Social Psychological Considerations in Mexican American Communities | P | C
+MAS | 3413 | Mexican American Family | P | C
+MAS | 4083 | Research Seminar in Mexican American Studies | P | C
+MAS | 4931 | Internship in Mexican American Studies | P | C
+MAS | 4932 | Internship in Mexican American Studies | P | C
+MAS | 4933 | Internship in Mexican American Studies | P | C
+MAS | 4953 | Special Studies in Mexican American Studies | P | C
+MAS | 4993 | Honors Thesis | P | C

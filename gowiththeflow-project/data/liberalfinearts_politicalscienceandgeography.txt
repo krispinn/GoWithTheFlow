@@ -1,0 +1,180 @@
+GRG | 1013 | Fundamentals of Geography | P | C
+GRG | 1023 | World Regional Geography | P | C
+GRG | 2613 | Physical Geography | P | C
+GRG | 2623 | Human Geography | P | C
+GRG | 3113 | Geography of the United States and Canada | P | C
+GRG | 3123 | Geography of Latin America | P | C
+GRG | 3133 | Geography of Europe | P | C
+GRG | 3143 | Geography of Mexico | P | C
+GRG | 3153 | Geography of Texas | P | C
+GRG | 3166 | Physical and Cultural Geography of the American Southwest | P | C
+GRG | 3213 | Cultural Geography | P | C
+GRG | 3314 | Introduction to Geographic Information Systems | P | C
+GRG | 3323 | Spatial Analysis | P | C
+GRG | 3334 | Advanced Geographic Information Systems | P GRG 3314 | C
+GRG | 3343 | Analytical and Computer Cartography | P | C
+GRG | 3413 | Geography of the Middle East and North Africa | P | C
+GRG | 3423 | Geopolitics of Russia and Eurasia | P | C
+GRG | 3433 | The Geography and Politics of the Asian Rim | P | C
+GRG | 3443 | Medical Geography | P | C
+GRG | 3453 | Population Geography | P | C
+GRG | 3463 | The Geography of Tourism | P | C
+GRG | 3513 | Urban Geography | P | C
+GRG | 3523 | Introduction to Urban Planning | P | C
+GRG | 3533 | Geography of Economic Activity | P | C
+GRG | 3613 | Conservation of Resources | P | C
+GRG | 3623 | Geography of Natural Hazards | P | C
+GRG | 3633 | Geography of Development | P | C
+GRG | 3643 | Political Geography | P | C
+GRG | 3653 | Gender and Cities | P | C
+GRG | 3713 | Weather and Climate | P | C
+GRG | 3723 | Physiography | P | C
+GRG | 3733 | Urban and Regional Analysis | P | C
+GRG | 3743 | Biogeography | P | C
+GRG | 3753 | Climate Change | P | C
+GRG | 4911 | Independent Study | P | C
+GRG | 4912 | Independent Study | P | C
+GRG | 4913 | Independent Study | P | C
+GRG | 4923 | Advanced Research Tutorial | P | C
+GRG | 4933 | Internship in Geography | P | C
+GRG | 4936 | Internship in Geography | P | C
+GRG | 4953 | Special Studies in Geography | P | C
+GRG | 4983 | Research Practicum | P | C
+GRG | 4993 | Honors Thesis | P | C
+GLA | 1013 | U | P | C
+GLA | 2603 | Introduction to Global Affairs Studies | P GLA 1013 POL 1013 | C
+GLA | 2633 | Comparative Politics | P GLA 1013 POL 1013 | C
+GLA | 3003 | International Law | P GLA 1013 POL 1013 | C
+GLA | 3013 | Introduction to Global Analysis | P GLA 1013 POL 1013 | C
+GLA | 3033 | International Governance | P GLA 1013 POL 1013 | C
+GLA | 3043 | International Human Rights | P GLA 1013 POL 1013 | C
+GLA | 3063 | Comparative Political Participation | P GLA 1013 POL 1013 | C
+GLA | 3103 | Research Methods in Global Affairs | P GLA 1013 POL 1013 | C
+GLA | 3213 | Theories of International Relations | P GLA 1013 POL 1013 | C
+GLA | 3223 | Theories of Globalization | P GLA 1013 POL 1013 | C
+GLA | 3233 | Theories of International Justice | P GLA 1013 POL 1013 | C
+GLA | 3383 | East European Politics | P GLA 1013 POL 1013 | C
+GLA | 3393 | Latin American Politics | P GLA 1013 POL 1013 | C
+GLA | 3403 | European Governments | P GLA 1013 POL 1013 | C
+GLA | 3433 | Governments and Politics of Southeast Asia | P GLA 1013 POL 1013 | C
+GLA | 3443 | Governments and Politics of East Asia | P GLA 1013 POL 1013 | C
+GLA | 3453 | The Politics of Mexico | P GLA 1013 POL 1013 | C
+GLA | 3463 | Politics of the Third World | P GLA 1013 POL 1013 | C
+GLA | 3483 | International Political Economy | P GLA 1013 POL 1013 | C
+GLA | 3493 | Politics of the Middle East | P GLA 1013 POL 1013 | C
+GLA | 3503 | American Foreign Policy since World War II | P GLA 1013 POL 1013 | C
+GLA | 3513 | International Organizations in World Politics | P GLA 1013 POL 1013 | C
+GLA | 3523 | Force in International Politics | P GLA 1013 POL 1013 | C
+GLA | 3533 | The United Nations | P GLA 1013 POL 1013 | C
+GLA | 3543 | Diplomacy | P GLA 1013 POL 1013 | C
+GLA | 3563 | Current Issues in World Politics | P GLA 1013 POL 1013 | C
+GLA | 3633 | Political Economy | P GLA 1013 POL 1013 | C
+GLA | 3763 | Globalization | P GLA 1013 POL 1013 | C
+GLA | 3783 | Democracy and World Politics | P GLA 1013 POL 1013 | C
+GLA | 3793 | Politics and Ethics of International Business | P GLA 1013 POL 1013 | C
+GLA | 4003 | Comparative Foreign Policy | P GLA 1013 POL 1013 | C
+GLA | 4013 | The Intelligence Community and Global Affairs | P GLA 1013 POL 1013 | C
+GLA | 4123 | Research Techniques in Global Affairs | P GLA 1013 POL 1013 | C
+GLA | 4133 | Conflict, Law, and Security in Global Affairs | P GLA 1013 POL 1013 | C
+GLA | 4143 | The European Union | P GLA 1013 POL 1013 | C
+GLA | 4203 | Current Topics in Global Affairs | P GLA 1013 POL 1013 | C
+GLA | 4911 | Independent Study | P GLA 1013 | C
+GLA | 4912 | Independent Study | P GLA 1013 | C
+GLA | 4913 | Independent Study | P GLA 1013 | C
+GLA | 4933 | Internship in Global Affairs | P GLA 1013 | C
+GLA | 4936 | Internship in Global Affairs | P GLA 1013 | C
+GLA | 4953 | Special Studies in Global Affairs | P GLA 1013 | C
+GLA | 4973 | Seminar in Global Affairs | P GLA 1013 | C
+GLA | 4983 | Research Practicum | P GLA 1013 | C
+GLA | 4993 | Honors Thesis | P | C
+LGS | 2013 | Introduction to Legal Studies | P POL 1013 | C
+LGS | 3013 | Legal Research and Writing | P POL 1013 | C
+LGS | 3113 | Minorities and the Law | P POL 1013 | C
+LGS | 3213 | Law School Studies | P POL 1013 | C
+LGS | 3323 | Constitutional Analysis I | P POL 1013 | C
+LGS | 3333 | Constitutional Analysis II | P POL 1013 | C
+LGS | 3413 | Regulatory Law and Enterprise | P POL 1013 | C
+LGS | 4013 | Issues in Law and Society | P POL 1013 LGS 2013 | C
+LGS | 4123 | Legal and Philosophical Reasoning | P POL 1013 | C
+LGS | 4133 | Analytical Reasoning, Logic, Argumentation, and Law School Admission | P POL 1013 | C
+LGS | 4223 | Torts | P POL 1013 | C
+LGS | 4233 | The Federal Judiciary | P POL 1013 | C
+LGS | 4913 | Independent Study | P POL 1013 | C
+LGS | 4933 | Internship in Legal Studies | P POL 1013 | C
+POL | 1013 | Introduction to American Politics | P | C
+POL | 1133 | Texas Politics and Society | P | C
+POL | 1213 | Civil Rights in Texas and America | P | C
+POL | 2503 | Introduction to Political Theory | P POL 1013 | C
+POL | 2513 | Politics and the Administrative Process | P POL 1013 | C
+POL | 2533 | Introduction to Political Science | P POL 1013 | C
+POL | 2603 | International Politics | P POL 1013 | C
+POL | 2623 | Law and Society | P POL 1013 | C
+POL | 2633 | Comparative Politics | P POL 1013 | C
+POL | 2703 | Scope and Methods in Political Science | P POL 1013 | C
+POL | 3013 | The American Legal Process | P POL 1013 | C
+POL | 3033 | International Governance | P POL 1013 | C
+POL | 3043 | International Human Rights | P POL 1013 | C
+POL | 3093 | Mexican American Politics | P POL 1013 | C
+POL | 3103 | Political Ideology | P POL 1013 | C
+POL | 3113 | American Political Thought | P POL 1013 | C
+POL | 3123 | Political Psychology | P POL 1013 | C
+POL | 3133 | Political Philosophy | P POL 1013 | C
+POL | 3143 | Political Philosophy | P POL 1013 | C
+POL | 3153 | Political Philosophy | P POL 1013 | C
+POL | 3163 | Introduction to Feminist Theory | P POL 1013 | C
+POL | 3173 | Justice and Social Policy | P POL 1013 | C
+POL | 3183 | Women in Politics | P POL 1013 | C
+POL | 3203 | African American Political Thought | P POL 1013 | C
+POL | 3213 | Business and Politics in the Third World | P POL 1013 | C
+POL | 3223 | Judicial Politics | P POL 1013 | C
+POL | 3244 | Mass Media and Public Opinion | P POL 1013 | C
+POL | 3253 | Participation and American National Elections | P POL 1013 | C
+POL | 3273 | Introduction to Global Analysis | P POL 1013 | C
+POL | 3283 | The American Presidency | P POL 1013 | C
+POL | 3293 | Political Movements | P POL 1013 | C
+POL | 3303 | Race, Ethnicity and Public Policy | P POL 1013 | C
+POL | 3323 | Constitutional Law I | P POL 1013 | C
+POL | 3333 | Constitutional Law II | P POL 1013 | C
+POL | 3353 | Leadership and Elites | P POL 1013 | C
+POL | 3363 | Political Parties and Interest Groups | P POL 1013 | C
+POL | 3373 | The Legislative Process | P POL 1013 | C
+POL | 3383 | East European Politics | P POL 1013 | C
+POL | 3393 | Latin American Politics | P POL 1013 | C
+POL | 3403 | European Governments | P POL 1013 | C
+POL | 3413 | The Politics of Urban Development | P POL 1013 | C
+POL | 3433 | Governments and Politics of Southeast Asia | P POL 1013 | C
+POL | 3443 | Governments and Politics of East Asia | P POL 1013 | C
+POL | 3453 | The Politics of Mexico | P POL 1013 | C
+POL | 3463 | Politics of the Third World | P POL 1013 | C
+POL | 3483 | International Political Economy | P POL 1013 | C
+POL | 3493 | Politics of the Middle East | P POL 1013 | C
+POL | 3503 | American Foreign Policy since World War II | P POL 1013 | C
+POL | 3513 | International Organizations in World Politics | P POL 1013 | C
+POL | 3523 | Force in International Politics | P POL 1013 | C
+POL | 3553 | The Welfare State in Comparative Perspective | P POL 1013 | C
+POL | 3563 | Current Issues in World Politics | P POL 1013 | C
+POL | 3583 | Jurisprudence | P POL 1013 | C
+POL | 3633 | Political Economy | P POL 1013 | C
+POL | 3743 | Politics in Film | P POL 1013 | C
+POL | 3753 | Latino | P POL 1013 | C
+POL | 3763 | Globalization | P POL 1013 | C
+POL | 3773 | Experiments in Democratic Renewal | P POL 1013 POL 2633 | C
+POL | 3783 | Democracy and World Politics | P POL 1013 | C
+POL | 3823 | Politics of Congressional Elections | P POL 1013 | C
+POL | 4003 | Comparative Foreign Policy | P POL 1013 | C
+POL | 4013 | The Intelligence Community and World Affairs | P POL 1013 | C
+POL | 4023 | Techniques in Global Analysis | P POL 1013 | C
+POL | 4123 | Legal and Philosophical Reasoning | P POL 1013 | C
+POL | 4133 | Politics, Law, and Literature | P POL 1013 | C
+POL | 4143 | The European Union | P POL 1013 POL 2633 POL 3403 | C
+POL | 4203 | Current Topics in Global Analysis | P POL 1013 | C
+POL | 4323 | Administrative Law | P POL 1013 | C
+POL | 4911 | Independent Study | P | C
+POL | 4912 | Independent Study | P | C
+POL | 4913 | Independent Study | P | C
+POL | 4933 | Internship in Political Science | P | C
+POL | 4936 | Internship in Political Science | P | C
+POL | 4953 | Special Studies in Political Science | P POL 1013 | C
+POL | 4973 | Seminar in Political Science | P POL 1013 POL 2703 | C
+POL | 4983 | Research Practicum | P | C
+POL | 4993 | Honors Thesis | P | C

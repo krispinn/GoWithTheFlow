@@ -1,0 +1,71 @@
+ASL | 1013 | American Sign Language | P | C
+ASL | 1023 | American Sign Language | P ASL 1013 | C
+I | 4203 | Models of Teaching in the Content Areas of the Secondary School | P EDP 3203 EDU 2103 | C EDP 4203
+I | 4213 | Approaches to Teaching Music | P EDP 3203 EDU 2103 | C
+I | 4303 | Approaches to Teaching Social Studies Incorporating Language Arts and Fine Arts EC | P ECE 4203 RDG 3823 | C ECE 4143 RDG 4833 ECE 4203 RDG 3823
+I | 4353 | Approaches to Teaching Science EC | P ECE 3143 ECE 3313 ECE 3603 | C ECE 4203 RDG 3823
+I | 4403 | Approaches to Teaching Mathematics EC | P ECE 3143 ECE 3313 ECE 3603 | C ECE 4203 RDG 3823
+I | 4433 | Approaches to Teaching Science | P | C RDG 3533
+I | 4443 | Approaches to Teaching Mathematics | P | C RDG 3533
+I | 4543 | Approaches to Teaching Social Studies | P | C RDG 3533
+I | 4553 | Approaches to Service-Learning in Social Studies | P | C RDG 3533
+I | 4603 | Mathematics and Science Approaches and Classroom Management Strategies | P | C RDG 3533 RDG 3533
+I | 4616 | Student Teaching | P ECE 4143 ECE 4203 RDG 3823 RDG 4833 RDG 3823 RDG 4833 | C
+I | 4623 | Applied Teaching | P | C RDG 3533 RDG 3533 RDG 3533
+I | 4626 | Student Teaching | P EDP 3303 ESL 3063 MAT 1023 RDG 3533 RDG 3633 RDG 3803 | C
+I | 4646 | Student Teaching | P EDP 3203 EDP 4203 RDG 3773 | C
+I | 4716 | Student Teaching | P | C
+I | 4911 | Independent Study | P | C
+I | 4912 | Independent Study | P | C
+I | 4913 | Independent Study | P | C
+I | 4923 | Internship in Education | P | C
+I | 4926 | Internship in Education | P | C
+ECE | 3133 | Programs and Policies in Early Childhood Education | P | C
+ECE | 3143 | Child Growth and Development | P | C ECE 3313 ECE 3603
+ECE | 3313 | Play, Creativity, and Learning | P | C ECE 3143 ECE 3603
+ECE | 3603 | Language and Literacy Acquisition | P | C ECE 3143 ECE 3313
+ECE | 4103 | Guidance of Young Children in Groups | P | C
+ECE | 4123 | Family and Community Resources in Early Childhood | P | C
+ECE | 4143 | Principles and Practices of Differentiated Education EC | P ECE 4203 RDG 3823 | C RDG 4833 ECE 4203 RDG 3823
+ECE | 4153 | Culturally Appropriate Assessment for Infants and Young Children | P | C
+ECE | 4203 | Assessment and Evaluation in EC | P ECE 3143 ECE 3313 ECE 3603 | C RDG 3823
+ECE | 4913 | Independent Study | P | C
+IDS | 2013 | Introduction to Learning and Teaching in a Culturally Diverse Society | P | C
+IDS | 2083 | Technology for Learning and Teaching | P | C
+IDS | 2113 | Society and Social Issues | P | C
+IDS | 2403 | Physical Science | P | C
+IDS | 2413 | Earth Systems Science | P | C
+IDS | 3003 | STEM in Social Contexts | P IDS 2113 WRC 1013 WRC 1023 | C
+IDS | 3013 | Diversity, Equity, and the Social Sciences | P IDS 2113 | C
+IDS | 3123 | Culture, Literature, and Fine Arts | P IDS 2113 WRC 1013 WRC 1023 | C
+IDS | 3201 | Inquiry in Physical Science | P | C
+IDS | 3211 | Inquiry in Earth Systems Science | P | C
+IDS | 3224 | Earth Systems Science Investigations | P | C
+IDS | 3234 | Investigations in Physical Science | P | C
+IDS | 3713 | Interdisciplinary Inquiry | P IDS 2113 IDS 3003 IDS 3013 IDS 3123 WRC 1013 WRC 1023 | C
+IDS | 4913 | Independent Study | P | C
+IDS | 4993 | Honors Thesis | P | C
+RDG | 3513 | Children | P | C
+RDG | 3523 | Reading for Teachers | P | C
+RDG | 3533 | Reading and Writing Across the Disciplines | P RDG 3523 | C EDP 4203
+RDG | 3633 | Literature and Other Texts Across the Content Areas | P | C
+RDG | 3673 | Reading for Secondary Teachers | P | C
+RDG | 3773 | Reading and Writing Across the Disciplines | P EDP 3203 EDU 2103 | C
+RDG | 3803 | Writing Development and Processes | P | C
+RDG | 3823 | Reading Comprehension | P ECE 3143 ECE 3313 ECE 3603 | C ECE 4203 ECE 4143 RDG 4833
+RDG | 4833 | Organizing Reading Programs for Differentiated Instruction | P ECE 3143 ECE 3313 ECE 3603 | C ECE 4203 ECE 4143 RDG 4833
+RDG | 4913 | Independent Study | P | C
+SPE | 3603 | Introduction to Special Education | P | C
+SPE | 3623 | Assessment of Students with Mild | P SPE 3603 SPE 3693 ECE 3603 | C SPE 3653 SPE 4623 SPE 4643
+SPE | 3633 | Classroom and Behavior Management for Students with Disabilities | P SPE 3603 SPE 3623 SPE 3653 SPE 3693 SPE 4623 SPE 4643 ECE 3603 RDG 3523 | C SPE 3673 SPE 3683 SPE 4673
+SPE | 3653 | Practicum in Special Education  | P SPE 3603 SPE 3693 ECE 3603 | C SPE 3623 SPE 4623 SPE 4643
+SPE | 3673 | Assessment | P SPE 3603 SPE 3693 ECE 3603 RDG 3523 | C SPE 3633 SPE 3683 SPE 4673
+SPE | 3683 | Special Education Across the Lifespan | P SPE 3603 SPE 3693 ECE 3603 RDG 3523 | C SPE 3633 SPE 3673 SPE 4673
+SPE | 3693 | Special Education Law | P | C
+SPE | 4623 | Mathematics Instruction for Students with Disabilities | P SPE 3603 SPE 3693 ECE 3603 MAT 1153 MAT 1163 | C SPE 3623 SPE 3653 SPE 4643
+SPE | 4643 | Instruction for Students with Mild | P SPE 3603 SPE 3693 ECE 3603 | C SPE 3623 SPE 3653 SPE 4623
+SPE | 4653 | Practicum in Special Education  | P SPE 3603 SPE 3623 SPE 3633 SPE 3653 SPE 3673 SPE 3683 SPE 3693 SPE 4623 SPE 4643 SPE 4673 ECE 3603 RDG 3523 | C SPE 4683 SPE 4693
+SPE | 4673 | Instruction for Students with Autism Spectrum Disorders and Developmental Disabilities | P SPE 3603 SPE 3693 ECE 3603 RDG 3523 | C SPE 3633 SPE 3673 SPE 3683
+SPE | 4683 | Communication and Collaboration in Special Education | P SPE 3603 SPE 3623 SPE 3633 SPE 3653 SPE 3673 SPE 3683 SPE 3693 SPE 4623 SPE 4643 SPE 4673 ECE 3603 RDG 3523 | C SPE 4653 SPE 4693
+SPE | 4693 | Assistive Technology | P SPE 3603 SPE 3623 SPE 3633 SPE 3653 SPE 3673 SPE 3683 SPE 3693 SPE 4623 SPE 4643 SPE 4673 ECE 3603 RDG 3523 | C SPE 4653 SPE 4683
+SPE | 4913 | Independent Study | P | C

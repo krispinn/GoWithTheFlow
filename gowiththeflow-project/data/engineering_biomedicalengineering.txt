@@ -1,0 +1,37 @@
+BME | 1002 | Introduction to Biomedical Engineering | P BIO 1404 CHE 1103 MAT 1214 | C CHE 1113 MAT 1224 PHY 1943 PHY 1951
+BME | 2103 | Physiology for Biomedical Engineering | P BME 1002 CHE 1113 | C
+BME | 2203 | Biomechanics I | P EGR 2323 PHY 1963 | C BME 3114 BME 3211
+BME | 3003 | Biomaterials I | P BME 2103 EGR 2323 | C BME 3114 BME 3211
+BME | 3013 | Clinical Internship in Biomedical Engineering | P BME 2203 BME 3003 BME 3114 | C
+BME | 3022 | Biomedical Engineering Technology and Product Development | P BME 3013 | C
+BME | 3033 | Biomedical Engineering Internship | P BME 3022 | C
+BME | 3041 | Biomedical Engineering Research | P | C
+BME | 3042 | Biomedical Engineering Research | P | C
+BME | 3043 | Biomedical Engineering Research | P | C
+BME | 3114 | Cellular Biology for Biomedical Engineering | P BME 2103 CHE 1113 | C
+BME | 3203 | Biomechanics II | P BME 2203 BME 3211 | C
+BME | 3211 | Biomedical Engineering Laboratory I | P EGR 2323 PHY 1963 STA 1403 | C BME 2203 BME 3003
+BME | 3303 | Bioinstrumentation | P BME 2203 BME 3114 EGR 2323 PHY 1963 | C BME 3311
+BME | 3311 | Biomedical Engineering Laboratory II | P BME 3114 BME 3211 STA 1403 | C BME 3303
+BME | 3403 | Biomaterials II | P BME 3003 BME 3211 | C
+BME | 3413 | Biocompatibility of Materials | P BME 3003 BME 3211 | C
+BME | 3503 | Nanomaterials and Nanobiotechnology | P BME 3003 BME 3211 | C
+BME | 3703 | Biotransport Phenomena | P BME 3114 BME 3303 EGR 2323 PHY 1963 | C BME 3711
+BME | 3711 | Biomedical Engineering Laboratory III | P BME 3114 BME 3303 STA 1403 | C BME 3703
+BME | 4203 | Biomechanics III | P BME 3203 | C
+BME | 4213 | Tissue Mechanics | P BME 2203 | C
+BME | 4293 | Topics in Biomechanics | P BME 3203 | C
+BME | 4403 | Molecular Techniques for Cell-Biomaterials Interactions | P BME 3003 | C
+BME | 4423 | Tissue Engineering | P BME 3003 | C
+BME | 4483 | Topics in Biomaterials | P BME 3403 | C
+BME | 4493 | Topics in Tissue Engineering | P BME 4423 | C
+BME | 4503 | Biosensors | P BME 3503 | C
+BME | 4603 | Biophotonics | P BME 3303 | C
+BME | 4613 | Biomedical Imaging | P BME 4603 | C
+BME | 4623 | Biomedical Optics | P BME 3303 | C
+BME | 4703 | Biomedical Engineering Thermodynamics | P BME 3703 EGR 2323 | C
+BME | 4713 | Cellular Engineering | P BME 3703 | C
+BME | 4793 | Topics in Cellular Engineering | P BME 4713 | C
+BME | 4803 | Fundamental Computational Bioengineering | P BME 3114 EGR 2323 | C
+BME | 4903 | Senior BME Design I | P BME 3022 STA 1403 | C
+BME | 4913 | Senior BME Design II | P BME 4903 | C

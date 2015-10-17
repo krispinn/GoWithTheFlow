@@ -1,0 +1,40 @@
+ENT | 3123 | Innovation and Entrepreneurship | P ACC 2013 ECO 2013 ECO 2023 | C
+ENT | 4123 | Commercialization and Enterprise Planning | P MGT 3003 MGT 3013 | C
+ENT | 4223 | Managing the Entrepreneurial Team | P MGT 3003 ENT 4123 | C
+ENT | 4523 | Microlending Entrepreneurial Startups | P | C
+ENT | 4623 | Tools and Objectives of the Social Enterprise | P | C
+ENT | 4723 | Essentials of Global Entrepreneurship | P | C
+ENT | 4873 | Entrepreneurship | P MGT 3003 ENT 4123 | C
+ENT | 4883 | Small Business Management | P MKT 3013 ENT 4123 | C
+ENT | 4903 | Practicum in Small Business and Entrepreneurship | P ENT 4123 FIN 4333 ENT 4873 ENT 4883 | C
+ENT | 4911 | Independent Study | P ENT 4873 | C
+ENT | 4912 | Independent Study | P ENT 4873 | C
+ENT | 4913 | Independent Study | P ENT 4873 | C
+ENT | 4933 | Internship in Entrepreneurship | P ENT 4873 | C
+ENT | 4951 | Special Studies in Entrepreneurship | P ENT 4873 | C
+ENT | 4952 | Special Studies in Entrepreneurship | P ENT 4873 | C
+ENT | 4953 | Special Studies in Entrepreneurship | P ENT 4873 | C
+MGT | 3003 | Business Communication and Professional Development | P COM 1043 COM 1053 WRC 1023 | C
+MGT | 3013 | Introduction to Organization Theory, Behavior, and Management | P | C
+MGT | 3023 | Understanding People and Organizations | P MGT 3013 | C
+MGT | 3123 | Organizational Communication | P MGT 3003 MGT 3013 | C
+MGT | 3253 | Interpersonal Communication | P MGT 3003 | C
+MGT | 3613 | Managing Human Resources | P MGT 3013 | C
+MGT | 4023 | Business Plan | P MGT 3003 MGT 3013 | C
+MGT | 4073 | International Management | P MGT 3003 MGT 3013 | C
+MGT | 4083 | Comparative International Management Practices | P MGT 3003 MGT 3013 | C
+MGT | 4103 | Introduction to Healthcare Management | P | C
+MGT | 4213 | Designing Organizations | P MGT 3003 MGT 3013 MGT 3023 | C
+MGT | 4613 | Compensating Employees | P MGT 3003 MGT 3613 | C
+MGT | 4623 | Staffing Organizations | P MGT 3003 MGT 3613 | C
+MGT | 4643 | Human Resources Law | P BLW 3013 MGT 3003 | C
+MGT | 4663 | Training and Developing Employees | P MGT 3003 MGT 3613 | C
+MGT | 4803 | Managing Human Resources for Competitive Advantage | P MGT 3003 MGT 3613 MGT 4613 MGT 4623 MGT 4663 | C
+MGT | 4893 | Management Strategy | P FIN 3014 MGT 3003 | C
+MGT | 4913 | Independent Study | P MGT 3003 | C
+MGT | 4923 | Leading Organizations and Making Decisions | P MGT 3003 MGT 3013 | C
+MGT | 4933 | Internship in Management | P MGT 3003 | C
+MGT | 4943 | Managing Effective Teams and Resolving Conflict | P MGT 3003 MGT 3013 MGT 3023 | C
+MGT | 4951 | Special Studies in Management | P MGT 3003 | C
+MGT | 4953 | Special Studies in Management | P MGT 3003 | C
+MGT | 4993 | Honors Thesis | P MGT 3003 | C

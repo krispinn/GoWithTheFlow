@@ -1,0 +1,43 @@
+ME | 1302 | Introduction to Mechanical Engineering | P MAT 1073 | C WRC 1013 ME 1301 ME 1302
+ME | 1402 | Mechanical Engineering Practice and Graphics | P MAT 1093 ME 1302 | C
+ME | 2173 | Numerical Methods | P EGR 2323 | C
+ME | 3113 | Measurements and Instrumentation | P EE 2213 EGR 2513 PHY 1951 PHY 1971 | C
+ME | 3244 | Materials Engineering and Laboratory | P CHE 1103 EGR 2103 | C
+ME | 3263 | Manufacturing Engineering | P EGR 2513 | C
+ME | 3293 | Thermodynamics I | P EGR 2103 MAT 1224 | C
+ME | 3323 | Mechanical Vibration | P EGR 2323 EGR 2513 | C
+ME | 3513 | Mechanism Design | P EGR 2513 ME 1402 | C
+ME | 3543 | Dynamic Systems and Control | P EE 2213 EGR 2513 EGR 3323 | C
+ME | 3663 | Fluid Mechanics | P EGR 2323 EGR 2513 | C ME 3293
+ME | 3813 | Mechanics of Solids | P EGR 2103 | C
+ME | 3823 | Machine Element Design I | P ME 1402 ME 3244 ME 3241 ME 3243 ME 3813 | C
+ME | 4173 | High Performance Computing | P ME 2173 | C
+ME | 4183 | Compressible Flow and Propulsion Systems | P ME 3293 ME 3663 | C
+ME | 4243 | Intermediate Materials Engineering | P ME 3244 ME 3241 ME 3243 ME 3813 | C
+ME | 4293 | Thermodynamics II | P ME 3293 | C
+ME | 4313 | Heat Transfer | P EGR 3323 ME 2173 ME 3663 | C
+ME | 4323 | Thermal Systems Design | P ME 4313 | C
+ME | 4343 | Heating, Air Conditioning, and Refrigeration Design | P ME 4293 ME 4313 | C
+ME | 4373 | Separation Processes | P ME 4293 ME 4313 | C
+ME | 4433 | Machine Element Design II | P ME 3823 | C
+ME | 4543 | Mechatronics | P ME 3113 ME 3543 | C
+ME | 4553 | Automotive Vehicle Dynamics | P EGR 2323 EGR 2513 | C
+ME | 4563 | Computer Integrated Manufacturing | P ME 3263 | C
+ME | 4573 | Facilities Planning and Design | P ME 3263 | C
+ME | 4583 | Enterprise Process Engineering | P ME 3263 | C
+ME | 4593 | Alternative Energy Sources | P ME 4293 ME 4313 | C
+ME | 4603 | Finite Element Analysis | P EGR 3323 ME 2173 ME 3823 | C
+ME | 4613 | Power Plant System Design | P ME 4293 ME 4313 | C
+ME | 4623 | Internal Combustion Engines | P ME 4293 ME 4313 | C
+ME | 4643 | Pressure Vessel and Piping Design | P ME 3663 ME 3813 | C
+ME | 4653 | Oil and Gas Engineering and Reservoir Geomechanics | P ME 3663 ME 3813 | C
+ME | 4723 | Reliability and Quality Control in Engineering Design | P ME 3113 | C
+ME | 4733 | Mechanical Engineering Laboratory | P ME 3113 ME 3813 ME 4293 | C ME 4313
+ME | 4773 | Fundamentals of Robotics | P ME 3543 | C
+ME | 4812 | Senior Design I | P ME 3263 ME 3543 ME 3823 | C ME 4313 ME 4543 ME 3513 ME 4733
+ME | 4813 | Senior Design II | P ME 4812 | C
+ME | 4911 | Independent Study | P | C
+ME | 4912 | Independent Study | P | C
+ME | 4913 | Independent Study | P | C
+ME | 4953 | Special Studies in Mechanical Engineering | P | C
+ME | 4963 | Mechanical Engineering Applications to Biomedical Systems | P EGR 2513 ME 3663 ME 3813 | C

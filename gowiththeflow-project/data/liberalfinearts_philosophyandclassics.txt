@@ -1,0 +1,93 @@
+CLA | 1114 | Basic Individualized Instruction | P | C
+CLA | 2013 | Introduction to Ancient Greece | P | C
+CLA | 2023 | Introduction to Ancient Rome | P | C
+CLA | 2033 | Introduction to Classical Literature | P | C
+CLA | 2113 | Intermediate Individualized Instruction | P LAT 1114 GRK 1114 | C
+CLA | 2323 | Classical Mythology | P | C
+CLA | 2953 | Topics for the Study of the Ancient Mediterranean | P | C
+CLA | 3023 | Classical Myths and Literature | P | C
+CLA | 3053 | Topics in Classical Genres | P | C
+CLA | 3063 | Topics in the Art and Architecture of the Classical World | P | C
+CLA | 3123 | Cultural Issues in Classical Antiquity | P | C
+CLA | 3513 | Topics in Classical History | P | C
+CLA | 4911 | Independent Study | P | C
+CLA | 4912 | Independent Study | P | C
+CLA | 4913 | Independent Study | P | C
+CLA | 4953 | Special Studies in Classics | P | C
+CLA | 4973 | Senior Seminar in Classics | P | C
+CLA | 4991 | Honors Thesis | P | C
+CLA | 4992 | Honors Thesis | P | C
+CLA | 4993 | Honors Thesis | P | C
+GRK | 1114 | Introductory Classical Greek I | P | C
+GRK | 1124 | Introductory Classical Greek II | P | C
+GRK | 2113 | Intermediate Classical Greek I | P GRK 1124 | C
+GRK | 3113 | Selected Greek Authors | P GRK 2113 | C
+GRK | 3123 | Selected Greek Authors | P GRK 2113 | C
+HUM | 1203 | Medical Humanities and Ethics | P | C
+HUM | 2023 | Introduction to the Humanities I | P | C
+HUM | 2033 | Introduction to the Humanities II | P | C
+HUM | 2053 | History of Film | P | C
+HUM | 2093 | World Religions | P | C
+HUM | 3013 | History of Ideas | P | C
+HUM | 3023 | The Medieval World | P | C
+HUM | 3033 | Renaissance Ideas | P | C
+HUM | 3043 | Classicism and Enlightenment | P | C
+HUM | 3053 | The Romantic Age | P | C
+HUM | 3063 | The Modern World | P | C
+HUM | 3103 | American Film | P | C
+HUM | 3203 | Film Genres | P | C
+HUM | 3213 | The Christian Classics | P | C
+HUM | 3223 | The Bible as Literature | P | C
+HUM | 3303 | Major Filmmaker | P | C
+HUM | 3403 | Literature into Film | P | C
+HUM | 3623 | Topics in National Cultures and Civilizations | P | C
+HUM | 3703 | Topics in Popular Culture | P | C
+HUM | 4911 | Independent Study | P | C
+HUM | 4912 | Independent Study | P | C
+HUM | 4913 | Independent Study | P | C
+HUM | 4953 | Special Studies in Humanities | P | C
+HUM | 4973 | Senior Seminar in Humanities | P | C
+HUM | 4991 | Honors Thesis | P HUM 4973 | C
+HUM | 4992 | Honors Thesis | P HUM 4973 | C
+HUM | 4993 | Honors Thesis | P HUM 4973 | C
+LAT | 1114 | Introductory Latin I | P | C
+LAT | 1124 | Introductory Latin II | P LAT 1114 | C
+LAT | 1214 | Self-Paced Introductory Latin | P | C
+LAT | 2113 | Intermediate Latin I | P LAT 1124 | C
+LAT | 2123 | Intermediate Latin II | P LAT 2113 | C
+LAT | 2213 | Self-Paced Intermediate Latin | P LAT 1124 | C
+LAT | 3113 | Selected Latin Authors | P LAT 2123 | C
+LAT | 3213 | Latin Epic Poetry | P | C
+LAT | 3223 | Latin Lyric Poetry | P | C
+LAT | 3253 | Republican Prose | P | C
+LAT | 4013 | Advanced Readings in Latin | P LAT 2123 | C
+MHU | 2013 | Introduction to Medical Humanities | P | C
+MHU | 4813 | Seminar in Medical Humanities | P | C
+PHI | 1043 | Critical Thinking | P | C
+PHI | 2013 | Basic Philosophical Problems | P | C
+PHI | 2023 | Introduction to Ancient Philosophy | P | C
+PHI | 2033 | Introduction to Early Modern Philosophy | P | C
+PHI | 2043 | Introductory Logic | P | C
+PHI | 2063 | Philosophy of Law | P | C
+PHI | 2073 | Philosophy of Art | P | C
+PHI | 2123 | Contemporary Moral Issues | P | C
+PHI | 3013 | Philosophy of Religion | P | C
+PHI | 3033 | Philosophy of Science | P | C
+PHI | 3073 | Asian Philosophy | P | C
+PHI | 3213 | Ethics | P | C
+PHI | 3223 | Approaches to Knowledge and Reality | P | C
+PHI | 3303 | Nineteenth-Century Philosophy | P | C
+PHI | 3343 | Issues and Movements in Contemporary Philosophy | P | C
+PHI | 3403 | Philosophy in Literature | P | C
+PHI | 4013 | Studies in Individual Philosophers | P | C
+PHI | 4113 | Contemporary Analytic Philosophy | P | C
+PHI | 4123 | Contemporary Continental Philosophy | P | C
+PHI | 4333 | Philosophy of Language | P | C
+PHI | 4911 | Independent Study | P | C
+PHI | 4912 | Independent Study | P | C
+PHI | 4913 | Independent Study | P | C
+PHI | 4953 | Special Studies in Philosophy | P | C
+PHI | 4973 | Seminar for Philosophy Majors | P | C
+PHI | 4991 | Honors Thesis | P | C
+PHI | 4992 | Honors Thesis | P | C
+PHI | 4993 | Honors Thesis | P | C
