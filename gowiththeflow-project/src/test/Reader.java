@@ -11,6 +11,8 @@ public class Reader {
 	private String courseName;
 	private String prerequisites;
 	private String concurrentEnrollment;
+	private String line1;
+	private String line2;
 	
 	public Reader(String inputFileName) {
 		
@@ -26,14 +28,16 @@ public class Reader {
 		
 		while(bufferedReader.ready()) {
 			line = bufferedReader.readLine();
-			System.out.println(line);
-			tokens = line.split("|");
+			tokens = line.split("\\s\\|\\s");
 			subject = tokens[0];
-			courseNumber = 5;
+			courseNumber = Integer.parseInt(tokens[1]);
 			courseName = tokens[2];
 			prerequisites = tokens[3];
 			concurrentEnrollment = tokens[4];
-			System.out.println(subject + courseNumber + courseName + prerequisites + concurrentEnrollment);
+			line1 = tokens[5];
+			line2 = tokens[6];
+			System.out.println(subject + " " + courseNumber + " " + courseName + " " + prerequisites + " " + concurrentEnrollment
+					+ " " + line1 + " " + line2);
 		}
 		
 		bufferedReader.close();

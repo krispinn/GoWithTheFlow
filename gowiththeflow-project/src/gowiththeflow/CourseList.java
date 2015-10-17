@@ -55,7 +55,7 @@ public class CourseList {
 		// creates a Pattern object using the above pattern
 		// the full URL to be used as the input source
 		// creates an output file named after the degree
-		String courseDataPattern = "([A-Z]+)&#160;(\\d+)\\.  ([A-Za-z-, ]+)";
+		String courseDataPattern = "([A-Z]+)&#160;(\\d+)\\.  ([A-Za-z-, ']+)";
 		Pattern coursePattern = Pattern.compile(courseDataPattern);
 		File courseFile = new File("data/" + this.department + "_" + this.major + ".txt");
 		String address = "http://catalog.utsa.edu/undergraduate/" + this.department + "/"
@@ -87,13 +87,26 @@ public class CourseList {
 				String tmp = getPrereq(in, bw);
 				// get the concurrent enrollment courses
 				getConcurrent(in, bw, tmp);
+				// read in the next line
+				inputLine = in.readLine();
+				// write enrollment info and course description
+				if (inputLine.matches("</p>")) {
+					String tmp2 = tmp.replaceAll("<br />", "");
+					if (tmp.matches("^Prerequisite.*") || tmp.matches(".*[Cc]oncurrent.*"))
+						bw.write(" | " + tmp2 + " |");
+					else
+						bw.write(" | | " + tmp2);
+				} else {
+					String il2 = inputLine.replaceAll("<br />", "");
+					bw.write(" | " + tmp + " | " + il2);
+				}
 				// move to the next line so that each course will be on its own line
 				bw.newLine();
-			}
-		}
+			} // end if statement inside while loop
+		} // end while loop
 		in.close();
 		bw.close();
-	}
+	} // end generateCourses
 
 	/**
 	 * This method checks for prerequisites and writes them to the output file if any are found.
@@ -137,12 +150,11 @@ public class CourseList {
 					bw.write(" " + inputFields[i] + " " + inputFields[i+1]);
 					// used to skip past the already read/written course number
 					i++;
-				}
-			}
-			return "none";
-		}
+				} // end if statement inside for loop
+			} // end for loop
+		} // end large if statement
 		return inputLine;
-	}
+	} // end getPrereq
 
 	/**
 	 * This method checks for concurrent enrollment courses and writes them to the output file if
@@ -160,10 +172,6 @@ public class CourseList {
 			throws Exception {
 		// create a separator for the concurrent enrollment courses
 		bw.write(" | C");
-
-		// return if there are no concurrent enrollment courses
-		if (inputLine.equals("none"))
-			return;
 
 		// check if there are concurrent enrollment courses
 		if (inputLine.matches(".*[Cc]oncurrent.*")) {
@@ -190,13 +198,8 @@ public class CourseList {
 					bw.write(" " + inputFields[i] + " " + inputFields[i+1]);
 					// used to skip past the already read/written course number
 					i++;
-				}
-			}
-		}
-	}
-}
-
-/*
- * Sample Output Lines: CS 1033 Microcomputer Applications | P | C CS 3843 Computer Organization | P
- * CS 2121 CS 2123 | C CS 3841
- */
+				} // end if statement inside for loop
+			} // end for loop
+		} // end large if statement
+	} // end getConcurrent
+} // end class

@@ -1,66 +1,66 @@
-ENG | 1113 | Introduction to Creative Literary Arts | P | C
-ENG | 2013 | Introduction to Literature | P | C
-ENG | 2213 | Literary Criticism and Analysis | P | C
-ENG | 2223 | British Literature I | P | C
-ENG | 2233 | British Literature II | P | C
-ENG | 2263 | American Literature I | P | C
-ENG | 2293 | American Literature II | P | C
-ENG | 2323 | Creative Writing | P | C
-ENG | 2333 | Creative Writing | P | C
-ENG | 2343 | Creative Writing | P | C
-ENG | 2383 | Multiethnic Literatures of the United States | P | C
-ENG | 2413 | Technical Writing | P | C
-ENG | 2423 | Literature of Texas and the Southwest | P | C
-ENG | 2433 | Editing | P ENG 2413 | C
-ENG | 2443 | Introduction to Rhetoric | P | C
-ENG | 3033 | American Literature,  | P | C
-ENG | 3063 | American Literature,  | P | C
-ENG | 3073 | Young Adult Literature | P | C
-ENG | 3113 | Studies in Individual Authors | P | C
-ENG | 3123 | Modern Fiction | P | C
-ENG | 3133 | Women and Literature | P | C
-ENG | 3153 | Topics in Drama | P | C
-ENG | 3213 | Chaucer | P | C
-ENG | 3223 | Shakespeare | P | C
-ENG | 3233 | Shakespeare | P | C
-ENG | 3243 | Topics in the British Novel | P | C
-ENG | 3253 | The American Novel | P | C
-ENG | 3303 | Theory and Practice of Composition | P | C
-ENG | 3313 | Advanced Composition | P | C
-ENG | 3323 | History of the English Language | P | C
-ENG | 3333 | Introduction to the Structure of English | P | C
-ENG | 3343 | Principles of English Linguistics | P | C
-ENG | 3363 | Topics in Rhetoric and Composition | P | C
-ENG | 3383 | Writing in Public, Professional, and Workplace Contexts | P ENG 2413 | C
-ENG | 3393 | Literary Theories | P ENG 2213 | C
-ENG | 3413 | Specialized Professional Writing | P ENG 2413 | C
-ENG | 3423 | Topics in Creative Writing | P ENG 2323 ENG 2333 ENG 2343 | C
-ENG | 3513 | Mexican American Literature | P | C
-ENG | 3613 | African American Literature | P | C
-ENG | 3713 | Topics in Multiethnic Literatures of the United States | P | C
-ENG | 3813 | Topics in Native American Literature | P | C
-ENG | 4013 | Restoration and Eighteenth-Century Literature | P | C
-ENG | 4023 | Romantic Literature | P | C
-ENG | 4033 | Literary Modes and Genres | P | C
-ENG | 4053 | Modern British and American Poetry | P | C
-ENG | 4063 | Medieval English Literature | P | C
-ENG | 4113 | Renaissance Literature | P | C
-ENG | 4143 | Victorian Literature | P | C
-ENG | 4393 | Feminist Theory of Literature | P | C
-ENG | 4423 | Studies in Advanced Linguistics | P ENG 3343 LNG 4013 | C
-ENG | 4433 | Advanced Professional Writing | P ENG 2413 | C
-ENG | 4523 | Writer | P | C
-ENG | 4533 | Writer | P | C
-ENG | 4613 | Topics in Mexican American Literature | P | C
-ENG | 4713 | Topics in African American Literature | P | C
-ENG | 4911 | Independent Study | P | C
-ENG | 4912 | Independent Study | P | C
-ENG | 4913 | Independent Study | P | C
-ENG | 4933 | Internship | P | C
-ENG | 4953 | Special Studies in English | P | C
-ENG | 4973 | Seminar for English Majors | P | C
-ENG | 4993 | Honors Thesis | P ENG 4973 | C
-THR | 1013 | Acting I | P | C
-THR | 1023 | Acting II | P | C
-THR | 2113 | Intermediate Acting I | P THR 1013 THR 1023 | C
-THR | 2123 | Intermediate Acting II | P THR 2113 | C
+ENG | 1113 | Introduction to Creative Literary Arts | P | C | | Introduction to Creative Literary Arts exploration in the purposes and processes of the literary arts.  This course provides opportunities for students to engage in creative literary practices through the study of literary genres such as poetry and fiction. May be applied toward the Core Curriculum requirement in Creative Arts.
+ENG | 2013 | Introduction to Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Communication. | Introductory study of great works of literature with an emphasis on novels, plays, and poetry by British and American authors. Designed for nonmajors. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+ENG | 2213 | Literary Criticism and Analysis | P | C | Prerequisite: Completion of the Core Curriculum requirement in Communication. | A study of poetry, fiction, and drama, with close attention to literary terms, literary criticism, and the characteristics of each genre. This course includes intensive reading and extensive writing requirements and is designed to prepare students who intend to take advanced courses in literature and other students who have a commitment to the rigorous study of literature. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+ENG | 2223 | British Literature I | P | C | Prerequisite: Completion of the Core Curriculum requirement in Communication. | Study of representative works of British literature from the medieval period to 1700. Required of students majoring in English.
+ENG | 2233 | British Literature II | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Study of representative works of British literature from 1700 to the present. Required of students majoring in English.
+ENG | 2263 | American Literature I | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Study of representative works of American literature from the pre-Colonial period to 1865. Required of students majoring in English.
+ENG | 2293 | American Literature II | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Study of representative works of American literature from 1865 to the present. Required of students majoring in English.
+ENG | 2323 | Creative Writing | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Offers the opportunity for intensive practice and development of techniques in the writing of fiction.
+ENG | 2333 | Creative Writing | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Offers the opportunity for intensive practice and development of techniques in the writing of poetry.
+ENG | 2343 | Creative Writing | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Offers the opportunity for intensive practice and development of techniques in the writing of nonfiction genres such as memoir, autobiography, and informal essays.
+ENG | 2383 | Multiethnic Literatures of the United States | P | C | Prerequisite: Completion of the Core Curriculum requirement in Communication. | A survey of the literature of various minority groups such as Native American, Asian American, African American, and Latina/o. Designed for nonmajors. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+ENG | 2413 | Technical Writing | P | C | Prerequisite: Completion of the Core Curriculum requirement in Communication. | Techniques of expository writing, particularly adapted to students in technological and scientific subjects. May be applied toward the Core Curriculum requirement in the Component Area Option.
+ENG | 2423 | Literature of Texas and the Southwest | P | C | Prerequisite: Completion of the Core Curriculum requirement in Communication. | Study of the literature of Texas and the Southwest, including an examination of the region’s multicultural heritage. Designed for nonmajors. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+ENG | 2433 | Editing | P ENG 2413 | C | Prerequisite: ENG 2413. | Principles and applications of production editing and technical editing, including evaluation and revision of style, tone, and organization of documents. Practice in the use of editing symbols and copy marking. (Same as COM 2433. Credit cannot be earned for both ENG 2433 and COM 2433.).
+ENG | 2443 | Introduction to Rhetoric | P | C | Prerequisite:  Completion of Core Curriculum requirement in Communication. | Introduces students to key concepts and frameworks useful for analysis of texts, events, communication, and contexts by focusing on the traditional rhetorical canons of invention, arrangement, style, delivery, and memory.
+ENG | 3033 | American Literature,  | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of the literature written in the United States since 1945.
+ENG | 3063 | American Literature,  | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of literature written in the United States in the late 19th and early 20th centuries.
+ENG | 3073 | Young Adult Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Literary analysis of the kinds of reading available for adolescents: poetry, drama, biography, science fiction, mystery, and fantasy. Both classics and current trends will be considered. Emphasis on the novel. (Formerly ENG 2373. Credit cannot be earned for both ENG 3073 and ENG 2373.).
+ENG | 3113 | Studies in Individual Authors | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Study of the works of an individual British or American author or of several authors examined in relation to one another. May be repeated for credit when authors vary.
+ENG | 3123 | Modern Fiction | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical survey of American, British, and Continental fiction of the 20th century, studied in relation to the development of modern techniques.
+ENG | 3133 | Women and Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of the presentation of women and feminist issues in various literary forms.
+ENG | 3153 | Topics in Drama | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Study of one or more periods (e.g., Tudor-Stuart, modern, contemporary) or modes (e.g., comedy, tragedy) of drama. May be repeated for credit when topics vary.
+ENG | 3213 | Chaucer | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of The Canterbury Tales and other poems. Texts in Middle English.
+ENG | 3223 | Shakespeare | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of comedies, histories, and tragedies from 1590–1601.
+ENG | 3233 | Shakespeare | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of comedies, tragedies, and romances from 1602–1613.
+ENG | 3243 | Topics in the British Novel | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of English novels. May be repeated for credit when topics vary.
+ENG | 3253 | The American Novel | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Reading and discussion of representative American novels.
+ENG | 3303 | Theory and Practice of Composition | P | C | Prerequisite: Completion of the Core Curriculum requirement in Communication. | Extensive practice in the techniques of clear, effective writing. Designed for students who will write in their professions and will supervise the writing of others.
+ENG | 3313 | Advanced Composition | P | C | Prerequisite: Completion of the Core Curriculum requirement in Communication. | Study of the principles and procedures of informational and persuasive prose. Emphasis on coherence, liveliness, persuasiveness, and originality. Extensive writing practice, including the writing of arguments.
+ENG | 3323 | History of the English Language | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Historical survey of the development of the English language.
+ENG | 3333 | Introduction to the Structure of English | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Analysis of English syntax from various theoretical perspectives, including traditional, structural, and generative. Consideration of the concept of Standard English and of language variation, especially regional and social variation within modern English.
+ENG | 3343 | Principles of English Linguistics | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Introduction to the goals and procedures of modern linguistics, emphasizing phonetics, phonology, and morphology. Discussion of language acquisition and the neurolinguistic foundations of language ability. Some attention to topics such as semantics, pragmatics, and language change. (Same as ANT 3903 and LNG 3813. Credit cannot be earned for more than one of these courses.).
+ENG | 3363 | Topics in Rhetoric and Composition | P | C | Prerequisite: Completion of Core Curriculum requirement in Communication.  Critical study of a topic in rhetoric and composition, such as history and development, research and methodology, major paradigms, and/or different contexts.  Special emphasis on the diversity of approaches and applications. May be repeated for credit when topics vary. |
+ENG | 3383 | Writing in Public, Professional, and Workplace Contexts | P ENG 2413 | C | Prerequisite: ENG 2413. | Study of the fundamental principles, forms, and procedures of writing in a specific topic, content, and/or genre, with emphasis on research, revision, documentation, and style.  May be repeated for credit when topics vary.
+ENG | 3393 | Literary Theories | P ENG 2213 | C | Prerequisite: ENG 2213. | Critical study of the nature and function of literature and the relationship of literature to philosophy, history, and the other arts; attention to such topics as stylistics, genres, and literary history.
+ENG | 3413 | Specialized Professional Writing | P ENG 2413 | C | Prerequisite: ENG 2413. | Writing for specialized purposes such as news releases, feature articles, reports, newsletters, speeches, scriptwriting, advertising, and professional correspondence.
+ENG | 3423 | Topics in Creative Writing | P ENG 2323 ENG 2333 ENG 2343 | C | Prerequisites: ENG 2323 or ENG 2333 or ENG 2343 and consent of instructor (writing portfolio required). | Creative writing workshop in specialized area or genre other than poetry or short fiction. May be repeated for credit when topics vary.
+ENG | 3513 | Mexican American Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of literature by and about Mexican Americans, including prose, verse, drama, essays, and autobiography. Concentration on writings since 1959.
+ENG | 3613 | African American Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of literature by and about African Americans, including prose, verse, drama, essays, and autobiography.
+ENG | 3713 | Topics in Multiethnic Literatures of the United States | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Comparative study of a specific genre or theme in the literatures of various ethnic groups in the United States such as African American, Asian American, Native American, and/or U.S. Latino/a. May be repeated for credit when topics vary.
+ENG | 3813 | Topics in Native American Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of a topic in Native American/Indigenous literatures focusing on an author, a genre, a theme, or on traditional and oral literature. May be repeated for credit when topics vary.
+ENG | 4013 | Restoration and Eighteenth-Century Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Selected readings in the fiction, drama, poetry, and prose of the British literature of the late 17th century and the 18th century.
+ENG | 4023 | Romantic Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Selected readings in the fiction, poetry, and prose of the British Romantic period.
+ENG | 4033 | Literary Modes and Genres | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Intensive study of a single mode or genre such as comedy, tragedy, allegory, satire, epic, or a type of nonfiction such as biography. May be repeated for credit when topics vary.
+ENG | 4053 | Modern British and American Poetry | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | An intensive study of major modern poets.
+ENG | 4063 | Medieval English Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Study of the major English writings from the Anglo-Saxon and Middle English periods (excluding Chaucer), with special emphasis on Beowulf and Chaucer’s contemporaries. Some works in translation, but original texts whenever possible.
+ENG | 4113 | Renaissance Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Selected readings from major writers of the 16th and early 17th centuries (excluding Shakespeare).
+ENG | 4143 | Victorian Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Selected readings in the fiction, poetry, and nonfiction prose of major Victorian writers.
+ENG | 4393 | Feminist Theory of Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of feminist theory and the relationship of gender to literature. Selected readings from major feminist theorists in connection with the study of literary texts.
+ENG | 4423 | Studies in Advanced Linguistics | P ENG 3343 LNG 4013 | C | Prerequisite: ENG 3343 or LNG 4013. | Specialized study of one or more areas of linguistic research, including historical linguistics, sociolinguistics, dialectology, linguistics for literary analysis, or languages in contact. May be repeated for credit when topics vary.
+ENG | 4433 | Advanced Professional Writing | P ENG 2413 | C | Prerequisite: ENG 2413 or the equivalent. | Development of complex documents such as manuals, proposals, grants, environmental impact studies, newsletters, and brochures. Extensive practice in writing, layout and design, and preparation of professional documents. May be repeated for credit when topics vary.
+ENG | 4523 | Writer | P | C | Prerequisite: Consent of instructor (writing portfolio required). | Designed for students who have demonstrated potential as fiction writers. May be repeated for credit, but not more than 12 semester credit hours of ENG 4523 and/or ENG 4533 will apply to a bachelor’s degree, and not more than 6 semester credit hours will apply toward the English major.
+ENG | 4533 | Writer | P | C | Prerequisite: Consent of instructor (writing portfolio required). | Designed for students who have demonstrated potential as poets. May be repeated for credit, but not more than 12 semester credit hours of ENG 4533 and/or ENG 4523 will apply to a bachelor’s degree, and not more than 6 semester credit hours will apply toward the English major.
+ENG | 4613 | Topics in Mexican American Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of a topic in Mexican American literature: author, genre, or theme. May be repeated for credit when topics vary.
+ENG | 4713 | Topics in African American Literature | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Critical study of a topic in African American literature: author, genre, or theme. May be repeated for credit when topics vary.
+ENG | 4911 | Independent Study | P | C | Prerequisites: Permission in writing (form available) of the instructor, the student’s advisor, the Department Chair, and the Dean of the College in which the course is offered. | Independent reading, research, discussion, and/or writing under the direction of a faculty member. May be repeated for credit, but not more than 6 semester credit hours of independent study, regardless of discipline, will apply to a bachelor’s degree.
+ENG | 4912 | Independent Study | P | C | Prerequisites: Permission in writing (form available) of the instructor, the student’s advisor, the Department Chair, and the Dean of the College in which the course is offered. | Independent reading, research, discussion, and/or writing under the direction of a faculty member. May be repeated for credit, but not more than 6 semester credit hours of independent study, regardless of discipline, will apply to a bachelor’s degree.
+ENG | 4913 | Independent Study | P | C | Prerequisites: Permission in writing (form available) of the instructor, the student’s advisor, the Department Chair, and the Dean of the College in which the course is offered. | Independent reading, research, discussion, and/or writing under the direction of a faculty member. May be repeated for credit, but not more than 6 semester credit hours of independent study, regardless of discipline, will apply to a bachelor’s degree.
+ENG | 4933 | Internship | P | C | Prerequisite: Consent of instructor. | Supervised experience relevant to English. May be repeated once for credit, but not more than 3 semester credit hours will apply to the English major.
+ENG | 4953 | Special Studies in English | P | C | Prerequisite: Consent of instructor. | Organized course offering the opportunity for specialized study not normally or not often available as part of the regular course offerings. Special Studies may be repeated for credit when the topics vary, but not more than 6 semester credit hours, regardless of discipline, will apply to a bachelor’s degree.
+ENG | 4973 | Seminar for English Majors | P | C | Prerequisite: 12 upper-division semester credit hours in English. | This undergraduate seminar, limited to English majors in their senior year, offers the opportunity to study a genre, author, or period in English or American literature. Content varies with each instructor. May be repeated once for credit when topics vary.
+ENG | 4993 | Honors Thesis | P ENG 4973 | C | Prerequisites: Consent of instructor and Department Scholarship and Honors Committee; enrollment in or completion of ENG 4973. | Supervised research and preparation of an Honors Thesis for the purpose of earning English Honors. May be repeated once with advisor approval.
+THR | 1013 | Acting I | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Fundamental techniques of acting, emphasizing the actor’s approach to characterization and relationship to all parts of the play’s production.
+THR | 1023 | Acting II | P | C | Prerequisite: Completion of the Core Curriculum requirement in Language, Philosophy, and Culture. | Sustained character portrayal. Intensive work in stage movement and vocal techniques, including dialects.
+THR | 2113 | Intermediate Acting I | P THR 1013 THR 1023 | C | Prerequisite:  Completion of THR 1013 and THR 1023, or placement by audition with instructor consent. | Concepts, skills, and techniques of acting styles, collaborative work in all aspects of play production, and development of understanding of the actor’s role through performance.
+THR | 2123 | Intermediate Acting II | P THR 2113 | C | Prerequisite:  Completion of THR 2113, or placement by audition with instructor consent. | Continued development of concepts, skills, and techniques of acting styles required to understand the role of the performer in play production.

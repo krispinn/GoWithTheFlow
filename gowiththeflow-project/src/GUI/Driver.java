@@ -15,8 +15,9 @@ public class Driver {
 	 */
 	
 	public static void main(String[] args) {
+		String[] courseList = {"course1", "course2", "course3", "course4", "course5"};
 		FlowModel model = new FlowModel();
-		FlowView view = new FlowView(model);
+		FlowView view = new FlowView(model, courseList);
 		FlowController controller = new FlowController(model, view);
 		
 		// register controller as the listener to components in the view

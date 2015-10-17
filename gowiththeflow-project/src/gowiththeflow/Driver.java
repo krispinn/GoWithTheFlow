@@ -125,6 +125,7 @@ public class Driver {
 				CourseList list = new CourseList(token2[0], token2[1]);			}
 			allListReader.close();
 			
+		// STEP 6:
 		System.out.println("Step 6");
 	}
 }		

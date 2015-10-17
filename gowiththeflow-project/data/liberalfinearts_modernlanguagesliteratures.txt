@@ -1,115 +1,115 @@
-ARA | 1014 | Elementary Arabic I | P | C
-ARA | 1024 | Elementary Arabic II | P ARA 1014 | C
-ARA | 2013 | Intermediate Arabic I | P ARA 1024 | C
-ARA | 2023 | Intermediate Arabic II | P ARA 2013 | C
-CHN | 1014 | Elementary Chinese I | P | C
-CHN | 1024 | Elementary Chinese II | P CHN 1014 | C
-CHN | 2013 | Intermediate Chinese I | P CHN 1024 | C
-CHN | 2023 | Intermediate Chinese II | P CHN 2013 | C
-CSH | 1103 | Literary Masterpieces of Western Culture I | P | C
-CSH | 1113 | Literary Masterpieces of Western Culture II | P | C
-CSH | 1213 | Topics in World Cultures | P | C
-CSH | 2113 | The Foreign Film | P | C
-CSH | 2313 | Introduction to Literary Studies | P WRC 1023 | C
-CSH | 3023 | Studies in Comparative Literature | P WRC 1023 | C
-CSH | 3823 | Advanced Topics in World Cultures | P WRC 1023 | C
-FL | 1034 | Beginning Language Study Abroad | P | C
-FL | 1038 | Beginning Language Study Abroad | P | C
-FL | 1044 | Individualized Instruction in Basic Language | P | C
-FL | 2033 | Intermediate Language Study Abroad | P | C
-FL | 2036 | Intermediate Language Study Abroad | P | C
-FL | 2043 | Individualized Instruction in Intermediate-Level Language | P | C
-FL | 3003 | Introduction to Translation and Interpretation | P | C
-FL | 3013 | Translation and Interpretation for the Language Specialist | P | C
-FL | 3033 | Advanced Language Study Abroad | P | C
-FL | 3036 | Advanced Language Study Abroad | P | C
-FL | 3043 | Individualized Instruction in Advanced-Level Language | P | C
-FL | 3101 | Languages Across the Curriculum | P | C
-FL | 4243 | Foreign Language Instruction | P | C
-FL | 4933 | Internship | P | C
-FL | 4953 | Special Projects | P | C
-FRN | 1014 | Elementary French I | P | C
-FRN | 1024 | Elementary French II | P FRN 1014 | C
-FRN | 2013 | Intermediate French I | P FRN 1024 | C
-FRN | 2023 | Intermediate French II | P FRN 2013 | C
-FRN | 2333 | French Literature in English Translation | P | C
-FRN | 3023 | Advanced Language Skills | P FRN 2023 | C
-FRN | 3053 | Business French | P FRN 2023 | C
-FRN | 3413 | Survey of French Literature and Culture | P FRN 2023 | C
-FRN | 4003 | Topics in French Literature | P FRN 2023 | C
-FRN | 4213 | Topics in French Culture and Linguistics | P FRN 2023 | C
-FRN | 4913 | Independent Study | P | C
-FRN | 4933 | Internship in French | P | C
-FRN | 4953 | Special Studies in French | P | C
-FRN | 4993 | Honors Research | P | C
-GER | 1014 | Elementary German I | P | C
-GER | 1024 | Elementary German II | P GER 1014 | C
-GER | 2013 | Intermediate German I | P GER 1024 | C
-GER | 2023 | Intermediate German II | P GER 2013 | C
-GER | 2333 | German Literature in English Translation | P | C
-GER | 3023 | Advanced Language Skills | P GER 2023 | C
-GER | 3413 | Survey of German Literature and Culture | P GER 2023 | C
-GER | 4003 | Topics in German Literature | P GER 2023 | C
-GER | 4213 | Topics in German Culture and Linguistics | P GER 2023 | C
-GER | 4913 | Independent Study | P | C
-GER | 4933 | Internship in German | P | C
-GER | 4953 | Special Studies in German | P | C
-GER | 4993 | Honors Research | P | C
-ITL | 1014 | Elementary Italian I | P | C
-ITL | 1024 | Elementary Italian II | P ITL 1014 | C
-ITL | 2013 | Intermediate Italian I | P ITL 1024 | C
-ITL | 2023 | Intermediate Italian II | P ITL 2013 | C
-ITL | 2333 | Italian Literature in English Translation | P | C
-JPN | 1014 | Elementary Japanese I | P | C
-JPN | 1024 | Elementary Japanese II | P JPN 1014 | C
-JPN | 2013 | Intermediate Japanese I | P JPN 1024 | C
-JPN | 2023 | Intermediate Japanese II | P JPN 2013 | C
-JPN | 3023 | Advanced Language Skills | P JPN 2023 | C
-JPN | 3053 | Business Japanese | P JPN 2023 | C
-JPN | 4213 | Topics in Japanese Culture | P JPN 2023 | C
-KOR | 1014 | Elementary Korean I | P | C
-KOR | 1024 | Elementary Korean II | P KOR 1014 | C
-LNG | 3813 | Introduction to Linguistics | P | C
-LNG | 3833 | Sociolinguistics | P | C
-LNG | 4013 | Topics in Linguistics | P | C
-MES | 3113 | Film Studies | P WRC 1023 CSH 2113 | C
-MES | 3333 | Digital Video Production | P WRC 1023 | C
-MES | 4333 | Digital Video Practicum | P MES 3333 | C
-RUS | 1014 | Elementary Russian I | P | C
-RUS | 1024 | Elementary Russian II | P RUS 1014 | C
-RUS | 2013 | Intermediate Russian I | P RUS 1024 | C
-RUS | 2023 | Intermediate Russian II | P RUS 2013 | C
-RUS | 2333 | Russian Literature in English Translation | P | C
-RUS | 3033 | Oral Communication Skills | P RUS 2013 | C
-RUS | 3143 | Structure of Russian Language | P RUS 2013 | C
-RUS | 3213 | Advanced Russian | P RUS 2023 | C
-RUS | 3633 | Topics in Russian Culture | P RUS 2013 | C
-SPN | 1014 | Elementary Spanish I | P | C
-SPN | 1024 | Elementary Spanish II | P SPN 1014 | C
-SPN | 2013 | Intermediate Spanish I | P SPN 1024 | C
-SPN | 2023 | Intermediate Spanish II | P SPN 2013 | C
-SPN | 2333 | Hispanic Literature in English Translation | P WRC 1013 | C
-SPN | 2513 | Spanish for Special Purposes | P SPN 2013 | C
-SPN | 3003 | Oral and Written Expression | P SPN 2023 | C
-SPN | 3013 | Spanish Phonetics and Phonology | P SPN 2023 SPN 3003 | C
-SPN | 3033 | Oral Communication Skills | P SPN 2023 SPN 3003 | C
-SPN | 3043 | Introduction to Literature | P SPN 3063 | C
-SPN | 3063 | Grammar and Composition | P SPN 2023 SPN 3003 | C
-SPN | 3113 | Linguistic Structures of Spanish | P SPN 3063 | C
-SPN | 3153 | Spanish for the Business | P SPN 2023 SPN 3003 | C
-SPN | 3413 | The Literature of Spain from the Middle Ages to  | P SPN 3043 | C
-SPN | 3423 | The Literature of Spain from  | P SPN 3043 | C
-SPN | 3463 | Latin American Literature to Modernism | P SPN 3043 | C
-SPN | 3473 | Latin American Literature since Modernism | P SPN 3043 | C
-SPN | 3493 | Mexican American Literature | P SPN 3003 SPN 3063 | C
-SPN | 3613 | Spanish Culture and Civilization | P SPN 3043 | C
-SPN | 3623 | Latin American Culture and Civilization | P SPN 3043 | C
-SPN | 4003 | Advanced Language Skills | P SPN 3043 SPN 3063 | C
-SPN | 4113 | Topics in Spanish Linguistics | P SPN 3113 | C
-SPN | 4123 | The Spanish of the United States | P SPN 3013 SPN 3113 | C
-SPN | 4203 | Topics in Hispanic Literatures | P | C
-SPN | 4303 | Topics in Hispanic Cultures | P SPN 3043 | C
-SPN | 4913 | Independent Study | P | C
-SPN | 4933 | Internship in Spanish | P | C
-SPN | 4953 | Special Studies in Spanish | P | C
-SPN | 4993 | Honors Research | P | C
+ARA | 1014 | Elementary Arabic I | P | C | | Fundamentals of Arabic offering the opportunity to develop speaking, listening, reading, and writing skills. Introduction to Arabic culture. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+ARA | 1024 | Elementary Arabic II | P ARA 1014 | C | Prerequisite: ARA 1014, an equivalent, or an appropriate placement test score. | Fundamentals of Arabic offering the opportunity to further develop speaking, listening, reading, and writing skills. Further exposure to Arabic culture.
+ARA | 2013 | Intermediate Arabic I | P ARA 1024 | C | Prerequisite: ARA 1024, an equivalent, or an appropriate placement test score. | Continued opportunity to develop listening, speaking, reading, and writing skills. Continued exposure to Arabic culture.
+ARA | 2023 | Intermediate Arabic II | P ARA 2013 | C | Prerequisite: ARA 2013, an equivalent, or an appropriate placement test score. | Continued opportunity to develop listening, speaking, reading, and writing skills. Continued exposure to Arabic culture.
+CHN | 1014 | Elementary Chinese I | P | C | | Fundamentals of Chinese offering the opportunity to develop basic listening, speaking, reading, and writing skills. Introduction of Chinese characters and Chinese culture. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+CHN | 1024 | Elementary Chinese II | P CHN 1014 | C | Prerequisite: CHN 1014, an equivalent, an appropriate placement test score, or consent of instructor. | Fundamentals of Chinese offering the opportunity to develop basic speaking, listening, reading, and writing skills. Further study of Chinese characters and Chinese culture.
+CHN | 2013 | Intermediate Chinese I | P CHN 1024 | C | Prerequisite: CHN 1024, an equivalent, an appropriate placement test score, or consent of instructor. | Continued opportunity to develop listening, speaking, reading, and writing skills through structural analysis of the Chinese language. Continued exposure to Chinese culture.
+CHN | 2023 | Intermediate Chinese II | P CHN 2013 | C | Prerequisite: CHN 2013, an equivalent, an appropriate placement test score, or consent of instructor. | Continued opportunity to develop listening, speaking, reading, and writing skills through structural analysis of the Chinese language. Continued exposure to Chinese culture.
+CSH | 1103 | Literary Masterpieces of Western Culture I | P | C | | Representative masterworks of Western literature in translation. An examination of major texts from antiquity to the Renaissance that have shaped and expressed Western cultural traditions. Situation of literary works in the context of the development of civilization. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+CSH | 1113 | Literary Masterpieces of Western Culture II | P | C | | Representative masterworks of Western literature in translation. An examination of major texts from the Renaissance to the present that have shaped and expressed Western cultural traditions. Situation of literary works in the context of the development of civilization. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+CSH | 1213 | Topics in World Cultures | P | C | | Introductory overview of a specific culture or cultural area as revealed through the diversity of its heritage. Includes topics such as Hispanic, Francophone, German, Slavic, Judaic, Latin, Oriental, or African culture. All readings are from English language or translated materials. May be repeated for credit when topics vary. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+CSH | 2113 | The Foreign Film | P | C | | An introduction to film as art and cultural expression. Emphasis on cinematic techniques, national traditions, genres, and the distinctive features of film as a humanistic medium. Films drawn from Latin America, Asia, Africa, and/or Europe. May be repeated for credit when topics vary. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+CSH | 2313 | Introduction to Literary Studies | P WRC 1023 | C | Prerequisite: WRC 1023 or the equivalent. | Offers the opportunity to develop an awareness of literature and the skills with which to approach and understand it. Examination of individual national traditions and the interrelationship of all literary traditions. Emphasis on the nature of genre, period, and style. (Formerly CSH 3313. Credit cannot be earned for both CSH 2313 and CSH 3313.).
+CSH | 3023 | Studies in Comparative Literature | P WRC 1023 | C | Prerequisite: WRC 1023 or the equivalent. | Comparative investigation of foreign literature. Topics may include study of a genre, period, or motif, or comparison of authors across different languages. All readings are in English translation. May be repeated for credit when topics vary.
+CSH | 3823 | Advanced Topics in World Cultures | P WRC 1023 | C | Prerequisite: WRC 1023 or the equivalent. | Comparative investigation of foreign cultures. Topics may include various combinations and aspects of Hispanic, Francophone, German, Slavic, Judaic, Latin or Oriental cultures. All readings are in English translation. May be repeated for credit when topics vary.
+FL | 1034 | Beginning Language Study Abroad | P | C | Prerequisite: Consent of instructor. | Opportunity to begin developing oral and written communication skills in the target language, along with enhanced comprehension skills in listening and reading. Linguistic and cultural immersion. May be repeated up to 8 semester credit hours in each language.
+FL | 1038 | Beginning Language Study Abroad | P | C | Prerequisite: Consent of instructor. | Opportunity to begin developing oral and written communication skills in the target language, along with enhanced comprehension skills in listening and reading. Linguistic and cultural immersion. May be repeated up to 8 semester credit hours in each language.
+FL | 1044 | Individualized Instruction in Basic Language | P | C | Prerequisite: Consent of instructor. | Opportunity to develop basic oral and written communication skills in the target language, along with enhanced comprehension skills in listening and reading. Generally restricted to special projects or languages not regularly offered as organized classes. May be repeated up to 8 semester credit hours in each language.
+FL | 2033 | Intermediate Language Study Abroad | P | C | Prerequisites: Consent of instructor and 1008, 1024, or the equivalent in the selected foreign language. | Opportunity to develop intermediate-level oral and written communication skills in the target language, along with increased comprehension skills in listening and reading. Linguistic and cultural immersion. May be repeated up to 6 semester credit hours in each language.
+FL | 2036 | Intermediate Language Study Abroad | P | C | Prerequisites: Consent of instructor and 1008, 1024, or the equivalent in the selected foreign language. | Opportunity to develop intermediate-level oral and written communication skills in the target language, along with increased comprehension skills in listening and reading. Linguistic and cultural immersion. May be repeated up to 6 semester credit hours in each language.
+FL | 2043 | Individualized Instruction in Intermediate-Level Language | P | C | Prerequisites: Consent of instructor and 1008, 1024, or the equivalent in the selected foreign language. | Opportunity to develop intermediate-level oral and written communication skills in the target language, along with increased comprehension skills in listening and reading. Generally restricted to special projects or languages not regularly offered as organized classes. May be repeated up to 6 semester credit hours in each language.
+FL | 3003 | Introduction to Translation and Interpretation | P | C | Prerequisites: At least four courses of any single foreign language. | Principles of translation or interpreting including practice with a variety of discourse types. Students will be introduced to realities of language mediation professions as well as main concepts in translation and interpreting studies theory. May be repeated for credit when language or focus varies.
+FL | 3013 | Translation and Interpretation for the Language Specialist | P | C | Prerequisite: At least one course at the 3000 level in the selected foreign language.  | This course will explore the language-related and cultural issues involved in translation and interpretation and will include practice from selected areas, such as business, health care, law, technology, or the arts. May be repeated for credit when topics, languages or foci vary.
+FL | 3033 | Advanced Language Study Abroad | P | C | Prerequisites: Consent of instructor and 2006, 2023, or the equivalent in the selected foreign language. | Opportunity to develop advanced-level oral and written communication skills in the target language, along with enhanced comprehension skills in listening and reading. Linguistic and cultural immersion. May be repeated up to 6 semester credit hours in each language.
+FL | 3036 | Advanced Language Study Abroad | P | C | Prerequisites: Consent of instructor and 2006, 2023, or the equivalent in the selected foreign language. | Opportunity to develop advanced-level oral and written communication skills in the target language, along with enhanced comprehension skills in listening and reading. Linguistic and cultural immersion. May be repeated up to 6 semester credit hours in each language.
+FL | 3043 | Individualized Instruction in Advanced-Level Language | P | C | Prerequisites: Consent of instructor and 2006, 2023, or the equivalent in the selected foreign language. | Opportunity to develop advanced-level oral and written communication skills in the target language, along with enhanced comprehension skills in listening and reading. Generally restricted to special projects or languages not regularly offered as organized classes. May be repeated up to 6 semester credit hours in each language.
+FL | 3101 | Languages Across the Curriculum | P | C | Prerequisite: Consent of instructor. | Online add-on course offering a concurrent language component for courses in other disciplines, such as art, anthropology, history, humanities, music and political science. May be repeated for credit when topics vary.
+FL | 4243 | Foreign Language Instruction | P | C | Prerequisite: 2023 or an equivalent in a foreign language. | A study of second-language-acquisition theories. Emphasis on instructional methodology as it relates to foreign languages and cultures.
+FL | 4933 | Internship | P | C | Prerequisite: Permission of Department Chair. | Supervised experience in a setting that provides the opportunity to integrate theory and practice in language usage. May be repeated once for credit.
+FL | 4953 | Special Projects | P | C | Prerequisite: Permission of Department Chair. | Opportunity to apply advanced-level oral and written language skills in a research project. This course is especially designed as the Signature Experience for language majors. May be repeated up to 6 semester credit hours in each language.
+FRN | 1014 | Elementary French I | P | C | | Fundamentals of French offering the opportunity to develop listening, speaking, reading, and writing skills. Emphasis on listening and speaking. Introduction to French culture. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+FRN | 1024 | Elementary French II | P FRN 1014 | C | Prerequisite: FRN 1014, the equivalent, an appropriate placement test score, or consent of instructor. | Fundamentals of French offering the opportunity to develop listening, speaking, reading, and writing skills. Further study of French culture.
+FRN | 2013 | Intermediate French I | P FRN 1024 | C | Prerequisite: FRN 1024, the equivalent, an appropriate placement test score, or consent of instructor. | Continued opportunity to develop listening, reading, speaking, and writing skills. Grammar review and further study of French culture.
+FRN | 2023 | Intermediate French II | P FRN 2013 | C | Prerequisite: FRN 2013, the equivalent, an appropriate placement test score, or consent of instructor. | Continued opportunity to develop listening, reading, speaking, and writing skills. Grammar review and further study of French culture.
+FRN | 2333 | French Literature in English Translation | P | C | | Major works of French literature across time, genres, and movements. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture. (Formerly FRN 3333. Credit cannot be earned for both FRN 2333 and FRN 3333.).
+FRN | 3023 | Advanced Language Skills | P FRN 2023 | C | Prerequisite: FRN 2023 or consent of instructor. | Development of oral and written language skills using contemporary readings, media, and oral discourse. Emphasis on increasing fluency through vocabulary expansion activities and selective grammar review. May be repeated for credit when topics vary.
+FRN | 3053 | Business French | P FRN 2023 | C | Prerequisite: FRN 2023 or consent of instructor. | Introduction to the basic context of the French economy and business world, with emphasis on development of practical language skills to deal with matters such as commercial correspondence, documents, reports, telecommunications, and conferences. Attention to vocabulary and style specific to French business. Practice in translation on business-related topics.
+FRN | 3413 | Survey of French Literature and Culture | P FRN 2023 | C | Prerequisite: FRN 2023 or consent of instructor. | Selections from French literature and culture studied as reflections and interpretations of central movements in French cultural history. Introduction to concepts of style, genre, and period. May be repeated for credit when topics vary.
+FRN | 4003 | Topics in French Literature | P FRN 2023 | C | Prerequisite: FRN 2023 or consent of instructor. | Focus on a specific area of French literature, from the medieval period through the 21st century. Selected texts are studied as examples of representative movements, genres, or authors in French literary history. May be repeated for credit when topics vary.
+FRN | 4213 | Topics in French Culture and Linguistics | P FRN 2023 | C | Prerequisite: FRN 2023 or consent of instructor. | Selected topics of cultural history or linguistics from medieval period through the 21st century. May be repeated for credit when topics vary.
+FRN | 4913 | Independent Study | P | C | Prerequisites: Permission in writing (form available) of the instructor, the student’s advisor, the Department Chair, and the Dean of the College in which the course is offered. | Independent reading, research, discussion, and/or writing under the direction of a faculty member. May be repeated for credit, but not more than 6 semester credit hours of independent study, regardless of discipline, will apply to a bachelor’s degree.
+FRN | 4933 | Internship in French | P | C | Prerequisite: Permission of Department Chair. | Supervised experience in a setting that provides the opportunity to integrate theory and practice in language usage. May be repeated once for credit.
+FRN | 4953 | Special Studies in French | P | C | Prerequisite: Consent of instructor. | An organized course offering the opportunity for specialized study not normally or not often available as part of the regular course offerings. Special Studies may be repeated for credit when topics vary, but not more than 6 semester credit hours, regardless of discipline, will apply to a bachelor’s degree.
+FRN | 4993 | Honors Research | P | C | Prerequisite: Consent of the undergraduate advisor. | Supervised research and preparation of an honors thesis. May be repeated once for credit, with approval.
+GER | 1014 | Elementary German I | P | C | | Fundamentals of German offering the opportunity to develop listening, reading, speaking, and writing skills. Introduction to German culture. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+GER | 1024 | Elementary German II | P GER 1014 | C | Prerequisite: GER 1014, the equivalent, an appropriate placement test score, or consent of instructor. | Fundamentals of German offering the opportunity to further develop abilities in listening, reading, speaking, and writing skills. Further exposure to German culture.
+GER | 2013 | Intermediate German I | P GER 1024 | C | Prerequisite: GER 1024, the equivalent, an appropriate placement test score, or consent of instructor. | Continued opportunity to develop listening, reading, speaking, and writing skills. Continued exposure to German culture.
+GER | 2023 | Intermediate German II | P GER 2013 | C | Prerequisite: GER 2013, the equivalent, an appropriate placement test score, or consent of instructor. | Continued opportunity to develop listening, reading, speaking, and writing skills. Continued exposure to German culture.
+GER | 2333 | German Literature in English Translation | P | C | | Major works of German literature across time, genres, and movements. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture. (Formerly GER 3333. Credit cannot be earned for both GER 2333 and GER 3333.).
+GER | 3023 | Advanced Language Skills | P GER 2023 | C | Prerequisite: GER 2023 or consent of instructor. | Development of oral and written language skills using contemporary readings, media, and oral discourse. Emphasis on increasing fluency through vocabulary expansion activities and selective grammar review. May be repeated for credit when topics vary.
+GER | 3413 | Survey of German Literature and Culture | P GER 2023 | C | Prerequisite: GER 2023 or consent of instructor. | Selected works from the medieval period to the 21st century are studied as examples of central movements in German culture and literary history. The course presents the shape of German civilization, emphasizing the major periods, styles, movements, and generations. May be repeated for credit when topics vary.
+GER | 4003 | Topics in German Literature | P GER 2023 | C | Prerequisite: GER 2023 or consent of instructor. | Focus on a specific area of German literature, from the medieval period through the 21st century. Selected texts are studied as examples of representative movements, genres, or authors in German literary history. May be repeated for credit when topics vary.
+GER | 4213 | Topics in German Culture and Linguistics | P GER 2023 | C | Prerequisite: GER 2023 or consent of instructor. | Focuses on selected topics of cultural history, such as Vienna 1890–1914, Expressionism, contemporary cultural/political developments, or on a linguistic topic. May be repeated for credit when topics vary.
+GER | 4913 | Independent Study | P | C | Prerequisites: Permission in writing (form available) of the instructor, the student’s advisor, the Department Chair, and the Dean of the College in which the course is offered. | Independent reading, research, discussion, and/or writing under the direction of a faculty member. May be repeated for credit, but not more than 6 semester credit hours of independent study, regardless of discipline, will apply to a bachelor’s degree.
+GER | 4933 | Internship in German | P | C | Prerequisite: Permission of Department Chair. | Supervised experience in a setting that provides the opportunity to integrate theory and practice in language usage. May be repeated once for credit.
+GER | 4953 | Special Studies in German | P | C | Prerequisite: Consent of instructor. | An organized course offering the opportunity for specialized study not normally or not often available as part of the regular course offerings. Special Studies may be repeated for credit when the topics vary, but not more than 6 semester credit hours, regardless of discipline, will apply to a bachelor’s degree.
+GER | 4993 | Honors Research | P | C | Prerequisite: Consent of the undergraduate advisor. | Supervised research and preparation of an honors thesis. May be repeated once for credit, with approval.
+ITL | 1014 | Elementary Italian I | P | C | | Fundamentals of Italian offering the opportunity to develop listening, speaking, reading, and writing skills. Introduction to Italian culture. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+ITL | 1024 | Elementary Italian II | P ITL 1014 | C | Prerequisite: ITL 1014, the equivalent, an appropriate placement test score, or consent of instructor. | Fundamentals of Italian offering the opportunity to develop listening, speaking, reading, and writing skills. Further study of Italian culture.
+ITL | 2013 | Intermediate Italian I | P ITL 1024 | C | Prerequisite: ITL 1024, the equivalent, an appropriate placement test score, or consent of instructor. | Continued practice in developing listening, speaking, reading, and writing skills. Grammar and further study of Italian culture.
+ITL | 2023 | Intermediate Italian II | P ITL 2013 | C | Prerequisite: ITL 2013, the equivalent, an appropriate placement test score, or consent of instructor. | Continued practice in developing listening, speaking, reading, and writing skills. Grammar review and further study of Italian culture.
+ITL | 2333 | Italian Literature in English Translation | P | C | | Major works of Italian literature across time, genres, and movements. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture. (Formerly ITL 3333. Credit cannot be earned for both ITL 2333 and ITL 3333.).
+JPN | 1014 | Elementary Japanese I | P | C | | Fundamentals of Japanese offering the opportunity to develop basic speaking, listening, reading, and writing skills. Read and write Hiragana and Katakana. Introduction of Kanji and Japanese culture. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+JPN | 1024 | Elementary Japanese II | P JPN 1014 | C | Prerequisite: JPN 1014, the equivalent, the appropriate placement test score, or consent of instructor. | Fundamentals of Japanese offering the opportunity to develop basic speaking, listening, reading, and writing skills. Further study of Japanese culture and Kanji.
+JPN | 2013 | Intermediate Japanese I | P JPN 1024 | C | Prerequisite: JPN 1024, the equivalent, the appropriate placement test score, or consent of instructor. | Continued opportunity to develop listening, speaking, reading, and writing skills through structural analysis of the Japanese language. Further study of Japanese culture and Kanji.
+JPN | 2023 | Intermediate Japanese II | P JPN 2013 | C | Prerequisite: JPN 2013, the equivalent, the appropriate placement test score, or consent of instructor. | Continued opportunity to develop listening, speaking, reading, and writing skills through structural analysis of the Japanese language. Further study of Japanese culture and Kanji.
+JPN | 3023 | Advanced Language Skills | P JPN 2023 | C | Prerequisite: JPN 2023, the equivalent, the appropriate placement test score, or consent of instructor. | Offers the opportunity to develop advanced-level oral and written communication skills in the Japanese language, along with enhanced comprehension skills in listening and reading. May be repeated for credit when topics vary.
+JPN | 3053 | Business Japanese | P JPN 2023 | C | Prerequisite: JPN 2023, the equivalent, the appropriate placement test score, or consent of instructor. | Offers the opportunity to develop speaking, reading, and writing skills in business fields. Emphasis on Japanese business manners and business terminology.
+JPN | 4213 | Topics in Japanese Culture | P JPN 2023 | C | Prerequisite: JPN 2023, the equivalent, the appropriate placement test score, or consent of instructor. | Selected topics of Japanese culture, such as Modernization, Westernization, current issues in U.S.-Japan relationships, contemporary cultural developments, or a linguistic topic. May be repeated for credit when topics vary.
+KOR | 1014 | Elementary Korean I | P | C | | Fundamentals of Korean offering the opportunity to develop basic listening, speaking, reading, and writing skills. Introduction of Korean characters and Korean culture.
+KOR | 1024 | Elementary Korean II | P KOR 1014 | C | Prerequisite: KOR 1014, an equivalent, an appropriate placement test score, or consent of instructor. | Fundamentals of Korean offering the opportunity to develop basic speaking, listening, reading, and writing skills. Further study of Korean characters and Korean culture.
+LNG | 3813 | Introduction to Linguistics | P | C | | Basic principles of analysis and description of the structure of language, including sound system, word order, and meaning. Also, overview of selected subfields of linguistics, such as historical linguistics, sociolinguistics, language acquisition, and bilingualism. (Same as ANT 3903 and ENG 3343. Credit cannot be earned for more than one of these courses.).
+LNG | 3833 | Sociolinguistics | P | C | | The examination of the interrelationships among language, culture, and society. Topics may include language use in social context, language variation and change, maintenance and shift, and multilingual societies.
+LNG | 4013 | Topics in Linguistics | P | C | Prerequisite: One course in LNG or consent of instructor. | An opportunity to explore linguistic topics in depth, including sociolinguistics, psycholinguistics, neurolinguistics, pragmatics, syntax, semantics, phonology, or phonetics. May be repeated for credit when topics vary. (Formerly LNG 3913. Credit cannot be earned for both LNG 4013 and LNG 3913.).
+MES | 3113 | Film Studies | P WRC 1023 CSH 2113 | C | Prerequisite: WRC 1023 or the equivalent. CSH 2113 recommended. | Advanced analysis of selected films according to genre, director, or national cinema. May be repeated for credit when topics vary.
+MES | 3333 | Digital Video Production | P WRC 1023 | C | Prerequisite: WRC 1023 or the equivalent. | Theory and practice of digital video production for the humanities. Writing a storyboard, shooting a story, and editing using professional equipment. May be repeated for credit when topics vary.
+MES | 4333 | Digital Video Practicum | P MES 3333 | C | Prerequisite: MES 3333 or consent of instructor. | Advanced digital video production for the humanities. Specialized community service projects. May be repeated for credit when topics vary.
+RUS | 1014 | Elementary Russian I | P | C | | Fundamentals of Russian offering the opportunity to develop speaking, listening, reading, and writing skills. Introduction to Russian culture. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+RUS | 1024 | Elementary Russian II | P RUS 1014 | C | Prerequisite: RUS 1014, the equivalent, an appropriate placement test score, or consent of instructor. | Fundamentals of Russian offering the opportunity to further develop speaking, listening, reading, and writing skills. Further exposure to Russian culture.
+RUS | 2013 | Intermediate Russian I | P RUS 1024 | C | Prerequisite: RUS 1024, the equivalent, an appropriate placement test score, or consent of instructor. | Continued opportunity to develop listening, speaking, reading, and writing skills. Continued exposure to Russian culture.
+RUS | 2023 | Intermediate Russian II | P RUS 2013 | C | Prerequisite: RUS 2013, the equivalent, an appropriate placement test score, or consent of instructor. | Continued opportunity to develop listening, speaking, reading, and writing skills. Continued exposure to Russian culture.
+RUS | 2333 | Russian Literature in English Translation | P | C | | Major works of Russian literature across time, genres, and movements. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture. (Formerly RUS 3333. Credit cannot be earned for both RUS 2333 and RUS 3333.).
+RUS | 3033 | Oral Communication Skills | P RUS 2013 | C | Prerequisite: RUS 2013 or the equivalent. | Further development of speaking skills in a variety of contexts. May be repeated once for credit when topics vary.
+RUS | 3143 | Structure of Russian Language | P RUS 2013 | C | Prerequisite: RUS 2013 or the equivalent. | Extensive grammar review. Further development of speaking and writing skills through activities directed at the intermediate-high and advanced levels. Considerations of differences between written and spoken language. May be repeated once for credit when topics vary.
+RUS | 3213 | Advanced Russian | P RUS 2023 | C | Prerequisite: RUS 2023 or the equivalent. | Opportunity to develop advanced-level oral and written communication skills in the Russian language, along with enhanced comprehension skills in listening and reading. May be repeated for credit when topics vary.
+RUS | 3633 | Topics in Russian Culture | P RUS 2013 | C | Prerequisite: RUS 2013 or the equivalent. | Further development of proficiency by content-based instruction. Topics may include geography, traditions, history, music, literature, art, or film. May be repeated for credit when topics vary.
+SPN | 1014 | Elementary Spanish I | P | C | | Fundamentals of Spanish, offering the opportunity to develop listening, speaking, reading, and writing skills. Emphasis on listening and speaking. Introduction to Hispanic culture. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture.
+SPN | 1024 | Elementary Spanish II | P SPN 1014 | C | Prerequisite: SPN 1014, the equivalent, or an appropriate placement test score. | Fundamentals of Spanish offering the opportunity to develop listening, speaking, reading, and writing skills. Emphasis on listening and speaking. Further study of Hispanic culture.
+SPN | 2013 | Intermediate Spanish I | P SPN 1024 | C | Prerequisite: SPN 1024, the equivalent, or an appropriate placement test score. | Continued opportunity to develop listening, speaking, reading, and writing skills. Grammar and further study of Hispanic culture.
+SPN | 2023 | Intermediate Spanish II | P SPN 2013 | C | Prerequisite: SPN 2013, the equivalent, or an appropriate placement test score. | Continued opportunity to develop listening, speaking, reading, and writing skills. Grammar review and further study of Hispanic culture.
+SPN | 2333 | Hispanic Literature in English Translation | P WRC 1013 | C | Prerequisite: WRC 1013 or the equivalent. | Major works in Hispanic literatures: themes, genres, and movements. May not be applied to a major in Spanish. May be applied toward the Core Curriculum requirement in Language, Philosophy and Culture. (Formerly SPN 3333. Credit cannot be earned for both SPN 2333 and SPN 3333.).
+SPN | 2513 | Spanish for Special Purposes | P SPN 2013 | C | Prerequisite: SPN 2013, the equivalent, or an appropriate placement test score. | Foreign language communication and cross-cultural skills relevant to one or more of the following areas: business, health care, law, education, science, southwest Spanish, Hispanic literature, or technology. May be repeated for credit when topics vary.
+SPN | 3003 | Oral and Written Expression | P SPN 2023 | C | Prerequisite: SPN 2023, the equivalent, or an appropriate placement test score. If placement is at a higher level, a Spanish elective may be substituted for the minor. | Conversation, reading, and grammar review toward building literacy skills. Opportunities for composition and oral communication for a variety of situations and topics. May not be used as an elective for the Spanish major. (Formerly SPN 2103. Credit cannot be earned for both SPN 3003 and SPN 2103.).
+SPN | 3013 | Spanish Phonetics and Phonology | P SPN 2023 SPN 3003 | C | Prerequisite: SPN 2023 or SPN 3003, the equivalent, or consent of instructor. | Offers the opportunity for study of the sound system of Latin-American Spanish. Activities may include pronunciation exercises, exercises in sound discrimination and transcription, and articulatory description of various dialects of Spanish.
+SPN | 3033 | Oral Communication Skills | P SPN 2023 SPN 3003 | C | Prerequisite: SPN 2023 or SPN 3003, the equivalent, or consent of instructor. | Opportunity for development of speaking skills in a formal register through activities directed at vocabulary building, grammatical accuracy, and aural/written comprehension. May not be used as an elective for the Spanish major.
+SPN | 3043 | Introduction to Literature | P SPN 3063 | C | Prerequisite: SPN 3063, the equivalent, or consent of instructor. | Approaches to reading, comprehension and analysis of literary and other advanced texts. Use of analytical terminology, advanced vocabulary building, and further development of formal writing skills. (Formerly titled &quot;Advanced Reading.&quot;).
+SPN | 3063 | Grammar and Composition | P SPN 2023 SPN 3003 | C | Prerequisite: SPN 2023 or SPN 3003, or the equivalent. | Extensive review of fundamental grammar with vocabulary building. Development of writing skills and style through activities directed at the Advanced level on the ACTFL-ETS proficiency scale. Consideration of usage and differences between written and spoken language.
+SPN | 3113 | Linguistic Structures of Spanish | P SPN 3063 | C | Prerequisite: SPN 3063, the equivalent, or consent of instructor. | Offers the opportunity for the application of the basic principles of analysis and description of language structure to Spanish. Attention given to structural regularities at the levels of word formation, syntax, and semantics of formal Spanish, recognizing variability in spoken registers.
+SPN | 3153 | Spanish for the Business | P SPN 2023 SPN 3003 | C | Prerequisite: SPN 2023 or SPN 3003, or the equivalent. | Foreign language skills relevant to careers in business fields. Emphasis on reading skills and simple conversations on business topics. Exposure to terminology from contracts, financial statements, business law, marketing, and banking. Intended for students with some background in Spanish. May be repeated once for credit when topics vary.
+SPN | 3413 | The Literature of Spain from the Middle Ages to  | P SPN 3043 | C | Prerequisite: SPN 3043 or consent of instructor. | Spanish literature from the Middle Ages to 1700. Readings of selections and complete works. Practice in critical analysis through papers and examinations.
+SPN | 3423 | The Literature of Spain from  | P SPN 3043 | C | Prerequisite: SPN 3043 or consent of instructor. | Spanish literature from 1700 to the present. Readings of selections and complete works. Practice in critical analysis through papers and examinations.
+SPN | 3463 | Latin American Literature to Modernism | P SPN 3043 | C | Prerequisite: SPN 3043 or consent of instructor. | Latin American literature from pre-Columbian times to Modernism. Practice in critical analysis through papers and examinations.
+SPN | 3473 | Latin American Literature since Modernism | P SPN 3043 | C | Prerequisite: SPN 3043 or consent of instructor. | Latin American literature from Modernism to the present. Practice in critical analysis through papers and examinations.
+SPN | 3493 | Mexican American Literature | P SPN 3003 SPN 3063 | C | Prerequisite: SPN 3003, SPN 3063, or consent of instructor. | Readings and discussion of works by Mexican American writers. The expression through poetry, the novel, the short story, and the theater of the Mexican American cultural experience as well as universal themes and literary concerns. Selections from popular literature, including the oral tradition. May be repeated for credit when topics vary.
+SPN | 3613 | Spanish Culture and Civilization | P SPN 3043 | C | Prerequisite: SPN 3043. | Emergence of the Spanish peoples from pre-Roman times to the present: history, cultural expression, myths, values, and worldview.
+SPN | 3623 | Latin American Culture and Civilization | P SPN 3043 | C | Prerequisite: SPN 3043. | The cultural life of the respective geographic regions and social strata of Latin America from before the Conquest to the present, as reflected in and interpreted by its literature and arts.
+SPN | 4003 | Advanced Language Skills | P SPN 3043 SPN 3063 | C | Prerequisite: SPN 3043, or SPN 3063 as appropriate, or consent of instructor. | Development of advanced skills in formal Spanish, including such areas as grammar, composition, oratory, creative writing, Spanish/English translation, and other practical applications of language study. May be repeated for credit when topics vary.
+SPN | 4113 | Topics in Spanish Linguistics | P SPN 3113 | C | Prerequisite: SPN 3113 or consent of instructor. | Advanced study and applications of topics in Spanish linguistics. May include one or more of the following: phonology, morphology, syntax, semantics, dialectology, language variability, and history of Spanish. May be repeated for credit when topics vary. This course fulfills the College of Liberal and Fine Arts Signature Experience.
+SPN | 4123 | The Spanish of the United States | P SPN 3013 SPN 3113 | C | Prerequisite: SPN 3013, SPN 3113, or consent of instructor. | The analysis of the Spanish language as used by native or heritage speakers in the United States, from a linguistic, pragmatic and sociolinguistic perspective. Particular attention given to the Spanish spoken in Texas.
+SPN | 4203 | Topics in Hispanic Literatures | P | C | Prerequisite: An upper-division course in literature taught in Spanish or consent of instructor. | An intensive study of an area of Spanish or Spanish American literatures. May be repeated for credit when topics vary. This course fulfills the College of Liberal and Fine Arts Signature Experience.
+SPN | 4303 | Topics in Hispanic Cultures | P SPN 3043 | C | Prerequisite: SPN 3043 or consent of instructor. | An intensive study of an area of Hispanic cultures. May be repeated for credit when topics vary. This course fulfills the College of Liberal and Fine Arts Signature Experience.
+SPN | 4913 | Independent Study | P | C | Prerequisites: Permission in writing (form available) of the instructor, the student’s advisor, the Department Chair, and Dean of the College in which the course is offered. | Independent reading, research, discussion, and/or writing under the direction of a faculty member. May be repeated for credit, but not more than 6 semester credit hours of independent study, regardless of discipline, will apply to a bachelor’s degree. No more than 6 semester credit hours of SPN 4913 and/or SPN 4993 may be applied to the major in Spanish.
+SPN | 4933 | Internship in Spanish | P | C | Prerequisite: Permission of Department Chair. | Supervised experience in a setting that provides the opportunity to integrate theory and practice in language usage. May be repeated once for credit.
+SPN | 4953 | Special Studies in Spanish | P | C | Prerequisite: Consent of instructor. | An organized course offering the opportunity for specialized study not normally or not often available as part of the regular course offerings. Special Studies may be repeated for credit when the topics vary, but not more than 6 semester credit hours, regardless of discipline, will apply to a bachelor’s degree.
+SPN | 4993 | Honors Research | P | C | Prerequisite: Consent of the undergraduate advisor. | Supervised research and preparation of an honors thesis. May be repeated once for credit, with approval. No more than 6 semester credit hours of SPN 4993 and/or SPN 4913 may be applied to the major in Spanish.
