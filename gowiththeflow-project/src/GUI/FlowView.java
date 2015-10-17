@@ -72,14 +72,13 @@ public class FlowView extends JFrame {
         final JComboBox<String> courseBox = new JComboBox<String>(sampleList);
         
         JPanel smallerPanel = new JPanel(new GridLayout(2,1));
-        smallerPanel.setBackground(Color.WHITE);
+        smallerPanel.setBackground(Color.ORANGE);
         smallerPanel.add(new JLabel("Select a Course:"));
         smallerPanel.add(courseBox);
         listPanel.add(smallerPanel);
         
 		/* EAST: Add a list so the user can select a color. */
-		/*
-		 * listPanel = new JPanel();
+		listPanel = new JPanel();
 		add(listPanel, BorderLayout.EAST);
 		colorList = new JList(colorNames);
 		colorList.setVisibleRowCount(7);
@@ -93,7 +92,6 @@ public class FlowView extends JFrame {
 		listPanel.add(new JLabel());
 		listPanel.add(new JLabel("Concurrent Courses:"));
 		listPanel.add(new JLabel());
-		 */
 		
 		
 	} // end constructor
