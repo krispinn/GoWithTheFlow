@@ -44,7 +44,10 @@ public class Driver {
 	 */
 	public static void main(String[] args) throws Exception {
 
+		/*
 		// Declaring Variables
+		*/
+		String url = "http://catalog.utsa.edu/undergraduate/";
 		String catalogFileName = "data/deptmajorinfo/01_undergraduate_source_code.txt";
 		String departmentFileName = "data/deptmajorinfo/02_list_of_departments.txt";
 		ArrayList<String> departmentsNotUsedList = new ArrayList<String>(
@@ -52,17 +55,22 @@ public class Driver {
 						"universitycollege", "honorscollege", "coursedescriptions", "texascommoncoursenumberingsystem",
 						"nationalstandardizedtests", "faculty", "azindex"));
 		ArrayList<String> departmentsUsedList = new ArrayList<String>();
-
+		
 		// STEP 1:
-		DeptSourceCode catalogDepartments = new DeptSourceCode("http://catalog.utsa.edu/undergraduate/",
+		/*DeptSourceCode catalogDepartments = new DeptSourceCode("http://catalog.utsa.edu/undergraduate/",
 				catalogFileName);
 
 		System.out.println("Step 1");
+		*/
+		
+		GenerateInfo step1 = new GenerateInfo(url, catalogFileName, departmentFileName);
 		
 		// STEP 2:
+		
 		DeptMajorList match = new DeptMajorList(catalogFileName, "^.*undergraduate/(.*)/\">", departmentFileName);
 
 		System.out.println("Step 2");
+		
 		
 		// STEP 3:
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(departmentFileName));
