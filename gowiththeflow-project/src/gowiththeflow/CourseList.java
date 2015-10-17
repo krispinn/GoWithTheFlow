@@ -87,6 +87,19 @@ public class CourseList {
 				String tmp = getPrereq(in, bw);
 				// get the concurrent enrollment courses
 				getConcurrent(in, bw, tmp);
+				// read in the next line
+				inputLine = in.readLine();
+				// write enrollment info and course description
+				if (inputLine.matches("</p>")) {
+					String tmp2 = tmp.replaceAll("<br />", "");
+					if (tmp.matches("^Prerequisite.*") || tmp.matches(".*[Cc]oncurrent.*"))
+						bw.write(" | " + tmp2 + " |");
+					else
+						bw.write(" | | " + tmp2);
+				} else {
+					String il2 = inputLine.replaceAll("<br />", "");
+					bw.write(" | " + tmp + " | " + il2);
+				}
 				// move to the next line so that each course will be on its own line
 				bw.newLine();
 			} // end if statement inside while loop

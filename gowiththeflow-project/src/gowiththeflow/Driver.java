@@ -115,12 +115,7 @@ public class Driver {
 		System.out.println("Step 5");
 		
 		// STEP 6:
-<<<<<<< HEAD
-		CourseList list = new CourseList("sciences", "computerscience");
-=======
-		
 		CourseList list = new CourseList("liberalfinearts", "music");
->>>>>>> branch 'master' of https://github.com/UTSA-CS-3443/gowiththeflow.git
 
 		System.out.println("Step 6");
 		
