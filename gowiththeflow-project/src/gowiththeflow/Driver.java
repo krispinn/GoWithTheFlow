@@ -111,14 +111,21 @@ public class Driver {
 			majorReader.close();
 			bufferedWriter.close();
 		}
-
+		
 		System.out.println("Step 5");
 		
-		// STEP 6:
-		
-		CourseList list = new CourseList("liberalfinearts", "music");
-
+		// STEP 6
+			String inputFileName2 = "data/05_list_of_all_departments_and_majors.txt";
+			BufferedReader allListReader = new BufferedReader(new FileReader(inputFileName2));
+			
+			String token2[];
+			while (allListReader.ready()) {
+				String departmentAndMajor2 = allListReader.readLine();
+				token2 = departmentAndMajor2.split("\\s");
+				CourseList list = new CourseList(token2[0], token2[1]);			}
+			allListReader.close();
+			
 		System.out.println("Step 6");
-		
 	}
-}
+}		
+
