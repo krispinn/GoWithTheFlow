@@ -26,14 +26,13 @@ public class Reader {
 		
 		while(bufferedReader.ready()) {
 			line = bufferedReader.readLine();
-			System.out.println(line);
-			tokens = line.split("|");
+			tokens = line.split("\\s\\|\\s");
 			subject = tokens[0];
-			courseNumber = 5;
+			courseNumber = Integer.parseInt(tokens[1]);
 			courseName = tokens[2];
 			prerequisites = tokens[3];
 			concurrentEnrollment = tokens[4];
-			System.out.println(subject + courseNumber + courseName + prerequisites + concurrentEnrollment);
+			System.out.println(subject + " " + courseNumber + " " + courseName + " " + prerequisites + " " + concurrentEnrollment);
 		}
 		
 		bufferedReader.close();
