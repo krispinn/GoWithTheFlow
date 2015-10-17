@@ -62,10 +62,10 @@ public class FlowView extends JFrame {
 	/**
 	 * Create and organize the components of the window.
 	 */
-	public FlowView(FlowModel model, String[] courseList) throws NullPointerException {
+	public FlowView(FlowModel model, ArrayList<String[]> courseList) throws NullPointerException {
 		super("Major Flow Chart");
 		this.model = model;
-		this.courseList = courseList;
+		this.courseList = courseList.get(0);
 
 		/* CENTER: Add a panel that the user can draw on. */
 		mousePanel = new CourseGenerator(model);
@@ -173,12 +173,14 @@ public class FlowView extends JFrame {
 		ArrayList<Object> objectList = new ArrayList<>();
 		
 		try {
+			
 			for (int i = 0; i < courseList.length; i++) {
 				
 				objectList.add(graph.insertVertex(parent, null, courseList[i], 
 						20+(i*10), 20+(i*10), 80, 30));
 				
 			}
+			
 		} finally {
 			graph.getModel().endUpdate();
 		}

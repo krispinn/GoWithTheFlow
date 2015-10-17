@@ -26,7 +26,7 @@ public class TestDriver {
 		
 		
 		FlowModel model = new FlowModel();
-		FlowView view = new FlowView(model, courseList);
+		FlowView view = new FlowView(model, temp);
 		
 		FlowController controller = new FlowController(model, view);
 		
