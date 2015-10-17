@@ -1,5 +1,6 @@
 package GUI;
 import java.awt.*;
+import java.util.ArrayList;
 import javax.swing.*;
 import test.*;
 import com.mxgraph.swing.mxGraphComponent;
@@ -174,11 +175,13 @@ public class FlowView extends JFrame {
 		mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
 		graph.getModel().beginUpdate();
+		ArrayList<Object> objectList = new ArrayList<>();
+		
 		try {
 			for (int i = 0; i < courseList.length; i++) {
 				
-				Object v = graph.insertVertex(parent, null, courseList[i], 
-						20+(i*10), 20+(i*10), 80, 30);
+				objectList.add(graph.insertVertex(parent, null, courseList[i], 
+						20+(i*10), 20+(i*10), 80, 30));
 				
 			}
 		} finally {
