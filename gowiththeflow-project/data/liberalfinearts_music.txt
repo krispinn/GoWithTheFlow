@@ -89,8 +89,8 @@ MUS | 3613 | Entrepreneurship in Music | P MUS 2263 | C
 MUS | 3701 | Chamber Singers | P | C
 MUS | 3711 | Mariachi Ensemble | P | C
 MUS | 3712 | Concert Choir | P | C
-MUS | 3721 | UTSA Men | P | C
-MUS | 3722 | Women | P | C
+MUS | 3721 | UTSA Men's Glee Club | P | C
+MUS | 3722 | Women's Choir | P | C
 MUS | 3731 | UTSA University Band | P | C
 MUS | 3741 | Chamber Orchestra | P | C
 MUS | 3742 | UTSA Wind Ensemble | P | C

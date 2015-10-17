@@ -55,7 +55,7 @@ public class CourseList {
 		// creates a Pattern object using the above pattern
 		// the full URL to be used as the input source
 		// creates an output file named after the degree
-		String courseDataPattern = "([A-Z]+)&#160;(\\d+)\\.  ([A-Za-z-, ]+)";
+		String courseDataPattern = "([A-Z]+)&#160;(\\d+)\\.  ([A-Za-z-, ']+)";
 		Pattern coursePattern = Pattern.compile(courseDataPattern);
 		File courseFile = new File("data/" + this.department + "_" + this.major + ".txt");
 		String address = "http://catalog.utsa.edu/undergraduate/" + this.department + "/"
