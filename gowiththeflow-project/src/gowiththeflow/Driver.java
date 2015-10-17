@@ -57,9 +57,13 @@ public class Driver {
 		DeptSourceCode catalogDepartments = new DeptSourceCode("http://catalog.utsa.edu/undergraduate/",
 				catalogFileName);
 
+		System.out.println("Step 1");
+		
 		// STEP 2:
 		DeptMajorList match = new DeptMajorList(catalogFileName, "^.*undergraduate/(.*)/\">", departmentFileName);
 
+		System.out.println("Step 2");
+		
 		// STEP 3:
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(departmentFileName));
 		while (bufferedReader.ready()) {
@@ -74,6 +78,8 @@ public class Driver {
 		}
 		bufferedReader.close();
 
+		System.out.println("Step 3");
+		
 		// STEP 4:
 		for (String department : departmentsUsedList) {
 			String inputFileName = "data/03_department_" + department + "_source_code.txt";
@@ -82,6 +88,8 @@ public class Driver {
 			DeptMajorList major = new DeptMajorList(inputFileName, expression, outputFileName);
 		}
 
+		System.out.println("Step 4");
+		
 		// STEP 5:
 		String tempFileName = "data/05_list_of_all_departments_and_majors.txt";
 		File finalFile = new File(tempFileName);
@@ -99,14 +107,18 @@ public class Driver {
 				String departmentAndMajor = department + " " + majorReader.readLine();
 				bufferedWriter.write(departmentAndMajor);
 				bufferedWriter.newLine();
-				System.out.println();
 			}
 			majorReader.close();
 			bufferedWriter.close();
 		}
 
+		System.out.println("Step 5");
+		
 		// STEP 6:
+		
 		CourseList list = new CourseList("liberalfinearts", "music");
 
+		System.out.println("Step 6");
+		
 	}
 }
