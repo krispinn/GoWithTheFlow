@@ -101,11 +101,6 @@ public class FlowView extends JFrame {
         courseInfoPanel.add(new JLabel());
         courseInfoPanel.add(new JLabel("Concurrent Courses:"));
         courseInfoPanel.add(new JLabel());
-        JPanel smallerPanel2 = new JPanel(new GridLayout(2,1));
-        smallerPanel2.setBackground(Color.WHITE);
-        smallerPanel2.add(new JLabel(""));
-        smallerPanel2.add(new JButton("<< BACK"));
-        courseInfoPanel.add(smallerPanel2);
         
         
 		/*
