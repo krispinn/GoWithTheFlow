@@ -54,10 +54,8 @@ public class FlowView extends JFrame {
 		Color.CYAN, Color.DARK_GRAY, Color.GRAY, Color.GREEN, 
 		Color.LIGHT_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK, 
 		Color.RED, Color.WHITE, Color.YELLOW};
-
-	private String[] sampleList = { "COURSE 1", "COURSE 2", "COURSE 3" };
 	
-	private String[] courseList;
+	private ArrayList<String[]> courseList;
 	
 	/**
 	 * Create and organize the components of the window.
@@ -65,14 +63,14 @@ public class FlowView extends JFrame {
 	public FlowView(FlowModel model, ArrayList<String[]> courseList) throws NullPointerException {
 		super("Major Flow Chart");
 		this.model = model;
-		this.courseList = courseList.get(0);
-
+		//courseList.toArray(this.courseList);
+		this.courseList = courseList;
 		/* CENTER: Add a panel that the user can draw on. */
 		mousePanel = new CourseGenerator(model);
 		mousePanel.setBackground(Color.WHITE);
 		add(mousePanel, BorderLayout.CENTER);
 		
-		createAGraph(this.courseList);
+		createAGraph();
 		/*mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
 		graph.getModel().beginUpdate();
@@ -166,18 +164,24 @@ public class FlowView extends JFrame {
 		super.paint(g); // This will paint the components.
 	} // end method paint
 	
-	public void createAGraph (String[] courseList){
+	public void createAGraph () {
 		mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
 		graph.getModel().beginUpdate();
 		ArrayList<Object> objectList = new ArrayList<>();
-		
+		String[] tempList = new String[courseList.size()];
+		//tempList = courseList.toArray(tempList);
+		System.out.println();
+		int j = 0;
+		for(String[] s : courseList) {
+			tempList[j++] = s[2];
+		}
 		try {
 			
-			for (int i = 0; i < courseList.length; i++) {
+			for (int i = 0; i < courseList.size(); i++) {
 				
-				objectList.add(graph.insertVertex(parent, null, courseList[i], 
-						20+(i*10), 20+(i*10), 80, 30));
+				objectList.add(graph.insertVertex(parent, null, tempList[i], 
+						20+(i*20), 20+(i*20), 80, 30));
 				
 			}
 			
