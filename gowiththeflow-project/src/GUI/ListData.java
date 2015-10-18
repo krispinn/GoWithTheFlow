@@ -12,12 +12,13 @@ import java.util.ArrayList;
 public class ListData {
 
 	/**
-	 * Stores the filename.
+	 * Stores the filename of the list of majors.
 	 */
 	private String inFile;
 
 	/**
 	 * Stores each major with its department.
+	 * Each ArrayList element will be a String array with two elements, department and major.
 	 */
 	private ArrayList<String[]> majors = new ArrayList<>();
 
@@ -34,7 +35,7 @@ public class ListData {
 	}
 
 	/**
-	 * Reads the file and stores the list majors and their departments in the ArrayList field.
+	 * Reads the file and stores the list of majors and their departments in the ArrayList field.
 	 * 
 	 * @throws Exception
 	 */
