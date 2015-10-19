@@ -12,7 +12,7 @@ import GUI.FlowController;
  * The view includes the list of colors and a panel for painting
  * with the mouse.  The panel is implemented as a separate class so that the
  * painting is relatively flicker-free.
- * @author Tom Bylander
+ * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
 public class FlowView extends JFrame {
     /** 

@@ -4,10 +4,8 @@ import java.awt.Point;
 import javax.swing.JPanel;
 
 /**
- * This is part of the view allowing the mouse to paint a JPanel.
- * This is modified from Fig 12.34.
- * @author Deitel & Associates, Inc.
- * @author Tom Bylander
+ * This is part of the view used to paint the flow chart of courses
+ * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
 public class CourseGenerator extends JPanel {
     /** 

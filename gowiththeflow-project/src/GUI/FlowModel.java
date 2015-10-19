@@ -6,7 +6,7 @@ import java.awt.*;
  * Ask yourself the question, what data would be needed to recreate
  * the state of the GUI?  This data is what should be stored in the
  * model.
- * @author Tom Bylander
+ * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
 public class FlowModel {
     /** 
