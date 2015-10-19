@@ -155,7 +155,7 @@ public class FlowView extends JFrame {
 	 * @param listener
 	 */
 	public void registerListListener(FlowListController listener) {
-		colorList.addListSelectionListener(listener);
+		//colorList.addListSelectionListener(listener);
 	}
 
 	/**
