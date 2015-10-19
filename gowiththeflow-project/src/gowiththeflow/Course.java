@@ -35,7 +35,5 @@ public class Course {
 		this.concurrent.add(concurrentCourses.split(" "));
 		this.description = courseDescription;
 		this.enrollmentInfo = courseEnrollment;
-		
-	}
-	
+	}	
 }

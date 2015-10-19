@@ -1,10 +1,8 @@
-package test;
+package gowiththeflow;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
-
-import gowiththeflow.Course;
 
 public class Reader {
 	
@@ -32,7 +30,7 @@ public class Reader {
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
 		
 		while(bufferedReader.ready()) {
-			Course course = new Course();
+			//Course course = new Course();
 			
 			line = bufferedReader.readLine();
 			tokens = line.split("\\|");

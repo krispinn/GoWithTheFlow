@@ -1,6 +1,5 @@
-package test;
+package gowiththeflow;
 import GUI.*;
-import gowiththeflow.CourseList;
 
 import javax.swing.*;
 import java.util.ArrayList;

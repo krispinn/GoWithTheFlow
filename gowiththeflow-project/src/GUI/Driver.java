@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import javax.swing.*;
 
 import GUI.FlowListController;
-import test.Reader;
+import gowiththeflow.Reader;
 
 /**
  * Driver file used to start the GUI portion.
