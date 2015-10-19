@@ -5,7 +5,7 @@ import javax.swing.*;
 import test.*;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.view.*;
-import GUI.FlowController;
+import GUI.FlowListController;
 
 /**
  * The view is responsible for displaying the information.
@@ -142,9 +142,17 @@ public class FlowView extends JFrame {
 	 * MousePanel.
 	 * @param listener
 	 */
-	public void registerListener(FlowController listener) {
-		//colorList.addListSelectionListener(listener);
-		mousePanel.addMouseMotionListener(listener);
+	public void registerMouseListener(FlowMouseController mouse) {
+		mousePanel.addMouseMotionListener(mouse);
+	}
+	
+	/**
+	 * Register the controller as the listener to the JList and the
+	 * MousePanel.
+	 * @param listener
+	 */
+	public void registerListListener(FlowListController listener) {
+		colorList.addListSelectionListener(listener);
 	}
 
 	/**

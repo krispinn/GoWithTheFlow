@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 import javax.swing.*;
 
-import GUI.FlowController;
+import GUI.FlowListController;
 import test.Reader;
 
 /**
@@ -25,11 +25,12 @@ public class Driver {
 			//{ "course1", "course2", "course3", "course4", "course5" };
 		FlowModel model = new FlowModel();
 		FlowView view = new FlowView(model, courseList);
-		FlowController controller = new FlowController(model, view);
-
+		//FlowListController controller = new FlowListController(model, view);
+		FlowListController listCtrl = new FlowListController(model, view);
+		FlowMouseController mouseCtrl = new FlowMouseController(model, view);
 		// register controller as the listener to components in the view
-		view.registerListener(controller);
-
+		view.registerListListener(listCtrl);
+		view.registerMouseListener(mouseCtrl);
 		// start it up
 		view.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		view.setSize(800, 500);

@@ -17,9 +17,11 @@ public class TestDriver {
 		
 		FlowModel model = new FlowModel();
 		FlowView view = new FlowView(model, temp);
-		FlowController controller = new FlowController(model, view);
+		FlowListController listCtrl = new FlowListController(model, view);
+		FlowMouseController mouseCtrl = new FlowMouseController(model, view);
 		
-		view.registerListener(controller);
+		view.registerListListener(listCtrl);
+		view.registerMouseListener(mouseCtrl);
 		view.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		view.setSize(800, 500);
 		view.setVisible(true);
