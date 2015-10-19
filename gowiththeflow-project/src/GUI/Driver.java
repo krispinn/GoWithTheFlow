@@ -9,10 +9,9 @@ import GUI.FlowController;
 import test.Reader;
 
 /**
- * This demonstrates the model-view-controller design pattern. Adapted from
- * Figures 12.23 and 12.34.
+ * Driver file used to start the GUI portion.
  * 
- * @author Tom Bylander
+ * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
 public class Driver {
 	/**

@@ -4,18 +4,17 @@ import java.awt.event.*;
 import javax.swing.event.*;
 
 /**
- * This demonstrates the controller in a model-view-controller pattern.
- * Adapted from Figures 12.23 and 12.34.
- * @author Tom Bylander
+ * Controller used to connect the model and view and used to handle any events from user.
+ * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
 public class FlowController implements ListSelectionListener, MouseMotionListener {
     /** 
-     * The model of this MVC example 
+     * The model of this MVC
      */
 	private FlowModel model;
 	
 	/** 
-	 * The view of this MVC example 
+	 * The view of this MVC
 	 */
 	private FlowView view;
 
