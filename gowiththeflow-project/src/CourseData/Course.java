@@ -1,4 +1,4 @@
-package gowiththeflow;
+package CourseData;
 
 import java.util.ArrayList;
 

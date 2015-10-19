@@ -1,4 +1,4 @@
-package gowiththeflow;
+package CourseData;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
  * DeptMajorList finds a regular expression from source code and
  * outputs what it finds to a text file.
  * 
- * @author gowiththeflow: Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
+ * @author CourseData: Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
  *         Cardenas, Mostafa Dabas
  */
 public class DeptMajorList {

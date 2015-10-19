@@ -1,4 +1,4 @@
-package gowiththeflow;
+package CourseData;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,7 +10,7 @@ import java.net.URL;
 /**
  * Takes a URL and returns the source code for that URL
  * 
- * @author gowiththeflow: Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
+ * @author CourseData: Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
  *         Cardenas, Mostafa Dabas
  *
  */

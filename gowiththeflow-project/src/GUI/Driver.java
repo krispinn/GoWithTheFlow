@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 import javax.swing.*;
 
+import CourseData.Reader;
 import GUI.FlowListController;
-import gowiththeflow.Reader;
 
 /**
  * Driver file used to start the GUI portion.

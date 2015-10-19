@@ -1,4 +1,4 @@
-package gowiththeflow;
+package CourseData;
 
 /**
  * Executes the main method and finds departments/majors from given UTSA URL

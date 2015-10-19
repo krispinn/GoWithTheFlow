@@ -1,4 +1,4 @@
-package gowiththeflow;
+package CourseData;
 import GUI.*;
 
 import javax.swing.*;
