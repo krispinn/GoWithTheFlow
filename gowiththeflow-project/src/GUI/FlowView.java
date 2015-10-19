@@ -1,9 +1,12 @@
 package GUI;
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Hashtable;
+
 import javax.swing.*;
 import test.*;
 import com.mxgraph.swing.mxGraphComponent;
+import com.mxgraph.util.mxConstants;
 import com.mxgraph.view.*;
 import GUI.FlowController;
 
@@ -166,6 +169,16 @@ public class FlowView extends JFrame {
 	
 	public void createAGraph () {
 		mxGraph graph = new mxGraph();
+		
+		/*
+		 * THIS IS FOR CHANGING THE STYLE OF THE GRAPH OBJECTS
+		mxStylesheet stylesheet = graph.getStylesheet();
+		Hashtable<String, Object> style = new Hashtable<String, Object>();
+		style.put(mxConstants.STYLE_SHAPE, mxConstants.SHAPE_ELLIPSE);
+		style.put(mxConstants.STYLE_OPACITY, 100);
+		style.put(mxConstants.STYLE_FONTCOLOR, "#000000");
+		stylesheet.putCellStyle("ROUNDED", style);*/
+		
 		Object parent = graph.getDefaultParent();
 		graph.getModel().beginUpdate();
 		ArrayList<Object> objectList = new ArrayList<>();
