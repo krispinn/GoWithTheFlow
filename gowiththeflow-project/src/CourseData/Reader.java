@@ -11,10 +11,10 @@ public class Reader {
 	private String subject;
 	private int courseNumber;
 	private String courseName;
-	private String prerequisites;
+	private String prerequisiteCourses;
 	private String concurrentEnrollment;
-	private String line1;
-	private String line2;
+	private String courseEnrollmentInfo;
+	private String courseDescription;
 	private ArrayList<String[]> listOfCourses = new ArrayList<>();
 	
 	public Reader(String inputFileName) {
@@ -37,13 +37,13 @@ public class Reader {
 			subject = tokens[0].trim();
 			courseNumber = Integer.parseInt(tokens[1].trim());
 			courseName = tokens[2].trim();
-			prerequisites = tokens[3].trim();
+			prerequisiteCourses = tokens[3].trim();
 			concurrentEnrollment = tokens[4].trim();
-			line1 = tokens[5].trim();
-			line2 = tokens[6].trim();
+			courseEnrollmentInfo = tokens[5].trim();
+			courseDescription = tokens[6].trim();
 			
-			System.out.println(subject + " " + courseNumber + " " + courseName + " " + prerequisites + " " + concurrentEnrollment
-					+ " " + line1 + " " + line2);
+			System.out.println(subject + " " + courseNumber + " " + courseName + " " + prerequisiteCourses + " " + concurrentEnrollment
+					+ " " + courseEnrollmentInfo + " " + courseDescription);
 			
 			listOfCourses.add(tokens);
 			

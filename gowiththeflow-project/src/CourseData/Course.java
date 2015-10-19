@@ -14,9 +14,9 @@ public class Course {
 	
 	private String name;
 	
-	private ArrayList<String[]> prerequisite;
+	private ArrayList<String[]> prerequisite = new ArrayList<>();
 	
-	private ArrayList<String[]> concurrent;
+	private ArrayList<String[]> concurrent = new ArrayList<>();
 
 	private String enrollmentInfo;
 	
