@@ -1,9 +1,7 @@
 package GUI;
-import java.awt.*;
+import java.awt.Point;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
-
-import javax.swing.event.*;
 /**
  * Class used to hanle events for hovering mouse over an object (display tooltips etc)
  *

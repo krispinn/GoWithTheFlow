@@ -1,7 +1,8 @@
 package GUI;
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.event.*;
+import java.awt.Color;
+
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 /**
  * Controller used to handle events related to the right panel of the GUI, mainly the drop down list.

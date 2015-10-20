@@ -1,12 +1,7 @@
 package GUI;
 
-import java.awt.*;
 import java.util.ArrayList;
-
-import javax.swing.*;
-
-import CourseData.Reader;
-import GUI.FlowListController;
+import javax.swing.JFrame;
 
 /**
  * Driver file used to start the GUI portion.

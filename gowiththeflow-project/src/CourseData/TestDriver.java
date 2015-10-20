@@ -1,8 +1,12 @@
 package CourseData;
-import GUI.*;
-
-import javax.swing.*;
 import java.util.ArrayList;
+
+import javax.swing.JFrame;
+
+import GUI.FlowListController;
+import GUI.FlowModel;
+import GUI.FlowMouseController;
+import GUI.FlowView;
 
 public class TestDriver {
 

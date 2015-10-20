@@ -1,5 +1,6 @@
 package GUI;
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Point;
 
 /**
  * The FlowModel class holds the information that is used by the GUI.
