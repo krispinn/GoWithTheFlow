@@ -16,7 +16,7 @@ public class TestDriver {
 
 		//Reader test = new Reader("data/sciences_computerscience.txt");
 		
-		ArrayList<String[]> temp = test.read();	
+		ArrayList<Course> temp = test.read();	
 		
 		FlowModel model = new FlowModel();
 		FlowView view = new FlowView(model, temp);

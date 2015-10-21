@@ -1,7 +1,10 @@
 package GUI;
 
 import java.util.ArrayList;
+
 import javax.swing.JFrame;
+
+import CourseData.Course;
 
 /**
  * Driver file used to start the GUI portion.
@@ -14,9 +17,9 @@ public class Driver {
 	 */
 
 	public static void main(String[] args) {
-		ArrayList<String[]> courseList = new ArrayList<>();
+		ArrayList<Course> courseList = new ArrayList<>();
 		String[] test1 = {"1", "2"};
-		courseList.add(test1);
+		//courseList.add(test1);
 			//{ "course1", "course2", "course3", "course4", "course5" };
 		FlowModel model = new FlowModel();
 		FlowView view = new FlowView(model, courseList);

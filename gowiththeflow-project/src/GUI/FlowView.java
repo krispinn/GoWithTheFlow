@@ -14,6 +14,8 @@ import javax.swing.JPanel;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.view.mxGraph;
 
+import CourseData.Course;
+
 /**
  * The view is responsible for displaying the information.
  * The view includes the list of colors and a panel for painting
@@ -62,12 +64,12 @@ public class FlowView extends JFrame {
 		Color.LIGHT_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK, 
 		Color.RED, Color.WHITE, Color.YELLOW};
 	
-	private ArrayList<String[]> courseList;
+	private ArrayList<Course> courseList;
 	
 	/**
 	 * Create and organize the components of the window.
 	 */
-	public FlowView(FlowModel model, ArrayList<String[]> courseList) throws NullPointerException {
+	public FlowView(FlowModel model, ArrayList<Course> courseList) throws NullPointerException {
 		super("Major Flow Chart");
 		this.model = model;
 		//courseList.toArray(this.courseList);
@@ -198,9 +200,9 @@ public class FlowView extends JFrame {
 		//tempList = courseList.toArray(tempList);
 		System.out.println();
 		int j = 0;
-		for(String[] s : courseList) {
-			tempList[j++] = s[2];
-		}
+		//for(Course s : courseList) {
+		//	tempList[j++] = s[2];
+		//}
 		try {
 			
 			for (int i = 0; i < courseList.size(); i++) {
