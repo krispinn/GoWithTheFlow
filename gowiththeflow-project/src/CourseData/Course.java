@@ -34,11 +34,18 @@ public class Course {
 	 * Contains the course's concurrent enrollment courses.
 	 */
 	private ArrayList<String[]> concurrent = new ArrayList<>();
+	
+	/**
+	 * This number is initialized by a recursive algorithm which counts the number children for the course 
+	 */
+	
+	private int offspring;
 
 	/**
 	 * The original line of text containing the prerequisites, concurrent enrollment courses, and
 	 * other information.
 	 */
+	
 	private String enrollmentInfo;
 
 	/**
@@ -73,5 +80,48 @@ public class Course {
 		this.concurrent.add(concurrentCourses.split(" "));
 		this.description = courseDescription;
 		this.enrollmentInfo = courseEnrollment;
+	}
+	
+	/**
+	 * This method layouts the level of the course.. the more children, the higher the course
+	 * will be on tree. i.e. Upper Division electives will be at the bottom as they have the least 
+	 * courses following them.
+	 * @param courses - this should be the starting (or end, depending on design choice) course
+	 * @return
+	 */
+	private int dependencies(int courses){
+		return 1 + dependencies(courses);
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public int getNumber() {
+		return number;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public ArrayList<String[]> getPrerequisite() {
+		return prerequisite;
+	}
+
+	public ArrayList<String[]> getConcurrent() {
+		return concurrent;
+	}
+
+	public String getEnrollmentInfo() {
+		return enrollmentInfo;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+	
+	public int getOffspring(){
+		return offspring;
 	}
 }

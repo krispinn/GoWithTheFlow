@@ -55,7 +55,7 @@ public class Reader {
 	/**
 	 * An ArrayList containing all the previous data.
 	 */
-	private ArrayList<String[]> listOfCourses = new ArrayList<>();
+	private ArrayList<Course> listOfCourses = new ArrayList<>();
 
 	/**
 	 * The constructor initializes the inputFile field.
@@ -73,14 +73,13 @@ public class Reader {
 	 * @return an ArrayList containing the info for all the courses of a single major
 	 * @throws Exception
 	 */
-	public ArrayList<String[]> read() throws Exception {
+	public ArrayList<Course> read() throws Exception {
 
 		String line;
 		String tokens[] = new String[7];
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
 
 		while (bufferedReader.ready()) {
-			// Course course = new Course();
 
 			line = bufferedReader.readLine();
 			tokens = line.split("\\|");
@@ -92,12 +91,16 @@ public class Reader {
 			courseEnrollmentInfo = tokens[5].trim();
 			courseDescription = tokens[6].trim();
 
-			System.out.println(subject + " " + courseNumber + " " + courseName + " "
-					+ prerequisiteCourses + " " + concurrentEnrollment + " " + courseEnrollmentInfo
-					+ " " + courseDescription);
+//			System.out.println(subject + " " + courseNumber + " " + courseName + " "
+//					+ prerequisiteCourses + " " + concurrentEnrollment + " " + courseEnrollmentInfo
+//					+ " " + courseDescription);
 
-			listOfCourses.add(tokens);
-
+			
+			Course course = new Course(subject, courseNumber, courseName, prerequisiteCourses,
+					concurrentEnrollment, courseDescription, courseEnrollmentInfo);
+			
+			listOfCourses.add(course);
+			
 		}
 
 		bufferedReader.close();
