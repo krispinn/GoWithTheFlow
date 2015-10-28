@@ -1,4 +1,4 @@
-package CourseData;
+package test2;
 import java.util.ArrayList;
 
 import javax.swing.JFrame;
@@ -7,6 +7,7 @@ import GUI.FlowListController;
 import GUI.FlowModel;
 import GUI.FlowMouseController;
 import GUI.FlowView;
+import testdannybilal.Course;
 
 public class TestDriver {
 
@@ -26,7 +27,8 @@ public class TestDriver {
 		view.registerListListener(listCtrl);
 		view.registerMouseListener(mouseCtrl);
 		view.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		view.setSize(800, 500);
+		//need to modify automatically for other display option.
+		view.setSize(1366, 768);
 		view.setVisible(true);
 		
 	}

@@ -1,6 +1,8 @@
-package CourseData;
+package testdannybilal;
 
 import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * This class contains all the information for a single course which will be used to create nodes on
@@ -24,16 +26,24 @@ public class Course {
 	 * The name of the course (Calculus II, Application Programming, etc).
 	 */
 	private String name;
+	
+	private String abstractCourseName;
 
+	private boolean abstractFlag;
+	
+	private String prerequisite;
+	
+	private String concurrent;
+	
 	/**
 	 * Contains the course's prerequisites.
 	 */
-	private ArrayList<String[]> prerequisite = new ArrayList<>();
+	private ArrayList<String> prerequisiteList = new ArrayList<>();
 
 	/**
 	 * Contains the course's concurrent enrollment courses.
 	 */
-	private ArrayList<String[]> concurrent = new ArrayList<>();
+	private ArrayList<String> concurrentList = new ArrayList<>();
 	
 	/**
 	 * This number is initialized by a recursive algorithm which counts the number children for the course 
@@ -76,10 +86,17 @@ public class Course {
 		this.subject = subject;
 		this.number = courseNumber;
 		this.name = courseName;
-		this.prerequisite.add(prerequisiteCourses.split(" "));
-		this.concurrent.add(concurrentCourses.split(" "));
+		this.prerequisite = prerequisiteCourses;
+		this.concurrent = concurrentCourses;
 		this.description = courseDescription;
 		this.enrollmentInfo = courseEnrollment;
+		this.abstractFlag = false;
+		addReqs();
+	}
+	
+	public Course(String fullName) {
+		this.abstractCourseName = fullName;
+		this.abstractFlag = true;
 	}
 	
 	/**
@@ -89,9 +106,6 @@ public class Course {
 	 * @param courses - this should be the starting (or end, depending on design choice) course
 	 * @return
 	 */
-	private int dependencies(int courses){
-		return 1 + dependencies(courses);
-	}
 
 	public String getSubject() {
 		return subject;
@@ -105,14 +119,6 @@ public class Course {
 		return name;
 	}
 
-	public ArrayList<String[]> getPrerequisite() {
-		return prerequisite;
-	}
-
-	public ArrayList<String[]> getConcurrent() {
-		return concurrent;
-	}
-
 	public String getEnrollmentInfo() {
 		return enrollmentInfo;
 	}
@@ -123,5 +129,56 @@ public class Course {
 	
 	public int getOffspring(){
 		return offspring;
+	}
+
+	public String getSubNum() {
+		if (abstractFlag) {
+			return abstractCourseName;
+		} else {
+			return subject + " " + number;
+		}
+	}
+	
+	public void addReqs() {
+		String tokens[] = prerequisite.split(" ");
+		if (tokens.length >= 3) {
+			for (int i = 1; i < tokens.length-1; i += 2) {
+				prerequisiteList.add(tokens[i] + " " + tokens[i+1]);
+				//System.out.println("PRE " + prerequisiteList.get(prerequisiteList.size()-1));
+			}
+			
+		}
+		tokens = concurrent.split(" ");
+		if (tokens.length >= 3) {
+			for (int i = 1; i < tokens.length-1; i+= 2) {
+				concurrentList.add(tokens[i] + " " + tokens[i+1]);
+				//System.out.println("CON " + concurrentList.get(concurrentList.size()-1));
+			}
+		}
+		
+
+	}
+	
+	public ArrayList<String> getPrerequisiteList() {
+		return prerequisiteList;
+	}
+	
+	public ArrayList<String> getConcurrentList() {
+		return concurrentList;
+	}
+	
+	public String getPrerequisiteListToString() {
+		return prerequisiteList.toString();
+	}
+	
+	public String getConcurrentListToString() {
+		return concurrentList.toString();
+	}
+	
+	@Override
+	public String toString() {
+		return subject + " " + number + " " + name + " | Prerequisites: " + prerequisiteList.toString()
+				+ " | Concurrent: " + concurrentList.toString() + " | Offspring: " + offspring + " | Enroll Info: " + enrollmentInfo
+				+ " | Description: " + description + "]\n";
 	}
 }

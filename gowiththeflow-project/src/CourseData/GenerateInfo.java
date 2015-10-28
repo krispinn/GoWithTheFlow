@@ -40,7 +40,7 @@ public class GenerateInfo {
 	 * @throws Exception
 	 */
 	private void step1() throws Exception {
-		new DeptSourceCode(url, catalogFileName);
+		new UrlToSource(url, catalogFileName);
 		System.out.println("Step 1");
 	}
 
@@ -51,7 +51,7 @@ public class GenerateInfo {
 	 * @throws Exception
 	 */
 	private void step2() throws Exception {
-		new DeptMajorList(catalogFileName, "^.*undergraduate/(.*)/\">", departmentFileName);
+		new SourceToTxt(catalogFileName, "^.*undergraduate/(.*)/\">", departmentFileName);
 		System.out.println("Step 2");
 	}
 
@@ -70,7 +70,7 @@ public class GenerateInfo {
 			}
 			String concatenatedUrl = "http://catalog.utsa.edu/undergraduate/" + departmentName;
 			String tempFileName = "data/deptmajorinfo/03_department_" + departmentName + "_source_code.txt";
-			new DeptSourceCode(concatenatedUrl, tempFileName);
+			new UrlToSource(concatenatedUrl, tempFileName);
 			departmentsUsedList.add(departmentName);
 		}
 		bufferedReader.close();
@@ -89,7 +89,7 @@ public class GenerateInfo {
 			String inputFileName = "data/deptmajorinfo/03_department_" + department + "_source_code.txt";
 			String expression = "^.*undergraduate/" + department + "/(.*)/\"";
 			String outputFileName = "data/deptmajorinfo/04_list_of_majors_in_" + department + ".txt";
-			new DeptMajorList(inputFileName, expression, outputFileName);
+			new SourceToTxt(inputFileName, expression, outputFileName);
 		}
 		System.out.println("Step 4");
 	}
@@ -137,7 +137,7 @@ public class GenerateInfo {
 		while (allListReader.ready()) {
 			String departmentAndMajor2 = allListReader.readLine();
 			token = departmentAndMajor2.split("\\s");
-			new CourseList(token[0], token[1]);
+			new CourseToTxt(token[0], token[1]);
 		}
 		allListReader.close();
 		System.out.println("Step 6");
