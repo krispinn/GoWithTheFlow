@@ -12,8 +12,8 @@ public class TestDriver {
 
 	public static void main(String[] args) throws Exception {
 		
-		ListOfCourses test = new ListOfCourses("data/courselists/sciences_computerscience.txt");
-
+		//ListOfCourses test = new ListOfCourses("data/courselists/sciences_computerscience.txt");
+		ListOfCourses test = new ListOfCourses("data/courselists/liberalfinearts_music.txt");
 		//Reader test = new Reader("data/sciences_computerscience.txt");
 		
 		ArrayList<Course> temp = test.read();	

@@ -16,8 +16,9 @@ public class Graph {
 	public Graph(ArrayList<Course> list) {
 		listOfCourses = list;
 		generateNodes();
-		addEdge();
+		generateEdges();
 		printNodes();
+		printEdges();
 	}
 	
 	private void generateNodes() {
@@ -30,27 +31,35 @@ public class Graph {
 		nodes.put(c.getSubNum(), c);
 	}
 	
-	private void addAbstractCourse(String courseName) {
-		Course tempCourse = new Course(courseName);
-	}
-	
-	private void addEdge() {
+	private void generateEdges() {
 		Iterator<Course> it = nodes.values().iterator();
+		
 		while (it.hasNext()) {
 			Course current = it.next();
-			ArrayList<String> tempList = current.getPrerequisiteList();
-			//System.out.println(temp)
-			if (tempList == null) { 
+			ArrayList<String> tempPrerequisiteList = current.getPrerequisiteList();
+			ArrayList<String> tempConcurrentList = current.getConcurrentList();
+			
+			if (tempPrerequisiteList != null) {
+				for (int i = 0; i < tempPrerequisiteList.size(); i++) {
+					String courseName = tempPrerequisiteList.get(i);
+					
+					if(!nodes.containsKey(courseName)) {
+						Course from = new Course(courseName);
+						DirectedEdge e = new DirectedEdge(from, current);
+						edges.add(e);
+					} else {
+						DirectedEdge e = new DirectedEdge(nodes.get(courseName), current);
+						edges.add(e);
+					}
+				}
+				
+			} else if (tempConcurrentList != null) {
+				
+			} else {
 				break;
 			}
 			
-			for (int i = 0; i < tempList.size(); i++) {
-				String courseName = i + " " + tempList.get(i);
-				
-				
-				System.out.println(current.getName() + " PRE" + courseName);
-				
-			}
+			
 		}
 	}
 
@@ -58,8 +67,14 @@ public class Graph {
 		Iterator<Course> it = nodes.values().iterator();
 		while (it.hasNext()) {
 			Course current = it.next();
-			//System.out.println(current.getSubNum() + " Pre: " + current.getPrerequisiteListToString() + " Con: " + current.getConcurrentListToString());
+			System.out.println(current.getSubNum() + " Pre: " + current.getPrerequisiteListToString() + " Con: " + current.getConcurrentListToString());
 		}
 	}
 	
+	public void printEdges() {
+		Iterator<DirectedEdge> it = edges.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next().toString());
+		}
+	}
 }
