@@ -99,6 +99,7 @@ public class Reader {
 //					+ " " + courseDescription);
 
 			
+			//System.out.println(prerequisiteCourses);
 			Course course = new Course(subject, courseNumber, courseName, prerequisiteCourses,
 					concurrentEnrollment, courseDescription, courseEnrollmentInfo);
 			
@@ -106,6 +107,7 @@ public class Reader {
 			
 		}
 
+		System.out.println(listOfCourses);
 		bufferedReader.close();
 
 		return listOfCourses;

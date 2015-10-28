@@ -1,6 +1,8 @@
 package CourseData;
 
 import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * This class contains all the information for a single course which will be used to create nodes on
@@ -28,12 +30,12 @@ public class Course {
 	/**
 	 * Contains the course's prerequisites.
 	 */
-	private ArrayList<String[]> prerequisite = new ArrayList<>();
+	private ArrayList<String> prerequisite = new ArrayList<>();
 
 	/**
 	 * Contains the course's concurrent enrollment courses.
 	 */
-	private ArrayList<String[]> concurrent = new ArrayList<>();
+	private ArrayList<String> concurrent = new ArrayList<>();
 	
 	/**
 	 * This number is initialized by a recursive algorithm which counts the number children for the course 
@@ -76,8 +78,16 @@ public class Course {
 		this.subject = subject;
 		this.number = courseNumber;
 		this.name = courseName;
-		this.prerequisite.add(prerequisiteCourses.split(" "));
-		this.concurrent.add(concurrentCourses.split(" "));
+		
+		Pattern coursePattern = Pattern.compile("[A-Z][A-Z] [0-9]{4}");
+		Matcher courseData = coursePattern.matcher(prerequisiteCourses);
+		
+		for(int i = 0; i < courseData.groupCount(); i++)
+			this.prerequisite.add(courseData.group(i));
+		
+		for(int i = 0; i < courseData.groupCount(); i++)
+			this.concurrent.add(courseData.group(i));
+		
 		this.description = courseDescription;
 		this.enrollmentInfo = courseEnrollment;
 	}
@@ -105,11 +115,11 @@ public class Course {
 		return name;
 	}
 
-	public ArrayList<String[]> getPrerequisite() {
+	public ArrayList<String> getPrerequisite() {
 		return prerequisite;
 	}
 
-	public ArrayList<String[]> getConcurrent() {
+	public ArrayList<String> getConcurrent() {
 		return concurrent;
 	}
 
