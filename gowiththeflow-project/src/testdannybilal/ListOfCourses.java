@@ -1,17 +1,15 @@
-package test;
+package testdannybilal;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
-
-import CourseData.Course;
 
 /**
  * This class reads in a list of course data and generates an ArrayList with that data.
  * 
  * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason Blig
  */
-public class Reader {
+public class ListOfCourses {
 
 	/**
 	 * The name of the input file with the course data.
@@ -65,7 +63,7 @@ public class Reader {
 	 * @param inputFileName
 	 *            the name of the input file
 	 */
-	public Reader(String inputFileName) {
+	public ListOfCourses(String inputFileName) {
 		inputFile = inputFileName;
 	}
 
@@ -93,7 +91,7 @@ public class Reader {
 			courseEnrollmentInfo = tokens[5].trim();
 			courseDescription = tokens[6].trim();
 
-			System.out.println(prerequisiteCourses);
+			//System.out.println(prerequisiteCourses);
 //			System.out.println(subject + " " + courseNumber + " " + courseName + " "
 //					+ prerequisiteCourses + " " + concurrentEnrollment + " " + courseEnrollmentInfo
 //					+ " " + courseDescription);

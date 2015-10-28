@@ -1,4 +1,4 @@
-package CourseData;
+package testdannybilal;
 
 import java.util.ArrayList;
 
@@ -125,6 +125,10 @@ public class Course {
 		return offspring;
 	}
 
+	public String getSubNum() {
+		return subject + " " + number;
+	}
+	
 	@Override
 	public String toString() {
 		return subject + " " + number + " " + name + " | Prerequisites: " + prerequisite

@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-import CourseData.Course;
+import testdannybilal.Course;
 
 /**
  * This class reads in a list of course data and generates an ArrayList with that data.
