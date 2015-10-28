@@ -14,7 +14,7 @@ import java.net.URL;
  *         Cardenas, Mostafa Dabas
  *
  */
-public class DeptSourceCode {
+public class UrlToSource {
 
 	// Declaring variables
 	private URL url;
@@ -32,7 +32,7 @@ public class DeptSourceCode {
 	 *            later use
 	 * @throws Exception
 	 */
-	public DeptSourceCode(String inputUrl, String outputFileName) throws Exception {
+	public UrlToSource(String inputUrl, String outputFileName) throws Exception {
 		url = new URL(inputUrl);
 		outputFile = new File(outputFileName);
 		if (!outputFile.exists())
