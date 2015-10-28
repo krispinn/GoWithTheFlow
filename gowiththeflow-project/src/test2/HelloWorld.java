@@ -19,13 +19,11 @@ public class HelloWorld extends JFrame {
 
 		mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
-		mxPoint point = new mxPoint();
-		point.setX(683);
-		point.setY(0);
-		graph.setOrigin(point);
+		mxPoint point = new mxPoint(683,0);
+
 		graph.getModel().beginUpdate();
 		try {
-			Object v1 = graph.insertVertex(parent, null, "1!", 20, 20, 80, 30);
+			Object v1 = graph.insertVertex(parent, null, "1!", point.getX(), point.getY(), 80, 30);
 			Object v2 = graph.insertVertex(parent, null, "2!", 240, 150, 80, 30);
 			Object v3 = graph.insertVertex(parent, null, "3!", 240, 150, 80, 30);
 			Object v4 = graph.insertVertex(parent, null, "4!", 240, 150, 80, 30);
@@ -40,7 +38,7 @@ public class HelloWorld extends JFrame {
 
 			// define layout
 			mxCompactTreeLayout Layout = new mxCompactTreeLayout(graph);
-
+			Layout.setEdgeRouting(false);
 			Layout.setNodeDistance(50);
 			Layout.setHorizontal(false);
 			// layout graph
