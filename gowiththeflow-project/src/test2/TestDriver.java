@@ -27,7 +27,8 @@ public class TestDriver {
 		view.registerListListener(listCtrl);
 		view.registerMouseListener(mouseCtrl);
 		view.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		view.setSize(800, 500);
+		//need to modify automatically for other display option.
+		view.setSize(1366, 768);
 		view.setVisible(true);
 		
 	}
