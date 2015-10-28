@@ -57,7 +57,8 @@ public class CourseList {
 		// creates an output file named after the degree
 		String courseDataPattern = "([A-Z]+)&#160;(\\d+)\\.  ([A-Za-z-, ']+)";
 		Pattern coursePattern = Pattern.compile(courseDataPattern);
-		File courseFile = new File("data/courselists/" + this.department + "_" + this.major + ".txt");
+		File courseFile = new File(
+				"data/courselists/" + this.department + "_" + this.major + ".txt");
 		String address = "http://catalog.utsa.edu/undergraduate/" + this.department + "/"
 				+ this.major + "/#courseinventory";
 		URL coursePage = new URL(address);
@@ -140,14 +141,14 @@ public class CourseList {
 				// checks to see if a course subject was found
 				if (inputFields[i].matches("[A-Z][A-Z]+")) {
 					// remove unnecessary punctuation from the next element (course number)
-					inputFields[i+1] = inputFields[i+1].replace(",", "");
-					inputFields[i+1] = inputFields[i+1].replace(".", "");
-					inputFields[i+1] = inputFields[i+1].replace(";", "");
+					inputFields[i + 1] = inputFields[i + 1].replace(",", "");
+					inputFields[i + 1] = inputFields[i + 1].replace(".", "");
+					inputFields[i + 1] = inputFields[i + 1].replace(";", "");
 					// if next field is not a number, then it is not a course, so skip it
-					if (!(inputFields[i+1].matches("[0-9]{4}")))
+					if (!(inputFields[i + 1].matches("[0-9]{4}")))
 						continue;
 					// write the course subject and number to the output file
-					bw.write(" " + inputFields[i] + " " + inputFields[i+1]);
+					bw.write(" " + inputFields[i] + " " + inputFields[i + 1]);
 					// used to skip past the already read/written course number
 					i++;
 				} // end if statement inside for loop
@@ -188,14 +189,14 @@ public class CourseList {
 				// checks to see if a course subject was found
 				if (inputFields[i].matches("[A-Z][A-Z]+")) {
 					// remove unnecessary punctuation from the next element (course number)
-					inputFields[i+1] = inputFields[i+1].replace(",", "");
-					inputFields[i+1] = inputFields[i+1].replace(".", "");
-					inputFields[i+1] = inputFields[i+1].replace(";", "");
+					inputFields[i + 1] = inputFields[i + 1].replace(",", "");
+					inputFields[i + 1] = inputFields[i + 1].replace(".", "");
+					inputFields[i + 1] = inputFields[i + 1].replace(";", "");
 					// if next field is not a number, then it is not a course, so skip it
-					if (!(inputFields[i+1].matches("[0-9]{4}")))
+					if (!(inputFields[i + 1].matches("[0-9]{4}")))
 						continue;
 					// write the course subject and number to the output file
-					bw.write(" " + inputFields[i] + " " + inputFields[i+1]);
+					bw.write(" " + inputFields[i] + " " + inputFields[i + 1]);
 					// used to skip past the already read/written course number
 					i++;
 				} // end if statement inside for loop

@@ -17,6 +17,7 @@ public class HelloWorld extends JFrame {
 
 		mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
+		parent = graph.insertVertex(parent, null, "parent", 10, 10, 100, 90);
 
 		graph.getModel().beginUpdate();
 		try {
