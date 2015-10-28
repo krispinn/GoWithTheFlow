@@ -25,13 +25,10 @@ public class HelloWorld extends JFrame {
 
 		mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
-		mxPoint point = new mxPoint();
-		point.setX(683);
-		point.setY(0);
-		graph.setOrigin(point);
+		mxPoint point = new mxPoint(683,0);
+
 		graph.getModel().beginUpdate();
 		try {
-			
 			Object intro1 = graph.insertVertex(parent, null, "1063\nIntro 1", point.getX(), point.getY(), 80, 30);
 			Object intro2 = graph.insertVertex(parent, null, "1713/1\nIntro 2", 240, 150, 80, 30);
 			Object datas = graph.insertVertex(parent, null, "2123/1\nDataS", 240, 150, 80, 30);
@@ -62,22 +59,7 @@ public class HelloWorld extends JFrame {
 			graph.insertEdge(parent, null, "", appp, os);
 			graph.insertEdge(parent, null, "", sysp, arch);
 			graph.insertEdge(parent, null, "", sysp, os);
-/*
-			graph.insertEdge(parent, null, "Edge", v1, v2);
-			graph.insertEdge(parent, null, "Edge", v1, v3);
-			graph.insertEdge(parent, null, "Edge", v2, v4);
-			graph.insertEdge(parent, null, "Edge", v2, v5);
-			graph.insertEdge(parent, null, "Edge", v3, v6);
 
-			// define layout
-			mxCompactTreeLayout Layout = new mxCompactTreeLayout(graph);
-
-			Layout.setNodeDistance(15);
-			Layout.setLevelDistance(40);
-			Layout.setHorizontal(false);
-			// layout graph
-			Layout.execute(graph.getDefaultParent());
-*/
 		    // define layout
 
 		} finally {
