@@ -1,6 +1,8 @@
 package testdannybilal;
 
 import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * This class contains all the information for a single course which will be used to create nodes on
@@ -25,15 +27,19 @@ public class Course {
 	 */
 	private String name;
 
+	private String prerequisite;
+	
+	private String concurrent;
+	
 	/**
 	 * Contains the course's prerequisites.
 	 */
-	private ArrayList<String[]> prerequisite = new ArrayList<>();
+	private ArrayList<String> prerequisiteList = new ArrayList<>();
 
 	/**
 	 * Contains the course's concurrent enrollment courses.
 	 */
-	private ArrayList<String[]> concurrent = new ArrayList<>();
+	private ArrayList<String> concurrentList = new ArrayList<>();
 	
 	/**
 	 * This number is initialized by a recursive algorithm which counts the number children for the course 
@@ -76,10 +82,11 @@ public class Course {
 		this.subject = subject;
 		this.number = courseNumber;
 		this.name = courseName;
-		this.prerequisite.add(prerequisiteCourses.split(" "));
-		this.concurrent.add(concurrentCourses.split(" "));
+		this.prerequisite = prerequisiteCourses;
+		this.concurrent = concurrentCourses;
 		this.description = courseDescription;
 		this.enrollmentInfo = courseEnrollment;
+		addReqs();
 	}
 	
 	/**
@@ -89,9 +96,6 @@ public class Course {
 	 * @param courses - this should be the starting (or end, depending on design choice) course
 	 * @return
 	 */
-	private int dependencies(int courses){
-		return 1 + dependencies(courses);
-	}
 
 	public String getSubject() {
 		return subject;
@@ -103,14 +107,6 @@ public class Course {
 
 	public String getName() {
 		return name;
-	}
-
-	public ArrayList<String[]> getPrerequisite() {
-		return prerequisite;
-	}
-
-	public ArrayList<String[]> getConcurrent() {
-		return concurrent;
 	}
 
 	public String getEnrollmentInfo() {
@@ -127,6 +123,22 @@ public class Course {
 
 	public String getSubNum() {
 		return subject + " " + number;
+	}
+	
+	public void addReqs() {
+		Pattern coursePattern = Pattern.compile("[A-Z]");
+		Matcher courseData = coursePattern.matcher(prerequisite);
+		Matcher courseData2 = coursePattern.matcher(concurrent);
+		System.out.println("A");
+		for(int i = 0; i < courseData.groupCount(); i++) {
+			this.prerequisiteList.add(courseData.group(i));
+			System.out.println("TEST" + courseData.group(i));
+		}
+		
+		for(int i = 0; i < courseData.groupCount(); i++) {
+			this.concurrentList.add(courseData2.group(i));
+			System.out.println("TEST" + courseData2.group(i));
+		}
 	}
 	
 	@Override

@@ -16,7 +16,7 @@ public class Graph {
 	public Graph(ArrayList<Course> list) {
 		listOfCourses = list;
 		generateNodes();
-		printNodes();
+		//printNodes();
 	}
 	
 	public void generateNodes() {
