@@ -1,8 +1,9 @@
-package CourseData;
+package test;
 import java.util.ArrayList;
 
 import javax.swing.JFrame;
 
+import CourseData.Course;
 import GUI.FlowListController;
 import GUI.FlowModel;
 import GUI.FlowMouseController;

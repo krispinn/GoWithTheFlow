@@ -1,8 +1,10 @@
-package CourseData;
+package test;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
+
+import CourseData.Course;
 
 /**
  * This class reads in a list of course data and generates an ArrayList with that data.
