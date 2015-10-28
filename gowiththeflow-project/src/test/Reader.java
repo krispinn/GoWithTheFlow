@@ -93,6 +93,7 @@ public class Reader {
 			courseEnrollmentInfo = tokens[5].trim();
 			courseDescription = tokens[6].trim();
 
+			System.out.println(prerequisiteCourses);
 //			System.out.println(subject + " " + courseNumber + " " + courseName + " "
 //					+ prerequisiteCourses + " " + concurrentEnrollment + " " + courseEnrollmentInfo
 //					+ " " + courseDescription);

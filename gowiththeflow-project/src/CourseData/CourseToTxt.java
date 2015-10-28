@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  * 
  * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
-public class CourseList {
+public class CourseToTxt {
 
 	/**
 	 * The department of the major.
@@ -36,7 +36,7 @@ public class CourseList {
 	 *            the subject of the courses to be generated
 	 * @throws Exception
 	 */
-	public CourseList(String department, String major) throws Exception {
+	public CourseToTxt(String department, String major) throws Exception {
 		this.department = department;
 		this.major = major;
 		generateCourses();

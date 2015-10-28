@@ -124,4 +124,11 @@ public class Course {
 	public int getOffspring(){
 		return offspring;
 	}
+
+	@Override
+	public String toString() {
+		return subject + " " + number + " " + name + " | Prerequisites: " + prerequisite
+				+ " | Concurrent: " + concurrent + " | Offspring: " + offspring + " | Enroll Info: " + enrollmentInfo
+				+ " | Description: " + description + "]\n";
+	}
 }

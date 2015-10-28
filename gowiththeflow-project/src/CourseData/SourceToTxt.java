@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  * @author CourseData: Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
  *         Cardenas, Mostafa Dabas
  */
-public class DeptMajorList {
+public class SourceToTxt {
 
 	// Declaring variables
 	private String inputFile;
@@ -37,7 +37,7 @@ public class DeptMajorList {
 	 * @throws Exception
 	 *             Throws Exception
 	 */
-	public DeptMajorList(String inputFileName, String inputExpression, String outputFileName) throws Exception {
+	public SourceToTxt(String inputFileName, String inputExpression, String outputFileName) throws Exception {
 
 		inputFile = inputFileName; // file containing source code
 		expression = inputExpression; // expression to search for
