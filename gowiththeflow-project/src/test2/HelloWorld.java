@@ -31,6 +31,7 @@ public class HelloWorld extends JFrame {
 		graph.setOrigin(point);
 		graph.getModel().beginUpdate();
 		try {
+			
 			Object intro1 = graph.insertVertex(parent, null, "1063\nIntro 1", point.getX(), point.getY(), 80, 30);
 			Object intro2 = graph.insertVertex(parent, null, "1713/1\nIntro 2", 240, 150, 80, 30);
 			Object datas = graph.insertVertex(parent, null, "2123/1\nDataS", 240, 150, 80, 30);
