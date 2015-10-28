@@ -3,6 +3,7 @@ package test2;
 import javax.swing.JFrame;
 
 import com.mxgraph.swing.mxGraphComponent;
+import com.mxgraph.util.mxPoint;
 import com.mxgraph.view.mxGraph;
 
 public class HelloWorld extends JFrame {
@@ -33,7 +34,6 @@ public class HelloWorld extends JFrame {
 			graph.insertEdge(parent, null, "Edge", v2, v5);
 			graph.insertEdge(parent, null, "Edge", v3, v6);
 			
-
 		} finally {
 			graph.getModel().endUpdate();
 		}
