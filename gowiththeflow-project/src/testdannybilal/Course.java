@@ -26,7 +26,11 @@ public class Course {
 	 * The name of the course (Calculus II, Application Programming, etc).
 	 */
 	private String name;
+	
+	private String abstractCourseName;
 
+	private boolean abstractFlag;
+	
 	private String prerequisite;
 	
 	private String concurrent;
@@ -86,7 +90,13 @@ public class Course {
 		this.concurrent = concurrentCourses;
 		this.description = courseDescription;
 		this.enrollmentInfo = courseEnrollment;
+		this.abstractFlag = false;
 		addReqs();
+	}
+	
+	public Course(String fullName) {
+		this.abstractCourseName = fullName;
+		this.abstractFlag = true;
 	}
 	
 	/**
@@ -122,29 +132,53 @@ public class Course {
 	}
 
 	public String getSubNum() {
-		return subject + " " + number;
+		if (abstractFlag) {
+			return abstractCourseName;
+		} else {
+			return subject + " " + number;
+		}
 	}
 	
 	public void addReqs() {
-		Pattern coursePattern = Pattern.compile("[A-Z]");
-		Matcher courseData = coursePattern.matcher(prerequisite);
-		Matcher courseData2 = coursePattern.matcher(concurrent);
-		System.out.println("A");
-		for(int i = 0; i < courseData.groupCount(); i++) {
-			this.prerequisiteList.add(courseData.group(i));
-			System.out.println("TEST" + courseData.group(i));
+		String tokens[] = prerequisite.split(" ");
+		if (tokens.length >= 3) {
+			for (int i = 1; i < tokens.length-1; i += 2) {
+				prerequisiteList.add(tokens[i] + " " + tokens[i+1]);
+				//System.out.println("PRE " + prerequisiteList.get(prerequisiteList.size()-1));
+			}
+			
+		}
+		tokens = concurrent.split(" ");
+		if (tokens.length >= 3) {
+			for (int i = 1; i < tokens.length-1; i+= 2) {
+				concurrentList.add(tokens[i] + " " + tokens[i+1]);
+				//System.out.println("CON " + concurrentList.get(concurrentList.size()-1));
+			}
 		}
 		
-		for(int i = 0; i < courseData.groupCount(); i++) {
-			this.concurrentList.add(courseData2.group(i));
-			System.out.println("TEST" + courseData2.group(i));
-		}
+
+	}
+	
+	public ArrayList<String> getPrerequisiteList() {
+		return prerequisiteList;
+	}
+	
+	public ArrayList<String> getConcurrentList() {
+		return concurrentList;
+	}
+	
+	public String getPrerequisiteListToString() {
+		return prerequisiteList.toString();
+	}
+	
+	public String getConcurrentListToString() {
+		return concurrentList.toString();
 	}
 	
 	@Override
 	public String toString() {
-		return subject + " " + number + " " + name + " | Prerequisites: " + prerequisite
-				+ " | Concurrent: " + concurrent + " | Offspring: " + offspring + " | Enroll Info: " + enrollmentInfo
+		return subject + " " + number + " " + name + " | Prerequisites: " + prerequisiteList.toString()
+				+ " | Concurrent: " + concurrentList.toString() + " | Offspring: " + offspring + " | Enroll Info: " + enrollmentInfo
 				+ " | Description: " + description + "]\n";
 	}
 }

@@ -1,12 +1,17 @@
 package testdannybilal;
 
-public abstract class DirectedEdge {
-	/*protected final Node endPoint1;
+public class DirectedEdge {
+
+	private String direction;
+	private Course from;
+	private Course to;
 	
-	public DirectedEdge(Node endPoint) {
-		endPoint1 = endPoint;
+	public DirectedEdge(Course from, Course to) {
+		this.from = from;
+		this.to = to;
+		direction = from.getSubNum() + " to " + to.getSubNum();
 	}
-	public Node getEndPoint1() {
-		return endPoint1;
-	}*/
+	
+	
+	
 }
