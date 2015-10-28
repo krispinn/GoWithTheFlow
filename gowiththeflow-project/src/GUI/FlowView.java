@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.view.mxGraph;
 
-import CourseData.Course;
+import testdannybilal.Course;
 
 /**
  * The view is responsible for displaying the information.

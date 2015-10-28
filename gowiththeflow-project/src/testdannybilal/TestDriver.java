@@ -1,9 +1,8 @@
-package test;
+package testdannybilal;
 import java.util.ArrayList;
 
 import javax.swing.JFrame;
 
-import CourseData.Course;
 import GUI.FlowListController;
 import GUI.FlowModel;
 import GUI.FlowMouseController;
@@ -13,15 +12,16 @@ public class TestDriver {
 
 	public static void main(String[] args) throws Exception {
 		
-		Reader test = new Reader("data/courselists/sciences_computerscience.txt");
+		ListOfCourses test = new ListOfCourses("data/courselists/sciences_computerscience.txt");
 
 		//Reader test = new Reader("data/sciences_computerscience.txt");
 		
 		ArrayList<Course> temp = test.read();	
+		Graph g = new Graph(temp);
 		//System.out.println(temp);
 		
 		
-		FlowModel model = new FlowModel();
+		/*FlowModel model = new FlowModel();
 		FlowView view = new FlowView(model, temp);
 		FlowListController listCtrl = new FlowListController(model, view);
 		FlowMouseController mouseCtrl = new FlowMouseController(model, view);
@@ -30,7 +30,7 @@ public class TestDriver {
 		view.registerMouseListener(mouseCtrl);
 		view.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		view.setSize(800, 500);
-		view.setVisible(true);
+		view.setVisible(true);*/
 		
 	}
 	

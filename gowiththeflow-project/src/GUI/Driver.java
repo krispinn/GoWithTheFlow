@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import javax.swing.JFrame;
 
-import CourseData.Course;
+import testdannybilal.Course;
 
 /**
  * Driver file used to start the GUI portion.
