@@ -62,6 +62,12 @@ public class HelloWorld extends JFrame {
 			graph.insertEdge(parent, null, "", sysp, arch);
 			graph.insertEdge(parent, null, "", sysp, os);
 /*
+			graph.insertEdge(parent, null, "Edge", v1, v2);
+			graph.insertEdge(parent, null, "Edge", v1, v3);
+			graph.insertEdge(parent, null, "Edge", v2, v4);
+			graph.insertEdge(parent, null, "Edge", v2, v5);
+			graph.insertEdge(parent, null, "Edge", v3, v6);
+
 			// define layout
 			mxCompactTreeLayout Layout = new mxCompactTreeLayout(graph);
 
