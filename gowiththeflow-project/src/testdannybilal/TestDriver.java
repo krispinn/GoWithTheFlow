@@ -17,6 +17,7 @@ public class TestDriver {
 		//Reader test = new Reader("data/sciences_computerscience.txt");
 		
 		ArrayList<Course> temp = test.read();	
+		System.out.println(temp);
 		Graph g = new Graph(temp);
 		//System.out.println(temp);
 		
