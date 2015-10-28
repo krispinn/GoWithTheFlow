@@ -85,6 +85,7 @@ public class Course {
 		for(int i = 0; i < courseData.groupCount(); i++)
 			this.prerequisite.add(courseData.group(i));
 		
+		courseData = coursePattern.matcher(courseEnrollment);
 		for(int i = 0; i < courseData.groupCount(); i++)
 			this.concurrent.add(courseData.group(i));
 		
