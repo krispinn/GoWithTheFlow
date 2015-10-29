@@ -80,28 +80,30 @@ public class CourseToTxt {
 
 			// if there was a pattern match, write the data to the output file
 			if (courseData.find()) {
-				bw.write(courseData.group(1) + " | " + courseData.group(2) + " | "
-						+ courseData.group(3));
-
-				// get the prerequisites
-				String tmp = getPrereq(in, bw);
-				// get the concurrent enrollment courses
-				getConcurrent(in, bw, tmp);
-				// read in the next line
-				inputLine = in.readLine();
-				// write enrollment info and course description
-				if (inputLine.matches("</p>")) {
-					String tmp2 = tmp.replaceAll("<br />", "");
-					if (tmp.matches("^Prerequisite.*") || tmp.matches(".*[Cc]oncurrent.*"))
-						bw.write(" | " + tmp2 + " | ");
-					else
-						bw.write(" | | " + tmp2);
-				} else {
-					String il2 = inputLine.replaceAll("<br />", "");
-					bw.write(" | " + tmp + " | " + il2);
+				if (!courseData.group(2).substring(3, 4).equals("1")) {
+					bw.write(courseData.group(1) + " | " + courseData.group(2) + " | "
+							+ courseData.group(3));
+	
+					// get the prerequisites
+					String tmp = getPrereq(in, bw);
+					// get the concurrent enrollment courses
+					getConcurrent(in, bw, tmp);
+					// read in the next line
+					inputLine = in.readLine();
+					// write enrollment info and course description
+					if (inputLine.matches("</p>")) {
+						String tmp2 = tmp.replaceAll("<br />", "");
+						if (tmp.matches("^Prerequisite.*") || tmp.matches(".*[Cc]oncurrent.*"))
+							bw.write(" | " + tmp2 + " | ");
+						else
+							bw.write(" | | " + tmp2);
+					} else {
+						String il2 = inputLine.replaceAll("<br />", "");
+						bw.write(" | " + tmp + " | " + il2);
+					}
+					// move to the next line so that each course will be on its own line
+					bw.newLine();
 				}
-				// move to the next line so that each course will be on its own line
-				bw.newLine();
 			} // end if statement inside while loop
 		} // end while loop
 		in.close();
