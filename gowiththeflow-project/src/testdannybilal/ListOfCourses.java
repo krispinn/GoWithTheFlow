@@ -52,6 +52,8 @@ public class ListOfCourses {
 	 */
 	private String courseDescription;
 
+	private int num;
+	
 	/**
 	 * An ArrayList containing all the previous data.
 	 */
@@ -78,7 +80,8 @@ public class ListOfCourses {
 		String line;
 		String tokens[] = new String[7];
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
-
+		int num = 0;
+		
 		while (bufferedReader.ready()) {
 
 			line = bufferedReader.readLine();
@@ -90,7 +93,7 @@ public class ListOfCourses {
 			concurrentEnrollment = tokens[4].trim();
 			courseEnrollmentInfo = tokens[5].trim();
 			courseDescription = tokens[6].trim();
-
+			
 			//System.out.println(prerequisiteCourses);
 //			System.out.println(subject + " " + courseNumber + " " + courseName + " "
 //					+ prerequisiteCourses + " " + concurrentEnrollment + " " + courseEnrollmentInfo
@@ -98,7 +101,7 @@ public class ListOfCourses {
 
 			
 			Course course = new Course(subject, courseNumber, courseName, prerequisiteCourses,
-					concurrentEnrollment, courseDescription, courseEnrollmentInfo);
+					concurrentEnrollment, courseDescription, courseEnrollmentInfo, num++);
 			
 			listOfCourses.add(course);
 			

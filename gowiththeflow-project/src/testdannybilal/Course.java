@@ -35,6 +35,8 @@ public class Course {
 	
 	private String concurrent;
 	
+	private int num;
+	
 	/**
 	 * Contains the course's prerequisites.
 	 */
@@ -82,7 +84,7 @@ public class Course {
 	 *            the original line containing enrollment info
 	 */
 	public Course(String subject, int courseNumber, String courseName, String prerequisiteCourses,
-			String concurrentCourses, String courseDescription, String courseEnrollment) {
+			String concurrentCourses, String courseDescription, String courseEnrollment, int num) {
 		this.subject = subject;
 		this.number = courseNumber;
 		this.name = courseName;
@@ -91,12 +93,14 @@ public class Course {
 		this.description = courseDescription;
 		this.enrollmentInfo = courseEnrollment;
 		this.abstractFlag = false;
+		this.num = num;
 		addReqs();
 	}
 	
-	public Course(String fullName) {
+	public Course(String fullName, int num) {
 		this.abstractCourseName = fullName;
 		this.abstractFlag = true;
+		this.num = num;
 	}
 	
 	/**
@@ -115,6 +119,10 @@ public class Course {
 		return number;
 	}
 
+	public int getNum() {
+		return num;
+	}
+	
 	public String getName() {
 		return name;
 	}
