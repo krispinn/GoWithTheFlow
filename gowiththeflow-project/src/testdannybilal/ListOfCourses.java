@@ -57,7 +57,7 @@ public class ListOfCourses {
 	/**
 	 * An ArrayList containing all the previous data.
 	 */
-	private ArrayList<Course> listOfCourses = new ArrayList<>();
+	private ArrayList<Course> listOfCourses = new ArrayList<Course>();
 
 	/**
 	 * The constructor initializes the inputFile field.

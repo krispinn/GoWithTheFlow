@@ -10,8 +10,8 @@ import java.util.Iterator;
 public class Graph {
 
 	private ArrayList<Course> listOfCourses;
-	private Map<String, Course> nodes = new LinkedHashMap<>();
-	private Set<DirectedEdge> edges = new LinkedHashSet<>();
+	private Map<String, Course> nodes = new LinkedHashMap<String, Course>();
+	private Set<DirectedEdge> edges = new LinkedHashSet<DirectedEdge>();
 
 	public Graph(ArrayList<Course> list) {
 		listOfCourses = list;

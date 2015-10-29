@@ -20,7 +20,7 @@ public class ListData {
 	 * Stores each major with its department.
 	 * Each ArrayList element will be a String array with two elements, department and major.
 	 */
-	private ArrayList<String[]> majors = new ArrayList<>();
+	private ArrayList<String[]> majors = new ArrayList<String[]>();
 
 	/**
 	 * Constructor that initializes the inFile field and invokes getMajors.

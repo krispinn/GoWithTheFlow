@@ -40,12 +40,12 @@ public class Course {
 	/**
 	 * Contains the course's prerequisites.
 	 */
-	private ArrayList<String> prerequisiteList = new ArrayList<>();
+	private ArrayList<String> prerequisiteList = new ArrayList<String>();
 
 	/**
 	 * Contains the course's concurrent enrollment courses.
 	 */
-	private ArrayList<String> concurrentList = new ArrayList<>();
+	private ArrayList<String> concurrentList = new ArrayList<String>();
 	
 	/**
 	 * This number is initialized by a recursive algorithm which counts the number children for the course 

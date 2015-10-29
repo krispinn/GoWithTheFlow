@@ -24,7 +24,7 @@ public class NewTestDriver extends JFrame {
 
 	public NewTestDriver() throws Exception {
 
-		mxGraph graph = new mxGraph();
+		final mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
 		mxPoint point = new mxPoint(683,0);
 
@@ -77,7 +77,6 @@ public class NewTestDriver extends JFrame {
 
 	        morph.addListener(mxEvent.DONE, new mxIEventListener() {
 
-	            @Override
 	            public void invoke(Object arg0, mxEventObject arg1) {
 	                graph.getModel().endUpdate();
 	                //fitViewport();

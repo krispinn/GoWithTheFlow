@@ -195,7 +195,7 @@ public class FlowView extends JFrame {
 		
 		Object parent = graph.getDefaultParent();
 		graph.getModel().beginUpdate();
-		ArrayList<Object> objectList = new ArrayList<>();
+		ArrayList<Object> objectList = new ArrayList<Object>();
 		String[] tempList = new String[courseList.size()];
 		//tempList = courseList.toArray(tempList);
 		System.out.println();
