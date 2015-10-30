@@ -8,6 +8,7 @@ Everything:
 	-class names should be short and describe their primary function (what the output is)
 	-lines cannot be more than 100 characters long
 	-variable names should describe what they represent
+	-always press CTRL-Shift-O and CTRL-Shift-F before closing a .java file
 
 Comments:
 	-there should be a space immediately after every //
