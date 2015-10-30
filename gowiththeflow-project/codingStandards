@@ -1,3 +1,7 @@
+Our official repository (from the professor):
+https://github.com/UTSA-CS-3443/gowiththeflow.git
+
+
 Coding Standards:
 
 Everything:
@@ -7,7 +11,7 @@ Everything:
 
 Comments:
 	-there should be a space immediately after every //
-	-comments that span more than one line should use the multiline comment tags
+	-comments that span more than one line should use the multi-line comment tags
 
 Javadoc:
 	-all javadoc class comments must include all group members as the authors
