@@ -69,11 +69,11 @@ public class FlowView extends JFrame {
 	/**
 	 * Create and organize the components of the window.
 	 */
-	public FlowView(FlowModel model, ArrayList<Course> courseList) throws NullPointerException {
+	public FlowView(FlowModel model) throws NullPointerException {
 		super("Major Flow Chart");
 		this.model = model;
 		//courseList.toArray(this.courseList);
-		this.courseList = courseList;
+		//this.courseList = courseList;
 		/* CENTER: Add a panel that the user can draw on. */
 		mousePanel = new CourseGenerator(model);
 		mousePanel.setBackground(Color.WHITE);

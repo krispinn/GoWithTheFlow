@@ -16,14 +16,14 @@ import com.mxgraph.util.mxPoint;
 import com.mxgraph.view.mxGraph;
 import com.sun.prism.paint.Color;
 
-public class NewTestDriver extends JFrame {
+public class GenerateGraph extends JFrame {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -2707712944901661771L;
 
-	public NewTestDriver() throws Exception {
+	public GenerateGraph() throws Exception {
 
 		final mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
@@ -102,7 +102,7 @@ public class NewTestDriver extends JFrame {
 	}
 
 	public static void main(String[] args) throws Exception {
-		NewTestDriver frame = new NewTestDriver();
+		GenerateGraph frame = new GenerateGraph();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// need to modify automatically for other display option.
 		frame.setSize(1366, 768);

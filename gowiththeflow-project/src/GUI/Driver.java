@@ -22,7 +22,7 @@ public class Driver {
 		//courseList.add(test1);
 			//{ "course1", "course2", "course3", "course4", "course5" };
 		FlowModel model = new FlowModel();
-		FlowView view = new FlowView(model, courseList);
+		FlowView view = new FlowView(model);
 		//FlowListController controller = new FlowListController(model, view);
 		FlowListController listCtrl = new FlowListController(model, view);
 		FlowMouseController mouseCtrl = new FlowMouseController(model, view);
