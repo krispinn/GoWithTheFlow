@@ -14,7 +14,6 @@ import javax.swing.JPanel;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.view.mxGraph;
 
-import GUI.CourseGenerator;
 import controller.FlowListController;
 import controller.FlowMouseController;
 import model.CourseModel;
