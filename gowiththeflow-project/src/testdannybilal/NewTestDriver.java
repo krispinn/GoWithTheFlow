@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 import javax.swing.JFrame;
 
-import com.mxgraph.layout.mxCompactTreeLayout;
+import com.mxgraph.layout.hierarchical.mxHierarchicalLayout;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.swing.util.mxMorphing;
 import com.mxgraph.util.mxConstants;
@@ -14,6 +14,7 @@ import com.mxgraph.util.mxEventObject;
 import com.mxgraph.util.mxEventSource.mxIEventListener;
 import com.mxgraph.util.mxPoint;
 import com.mxgraph.view.mxGraph;
+import com.sun.prism.paint.Color;
 
 public class NewTestDriver extends JFrame {
 
@@ -32,6 +33,8 @@ public class NewTestDriver extends JFrame {
 		ArrayList<Course> temp = test.read();
 		Graph g = new Graph(temp);
 		Object[] list = new Object[g.getNodes().size()];
+		int i = 10;
+		int j = 10;
 		
 		graph.getModel().beginUpdate();
 		try {
@@ -44,7 +47,7 @@ public class NewTestDriver extends JFrame {
 			while(nodeIterator.hasNext()) {
 				Course current = nodeIterator.next();
 				String subjectNumber = current.getSubNum();
-				list[nodeCount++] = graph.insertVertex(parent, null, subjectNumber, 1, 1, 80, 80, "fillColor=white");
+				list[nodeCount++] = graph.insertVertex(parent, null, subjectNumber, i+=0, j+=90, 80, 80, "fillColor=white");
 			}
 						
 			while(edgeIterator.hasNext()) {
@@ -61,12 +64,14 @@ public class NewTestDriver extends JFrame {
 		mxGraphComponent graphComponent = new mxGraphComponent(graph);
 		getContentPane().add(graphComponent);
 		
-	    mxCompactTreeLayout Layout = new mxCompactTreeLayout(graph);
-	    
-		Layout.setNodeDistance(10);
-		Layout.setLevelDistance(100);
-		Layout.setHorizontal(false);
-		Layout.setEdgeRouting(false);	
+	    //mxCompactTreeLayout Layout = new mxCompactTreeLayout(graph);
+	    mxHierarchicalLayout Layout = new mxHierarchicalLayout(graph);
+		
+	    Layout.setInterRankCellSpacing(100);
+		//Layout.setNodeDistance(10);
+		//Layout.setLevelDistance(100);
+		//Layout.setHorizontal(false);
+		//Layout.setEdgeRouting(false);	
 		
 	    // layout using morphing
 	    graph.getModel().beginUpdate();
