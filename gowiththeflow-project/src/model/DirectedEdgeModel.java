@@ -1,13 +1,13 @@
-package testdannybilal;
+package model;
 
-public class DirectedEdge {
+public class DirectedEdgeModel {
 
-	private Course from;
-	private Course to;
+	private CourseModel from;
+	private CourseModel to;
 	private int fromNum;
 	private int toNum;
 	
-	public DirectedEdge(Course from, Course to, int fromNum, int toNum) {
+	public DirectedEdgeModel(CourseModel from, CourseModel to, int fromNum, int toNum) {
 		this.from = from;
 		this.to = to;
 		this.fromNum = fromNum;

@@ -4,7 +4,11 @@ import java.util.ArrayList;
 
 import javax.swing.JFrame;
 
-import testdannybilal.Course;
+import controller.FlowListController;
+import controller.FlowMouseController;
+import model.CourseModel;
+import model.FlowModel;
+import view.FlowView;
 
 /**
  * Driver file used to start the GUI portion.
@@ -17,7 +21,7 @@ public class Driver {
 	 */
 
 	public static void main(String[] args) {
-		ArrayList<Course> courseList = new ArrayList<Course>();
+		ArrayList<CourseModel> courseList = new ArrayList<CourseModel>();
 		String[] test1 = {"1", "2"};
 		//courseList.add(test1);
 			//{ "course1", "course2", "course3", "course4", "course5" };

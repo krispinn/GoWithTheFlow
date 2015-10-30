@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 
+import model.CourseModel;
+
 /**
  * This class reads in a list of course data and generates an ArrayList with that data.
  * 
@@ -57,7 +59,7 @@ public class ListOfCourses {
 	/**
 	 * An ArrayList containing all the previous data.
 	 */
-	private ArrayList<Course> listOfCourses = new ArrayList<Course>();
+	private ArrayList<CourseModel> listOfCourses = new ArrayList<CourseModel>();
 
 	/**
 	 * The constructor initializes the inputFile field.
@@ -75,7 +77,7 @@ public class ListOfCourses {
 	 * @return an ArrayList containing the info for all the courses of a single major
 	 * @throws Exception
 	 */
-	public ArrayList<Course> read() throws Exception {
+	public ArrayList<CourseModel> read() throws Exception {
 
 		String line;
 		String tokens[] = new String[7];
@@ -100,7 +102,7 @@ public class ListOfCourses {
 //					+ " " + courseDescription);
 
 			
-			Course course = new Course(subject, courseNumber, courseName, prerequisiteCourses,
+			CourseModel course = new CourseModel(subject, courseNumber, courseName, prerequisiteCourses,
 					concurrentEnrollment, courseDescription, courseEnrollmentInfo, num++);
 			
 			listOfCourses.add(course);

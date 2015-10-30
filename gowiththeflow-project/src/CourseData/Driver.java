@@ -20,13 +20,14 @@ public class Driver {
  */
 	public static void main(String[] args) throws Exception {
 
-		new GenerateInfo();
+		//new GenerateInfo();
 		
 		GenerateGraph frame = new GenerateGraph();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// need to modify automatically for other display option.
 		frame.setSize(1366, 768);
 		frame.setVisible(true);
+		
 		
 	}
 }		

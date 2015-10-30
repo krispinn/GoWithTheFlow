@@ -1,4 +1,4 @@
-package GUI;
+package view;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -14,7 +14,11 @@ import javax.swing.JPanel;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.view.mxGraph;
 
-import testdannybilal.Course;
+import GUI.CourseGenerator;
+import controller.FlowListController;
+import controller.FlowMouseController;
+import model.CourseModel;
+import model.FlowModel;
 
 /**
  * The view is responsible for displaying the information.
@@ -64,7 +68,7 @@ public class FlowView extends JFrame {
 		Color.LIGHT_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK, 
 		Color.RED, Color.WHITE, Color.YELLOW};
 	
-	private ArrayList<Course> courseList;
+	private ArrayList<CourseModel> courseList;
 	
 	/**
 	 * Create and organize the components of the window.

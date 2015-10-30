@@ -1,4 +1,4 @@
-package testdannybilal;
+package model;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;
@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
  * 
  * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason Blig
  */
-public class Course {
+public class CourseModel {
 
 	/**
 	 * The course subject (CS, MAT, etc).
@@ -83,7 +83,7 @@ public class Course {
 	 * @param courseEnrollment
 	 *            the original line containing enrollment info
 	 */
-	public Course(String subject, int courseNumber, String courseName, String prerequisiteCourses,
+	public CourseModel(String subject, int courseNumber, String courseName, String prerequisiteCourses,
 			String concurrentCourses, String courseDescription, String courseEnrollment, int num) {
 		this.subject = subject;
 		this.number = courseNumber;
@@ -97,7 +97,7 @@ public class Course {
 		addReqs();
 	}
 	
-	public Course(String fullName, int num) {
+	public CourseModel(String fullName, int num) {
 		this.abstractCourseName = fullName;
 		this.abstractFlag = true;
 		this.num = num;

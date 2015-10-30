@@ -1,19 +1,19 @@
-package testdannybilal;
+package model;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
-import java.util.ArrayList;
-import java.util.Iterator;
 
-public class Graph {
+public class GraphModel {
 
-	private ArrayList<Course> listOfCourses;
-	private Map<String, Course> nodes = new LinkedHashMap<String, Course>();
-	private Set<DirectedEdge> edges = new LinkedHashSet<DirectedEdge>();
+	private ArrayList<CourseModel> listOfCourses;
+	private Map<String, CourseModel> nodes = new LinkedHashMap<String, CourseModel>();
+	private Set<DirectedEdgeModel> edges = new LinkedHashSet<DirectedEdgeModel>();
 
-	public Graph(ArrayList<Course> list) {
+	public GraphModel(ArrayList<CourseModel> list) {
 		listOfCourses = list;
 		generateNodes();
 		generateEdges();
@@ -22,20 +22,20 @@ public class Graph {
 	}
 
 	private void generateNodes() {
-		for (Course c : listOfCourses) {
+		for (CourseModel c : listOfCourses) {
 			addCourse(c);
 		}
 	}
 
-	private void addCourse(Course c) {
+	private void addCourse(CourseModel c) {
 		nodes.put(c.getSubNum(), c);
 	}
 
 	private void generateEdges() {
-		Iterator<Course> it = nodes.values().iterator();
+		Iterator<CourseModel> it = nodes.values().iterator();
 
 		while (it.hasNext()) {
-			Course current = it.next();
+			CourseModel current = it.next();
 			ArrayList<String> tempPrerequisiteList = current.getPrerequisiteList();
 			ArrayList<String> tempConcurrentList = current.getConcurrentList();
 			String courseName;
@@ -50,7 +50,7 @@ public class Graph {
 						DirectedEdge e = new DirectedEdge(from, current, from.getNum(), current.getNum());
 						edges.add(e);*/
 					} else {
-						DirectedEdge e = new DirectedEdge(nodes.get(courseName), current,
+						DirectedEdgeModel e = new DirectedEdgeModel(nodes.get(courseName), current,
 								nodes.get(courseName).getNum(), current.getNum());
 						edges.add(e);
 					}
@@ -66,7 +66,7 @@ public class Graph {
 						DirectedEdge e = new DirectedEdge(from, current, from.getNum(), current.getNum());
 						edges.add(e);*/
 					} else {
-						DirectedEdge e = new DirectedEdge(nodes.get(courseName), current,
+						DirectedEdgeModel e = new DirectedEdgeModel(nodes.get(courseName), current,
 								nodes.get(courseName).getNum(), current.getNum());
 						edges.add(e);
 					}
@@ -77,25 +77,25 @@ public class Graph {
 		}
 	}
 
-	public Map<String, Course> getNodes() {
+	public Map<String, CourseModel> getNodes() {
 		return nodes;
 	}
 
-	public Set<DirectedEdge> getEdges() {
+	public Set<DirectedEdgeModel> getEdges() {
 		return edges;
 	}
 
 	public void printNodes() {
-		Iterator<Course> it = nodes.values().iterator();
+		Iterator<CourseModel> it = nodes.values().iterator();
 		while (it.hasNext()) {
-			Course current = it.next();
+			CourseModel current = it.next();
 			System.out.println(current.getNum() + " " + current.getSubNum() + " Pre: " + current.getPrerequisiteListToString() + " Con: "
 					+ current.getConcurrentListToString());
 		}
 	}
 
 	public void printEdges() {
-		Iterator<DirectedEdge> it = edges.iterator();
+		Iterator<DirectedEdgeModel> it = edges.iterator();
 		while (it.hasNext()) {
 			System.out.println(it.next().toString());
 		}
