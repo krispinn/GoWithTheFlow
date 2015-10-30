@@ -97,11 +97,12 @@ public class Reader {
 //					+ prerequisiteCourses + " " + concurrentEnrollment + " " + courseEnrollmentInfo
 //					+ " " + courseDescription);
 
-			
+			/*
 			Course course = new Course(subject, courseNumber, courseName, prerequisiteCourses,
 					concurrentEnrollment, courseDescription, courseEnrollmentInfo);
 			
 			listOfCourses.add(course);
+			*/
 			
 		}
 
