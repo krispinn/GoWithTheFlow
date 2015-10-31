@@ -36,6 +36,7 @@ public class FlowDriver {
 		
 		FlowController flowController = new FlowController(null, listModel, graphView, interactiveView);
 		
+		graphView.register(flowController);
 	}
 }		
 

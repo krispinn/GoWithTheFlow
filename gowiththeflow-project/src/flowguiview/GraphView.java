@@ -14,6 +14,7 @@ import com.mxgraph.util.mxEventObject;
 import com.mxgraph.util.mxEventSource.mxIEventListener;
 import com.mxgraph.view.mxGraph;
 
+import flowguicontroller.FlowController;
 import flowguimodel.CourseModel;
 import flowguimodel.DirectedEdgeModel;
 import flowguimodel.GraphModel;
@@ -27,6 +28,7 @@ public class GraphView extends JFrame {
 	private static final long serialVersionUID = -2707712944901661771L;
 
 	private InteractiveView interactiveView;
+	private mxGraphComponent graphComponent;
 	
 	public GraphView(InteractiveView interactiveView) throws Exception {
 
@@ -49,6 +51,7 @@ public class GraphView extends JFrame {
 				String subjectNumber = current.getSubNum();
 				list[nodeCount++] = graph.insertVertex(parent, null, subjectNumber, 0, 0, 80, 80,
 						"fillColor=white");
+				//((Object) graph.getSelectionModel()).addMouseMotionListener();
 			}
 
 			while (edgeIterator.hasNext()) {
@@ -60,7 +63,9 @@ public class GraphView extends JFrame {
 			graph.getModel().endUpdate();
 		}
 		
-		mxGraphComponent graphComponent = new mxGraphComponent(graph);
+		graphComponent = new mxGraphComponent(graph);
+		//graphComponent.getGraphControl().addMouseListener(mouseListener);
+		
 		getContentPane().add(graphComponent);
 		graphComponent.setConnectable(false);
 		graphComponent.setDragEnabled(false);
@@ -87,5 +92,13 @@ public class GraphView extends JFrame {
 		this.getContentPane().add(interactiveView, BorderLayout.EAST);
 		this.setSize(1366, 768);
 		this.setVisible(true);
+		
+	}
+	
+	public void register(FlowController controller) {
+		graphComponent.getGraphControl().addMouseListener(controller);
+		
+		// send the controller the graphComponent
+		controller.setGraphComponent(graphComponent);
 	}
 }
