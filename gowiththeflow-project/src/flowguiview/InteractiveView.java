@@ -21,7 +21,7 @@ import flowguimodel.ListModel;
  * painting is relatively flicker-free.
  * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
-public class InteractiveView extends JPanel {
+public class InteractiveView extends JPanel{
 	
 	/** 
 	 * the JPanel where the user can paint
@@ -38,7 +38,7 @@ public class InteractiveView extends JPanel {
 	
 	private JList<String> jlist = new JList<String>(dlm);
 	
-	FlowController flowListController;
+	FlowController flowController;
 	
 	/**
 	 * Create and organize the components of the window.
@@ -57,24 +57,28 @@ public class InteractiveView extends JPanel {
                         BorderFactory.createEmptyBorder(5,5,5,150)));
         
 		courseInfoPanel.add(jlist);
+		registerListener();
 		
-		//jlist.add
 	} // end constructor
 	
-	/**
-	 * Register the controller as the listener to the JList and the
-	 * MousePanel.
-	 * @param listener
-	 */
-	public void registerListListener() {
-		ListSelectionListener listSelectionListener = null;
+	public void registerListener() {
+		ListSelectionListener listSelectionListener = new ListSelectionListener() {
+			public void valueChanged(ListSelectionEvent event) {
+				if(!event.getValueIsAdjusting()) {
+					
+					/* NOT WORKING
+					JList list = (JList) event.getSource();
+					int selected = list.getSelectedIndex();
+					System.out.println(selected);
+					//flowController.setCollege(selected);
+					ListModel lm = new ListModel();
+					lm.getColleges(selected);
+					*/
+				}
+			}
+		};
 		jlist.addListSelectionListener(listSelectionListener);
 	}
 	
-	public void registerListEvent(ListSelectionEvent event) {
-		flowListController.valueChanged(event);
-	}
 	
-
-
 }

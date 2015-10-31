@@ -74,4 +74,12 @@ public class ListModel {
 		}
 		return colleges;
 	}
+	
+	public String getColleges(int i) {
+		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap.entrySet()) {
+			String key = entry.getKey();
+			colleges.add(key);
+		}
+		return colleges.get(i);
+	}
 }

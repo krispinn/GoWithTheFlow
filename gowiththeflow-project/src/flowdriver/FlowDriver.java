@@ -28,21 +28,14 @@ public class FlowDriver {
 
 		//ListOfCourses test = new ListOfCourses("data/courselists/engineering_electricalcomputerengineering.txt");
 		
-		new GenerateInfo();
+		//new GenerateInfo();
 		//GraphModel graphModel = new GraphModel(test);
 		ListModel listModel = new ListModel();
-		
 		InteractiveView interactiveView = new InteractiveView();
 		GraphView graphView = new GraphView(interactiveView);
 		
-		FlowController controller = new FlowController(null, listModel, graphView, interactiveView);
+		FlowController flowController = new FlowController(null, listModel, graphView, interactiveView);
 		
-
-		/*graphView.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		graphView.getContentPane().add(interactiveView, BorderLayout.EAST);
-		graphView.setSize(1366, 768);
-		graphView.setVisible(true);
-*/
 	}
 }		
 

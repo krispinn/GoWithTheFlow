@@ -31,10 +31,8 @@ public class GraphView extends JFrame {
 	public GraphView(InteractiveView interactiveView) throws Exception {
 
 		this.interactiveView = interactiveView;
-		
 		final mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
-
 		ListOfCourses test = new ListOfCourses("data/courselists/engineering_electricalcomputerengineering.txt");
 		ArrayList<CourseModel> temp = test.read();
 		GraphModel g = new GraphModel(temp);
@@ -61,8 +59,6 @@ public class GraphView extends JFrame {
 		} finally {
 			graph.getModel().endUpdate();
 		}
-
-
 		
 		mxGraphComponent graphComponent = new mxGraphComponent(graph);
 		getContentPane().add(graphComponent);
@@ -79,15 +75,11 @@ public class GraphView extends JFrame {
 			layout.execute(graph.getDefaultParent());
 		} finally {
 			mxMorphing morph = new mxMorphing(graphComponent, 20, 1.2, 20);
-
 			morph.addListener(mxEvent.DONE, new mxIEventListener() {
-
 				public void invoke(Object arg0, mxEventObject arg1) {
 					graph.getModel().endUpdate();
 				}
-
 			});
-
 			morph.startAnimation();
 		}
 

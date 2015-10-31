@@ -1,4 +1,7 @@
 package flowguicontroller;
+import java.util.ArrayList;
+
+import javax.swing.JList;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
@@ -11,32 +14,33 @@ import flowguiview.InteractiveView;
  * Controller used to handle events related to the right panel of the GUI, mainly the drop down list.
  * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
-public class FlowController implements ListSelectionListener {
+public class FlowController{
     /** 
      * The model of this MVC
      */
-	private GraphModel gModel;
+	private GraphModel graphModel;
 	
-	private ListModel lModel;
+	private ListModel listModel;
 	
-	private GraphView gView;
+	private GraphView graphView;
 	/** 
 	 * The view of this MVC
 	 */
-	private InteractiveView iView;
+	private InteractiveView interactiveView;
+	
+	private String college;
 
 	public FlowController(GraphModel gModel, ListModel lModel, GraphView gView, InteractiveView iView) {
-		this.gModel = gModel;
-		this.lModel = lModel;
-		this.gView = gView;
-		this.iView = iView;
+		this.graphModel = gModel;
+		this.listModel = lModel;
+		this.graphView = gView;
+		this.interactiveView = iView;
 	}
 
-	public void valueChanged(ListSelectionEvent event) {
-		String selected = event.getSource().toString();
-		System.out.println(selected);
+	public void setCollege(int i) {
+		this.college = listModel.getColleges(i);
+		System.out.println(college);
 	}
-	
 
 
 }
