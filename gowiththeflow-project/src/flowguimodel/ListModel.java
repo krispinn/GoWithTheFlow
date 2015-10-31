@@ -1,4 +1,4 @@
-package flowmodel;
+package flowguimodel;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -7,13 +7,13 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class ListOfMajors {
+public class ListModel {
 	
 	Map<String, String> majorToTextFileMap = new LinkedHashMap<String, String>();
 	Map<String, LinkedList<String>> collegeToMajorMap = new LinkedHashMap<String, LinkedList<String>>();
 	ArrayList<String> colleges;
 	
-	public ListOfMajors() {
+	public ListModel() {
 		populate();
 	}
 	

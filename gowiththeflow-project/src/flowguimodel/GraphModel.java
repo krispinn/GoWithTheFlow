@@ -1,4 +1,4 @@
-package flowmodel;
+package flowguimodel;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class GraphModel {
 
-	private ArrayList<CourseModel> listOfCourses;
+	private ArrayList<CourseModel> listOfCourses = new ArrayList<CourseModel>();
 	private Map<String, CourseModel> nodes = new LinkedHashMap<String, CourseModel>();
 	private Set<DirectedEdgeModel> edges = new LinkedHashSet<DirectedEdgeModel>();
 

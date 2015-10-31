@@ -1,4 +1,4 @@
-package test;
+package flowtest;
 
 public class SE {
 

@@ -1,4 +1,4 @@
-package test;
+package flowtest;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

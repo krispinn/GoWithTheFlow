@@ -1,4 +1,4 @@
-package flowmodel;
+package flowguimodel;
 
 import java.util.ArrayList;
 

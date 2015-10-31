@@ -4,10 +4,11 @@ import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
 
-import flowmodel.ListOfColleges;
-import flowmodel.ListOfMajors;
-import flowview.GraphView;
-import flowview.InteractiveView;
+import flowdata.GenerateInfo;
+import flowguicontroller.FlowController;
+import flowguimodel.ListModel;
+import flowguiview.GraphView;
+import flowguiview.InteractiveView;
 
 /**
  * Executes the main method and finds departments/majors from given UTSA URL
@@ -25,21 +26,23 @@ public class FlowDriver {
  */
 	public static void main(String[] args) throws Exception {
 
-		//new GenerateInfo();
-
-		GraphView graphView = new GraphView();
+		//ListOfCourses test = new ListOfCourses("data/courselists/engineering_electricalcomputerengineering.txt");
+		
+		new GenerateInfo();
+		//GraphModel graphModel = new GraphModel(test);
+		ListModel listModel = new ListModel();
+		
 		InteractiveView interactiveView = new InteractiveView();
-		graphView.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		GraphView graphView = new GraphView(interactiveView);
+		
+		FlowController controller = new FlowController(null, listModel, graphView, interactiveView);
+		
+
+		/*graphView.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		graphView.getContentPane().add(interactiveView, BorderLayout.EAST);
 		graphView.setSize(1366, 768);
 		graphView.setVisible(true);
-		
-		
-		ListOfColleges a = new ListOfColleges();
-		a.getDepartments();
-		ListOfMajors lom = new ListOfMajors();
-		lom.populate();
-		
+*/
 	}
 }		
 

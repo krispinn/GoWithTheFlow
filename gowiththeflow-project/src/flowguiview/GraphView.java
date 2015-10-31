@@ -1,5 +1,6 @@
-package flowview;
+package flowguiview;
 
+import java.awt.BorderLayout;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -13,10 +14,10 @@ import com.mxgraph.util.mxEventObject;
 import com.mxgraph.util.mxEventSource.mxIEventListener;
 import com.mxgraph.view.mxGraph;
 
-import flowmodel.CourseModel;
-import flowmodel.DirectedEdgeModel;
-import flowmodel.GraphModel;
-import test.ListOfCourses;
+import flowguimodel.CourseModel;
+import flowguimodel.DirectedEdgeModel;
+import flowguimodel.GraphModel;
+import flowtest.ListOfCourses;
 
 public class GraphView extends JFrame {
 
@@ -25,8 +26,12 @@ public class GraphView extends JFrame {
 	 */
 	private static final long serialVersionUID = -2707712944901661771L;
 
-	public GraphView() throws Exception {
+	private InteractiveView interactiveView;
+	
+	public GraphView(InteractiveView interactiveView) throws Exception {
 
+		this.interactiveView = interactiveView;
+		
 		final mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
 
@@ -85,5 +90,10 @@ public class GraphView extends JFrame {
 
 			morph.startAnimation();
 		}
+
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.getContentPane().add(interactiveView, BorderLayout.EAST);
+		this.setSize(1366, 768);
+		this.setVisible(true);
 	}
 }
