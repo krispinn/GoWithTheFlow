@@ -29,7 +29,7 @@ public class GraphView extends JFrame {
 
 	private InteractiveView interactiveView;
 	private mxGraphComponent graphComponent;
-	
+	private GraphModel g;
 	public GraphView(InteractiveView interactiveView) throws Exception {
 
 		this.interactiveView = interactiveView;
@@ -37,9 +37,9 @@ public class GraphView extends JFrame {
 		Object parent = graph.getDefaultParent();
 		ListOfCourses test = new ListOfCourses("data/courselists/engineering_electricalcomputerengineering.txt");
 		ArrayList<CourseModel> temp = test.read();
-		GraphModel g = new GraphModel(temp);
+		g = new GraphModel(temp);
 		Object[] list = new Object[g.getNodes().size()];
-
+		
 		graph.getModel().beginUpdate();
 		try {
 			Iterator<CourseModel> nodeIterator = g.getNodes().values().iterator();
@@ -100,5 +100,9 @@ public class GraphView extends JFrame {
 		
 		// send the controller the graphComponent
 		controller.setGraphComponent(graphComponent);
+	}
+	
+	public GraphModel getGraphModel() {
+		return g;
 	}
 }

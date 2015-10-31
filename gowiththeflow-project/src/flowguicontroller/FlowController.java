@@ -52,7 +52,10 @@ public class FlowController implements MouseListener {
 		Object cell = graphComponent.getCellAt(e.getX(), e.getY());
 		
 		if (cell != null && cell instanceof mxCell) {
-			System.out.println("Cell Selected: " + ((mxCell)cell).getValue().toString());
+			String something = ((mxCell)cell).getValue().toString();
+			String desc = graphModel.returnCourseModel(something);
+			System.out.println(desc);
+			
 		}
 	}
 

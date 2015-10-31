@@ -34,7 +34,7 @@ public class FlowDriver {
 		InteractiveView interactiveView = new InteractiveView();
 		GraphView graphView = new GraphView(interactiveView);
 		
-		FlowController flowController = new FlowController(null, listModel, graphView, interactiveView);
+		FlowController flowController = new FlowController(graphView.getGraphModel(), listModel, graphView, interactiveView);
 		
 		graphView.register(flowController);
 	}
