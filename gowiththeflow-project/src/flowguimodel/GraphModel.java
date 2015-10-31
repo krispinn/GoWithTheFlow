@@ -18,7 +18,7 @@ public class GraphModel {
 		generateNodes();
 		generateEdges();
 		printNodes();
-		printEdges();
+		//printEdges();
 	}
 
 	private void generateNodes() {
@@ -99,5 +99,10 @@ public class GraphModel {
 		while (it.hasNext()) {
 			System.out.println(it.next().toString());
 		}
+	}
+	
+	public String returnCourseModel(String course) {
+		CourseModel courseModel = nodes.get(course);
+		return courseModel.getDescription();
 	}
 }
