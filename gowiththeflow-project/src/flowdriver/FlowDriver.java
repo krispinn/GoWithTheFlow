@@ -28,18 +28,12 @@ public class FlowDriver {
 		//new GenerateInfo();
 
 		GraphView graphView = new GraphView();
-		
 		InteractiveView interactiveView = new InteractiveView();
-		
 		graphView.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		// need to modify automatically for other display option.
-		
 		graphView.getContentPane().add(interactiveView, BorderLayout.EAST);
-		
 		graphView.setSize(1366, 768);
-		
 		graphView.setVisible(true);
+		
 		
 		ListOfColleges a = new ListOfColleges();
 		a.getDepartments();

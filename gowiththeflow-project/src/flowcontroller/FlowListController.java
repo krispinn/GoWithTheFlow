@@ -27,18 +27,9 @@ public class FlowListController implements ListSelectionListener {
 		this.view = view;
 	}
 
-	/**
-	 * Update the model when the user selects a color, and repaint the 
-	 * window.
-	 */
-	public void valueChanged(ListSelectionEvent event) {
-		Color color = view.getSelectedColor();
-		model.setSelectedColor(color);
-		view.repaint();
+	public void valueChanged(ListSelectionEvent arg0) {
+		// TODO Auto-generated method stub
+		
 	}
-	
-	/*public void actionPerformed(ActionEvent e) {
-		
-		
-	}*/
+
 }

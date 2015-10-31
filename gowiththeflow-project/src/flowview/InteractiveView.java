@@ -1,22 +1,16 @@
 package flowview;
 import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Graphics;
 import java.awt.GridLayout;
-import java.util.ArrayList;
 
 import javax.swing.BorderFactory;
+import javax.swing.DefaultListModel;
 import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JPanel;
 
-import com.mxgraph.swing.mxGraphComponent;
-import com.mxgraph.view.mxGraph;
-
 import flowcontroller.FlowListController;
 import flowcontroller.FlowMouseController;
-import flowmodel.CourseModel;
-import flowmodel.FlowModel;
+import flowmodel.ListOfMajors;
 
 /**
  * The view is responsible for displaying the information.
@@ -26,73 +20,34 @@ import flowmodel.FlowModel;
  * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
 public class InteractiveView extends JPanel {
-    /** 
-     * the model of this MVC example 
-     */
-	private FlowModel model;
 	
 	/** 
 	 * the JPanel where the user can paint
 	 */
 	private CourseGenerator mousePanel;
 	
-	/** 
-	 * for displaying a list of colors
-	 */
-	private JList colorList;
-	
-	/** 
-	 * the panel where the JList will be placed 
-	 */
-	private JPanel listPanel;
-
+	private ListOfMajors listOfColleges;
 	/**
 	 * the panel where the course Info will be displayed after the user
 	 * selected a course
 	 */
 	private JPanel courseInfoPanel;
-	/** 
-	 * the String names of the colors that the user can select 
-	 */
-	private static final String[] colorNames = {"Chemistry", "Computer Science", "Geological Sciences", "Mathematics", "Black", "Blue", "Cyan",
-		"Dark Gray", "Gray", "Green", "Light Gray", "Magenta",
-		"Orange", "Pink", "Red", "White", "Yellow"};
-	
-	/** 
-	 * the Colors that the user can select 
-	 */
-	private static final Color[] colors = {Color.BLACK, Color.ORANGE,
-		Color.CYAN, Color.DARK_GRAY, Color.GRAY, Color.GREEN, 
-		Color.LIGHT_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK, 
-		Color.RED, Color.WHITE, Color.YELLOW};
-	
-	private ArrayList<CourseModel> courseList;
-	
+		
 	/**
 	 * Create and organize the components of the window.
 	 */
-	public InteractiveView() throws NullPointerException {
-		//super("Major Flow Chart");
-		//this.model = panel;
-		//courseList.toArray(this.courseList);
-		//this.courseList = courseList;
-		/* CENTER: Add a panel that the user can draw on. */
-		//mousePanel = new CourseGenerator(panel);
-		//mousePanel.setBackground(Color.WHITE);
-		//add(mousePanel, BorderLayout.CENTER);
+	public InteractiveView() throws NullPointerException {	
 		
-		/*mxGraph graph = new mxGraph();
-		Object parent = graph.getDefaultParent();
-		graph.getModel().beginUpdate();
-		try {
-			Object v1 = graph.insertVertex(parent, null, "Hello", 20, 20, 80, 30);
-			Object v2 = graph.insertVertex(parent, null, "World", 240, 150, 80, 30);
-			graph.insertEdge(parent,  null,  "Edge",  v1,  v2);
-		} finally {
-			graph.getModel().endUpdate();
+		
+		
+		listOfColleges = new ListOfMajors();
+		listOfColleges.getCollegeToMajorMap();
+		
+		DefaultListModel<String> dlm = new DefaultListModel<String>();
+		JList<String> jlist = new JList<String>(dlm);
+		for (String s : listOfColleges.getColleges().to) {
+			
 		}
-		mxGraphComponent graphComponent = new mxGraphComponent(graph);
-		getContentPane().add(graphComponent);*/
 		
 		
 		
@@ -109,6 +64,8 @@ public class InteractiveView extends JPanel {
         courseInfoPanel.add(new JLabel());
         courseInfoPanel.add(new JLabel("Concurrent Courses:"));
         courseInfoPanel.add(new JLabel());
+        
+        //courseInfoPanel.add(jlist);
 
 	} // end constructor
 
@@ -128,13 +85,6 @@ public class InteractiveView extends JPanel {
 	 */
 	public void registerListListener(FlowListController listener) {
 		//colorList.addListSelectionListener(listener);
-	}
-
-	/**
-	 * @return The color selected by the user.
-	 */
-	public Color getSelectedColor() {
-		return colors[colorList.getSelectedIndex()];
 	}
 
 }
