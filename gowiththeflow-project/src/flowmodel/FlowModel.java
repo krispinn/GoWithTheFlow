@@ -1,4 +1,4 @@
-package model;
+package flowmodel;
 import java.awt.Color;
 import java.awt.Point;
 

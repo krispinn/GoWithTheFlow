@@ -1,10 +1,10 @@
-package view;
+package flowview;
 import java.awt.Graphics;
 import java.awt.Point;
 
 import javax.swing.JPanel;
 
-import model.FlowModel;
+import flowmodel.FlowModel;
 
 /**
  * This is part of the view used to paint the flow chart of courses

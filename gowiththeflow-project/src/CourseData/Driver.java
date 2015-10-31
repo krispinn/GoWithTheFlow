@@ -1,8 +1,13 @@
 package CourseData;
 
-import javax.swing.JFrame;
+import java.awt.BorderLayout;
 
-import testdannybilal.GenerateGraph;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import flowmodel.FlowModel;
+import flowview.FlowView;
+import test.GenerateGraph;
 
 /**
  * Executes the main method and finds departments/majors from given UTSA URL
@@ -21,11 +26,16 @@ public class Driver {
 	public static void main(String[] args) throws Exception {
 
 		//new GenerateInfo();
-		
+
 		GenerateGraph frame = new GenerateGraph();
+		FlowModel model = new FlowModel();
+		FlowView view = new FlowView(model);
+		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// need to modify automatically for other display option.
+		frame.getContentPane().add(view, BorderLayout.EAST);
 		frame.setSize(1366, 768);
+		
 		frame.setVisible(true);
 		
 		

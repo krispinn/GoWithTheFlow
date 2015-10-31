@@ -1,11 +1,11 @@
-package controller;
+package flowcontroller;
 import java.awt.Color;
 
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import model.FlowModel;
-import view.FlowView;
+import flowmodel.FlowModel;
+import flowview.FlowView;
 
 /**
  * Controller used to handle events related to the right panel of the GUI, mainly the drop down list.

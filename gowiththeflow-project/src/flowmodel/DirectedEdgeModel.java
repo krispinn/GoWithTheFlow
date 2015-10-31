@@ -1,4 +1,4 @@
-package model;
+package flowmodel;
 
 public class DirectedEdgeModel {
 

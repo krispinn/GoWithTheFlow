@@ -1,4 +1,4 @@
-package testdannybilal;
+package test;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -13,9 +13,9 @@ import com.mxgraph.util.mxEventObject;
 import com.mxgraph.util.mxEventSource.mxIEventListener;
 import com.mxgraph.view.mxGraph;
 
-import model.CourseModel;
-import model.DirectedEdgeModel;
-import model.GraphModel;
+import flowmodel.CourseModel;
+import flowmodel.DirectedEdgeModel;
+import flowmodel.GraphModel;
 
 public class GenerateGraph extends JFrame {
 
@@ -29,7 +29,7 @@ public class GenerateGraph extends JFrame {
 		final mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
 
-		ListOfCourses test = new ListOfCourses("data/courselists/sciences_computerscience.txt");
+		ListOfCourses test = new ListOfCourses("data/courselists/engineering_electricalcomputerengineering.txt");
 		ArrayList<CourseModel> temp = test.read();
 		GraphModel g = new GraphModel(temp);
 		Object[] list = new Object[g.getNodes().size()];

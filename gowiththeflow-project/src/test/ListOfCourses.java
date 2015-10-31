@@ -1,10 +1,10 @@
-package testdannybilal;
+package test;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-import model.CourseModel;
+import flowmodel.CourseModel;
 
 /**
  * This class reads in a list of course data and generates an ArrayList with that data.

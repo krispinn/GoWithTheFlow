@@ -1,10 +1,10 @@
-package controller;
+package flowcontroller;
 import java.awt.Point;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
-import model.FlowModel;
-import view.FlowView;
+import flowmodel.FlowModel;
+import flowview.FlowView;
 /**
  * Class used to hanle events for hovering mouse over an object (display tooltips etc)
  *

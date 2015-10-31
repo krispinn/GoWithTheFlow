@@ -1,4 +1,4 @@
-package GUI;
+package test;
 
 public class SE {
 

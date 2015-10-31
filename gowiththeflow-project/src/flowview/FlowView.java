@@ -1,4 +1,4 @@
-package view;
+package flowview;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -14,10 +14,10 @@ import javax.swing.JPanel;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.view.mxGraph;
 
-import controller.FlowListController;
-import controller.FlowMouseController;
-import model.CourseModel;
-import model.FlowModel;
+import flowcontroller.FlowListController;
+import flowcontroller.FlowMouseController;
+import flowmodel.CourseModel;
+import flowmodel.FlowModel;
 
 /**
  * The view is responsible for displaying the information.
@@ -26,7 +26,7 @@ import model.FlowModel;
  * painting is relatively flicker-free.
  * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
-public class FlowView extends JFrame {
+public class FlowView extends JPanel {
     /** 
      * the model of this MVC example 
      */
@@ -73,7 +73,7 @@ public class FlowView extends JFrame {
 	 * Create and organize the components of the window.
 	 */
 	public FlowView(FlowModel model) throws NullPointerException {
-		super("Major Flow Chart");
+		//super("Major Flow Chart");
 		this.model = model;
 		//courseList.toArray(this.courseList);
 		//this.courseList = courseList;
@@ -199,14 +199,14 @@ public class FlowView extends JFrame {
 		Object parent = graph.getDefaultParent();
 		graph.getModel().beginUpdate();
 		ArrayList<Object> objectList = new ArrayList<Object>();
-		String[] tempList = new String[courseList.size()];
+		//String[] tempList = new String[courseList.size()];
 		//tempList = courseList.toArray(tempList);
 		System.out.println();
 		int j = 0;
 		//for(Course s : courseList) {
 		//	tempList[j++] = s[2];
 		//}
-		try {
+		/*try {
 			
 			for (int i = 0; i < courseList.size(); i++) {
 				
@@ -217,8 +217,8 @@ public class FlowView extends JFrame {
 			
 		} finally {
 			graph.getModel().endUpdate();
-		}
+		}*/
 		mxGraphComponent graphComponent = new mxGraphComponent(graph);
-		getContentPane().add(graphComponent);
+		//getContentPane().add(graphComponent);
 	}
 }
