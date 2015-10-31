@@ -51,13 +51,13 @@ public class ListModel {
 		for (Map.Entry<String, String> entry : majorToTextFileMap.entrySet()) {
 			String key = entry.getKey();
 			String value = entry.getValue();
-			//System.out.println(key + "\t" + value);
+			System.out.println(key + "\t" + value);
 		}
 		
 		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap.entrySet()) {
 			String key = entry.getKey();
 			LinkedList<String> value = entry.getValue();
-			//System.out.println(key + "\t" + value);
+			System.out.println(key + "\t" + value);
 		}
 	}
 	
@@ -70,7 +70,6 @@ public class ListModel {
 	}
 	
 	public String[] getColleges() {
-		
 		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap.entrySet()) {
 			String key = entry.getKey();
 			colleges.add(key);
@@ -78,6 +77,13 @@ public class ListModel {
 		String[] list = new String[colleges.size()];
 		list = colleges.toArray(list);
 		
+		return list;
+	}
+	
+	public String[] getMajors(String college) {
+		LinkedList<String> majors = collegeToMajorMap.get(college);
+		String[] list = new String[majors.size()];
+		list = majors.toArray(list);
 		return list;
 	}
 	
