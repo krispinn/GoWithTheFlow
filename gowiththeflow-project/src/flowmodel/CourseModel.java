@@ -1,14 +1,13 @@
 package flowmodel;
 
 import java.util.ArrayList;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
- * This class contains all the information for a single course which will be used to create nodes on
- * the flowchart.
+ * This class contains all the information for a single course which will be
+ * used to create nodes on the flowchart.
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason Blig
+ * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
+ *         Blig
  */
 public class CourseModel {
 
@@ -26,17 +25,17 @@ public class CourseModel {
 	 * The name of the course (Calculus II, Application Programming, etc).
 	 */
 	private String name;
-	
+
 	private String abstractCourseName;
 
 	private boolean abstractFlag;
-	
+
 	private String prerequisite;
-	
+
 	private String concurrent;
-	
+
 	private int num;
-	
+
 	/**
 	 * Contains the course's prerequisites.
 	 */
@@ -46,18 +45,19 @@ public class CourseModel {
 	 * Contains the course's concurrent enrollment courses.
 	 */
 	private ArrayList<String> concurrentList = new ArrayList<String>();
-	
+
 	/**
-	 * This number is initialized by a recursive algorithm which counts the number children for the course 
+	 * This number is initialized by a recursive algorithm which counts the
+	 * number children for the course
 	 */
-	
+
 	private int offspring;
 
 	/**
-	 * The original line of text containing the prerequisites, concurrent enrollment courses, and
-	 * other information.
+	 * The original line of text containing the prerequisites, concurrent
+	 * enrollment courses, and other information.
 	 */
-	
+
 	private String enrollmentInfo;
 
 	/**
@@ -96,18 +96,21 @@ public class CourseModel {
 		this.num = num;
 		addReqs();
 	}
-	
+
 	public CourseModel(String fullName, int num) {
 		this.abstractCourseName = fullName;
 		this.abstractFlag = true;
 		this.num = num;
 	}
-	
+
 	/**
-	 * This method layouts the level of the course.. the more children, the higher the course
-	 * will be on tree. i.e. Upper Division electives will be at the bottom as they have the least 
-	 * courses following them.
-	 * @param courses - this should be the starting (or end, depending on design choice) course
+	 * This method layouts the level of the course.. the more children, the
+	 * higher the course will be on tree. i.e. Upper Division electives will be
+	 * at the bottom as they have the least courses following them.
+	 * 
+	 * @param courses
+	 *            - this should be the starting (or end, depending on design
+	 *            choice) course
 	 * @return
 	 */
 
@@ -122,7 +125,7 @@ public class CourseModel {
 	public int getNum() {
 		return num;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
@@ -134,8 +137,8 @@ public class CourseModel {
 	public String getDescription() {
 		return description;
 	}
-	
-	public int getOffspring(){
+
+	public int getOffspring() {
 		return offspring;
 	}
 
@@ -146,47 +149,44 @@ public class CourseModel {
 			return subject + " " + number;
 		}
 	}
-	
+
 	public void addReqs() {
 		String tokens[] = prerequisite.split(" ");
 		if (tokens.length >= 3) {
-			for (int i = 1; i < tokens.length-1; i += 2) {
-				prerequisiteList.add(tokens[i] + " " + tokens[i+1]);
-				//System.out.println("PRE " + prerequisiteList.get(prerequisiteList.size()-1));
+			for (int i = 1; i < tokens.length - 1; i += 2) {
+				prerequisiteList.add(tokens[i] + " " + tokens[i + 1]);
 			}
-			
+
 		}
 		tokens = concurrent.split(" ");
 		if (tokens.length >= 3) {
-			for (int i = 1; i < tokens.length-1; i+= 2) {
-				concurrentList.add(tokens[i] + " " + tokens[i+1]);
-				//System.out.println("CON " + concurrentList.get(concurrentList.size()-1));
+			for (int i = 1; i < tokens.length - 1; i += 2) {
+				concurrentList.add(tokens[i] + " " + tokens[i + 1]);
 			}
 		}
-		
 
 	}
-	
+
 	public ArrayList<String> getPrerequisiteList() {
 		return prerequisiteList;
 	}
-	
+
 	public ArrayList<String> getConcurrentList() {
 		return concurrentList;
 	}
-	
+
 	public String getPrerequisiteListToString() {
 		return prerequisiteList.toString();
 	}
-	
+
 	public String getConcurrentListToString() {
 		return concurrentList.toString();
 	}
-	
+
 	@Override
 	public String toString() {
 		return subject + " " + number + " " + name + " | Prerequisites: " + prerequisiteList.toString()
-				+ " | Concurrent: " + concurrentList.toString() + " | Offspring: " + offspring + " | Enroll Info: " + enrollmentInfo
-				+ " | Description: " + description + "]\n";
+				+ " | Concurrent: " + concurrentList.toString() + " | Offspring: " + offspring + " | Enroll Info: "
+				+ enrollmentInfo + " | Description: " + description + "]\n";
 	}
 }

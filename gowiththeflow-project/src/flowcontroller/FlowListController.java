@@ -5,7 +5,7 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
 import flowmodel.FlowModel;
-import flowview.FlowView;
+import flowview.InteractiveView;
 
 /**
  * Controller used to handle events related to the right panel of the GUI, mainly the drop down list.
@@ -20,9 +20,9 @@ public class FlowListController implements ListSelectionListener {
 	/** 
 	 * The view of this MVC
 	 */
-	private FlowView view;
+	private InteractiveView view;
 
-	public FlowListController(FlowModel model, FlowView view) {
+	public FlowListController(FlowModel model, InteractiveView view) {
 		this.model = model;
 		this.view = view;
 	}

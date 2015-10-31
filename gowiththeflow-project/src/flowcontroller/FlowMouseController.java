@@ -4,7 +4,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
 import flowmodel.FlowModel;
-import flowview.FlowView;
+import flowview.InteractiveView;
 /**
  * Class used to hanle events for hovering mouse over an object (display tooltips etc)
  *
@@ -19,9 +19,9 @@ public class FlowMouseController implements MouseMotionListener {
 	/** 
 	 * The view of this MVC
 	 */
-	private FlowView view;
+	private InteractiveView view;
 
-	public FlowMouseController(FlowModel model, FlowView view) {
+	public FlowMouseController(FlowModel model, InteractiveView view) {
 		this.model = model;
 		this.view = view;
 	}

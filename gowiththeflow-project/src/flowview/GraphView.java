@@ -1,4 +1,4 @@
-package test;
+package flowview;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -16,15 +16,16 @@ import com.mxgraph.view.mxGraph;
 import flowmodel.CourseModel;
 import flowmodel.DirectedEdgeModel;
 import flowmodel.GraphModel;
+import test.ListOfCourses;
 
-public class GenerateGraph extends JFrame {
+public class GraphView extends JFrame {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -2707712944901661771L;
 
-	public GenerateGraph() throws Exception {
+	public GraphView() throws Exception {
 
 		final mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();

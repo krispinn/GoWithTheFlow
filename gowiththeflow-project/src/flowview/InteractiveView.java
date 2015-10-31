@@ -6,7 +6,6 @@ import java.awt.GridLayout;
 import java.util.ArrayList;
 
 import javax.swing.BorderFactory;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JPanel;
@@ -26,7 +25,7 @@ import flowmodel.FlowModel;
  * painting is relatively flicker-free.
  * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
-public class FlowView extends JPanel {
+public class InteractiveView extends JPanel {
     /** 
      * the model of this MVC example 
      */
@@ -72,17 +71,16 @@ public class FlowView extends JPanel {
 	/**
 	 * Create and organize the components of the window.
 	 */
-	public FlowView(FlowModel model) throws NullPointerException {
+	public InteractiveView() throws NullPointerException {
 		//super("Major Flow Chart");
-		this.model = model;
+		//this.model = panel;
 		//courseList.toArray(this.courseList);
 		//this.courseList = courseList;
 		/* CENTER: Add a panel that the user can draw on. */
-		mousePanel = new CourseGenerator(model);
-		mousePanel.setBackground(Color.WHITE);
-		add(mousePanel, BorderLayout.CENTER);
+		//mousePanel = new CourseGenerator(panel);
+		//mousePanel.setBackground(Color.WHITE);
+		//add(mousePanel, BorderLayout.CENTER);
 		
-		createAGraph();
 		/*mxGraph graph = new mxGraph();
 		Object parent = graph.getDefaultParent();
 		graph.getModel().beginUpdate();
@@ -111,42 +109,7 @@ public class FlowView extends JPanel {
         courseInfoPanel.add(new JLabel());
         courseInfoPanel.add(new JLabel("Concurrent Courses:"));
         courseInfoPanel.add(new JLabel());
-        
-        
-		/*
-		listPanel = new JPanel(new GridLayout(7,1));
-		add(listPanel, BorderLayout.EAST);
-		listPanel.setBorder(BorderFactory.createCompoundBorder(
-                        BorderFactory.createTitledBorder("Main Menu"),
-                        BorderFactory.createEmptyBorder(5,5,5,150)));*/
-		/*colorList = new JList(colorNames);
-		colorList.setVisibleRowCount(7);
-		colorList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);*/
-		/*
-		final JComboBox<String> courseBox = new JComboBox<String>(sampleList);
-		JPanel smallerPanel = new JPanel(new GridLayout(2,1));
-        smallerPanel.setBackground(Color.WHITE);
-        smallerPanel.add(new JLabel("Select a Course:"));
-        smallerPanel.add(courseBox);
-        
-        listPanel.add(smallerPanel);
-		/*listPanel.setLayout(new GridLayout(6, 2));
-		listPanel.add(new JScrollPane(colorList));
-		listPanel.add(new JLabel());
-		listPanel.add(new JLabel("CS 1063 - Introduction to Computer Programming I"));
-		//listPanel.add(new JLabel());
-		listPanel.add(new JLabel("Prerequisites:"));
-		listPanel.add(new JLabel());
-		listPanel.add(new JLabel("Concurrent Courses:"));
-		listPanel.add(new JLabel());*/
-        /*
-		listPanel.add(new JLabel());
-		listPanel.add(new JLabel());
-		listPanel.add(new JLabel());
-		listPanel.add(new JLabel());
-		listPanel.add(new JLabel());
-		listPanel.add(new JLabel());*/
-		
+
 	} // end constructor
 
 	/**
@@ -174,51 +137,4 @@ public class FlowView extends JPanel {
 		return colors[colorList.getSelectedIndex()];
 	}
 
-	/**
-	 * Sets the background color of the JList and calls super.paint(g)
-	 * to paint the components.
-	 */
-	public void paint(Graphics g) {
-		courseInfoPanel.setBackground(Color.WHITE);
-		//listPanel.setBackground(Color.WHITE);
-		super.paint(g); // This will paint the components.
-	} // end method paint
-	
-	public void createAGraph () {
-		mxGraph graph = new mxGraph();
-		
-		/*
-		 * THIS IS FOR CHANGING THE STYLE OF THE GRAPH OBJECTS
-		mxStylesheet stylesheet = graph.getStylesheet();
-		Hashtable<String, Object> style = new Hashtable<String, Object>();
-		style.put(mxConstants.STYLE_SHAPE, mxConstants.SHAPE_ELLIPSE);
-		style.put(mxConstants.STYLE_OPACITY, 100);
-		style.put(mxConstants.STYLE_FONTCOLOR, "#000000");
-		stylesheet.putCellStyle("ROUNDED", style);*/
-		
-		Object parent = graph.getDefaultParent();
-		graph.getModel().beginUpdate();
-		ArrayList<Object> objectList = new ArrayList<Object>();
-		//String[] tempList = new String[courseList.size()];
-		//tempList = courseList.toArray(tempList);
-		System.out.println();
-		int j = 0;
-		//for(Course s : courseList) {
-		//	tempList[j++] = s[2];
-		//}
-		/*try {
-			
-			for (int i = 0; i < courseList.size(); i++) {
-				
-				objectList.add(graph.insertVertex(parent, null, tempList[i], 
-						20+(i*20), 20+(i*20), 80, 30));
-				
-			}
-			
-		} finally {
-			graph.getModel().endUpdate();
-		}*/
-		mxGraphComponent graphComponent = new mxGraphComponent(graph);
-		//getContentPane().add(graphComponent);
-	}
 }
