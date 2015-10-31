@@ -1,15 +1,11 @@
 package flowguiview;
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
-import java.util.LinkedList;
-import java.util.Map.Entry;
 
 import javax.swing.BorderFactory;
-import javax.swing.DefaultListModel;
-import javax.swing.JList;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
 
 import flowguicontroller.FlowController;
 import flowguimodel.ListModel;
@@ -23,62 +19,37 @@ import flowguimodel.ListModel;
  */
 public class InteractiveView extends JPanel{
 	
-	/** 
-	 * the JPanel where the user can paint
-	 */
-	
-	private ListModel listOfColleges = new ListModel();
 	/**
 	 * the panel where the course Info will be displayed after the user
 	 * selected a course
 	 */
-	private JPanel courseInfoPanel;
-
-	private DefaultListModel<String> dlm = new DefaultListModel<String>();
+	private JPanel courseInfoPanel;	
 	
-	private JList<String> jlist = new JList<String>(dlm);
+	private FlowController flowController;
 	
-	FlowController flowController;
+	private JComboBox<Object> listOfMajors = null;
 	
 	/**
 	 * Create and organize the components of the window.
 	 */
 	public InteractiveView() throws NullPointerException {	
-		
-		for (Entry<String, LinkedList<String>> entry : listOfColleges.getCollegeToMajorMap().entrySet()) {
-			String key = entry.getKey();
-			dlm.addElement(key);
-		}
-		
+				
 		courseInfoPanel = new JPanel(new GridLayout(7,1));
 		add(courseInfoPanel, BorderLayout.EAST);
 		courseInfoPanel.setBorder(BorderFactory.createCompoundBorder(
                         BorderFactory.createTitledBorder("Course Info"),
                         BorderFactory.createEmptyBorder(5,5,5,150)));
         
-		courseInfoPanel.add(jlist);
-		registerListener();
+		JLabel college = new JLabel("College");
+		courseInfoPanel.add(college);
+		ListModel listModel = new ListModel();
+		JComboBox<Object> listOfColleges = new JComboBox<Object>(listModel.getColleges());
+		courseInfoPanel.add(listOfColleges);
 		
-	} // end constructor
-	
-	public void registerListener() {
-		ListSelectionListener listSelectionListener = new ListSelectionListener() {
-			public void valueChanged(ListSelectionEvent event) {
-				if(!event.getValueIsAdjusting()) {
-					
-					/* NOT WORKING
-					JList list = (JList) event.getSource();
-					int selected = list.getSelectedIndex();
-					System.out.println(selected);
-					//flowController.setCollege(selected);
-					ListModel lm = new ListModel();
-					lm.getColleges(selected);
-					*/
-				}
-			}
-		};
-		jlist.addListSelectionListener(listSelectionListener);
-	}
-	
+		JLabel major = new JLabel("Major");
+		courseInfoPanel.add(major);
+		courseInfoPanel.add(listOfMajors);
+		
+	} // end constructor	
 	
 }

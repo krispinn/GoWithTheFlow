@@ -37,10 +37,4 @@ public class FlowController{
 		this.interactiveView = iView;
 	}
 
-	public void setCollege(int i) {
-		this.college = listModel.getColleges(i);
-		System.out.println(college);
-	}
-
-
 }

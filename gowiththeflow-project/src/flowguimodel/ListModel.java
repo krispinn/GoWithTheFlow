@@ -7,11 +7,13 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
 public class ListModel {
 	
 	Map<String, String> majorToTextFileMap = new LinkedHashMap<String, String>();
 	Map<String, LinkedList<String>> collegeToMajorMap = new LinkedHashMap<String, LinkedList<String>>();
-	ArrayList<String> colleges;
+	ArrayList<String> colleges = new ArrayList<String>();
 	
 	public ListModel() {
 		populate();
@@ -49,13 +51,13 @@ public class ListModel {
 		for (Map.Entry<String, String> entry : majorToTextFileMap.entrySet()) {
 			String key = entry.getKey();
 			String value = entry.getValue();
-			System.out.println(key + "\t" + value);
+			//System.out.println(key + "\t" + value);
 		}
 		
 		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap.entrySet()) {
 			String key = entry.getKey();
 			LinkedList<String> value = entry.getValue();
-			System.out.println(key + "\t" + value);
+			//System.out.println(key + "\t" + value);
 		}
 	}
 	
@@ -67,19 +69,16 @@ public class ListModel {
 		return majorToTextFileMap;
 	}
 	
-	public ArrayList<String> getColleges() {
+	public String[] getColleges() {
+		
 		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap.entrySet()) {
 			String key = entry.getKey();
 			colleges.add(key);
 		}
-		return colleges;
+		String[] list = new String[colleges.size()];
+		list = colleges.toArray(list);
+		
+		return list;
 	}
 	
-	public String getColleges(int i) {
-		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap.entrySet()) {
-			String key = entry.getKey();
-			colleges.add(key);
-		}
-		return colleges.get(i);
-	}
 }
