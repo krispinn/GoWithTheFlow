@@ -1,8 +1,6 @@
 package flowguiview;
 
 import java.awt.BorderLayout;
-import java.util.ArrayList;
-import java.util.Iterator;
 
 import javax.swing.JFrame;
 
@@ -12,13 +10,10 @@ import com.mxgraph.swing.util.mxMorphing;
 import com.mxgraph.util.mxEvent;
 import com.mxgraph.util.mxEventObject;
 import com.mxgraph.util.mxEventSource.mxIEventListener;
-import com.mxgraph.view.mxGraph;
 
 import flowguicontroller.FlowController;
-import flowguimodel.CourseModel;
-import flowguimodel.DirectedEdgeModel;
 import flowguimodel.GraphModel;
-import flowtest.ListOfCourses;
+import flowguimodel.MxGraphModel;
 
 public class GraphView extends JFrame {
 
@@ -27,44 +22,11 @@ public class GraphView extends JFrame {
 	 */
 	private static final long serialVersionUID = -2707712944901661771L;
 
-	private InteractiveView interactiveView;
 	private mxGraphComponent graphComponent;
-	private GraphModel g;
-	public GraphView(InteractiveView interactiveView) throws Exception {
-
-		this.interactiveView = interactiveView;
-		final mxGraph graph = new mxGraph();
-		Object parent = graph.getDefaultParent();
-		ListOfCourses test = new ListOfCourses("data/courselists/engineering_electricalcomputerengineering.txt");
-		ArrayList<CourseModel> temp = test.read();
-		g = new GraphModel(temp);
-		Object[] list = new Object[g.getNodes().size()];
-		
-		graph.getModel().beginUpdate();
-		try {
-			Iterator<CourseModel> nodeIterator = g.getNodes().values().iterator();
-			Iterator<DirectedEdgeModel> edgeIterator = g.getEdges().iterator();
-			int nodeCount = 0;
-
-			while (nodeIterator.hasNext()) {
-				CourseModel current = nodeIterator.next();
-				String subjectNumber = current.getSubNum();
-				list[nodeCount++] = graph.insertVertex(parent, null, subjectNumber, 0, 0, 80, 80,
-						"fillColor=white");
-				//((Object) graph.getSelectionModel()).addMouseMotionListener();
-			}
-
-			while (edgeIterator.hasNext()) {
-				DirectedEdgeModel e = edgeIterator.next();
-				graph.insertEdge(parent, null, "", list[e.getFrom()], list[e.getTo()]);
-			}
-
-		} finally {
-			graph.getModel().endUpdate();
-		}
-		
+	
+	public GraphView(InteractiveView interactiveView, final MxGraphModel graph) throws Exception {
+						
 		graphComponent = new mxGraphComponent(graph);
-		//graphComponent.getGraphControl().addMouseListener(mouseListener);
 		
 		getContentPane().add(graphComponent);
 		graphComponent.setConnectable(false);
@@ -102,7 +64,4 @@ public class GraphView extends JFrame {
 		controller.setGraphComponent(graphComponent);
 	}
 	
-	public GraphModel getGraphModel() {
-		return g;
-	}
 }

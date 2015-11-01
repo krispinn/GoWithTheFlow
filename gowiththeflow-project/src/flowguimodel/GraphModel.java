@@ -10,29 +10,25 @@ import java.util.Set;
 public class GraphModel {
 
 	private ArrayList<CourseModel> listOfCourses = new ArrayList<CourseModel>();
-	private Map<String, CourseModel> nodes = new LinkedHashMap<String, CourseModel>();
-	private Set<DirectedEdgeModel> edges = new LinkedHashSet<DirectedEdgeModel>();
-
-	public GraphModel(ArrayList<CourseModel> list) {
-		listOfCourses = list;
-		generateNodes();
+	private Map<String, CourseModel> listOfVertices = new LinkedHashMap<String, CourseModel>();
+	private Set<DirectedEdgeModel> listOfEdges = new LinkedHashSet<DirectedEdgeModel>();
+	
+	public GraphModel(ArrayList<CourseModel> listOfCourseModels) {
+		this.listOfCourses = listOfCourseModels;
+		generateVertices();
 		generateEdges();
-		printNodes();
+		//printVertices();
 		//printEdges();
 	}
 
-	private void generateNodes() {
+	private void generateVertices() {
 		for (CourseModel c : listOfCourses) {
-			addCourse(c);
+			listOfVertices.put(c.getSubjectNumber(), c);
 		}
 	}
 
-	private void addCourse(CourseModel c) {
-		nodes.put(c.getSubNum(), c);
-	}
-
 	private void generateEdges() {
-		Iterator<CourseModel> it = nodes.values().iterator();
+		Iterator<CourseModel> it = listOfVertices.values().iterator();
 
 		while (it.hasNext()) {
 			CourseModel current = it.next();
@@ -44,15 +40,15 @@ public class GraphModel {
 				for (int i = 0; i < tempPrerequisiteList.size(); i++) {
 					courseName = tempPrerequisiteList.get(i);
 
-					if (!nodes.containsKey(courseName)) {
+					if (!listOfVertices.containsKey(courseName)) {
 						/*Course from = new Course(courseName, listOfCourses.size());
 						listOfCourses.add(from);
 						DirectedEdge e = new DirectedEdge(from, current, from.getNum(), current.getNum());
 						edges.add(e);*/
 					} else {
-						DirectedEdgeModel e = new DirectedEdgeModel(nodes.get(courseName), current,
-								nodes.get(courseName).getNum(), current.getNum());
-						edges.add(e);
+						DirectedEdgeModel e = new DirectedEdgeModel(listOfVertices.get(courseName), current,
+								listOfVertices.get(courseName).getNum(), current.getNum());
+						listOfEdges.add(e);
 					}
 				}
 
@@ -60,15 +56,15 @@ public class GraphModel {
 				for (int i = 0; i < tempConcurrentList.size(); i++) {
 					courseName = tempConcurrentList.get(i);
 
-					if (!nodes.containsKey(courseName)) {
+					if (!listOfVertices.containsKey(courseName)) {
 						/*Course from = new Course(courseName, listOfCourses.size());
 						listOfCourses.add(from);
 						DirectedEdge e = new DirectedEdge(from, current, from.getNum(), current.getNum());
 						edges.add(e);*/
 					} else {
-						DirectedEdgeModel e = new DirectedEdgeModel(nodes.get(courseName), current,
-								nodes.get(courseName).getNum(), current.getNum());
-						edges.add(e);
+						DirectedEdgeModel e = new DirectedEdgeModel(listOfVertices.get(courseName), current,
+								listOfVertices.get(courseName).getNum(), current.getNum());
+						listOfEdges.add(e);
 					}
 				}
 			} else {
@@ -76,33 +72,33 @@ public class GraphModel {
 			}
 		}
 	}
-
-	public Map<String, CourseModel> getNodes() {
-		return nodes;
+	
+	public Map<String, CourseModel> getVertices() {
+		return listOfVertices;
 	}
 
 	public Set<DirectedEdgeModel> getEdges() {
-		return edges;
+		return listOfEdges;
 	}
 
-	public void printNodes() {
-		Iterator<CourseModel> it = nodes.values().iterator();
+	public void printVertices() {
+		Iterator<CourseModel> it = listOfVertices.values().iterator();
 		while (it.hasNext()) {
 			CourseModel current = it.next();
-			System.out.println(current.getNum() + " " + current.getSubNum() + " Pre: " + current.getPrerequisiteListToString() + " Con: "
-					+ current.getConcurrentListToString());
+			System.out.println(current.getNum() + " " + current.getSubjectNumber() + " Pre: " + current.getPrerequisiteList().toString() + " Con: "
+					+ current.getConcurrentList().toString());
 		}
 	}
 
 	public void printEdges() {
-		Iterator<DirectedEdgeModel> it = edges.iterator();
+		Iterator<DirectedEdgeModel> it = listOfEdges.iterator();
 		while (it.hasNext()) {
 			System.out.println(it.next().toString());
 		}
 	}
 	
-	public String returnCourseModel(String course) {
-		CourseModel courseModel = nodes.get(course);
-		return courseModel.getDescription();
+	public CourseModel getVertexIndex(String course) {
+		CourseModel courseModel = listOfVertices.get(course);
+		return courseModel;
 	}
 }

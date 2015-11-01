@@ -26,15 +26,7 @@ public class CourseModel {
 	 */
 	private String name;
 
-	private String abstractCourseName;
-
-	private boolean abstractFlag;
-
-	private String prerequisite;
-
-	private String concurrent;
-
-	private int num;
+	private int vertexIndex;
 
 	/**
 	 * Contains the course's prerequisites.
@@ -45,13 +37,6 @@ public class CourseModel {
 	 * Contains the course's concurrent enrollment courses.
 	 */
 	private ArrayList<String> concurrentList = new ArrayList<String>();
-
-	/**
-	 * This number is initialized by a recursive algorithm which counts the
-	 * number children for the course
-	 */
-
-	private int offspring;
 
 	/**
 	 * The original line of text containing the prerequisites, concurrent
@@ -70,37 +55,28 @@ public class CourseModel {
 	 * 
 	 * @param subject
 	 *            the course subject
-	 * @param courseNumber
+	 * @param number
 	 *            the course number
-	 * @param courseName
+	 * @param name
 	 *            the course name
 	 * @param prerequisiteCourses
 	 *            a list of the prerequisites
 	 * @param concurrentCourses
 	 *            a list of concurrent enrollment courses
-	 * @param courseDescription
+	 * @param description
 	 *            a description of the course
-	 * @param courseEnrollment
+	 * @param enrollmentInfo
 	 *            the original line containing enrollment info
 	 */
-	public CourseModel(String subject, int courseNumber, String courseName, String prerequisiteCourses,
-			String concurrentCourses, String courseDescription, String courseEnrollment, int num) {
+	public CourseModel(String subject, int number, String name, String prerequisites,
+			String concurrentEnrollment, String description, String enrollmentInfo, int vertexIndex) {
 		this.subject = subject;
-		this.number = courseNumber;
-		this.name = courseName;
-		this.prerequisite = prerequisiteCourses;
-		this.concurrent = concurrentCourses;
-		this.description = courseDescription;
-		this.enrollmentInfo = courseEnrollment;
-		this.abstractFlag = false;
-		this.num = num;
-		addReqs();
-	}
-
-	public CourseModel(String fullName, int num) {
-		this.abstractCourseName = fullName;
-		this.abstractFlag = true;
-		this.num = num;
+		this.number = number;
+		this.name = name;
+		this.description = description;
+		this.enrollmentInfo = enrollmentInfo;
+		this.vertexIndex = vertexIndex;
+		addReqs(prerequisites, concurrentEnrollment);
 	}
 
 	/**
@@ -123,7 +99,7 @@ public class CourseModel {
 	}
 
 	public int getNum() {
-		return num;
+		return vertexIndex;
 	}
 
 	public String getName() {
@@ -138,27 +114,19 @@ public class CourseModel {
 		return description;
 	}
 
-	public int getOffspring() {
-		return offspring;
+	public String getSubjectNumber() {
+		return subject + " " + number;
 	}
 
-	public String getSubNum() {
-		if (abstractFlag) {
-			return abstractCourseName;
-		} else {
-			return subject + " " + number;
-		}
-	}
-
-	public void addReqs() {
-		String tokens[] = prerequisite.split(" ");
+	public void addReqs(String pre, String con) {
+		String tokens[] = pre.split(" ");
 		if (tokens.length >= 3) {
 			for (int i = 1; i < tokens.length - 1; i += 2) {
 				prerequisiteList.add(tokens[i] + " " + tokens[i + 1]);
 			}
 
 		}
-		tokens = concurrent.split(" ");
+		tokens = con.split(" ");
 		if (tokens.length >= 3) {
 			for (int i = 1; i < tokens.length - 1; i += 2) {
 				concurrentList.add(tokens[i] + " " + tokens[i + 1]);
@@ -175,18 +143,10 @@ public class CourseModel {
 		return concurrentList;
 	}
 
-	public String getPrerequisiteListToString() {
-		return prerequisiteList.toString();
-	}
-
-	public String getConcurrentListToString() {
-		return concurrentList.toString();
-	}
-
 	@Override
 	public String toString() {
 		return subject + " " + number + " " + name + " | Prerequisites: " + prerequisiteList.toString()
-				+ " | Concurrent: " + concurrentList.toString() + " | Offspring: " + offspring + " | Enroll Info: "
+				+ " | Concurrent: " + concurrentList.toString() + " | Enroll Info: "
 				+ enrollmentInfo + " | Description: " + description + "]\n";
 	}
 }

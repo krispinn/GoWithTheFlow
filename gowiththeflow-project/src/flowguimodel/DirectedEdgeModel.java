@@ -14,18 +14,25 @@ public class DirectedEdgeModel {
 		this.toNum = toNum;
 	}
 
-	public int getFrom() {
+	public int getFromNum() {
 		return fromNum;
 	}
 	
-	public int getTo() {
+	public int getToNum() {
 		return toNum;
+	}
+	
+	public CourseModel getFrom() {
+		return from;
+	}
+	
+	public CourseModel getTo() {
+		return to;
 	}
 	
 	@Override
 	public String toString() {
-		//return "EDGE: " + " From " + from.getSubNum() + " to " + to.getSubNum();
-		return "EDGE: from " + fromNum + " to " + toNum;
+		return "EDGE: [" + fromNum + "]"+ from.getSubjectNumber() + " to [" + toNum + "]" + to.getSubjectNumber();
 	}
 	
 }

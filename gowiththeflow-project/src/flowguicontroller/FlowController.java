@@ -53,7 +53,7 @@ public class FlowController implements MouseListener {
 		
 		if (cell != null && cell instanceof mxCell) {
 			String something = ((mxCell)cell).getValue().toString();
-			String desc = graphModel.returnCourseModel(something);
+			String desc = graphModel.getVertexIndex(something).getDescription();
 			System.out.println(desc);
 			
 		}
