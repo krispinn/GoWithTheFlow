@@ -2,6 +2,7 @@ package flowguimodel;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.Map;
@@ -75,7 +76,9 @@ public class ListModel {
 			colleges.add(key);
 		}
 		String[] list = new String[colleges.size()];
+		Collections.reverse(colleges);
 		list = colleges.toArray(list);
+		
 		return list;
 	}
 	

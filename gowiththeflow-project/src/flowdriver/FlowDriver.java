@@ -1,13 +1,14 @@
 package flowdriver;
 
 import flowguicontroller.FlowController;
+import flowguicontroller.InteractiveController;
 import flowguimodel.GraphModel;
-import flowguimodel.InteractiveModel;
 import flowguimodel.ListModel;
 import flowguimodel.MajorModel;
 import flowguimodel.MxGraphComponentModel;
 import flowguimodel.MxGraphModel;
 import flowguiview.FlowView;
+import flowguiview.InteractiveView;
 
 /**
  * Executes the main method and finds departments/majors from given UTSA URL
@@ -34,9 +35,10 @@ public class FlowDriver {
 		MxGraphComponentModel graphComponent = new MxGraphComponentModel(mxgModel);
 		
 		ListModel listModel = new ListModel();
-		InteractiveModel interactiveView = new InteractiveModel();
+		InteractiveView interactiveView = new InteractiveView(listModel);
 		FlowView flowView = new FlowView(interactiveView, graphComponent);
 		
+		InteractiveController interactiveController = new InteractiveController(interactiveView);
 		FlowController flowController = new FlowController(graphModel, listModel, flowView, interactiveView);
 		
 	}

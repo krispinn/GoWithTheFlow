@@ -7,7 +7,6 @@ import javax.swing.JFrame;
 import com.mxgraph.swing.mxGraphComponent;
 
 import flowguicontroller.FlowController;
-import flowguimodel.InteractiveModel;
 import flowguimodel.MxGraphComponentModel;
 
 public class FlowView extends JFrame {
@@ -17,11 +16,11 @@ public class FlowView extends JFrame {
 	 */
 	private static final long serialVersionUID = -2707712944901661771L;
 
-	private InteractiveModel interactiveModel;
+	private InteractiveView interactiveModel;
 	
 	private mxGraphComponent graphComponent;
 		
-	public FlowView(InteractiveModel interactiveModel, final MxGraphComponentModel graphComponent) throws Exception {
+	public FlowView(InteractiveView interactiveModel, final MxGraphComponentModel graphComponent) throws Exception {
 		this.interactiveModel = interactiveModel;
 		this.graphComponent = graphComponent;
 

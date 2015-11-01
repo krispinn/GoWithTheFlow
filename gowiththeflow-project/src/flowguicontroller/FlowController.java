@@ -1,19 +1,16 @@
 package flowguicontroller;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.util.ArrayList;
 
-import javax.swing.JList;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
+import javax.swing.JButton;
 
 import com.mxgraph.model.mxCell;
 import com.mxgraph.swing.mxGraphComponent;
 
 import flowguimodel.GraphModel;
-import flowguimodel.InteractiveModel;
 import flowguimodel.ListModel;
 import flowguiview.FlowView;
+import flowguiview.InteractiveView;
 
 /**
  * Controller used to handle events related to the right panel of the GUI, mainly the drop down list.
@@ -31,17 +28,19 @@ public class FlowController implements MouseListener {
 	/** 
 	 * The view of this MVC
 	 */
-	private InteractiveModel interactiveView;
+	private InteractiveView interactiveView;
 	
 	private String college;
 
 	private mxGraphComponent graphComponent;
 	
-	public FlowController(GraphModel graphModel, ListModel listModel, FlowView flowView, InteractiveModel interactiveModel) {
+	private JButton downloadButton;
+	
+	public FlowController(GraphModel graphModel, ListModel listModel, FlowView flowView, InteractiveView interactiveView) {
 		this.graphModel = graphModel;
 		this.listModel = listModel;
 		this.graphView = flowView;
-		this.interactiveView = interactiveModel;
+		this.interactiveView = interactiveView;
 		
 		flowView.registerVertexMouseListener(this);
 	}
@@ -49,6 +48,10 @@ public class FlowController implements MouseListener {
 	public void setGraphComponent(mxGraphComponent graphComponent) {
 		
 		this.graphComponent = graphComponent;
+	}
+	
+	public void setDownloadButton(JButton downloadButton) {
+		this.downloadButton = downloadButton;
 	}
 
 	public void mouseClicked(MouseEvent e) {
@@ -61,7 +64,7 @@ public class FlowController implements MouseListener {
 			
 		}
 	}
-
+	
 	public void mouseEntered(MouseEvent e) {
 		// Do nothing
 		

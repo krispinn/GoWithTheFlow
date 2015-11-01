@@ -40,12 +40,7 @@ public class GraphModel {
 				for (int i = 0; i < tempPrerequisiteList.size(); i++) {
 					courseName = tempPrerequisiteList.get(i);
 
-					if (!listOfVertices.containsKey(courseName)) {
-						/*Course from = new Course(courseName, listOfCourses.size());
-						listOfCourses.add(from);
-						DirectedEdge e = new DirectedEdge(from, current, from.getNum(), current.getNum());
-						edges.add(e);*/
-					} else {
+					if (listOfVertices.containsKey(courseName)) {
 						DirectedEdgeModel e = new DirectedEdgeModel(listOfVertices.get(courseName), current,
 								listOfVertices.get(courseName).getNum(), current.getNum());
 						listOfEdges.add(e);
@@ -56,12 +51,7 @@ public class GraphModel {
 				for (int i = 0; i < tempConcurrentList.size(); i++) {
 					courseName = tempConcurrentList.get(i);
 
-					if (!listOfVertices.containsKey(courseName)) {
-						/*Course from = new Course(courseName, listOfCourses.size());
-						listOfCourses.add(from);
-						DirectedEdge e = new DirectedEdge(from, current, from.getNum(), current.getNum());
-						edges.add(e);*/
-					} else {
+					if (listOfVertices.containsKey(courseName)) {
 						DirectedEdgeModel e = new DirectedEdgeModel(listOfVertices.get(courseName), current,
 								listOfVertices.get(courseName).getNum(), current.getNum());
 						listOfEdges.add(e);
