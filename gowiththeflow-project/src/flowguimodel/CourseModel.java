@@ -76,7 +76,7 @@ public class CourseModel {
 		this.description = description;
 		this.enrollmentInfo = enrollmentInfo;
 		this.vertexIndex = vertexIndex;
-		addReqs(prerequisites, concurrentEnrollment);
+		this.update(prerequisites, concurrentEnrollment);
 	}
 
 	/**
@@ -118,7 +118,7 @@ public class CourseModel {
 		return subject + " " + number;
 	}
 
-	public void addReqs(String pre, String con) {
+	public void update(String pre, String con) {
 		String tokens[] = pre.split(" ");
 		if (tokens.length >= 3) {
 			for (int i = 1; i < tokens.length - 1; i += 2) {

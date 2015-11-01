@@ -1,4 +1,4 @@
-package flowguiview;
+package flowguimodel;
 
 import java.awt.BorderLayout;
 
@@ -10,7 +10,6 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-import flowguimodel.ListModel;
 
 /**
  * The view is responsible for displaying the information. The view includes the
@@ -21,7 +20,12 @@ import flowguimodel.ListModel;
  * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
  *         Cardenas
  */
-public class InteractiveView extends JPanel {
+public class InteractiveModel extends JPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7304916294755779603L;
 
 	/**
 	 * the panel where the course Info will be displayed after the user selected
@@ -31,10 +35,14 @@ public class InteractiveView extends JPanel {
 
 	private ListModel listModel = new ListModel();
 
+	private JComboBox<Object> listOfColleges = null;
+	
+	private JComboBox<Object> listOfMajors = null;
+	
 	/**
 	 * Create and organize the components of the window.
 	 */
-	public InteractiveView() {
+	public InteractiveModel() {
 		addJPanel();
 		addCollegeList();
 		addMajorList();
@@ -51,18 +59,19 @@ public class InteractiveView extends JPanel {
 	}
 
 	public void addCollegeList() {
-		JLabel college = new JLabel("College");
-		college.setAlignmentX(LEFT_ALIGNMENT);
-		information.add(college);
-		JComboBox<Object> listOfColleges = new JComboBox<Object>(listModel.getColleges());
+		information.add(new JLabel("College"));
+		listOfColleges = new JComboBox<Object>(listModel.getColleges());
 		information.add(listOfColleges);
 	}
 
 	public void addMajorList() {
-		JLabel major = new JLabel("Major");
-		information.add(major);
-		JComboBox<Object> listOfMajors = new JComboBox<Object>(listModel.getMajors("architecture"));
+		information.add(new JLabel("Major"));
+		listOfMajors = new JComboBox<Object>(listModel.getMajorsArray("architecture"));
 		information.add(listOfMajors);
+	}
+	
+	public void updateMajorList() {
+		
 	}
 	
 	public void addInfoBox() {

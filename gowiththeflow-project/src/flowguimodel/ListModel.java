@@ -16,10 +16,10 @@ public class ListModel {
 	ArrayList<String> colleges = new ArrayList<String>();
 	
 	public ListModel() {
-		populate();
+		update();
 	}
 	
-	public void populate() {
+	public void update() {
 		File folder = new File("data/courselists");
 		File[] listOfFiles = folder.listFiles();
 		
@@ -76,11 +76,10 @@ public class ListModel {
 		}
 		String[] list = new String[colleges.size()];
 		list = colleges.toArray(list);
-		
 		return list;
 	}
 	
-	public String[] getMajors(String college) {
+	public String[] getMajorsArray(String college) {
 		LinkedList<String> majors = collegeToMajorMap.get(college);
 		String[] list = new String[majors.size()];
 		list = majors.toArray(list);

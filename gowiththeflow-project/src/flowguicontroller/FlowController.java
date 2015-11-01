@@ -11,9 +11,9 @@ import com.mxgraph.model.mxCell;
 import com.mxgraph.swing.mxGraphComponent;
 
 import flowguimodel.GraphModel;
+import flowguimodel.InteractiveModel;
 import flowguimodel.ListModel;
-import flowguiview.GraphView;
-import flowguiview.InteractiveView;
+import flowguiview.FlowView;
 
 /**
  * Controller used to handle events related to the right panel of the GUI, mainly the drop down list.
@@ -27,24 +27,27 @@ public class FlowController implements MouseListener {
 	
 	private ListModel listModel;
 	
-	private GraphView graphView;
+	private FlowView graphView;
 	/** 
 	 * The view of this MVC
 	 */
-	private InteractiveView interactiveView;
+	private InteractiveModel interactiveView;
 	
 	private String college;
 
 	private mxGraphComponent graphComponent;
 	
-	public FlowController(GraphModel gModel, ListModel lModel, GraphView gView, InteractiveView iView) {
-		this.graphModel = gModel;
-		this.listModel = lModel;
-		this.graphView = gView;
-		this.interactiveView = iView;
+	public FlowController(GraphModel graphModel, ListModel listModel, FlowView flowView, InteractiveModel interactiveModel) {
+		this.graphModel = graphModel;
+		this.listModel = listModel;
+		this.graphView = flowView;
+		this.interactiveView = interactiveModel;
+		
+		flowView.registerVertexMouseListener(this);
 	}
 	
 	public void setGraphComponent(mxGraphComponent graphComponent) {
+		
 		this.graphComponent = graphComponent;
 	}
 

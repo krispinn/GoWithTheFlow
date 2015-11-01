@@ -1,15 +1,13 @@
 package flowdriver;
 
-import java.util.ArrayList;
-
 import flowguicontroller.FlowController;
-import flowguimodel.CourseModel;
 import flowguimodel.GraphModel;
+import flowguimodel.InteractiveModel;
 import flowguimodel.ListModel;
+import flowguimodel.MajorModel;
+import flowguimodel.MxGraphComponentModel;
 import flowguimodel.MxGraphModel;
-import flowguiview.GraphView;
-import flowguiview.InteractiveView;
-import flowtest.ListOfCourses;
+import flowguiview.FlowView;
 
 /**
  * Executes the main method and finds departments/majors from given UTSA URL
@@ -27,23 +25,20 @@ public class FlowDriver {
  */
 	public static void main(String[] args) throws Exception {
 
-		//ListOfCourses test = new ListOfCourses("data/courselists/engineering_electricalcomputerengineering.txt");
-		
 		//new GenerateInfo();
-		//GraphModel graphModel = new GraphModel(test);
-		ListOfCourses test = new ListOfCourses("data/courselists/sciences_mathematics.txt");
-		ArrayList<CourseModel> temp = test.read();
+
+		MajorModel majorModel = new MajorModel("data/courselists/sciences_mathematics.txt");
 		
-		GraphModel graphModel = new GraphModel(temp);
+		GraphModel graphModel = new GraphModel(majorModel.getCourseModelList());
 		MxGraphModel mxgModel = new MxGraphModel(graphModel);
+		MxGraphComponentModel graphComponent = new MxGraphComponentModel(mxgModel);
 		
 		ListModel listModel = new ListModel();
-		InteractiveView interactiveView = new InteractiveView();
-		GraphView graphView = new GraphView(interactiveView, mxgModel);
+		InteractiveModel interactiveView = new InteractiveModel();
+		FlowView flowView = new FlowView(interactiveView, graphComponent);
 		
-		FlowController flowController = new FlowController(graphModel, listModel, graphView, interactiveView);
+		FlowController flowController = new FlowController(graphModel, listModel, flowView, interactiveView);
 		
-		graphView.register(flowController);
 	}
 }		
 
