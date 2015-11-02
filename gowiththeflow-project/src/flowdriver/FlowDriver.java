@@ -9,6 +9,7 @@ import flowguimodel.MxGraphModel;
 import flowguimodellisteners.CollegeListener;
 import flowguimodellisteners.DownloadListener;
 import flowguimodellisteners.MajorListener;
+import flowguimodellisteners.VertexListener;
 import flowguiview.FlowView;
 import flowguiview.InteractiveView;
 
@@ -46,8 +47,9 @@ public class FlowDriver {
 				interactiveView);
 		new MajorListener(graphModel, graphView, interactiveModel,
 				interactiveView);
-		/*new VertexListener(graphModel, graphView, interactiveModel,
-				interactiveView);*/
+		VertexListener vertexListener = new VertexListener(graphModel, graphView, interactiveModel,
+				interactiveView, graphComponent);
+		graphView.registerVertexMouseListener(vertexListener);
 		
 	}
 }		

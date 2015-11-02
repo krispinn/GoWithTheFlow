@@ -76,7 +76,9 @@ public class InteractiveView extends JPanel {
 		
 	} // end constructor
 
-	
+	public void updateJTextArea(String update) {
+		jTextArea.
+	}
 	public void registerDownloadButton(DownloadListener listener) {
 		downloadButton.addMouseListener(listener);
 	}

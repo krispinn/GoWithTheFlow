@@ -10,6 +10,8 @@ public class InteractiveModel {
 	
 	private String selectedMajor = "architecture";
 	
+	private String courseInformation;
+	
 	public InteractiveModel() {
 		
 	}
@@ -36,5 +38,13 @@ public class InteractiveModel {
 	
 	public DefaultListModel<String> getMajorList() {
 		return majors;
+	}
+	
+	public String getCourseInformation() {
+		return courseInformation;
+	}
+	
+	public void setCourseInformation(String info) {
+		courseInformation = info;
 	}
 }

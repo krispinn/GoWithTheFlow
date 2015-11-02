@@ -92,4 +92,9 @@ public class GraphModel {
 		CourseModel courseModel = listOfVertices.get(course);
 		return courseModel;
 	}
+	
+	public String returnCourseModel(String course) {
+		CourseModel courseModel = listOfVertices.get(course);
+		return courseModel.getDescription();
+	}
 }
