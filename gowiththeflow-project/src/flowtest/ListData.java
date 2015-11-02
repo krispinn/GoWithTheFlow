@@ -46,5 +46,7 @@ public class ListData {
 			String[] line = bufferedReader.readLine().split(" ");
 			majors.add(line);
 		}
+		
+		bufferedReader.close();
 	}
 }

@@ -31,10 +31,10 @@ public class VertexListener extends FlowController implements MouseListener {
 
 		if (cell != null && cell instanceof mxCell) {
 			String something = ((mxCell) cell).getValue().toString();
-			String desc = graphModel.returnCourseModel(something);
-			System.out.println(desc);
-			interactiveModel.setCourseInformation(desc);
-			interactiveView.updateJTextArea(desc);
+			String info = graphModel.returnCourseModel(something);
+			// System.out.println(info);
+			interactiveModel.setCourseInformation(info);
+			interactiveView.updateJTextArea(info);
 		}
 
 	}
