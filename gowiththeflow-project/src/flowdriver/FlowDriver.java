@@ -7,6 +7,8 @@ import flowguimodel.InteractiveModel;
 import flowguimodel.MajorModel;
 import flowguimodel.MxGraphComponentModel;
 import flowguimodel.MxGraphModel;
+import flowguimodellisteners.CollegeListener;
+import flowguimodellisteners.MajorListener;
 import flowguiview.FlowView;
 import flowguiview.InteractiveView;
 
@@ -37,8 +39,11 @@ public class FlowDriver {
 		
 		InteractiveView interactiveView = new InteractiveView(interactiveModel);
 		FlowView flowView = new FlowView(interactiveView, graphComponent);
-		System.out.println("Hello");
+		
+	//	CollegeListener collegeListener = new CollegeListener(interactiveView, interactiveModel);
+	//	MajorListener majorListener = new MajorListener(interactiveView, interactiveModel);
 		InteractiveController interactiveController = new InteractiveController(interactiveView, interactiveModel);
+		
 		FlowController flowController = new FlowController(graphModel, flowView, interactiveView);
 		
 	}

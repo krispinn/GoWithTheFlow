@@ -2,7 +2,6 @@ package flowguiview;
 
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
-import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JList;
@@ -10,9 +9,10 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-import flowguicontroller.InteractiveController;
 import flowguimodel.InteractiveModel;
-import flowguimodel.ListModel;
+import flowguimodellisteners.CollegeListener;
+import flowguimodellisteners.DownloadListener;
+import flowguimodellisteners.MajorListener;
 
 
 /**
@@ -35,7 +35,7 @@ public class InteractiveView extends JPanel {
 	 * the panel where the course Info will be displayed after the user selected
 	 * a course
 	 */
-	private ListModel listModel = new ListModel();
+	
 	private JButton downloadButton = new JButton("Download Course Information");
 	private JTextArea jTextArea = new JTextArea();
 	private JScrollPane scrollPane = new JScrollPane(jTextArea);
@@ -59,36 +59,40 @@ public class InteractiveView extends JPanel {
 		this.add(downloadButton);
 		
 		this.add(new JLabel("College"));
-		listOfColleges = new JList<String>(listModel.getColleges());
+		listOfColleges = new JList<String>(interactiveModel.getColleges());
 		this.add(listOfColleges);
 		
 		this.add(new JLabel("Major"));
-		interactiveModel.setMajors("architecture");
-		this.updateMajors();
+		//interactiveModel.setMajors("architecture");
+		listOfMajors = new JList<String>(interactiveModel.getMajors("architecture"));
+		this.add(listOfMajors);
 		
-		//this.add(listOfMajors);
-
 		this.add(new JLabel("Course Information"));
 		jTextArea.setWrapStyleWord(true);
+		jTextArea.append("Test\nText\nTest\nText\nTest");
 		this.add(scrollPane);
-		jTextArea.append("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n "
-				+ "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\na "
-				+ "aaaaaaaaaaaaaaaaaaaaaaaaa\na\naaaaaaa");
-				
+		
 	} // end constructor
 
-	public String getSelectedCollege() {
-		System.out.println(listOfColleges.getSelectedIndex());
-		return listOfColleges.getSelectedValue();
+	
+	public void registerDownloadButton(DownloadListener listener) {
+		downloadButton.addMouseListener(listener);
 	}
-		
-	public void registerCollegeListener(InteractiveController listener) {
+	
+	public void registerCollegeListener(CollegeListener listener) {
 		listOfColleges.addListSelectionListener(listener);
 	}
 	
-	public void updateMajors() {
-		//listOfMajors.removeAll();
-		//listOfMajors = new JList<String>(interactiveModel.getMajors());
+	public void registerMajorListener(MajorListener listener) {	
+		listOfMajors.addListSelectionListener(listener);
 	}
+	
+	public String getSelectedCollege() {
+		return listOfColleges.getSelectedValue();
+	}
+	
+	public String getSelectedMajor() {
+		return listOfMajors.getSelectedValue();
+	}	
 
 }
