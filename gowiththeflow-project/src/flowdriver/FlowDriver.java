@@ -9,7 +9,6 @@ import flowguimodel.MxGraphModel;
 import flowguimodellisteners.CollegeListener;
 import flowguimodellisteners.DownloadListener;
 import flowguimodellisteners.MajorListener;
-import flowguimodellisteners.VertexListener;
 import flowguiview.FlowView;
 import flowguiview.InteractiveView;
 
@@ -29,8 +28,6 @@ public class FlowDriver {
  */
 	public static void main(String[] args) throws Exception {
 
-		//new GenerateInfo();
-
 		MajorModel majorModel = new MajorModel("data/courselists/sciences_mathematics.txt");
 		
 		GraphModel graphModel = new GraphModel(majorModel);
@@ -49,8 +46,8 @@ public class FlowDriver {
 				interactiveView);
 		new MajorListener(graphModel, graphView, interactiveModel,
 				interactiveView);
-		new VertexListener(graphModel, graphView, interactiveModel,
-				interactiveView);
+		/*new VertexListener(graphModel, graphView, interactiveModel,
+				interactiveView);*/
 		
 	}
 }		

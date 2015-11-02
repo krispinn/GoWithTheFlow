@@ -7,7 +7,6 @@ import javax.swing.JFrame;
 import com.mxgraph.swing.mxGraphComponent;
 
 import flowguimodel.MxGraphComponentModel;
-import flowguimodellisteners.VertexListener;
 
 public class FlowView extends JFrame {
 
@@ -36,8 +35,8 @@ public class FlowView extends JFrame {
 		this.graphComponent = graphComponent;
 	}
 	
-	public void registerVertexMouseListener(VertexListener listener) {
+	/*public void registerVertexMouseListener(VertexListener listener) {
 		graphComponent.getGraphControl().addMouseListener(listener);
-	}
+	}*/
 	
 }
