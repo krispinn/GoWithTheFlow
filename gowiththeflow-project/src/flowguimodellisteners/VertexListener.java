@@ -24,6 +24,7 @@ public class VertexListener extends FlowController implements MouseListener {
 		this.graphComponent = graphComponent;
 		this.graphModel = graphModel;
 		this.interactiveView = interactiveView;
+		graphView.registerVertexMouseListener(this);
 	}
 
 	public void mouseClicked(MouseEvent e) {

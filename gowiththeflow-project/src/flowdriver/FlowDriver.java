@@ -47,10 +47,8 @@ public class FlowDriver {
 				interactiveView);
 		new MajorListener(graphModel, graphView, interactiveModel,
 				interactiveView);
-		VertexListener vertexListener = new VertexListener(graphModel, graphView, interactiveModel,
+		new VertexListener(graphModel, graphView, interactiveModel,
 				interactiveView, graphComponent);
-		graphView.registerVertexMouseListener(vertexListener);
-		
 	}
 }		
 
