@@ -1,4 +1,4 @@
-package CourseData;
+package flowdata;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

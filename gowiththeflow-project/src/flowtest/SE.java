@@ -1,4 +1,4 @@
-package GUI;
+package flowtest;
 
 public class SE {
 
