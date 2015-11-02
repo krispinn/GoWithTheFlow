@@ -3,7 +3,6 @@ package flowguimodellisteners;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-import flowguicontroller.FlowController;
 import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
 import flowguimodel.ListModel;
@@ -11,15 +10,21 @@ import flowguimodel.MajorModel;
 import flowguimodel.MxGraphComponentModel;
 import flowguimodel.MxGraphModel;
 import flowguiview.FlowView;
+import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
-public class UpdateSelectedMajorListener extends FlowController implements MouseListener{
+public class UpdateSelectedMajorListener implements MouseListener{
 
 	private ListModel listModel = new ListModel();
 	
-	public UpdateSelectedMajorListener(GraphModel graphModel, FlowView graphView, InteractiveModel interactiveModel,
-			InteractiveView interactiveView) {
-		super(graphModel, graphView, interactiveModel, interactiveView);
+	private GraphView graphView = null;
+	
+	private InteractiveView interactiveView;
+	public UpdateSelectedMajorListener(GraphModel graphModel, FlowView flowView, InteractiveModel interactiveModel,
+			InteractiveView interactiveView, GraphView graphView) {
+		//super(graphModel, flowView, interactiveModel, interactiveView);
+		this.graphView = graphView;
+		this.interactiveView = interactiveView;
 		interactiveView.registerUpdateSelectedMajorButton(this);
 	}
 

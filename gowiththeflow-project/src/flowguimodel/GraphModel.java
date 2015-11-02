@@ -19,7 +19,7 @@ public class GraphModel {
 		generateVertices();
 		generateEdges();
 		//printVertices();
-		//printEdges();
+		printEdges();
 	}
 
 	private void generateVertices() {

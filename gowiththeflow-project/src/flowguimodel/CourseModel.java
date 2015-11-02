@@ -117,6 +117,11 @@ public class CourseModel {
 	public String getSubjectNumber() {
 		return subject + " " + number;
 	}
+	
+	public String getFullName() {
+		return subject + " " + number + " " + name;
+	}
+	
 
 	public void update(String pre, String con) {
 		String tokens[] = pre.split(" ");

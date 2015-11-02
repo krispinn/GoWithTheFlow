@@ -1,16 +1,13 @@
 package flowdriver;
 
+import flowguicontroller.FlowController;
 import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
 import flowguimodel.MajorModel;
 import flowguimodel.MxGraphComponentModel;
 import flowguimodel.MxGraphModel;
-import flowguimodellisteners.CollegeListener;
-import flowguimodellisteners.DownloadListener;
-import flowguimodellisteners.MajorListener;
-import flowguimodellisteners.UpdateSelectedMajorListener;
-import flowguimodellisteners.VertexListener;
 import flowguiview.FlowView;
+import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
 /**
@@ -21,37 +18,25 @@ import flowguiview.InteractiveView;
  * 
  */
 public class FlowDriver {
-	
-/**
- * 
- * @param args
- * @throws Exception
- */
+
+	/**
+	 * 
+	 * @param args
+	 * @throws Exception
+	 */
 	public static void main(String[] args) throws Exception {
 
-		MajorModel majorModel = new MajorModel("data/courselists/sciences_mathematics.txt");
-		
+		MajorModel majorModel = new MajorModel("data/courselists/sciences_computerscience.txt");
+
 		GraphModel graphModel = new GraphModel(majorModel);
 		MxGraphModel mxgModel = new MxGraphModel(graphModel);
+		
 		MxGraphComponentModel graphComponent = new MxGraphComponentModel(mxgModel);
 		InteractiveModel interactiveModel = new InteractiveModel();
-		
 		InteractiveView interactiveView = new InteractiveView(interactiveModel);
-		FlowView graphView = new FlowView(interactiveView, graphComponent);
-		
-		//new FlowController(graphModel, graphView, interactiveModel, interactiveView);
-		
-		new DownloadListener(graphModel, graphView, interactiveModel,
-				interactiveView);
-		new CollegeListener(graphModel, graphView, interactiveModel,
-				interactiveView);
-		new MajorListener(graphModel, graphView, interactiveModel,
-				interactiveView);
-		new UpdateSelectedMajorListener(graphModel, graphView, interactiveModel,
-				interactiveView);
-		new VertexListener(graphModel, graphView, interactiveModel,
-				interactiveView, graphComponent);
-		
-	}
-}		
+		GraphView graphView = new GraphView(graphComponent);
+		FlowView flowView = new FlowView(interactiveView, graphComponent);
 
+		new FlowController(graphModel, flowView, interactiveModel, interactiveView, graphView, graphComponent);
+	}
+}

@@ -6,27 +6,30 @@ import java.awt.event.MouseListener;
 import com.mxgraph.model.mxCell;
 import com.mxgraph.swing.mxGraphComponent;
 
-import flowguicontroller.FlowController;
 import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
-import flowguiview.FlowView;
+import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
-public class VertexListener extends FlowController implements MouseListener {
+public class VertexListener implements MouseListener {
 
 	private mxGraphComponent graphComponent;
 	private GraphModel graphModel;
 	private InteractiveView interactiveView;
-
-	public VertexListener(GraphModel graphModel, FlowView graphView, InteractiveModel interactiveModel,
-			InteractiveView interactiveView, mxGraphComponent graphComponent) {
-		super(graphModel, graphView, interactiveModel, interactiveView);
+	private InteractiveModel interactiveModel;
+	
+	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel,
+			InteractiveView interactiveView, mxGraphComponent graphComponent, GraphView graphView) {
 		this.graphComponent = graphComponent;
 		this.graphModel = graphModel;
+		this.interactiveModel = interactiveModel;
 		this.interactiveView = interactiveView;
+		
 		graphView.registerVertexMouseListener(this);
 	}
 
+
+	
 	public void mouseClicked(MouseEvent e) {
 		Object cell = graphComponent.getCellAt(e.getX(), e.getY());
 

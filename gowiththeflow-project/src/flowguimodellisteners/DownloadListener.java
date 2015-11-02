@@ -3,20 +3,12 @@ package flowguimodellisteners;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-import javax.swing.JOptionPane;
-
 import flowdata.GenerateInfo;
-import flowguicontroller.FlowController;
-import flowguimodel.GraphModel;
-import flowguimodel.InteractiveModel;
-import flowguiview.FlowView;
 import flowguiview.InteractiveView;
 
-public class DownloadListener extends FlowController implements MouseListener{
+public class DownloadListener implements MouseListener{
 	
-	public DownloadListener(GraphModel graphModel, FlowView graphView,
-			InteractiveModel interactiveModel, InteractiveView interactiveView) {
-		super(graphModel, graphView, interactiveModel, interactiveView);
+	public DownloadListener(InteractiveView interactiveView) {
 		interactiveView.registerDownloadButton(this);
 	}
 

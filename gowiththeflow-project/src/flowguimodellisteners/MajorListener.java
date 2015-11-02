@@ -3,18 +3,17 @@ package flowguimodellisteners;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import flowguicontroller.FlowController;
-import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
-import flowguiview.FlowView;
 import flowguiview.InteractiveView;
 
-public class MajorListener extends FlowController implements ListSelectionListener {
+public class MajorListener implements ListSelectionListener {
 
-
-	public MajorListener(GraphModel graphModel, FlowView graphView,
-			InteractiveModel interactiveModel, InteractiveView interactiveView) {
-		super(graphModel, graphView, interactiveModel, interactiveView);
+	private InteractiveView interactiveView;
+	private InteractiveModel interactiveModel;
+	
+	public MajorListener(InteractiveModel interactiveModel, InteractiveView interactiveView) {
+		this.interactiveView = interactiveView;
+		this.interactiveModel = interactiveModel;
 		interactiveView.registerMajorListener(this);
 	}
 
