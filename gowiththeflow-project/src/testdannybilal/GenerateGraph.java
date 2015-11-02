@@ -63,6 +63,8 @@ public class GenerateGraph extends JFrame {
 		graphComponent.setConnectable(false);
 		graphComponent.setDragEnabled(false);
 		
+		graphComponent.setDragEnabled(false);
+		
 		// mxCompactTreeLayout Layout = new mxCompactTreeLayout(graph);
 		mxHierarchicalLayout layout = new mxHierarchicalLayout(graph);
 		layout.setInterRankCellSpacing(100);
@@ -84,5 +86,23 @@ public class GenerateGraph extends JFrame {
 
 			morph.startAnimation();
 		}
+		
+		
+		
+	
+		
+		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
