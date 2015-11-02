@@ -145,8 +145,8 @@ public class CourseModel {
 
 	@Override
 	public String toString() {
-		return subject + " " + number + " " + name + " | Prerequisites: " + prerequisiteList.toString()
-				+ " | Concurrent: " + concurrentList.toString() + " | Enroll Info: "
-				+ enrollmentInfo + " | Description: " + description + "]\n";
+		return subject + " " + number + "\n" + name + "\n\nPrerequisites: " + prerequisiteList.toString()
+				+ "\n\nConcurrent: " + concurrentList.toString() + "\n\nEnroll Info: "
+				+ enrollmentInfo + "\n\nDescription: " + description + "\n";
 	}
 }

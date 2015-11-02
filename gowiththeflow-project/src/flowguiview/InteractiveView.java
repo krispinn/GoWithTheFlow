@@ -70,6 +70,7 @@ public class InteractiveView extends JPanel {
 		this.add(graphButton);
 		
 		this.add(new JLabel("Course Information"));
+		jTextArea.setLineWrap(true);
 		jTextArea.setWrapStyleWord(true);
 		jTextArea.append("Test\nText\nTest\nText\nTest");
 		this.add(scrollPane);
@@ -77,7 +78,7 @@ public class InteractiveView extends JPanel {
 	} // end constructor
 
 	public void updateJTextArea(String update) {
-		jTextArea.
+		jTextArea.setText(update);
 	}
 	public void registerDownloadButton(DownloadListener listener) {
 		downloadButton.addMouseListener(listener);
