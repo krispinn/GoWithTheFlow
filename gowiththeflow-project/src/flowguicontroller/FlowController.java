@@ -21,9 +21,7 @@ public class FlowController implements MouseListener {
      * The model of this MVC
      */
 	private GraphModel graphModel;
-	
-	private ListModel listModel;
-	
+		
 	private FlowView graphView;
 	/** 
 	 * The view of this MVC
@@ -36,9 +34,8 @@ public class FlowController implements MouseListener {
 	
 	private JButton downloadButton;
 	
-	public FlowController(GraphModel graphModel, ListModel listModel, FlowView flowView, InteractiveView interactiveView) {
+	public FlowController(GraphModel graphModel, FlowView flowView, InteractiveView interactiveView) {
 		this.graphModel = graphModel;
-		this.listModel = listModel;
 		this.graphView = flowView;
 		this.interactiveView = interactiveView;
 		

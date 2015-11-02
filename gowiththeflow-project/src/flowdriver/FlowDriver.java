@@ -3,7 +3,7 @@ package flowdriver;
 import flowguicontroller.FlowController;
 import flowguicontroller.InteractiveController;
 import flowguimodel.GraphModel;
-import flowguimodel.ListModel;
+import flowguimodel.InteractiveModel;
 import flowguimodel.MajorModel;
 import flowguimodel.MxGraphComponentModel;
 import flowguimodel.MxGraphModel;
@@ -30,16 +30,16 @@ public class FlowDriver {
 
 		MajorModel majorModel = new MajorModel("data/courselists/sciences_mathematics.txt");
 		
-		GraphModel graphModel = new GraphModel(majorModel.getCourseModelList());
+		GraphModel graphModel = new GraphModel(majorModel);
 		MxGraphModel mxgModel = new MxGraphModel(graphModel);
 		MxGraphComponentModel graphComponent = new MxGraphComponentModel(mxgModel);
+		InteractiveModel interactiveModel = new InteractiveModel();
 		
-		ListModel listModel = new ListModel();
-		InteractiveView interactiveView = new InteractiveView(listModel);
+		InteractiveView interactiveView = new InteractiveView(interactiveModel);
 		FlowView flowView = new FlowView(interactiveView, graphComponent);
-		
-		InteractiveController interactiveController = new InteractiveController(interactiveView);
-		FlowController flowController = new FlowController(graphModel, listModel, flowView, interactiveView);
+		System.out.println("Hello");
+		InteractiveController interactiveController = new InteractiveController(interactiveView, interactiveModel);
+		FlowController flowController = new FlowController(graphModel, flowView, interactiveView);
 		
 	}
 }		

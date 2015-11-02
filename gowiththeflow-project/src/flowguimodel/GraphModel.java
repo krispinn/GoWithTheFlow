@@ -13,8 +13,9 @@ public class GraphModel {
 	private Map<String, CourseModel> listOfVertices = new LinkedHashMap<String, CourseModel>();
 	private Set<DirectedEdgeModel> listOfEdges = new LinkedHashSet<DirectedEdgeModel>();
 	
-	public GraphModel(ArrayList<CourseModel> listOfCourseModels) {
-		this.listOfCourses = listOfCourseModels;
+	public GraphModel(MajorModel majorModel) throws Exception {
+		
+		this.listOfCourses = majorModel.getCourseModelList();
 		generateVertices();
 		generateEdges();
 		//printVertices();
