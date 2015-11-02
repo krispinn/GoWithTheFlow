@@ -11,10 +11,10 @@ import flowguiview.InteractiveView;
  * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
  *         Cardenas
  */
-public class FlowController {
+public abstract class FlowController {
 
-	private GraphModel graphModel;
-	private FlowView graphView;
+	public GraphModel graphModel;
+	public FlowView graphView;
 	public InteractiveView interactiveView;
 	public InteractiveModel interactiveModel;
 

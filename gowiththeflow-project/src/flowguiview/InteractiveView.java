@@ -13,6 +13,7 @@ import flowguimodel.InteractiveModel;
 import flowguimodellisteners.CollegeListener;
 import flowguimodellisteners.DownloadListener;
 import flowguimodellisteners.MajorListener;
+import flowguimodellisteners.UpdateSelectedMajorListener;
 
 
 /**
@@ -39,7 +40,7 @@ public class InteractiveView extends JPanel {
 	private JButton downloadButton = new JButton("Download Course Information");
 	private JList<String> listOfColleges = null;
 	private JList<String> listOfMajors = null;
-	private JButton graphButton = new JButton("Update selected major");
+	private JButton graphButton = new JButton("Update Selected Major");
 	
 	private JTextArea jTextArea = new JTextArea();
 	private JScrollPane scrollPane = new JScrollPane(jTextArea);
@@ -53,9 +54,7 @@ public class InteractiveView extends JPanel {
 		this.interactiveModel = interactiveModel;
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 		this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Information"),
-				BorderFactory.createEmptyBorder(5, 5, 5, 150)));
-		//this.setPreferredSize(new Dimension(400, 800));
-		
+				BorderFactory.createEmptyBorder(5, 5, 5, 5)));
 		this.add(downloadButton);
 		
 		this.add(new JLabel("College"));
@@ -72,9 +71,9 @@ public class InteractiveView extends JPanel {
 		this.add(new JLabel("Course Information"));
 		jTextArea.setLineWrap(true);
 		jTextArea.setWrapStyleWord(true);
-		jTextArea.append("Test\nText\nTest\nText\nTest");
 		this.add(scrollPane);
 		
+
 	} // end constructor
 
 	public void updateJTextArea(String update) {
@@ -90,6 +89,10 @@ public class InteractiveView extends JPanel {
 	
 	public void registerMajorListener(MajorListener listener) {	
 		listOfMajors.addListSelectionListener(listener);
+	}
+	
+	public void registerUpdateSelectedMajorButton(UpdateSelectedMajorListener listener) {
+		graphButton.addMouseListener(listener);
 	}
 	
 	public String getSelectedCollege() {

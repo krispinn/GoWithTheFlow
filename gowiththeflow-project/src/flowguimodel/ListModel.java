@@ -68,6 +68,10 @@ public class ListModel {
 	public Map<String, String> getMajorToTextFileMap() {
 		return majorToTextFileMap;
 	}
+	
+	public String getMajorTextFilePath(String selected) {
+		return "data/courselists/" + majorToTextFileMap.get(selected);
+	}
 
 	public String[] getColleges() {
 		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap

@@ -1,6 +1,5 @@
 package flowdriver;
 
-import flowguicontroller.FlowController;
 import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
 import flowguimodel.MajorModel;
@@ -9,6 +8,7 @@ import flowguimodel.MxGraphModel;
 import flowguimodellisteners.CollegeListener;
 import flowguimodellisteners.DownloadListener;
 import flowguimodellisteners.MajorListener;
+import flowguimodellisteners.UpdateSelectedMajorListener;
 import flowguimodellisteners.VertexListener;
 import flowguiview.FlowView;
 import flowguiview.InteractiveView;
@@ -39,7 +39,7 @@ public class FlowDriver {
 		InteractiveView interactiveView = new InteractiveView(interactiveModel);
 		FlowView graphView = new FlowView(interactiveView, graphComponent);
 		
-		new FlowController(graphModel, graphView, interactiveModel, interactiveView);
+		//new FlowController(graphModel, graphView, interactiveModel, interactiveView);
 		
 		new DownloadListener(graphModel, graphView, interactiveModel,
 				interactiveView);
@@ -47,8 +47,11 @@ public class FlowDriver {
 				interactiveView);
 		new MajorListener(graphModel, graphView, interactiveModel,
 				interactiveView);
+		new UpdateSelectedMajorListener(graphModel, graphView, interactiveModel,
+				interactiveView);
 		new VertexListener(graphModel, graphView, interactiveModel,
 				interactiveView, graphComponent);
+		
 	}
 }		
 
