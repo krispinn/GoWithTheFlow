@@ -22,10 +22,6 @@ public class InteractiveModel {
 		}
 	}
 	
-	public String[] getMajors(String selected) {
-		return listModel.getMajorsArray(selected);
-	}
-	
 	public String[] getColleges() {
 		return listModel.getColleges();
 	}
@@ -36,5 +32,9 @@ public class InteractiveModel {
 	
 	public String getSelectedMajor() {
 		return selectedMajor;
+	}
+	
+	public DefaultListModel<String> getMajorList() {
+		return majors;
 	}
 }

@@ -6,14 +6,17 @@ import java.awt.event.MouseListener;
 import javax.swing.JOptionPane;
 
 import flowdata.GenerateInfo;
+import flowguicontroller.FlowController;
+import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
+import flowguiview.FlowView;
 import flowguiview.InteractiveView;
 
-public class DownloadListener extends ListenerModel implements MouseListener{
-
-	public DownloadListener(InteractiveView interactiveView,
-			InteractiveModel interactiveModel) {
-		super(interactiveView, interactiveModel);
+public class DownloadListener extends FlowController implements MouseListener{
+	
+	public DownloadListener(GraphModel graphModel, FlowView graphView,
+			InteractiveModel interactiveModel, InteractiveView interactiveView) {
+		super(graphModel, graphView, interactiveModel, interactiveView);
 		interactiveView.registerDownloadButton(this);
 	}
 
@@ -40,10 +43,8 @@ public class DownloadListener extends ListenerModel implements MouseListener{
 	public void mouseReleased(MouseEvent arg0) {
 		try {
 			new GenerateInfo();
-			JOptionPane.showMessageDialog(null, "Successfully downloaded data!");
 			System.out.println("Successfully downloaded data!");
 		} catch (Exception e1) {
-			JOptionPane.showMessageDialog(null, "Unable to download data!");
 			System.err.println("Unable to download data!");
 			e1.printStackTrace();
 		}

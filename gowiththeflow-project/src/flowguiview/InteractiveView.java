@@ -37,20 +37,20 @@ public class InteractiveView extends JPanel {
 	 */
 	
 	private JButton downloadButton = new JButton("Download Course Information");
+	private JList<String> listOfColleges = null;
+	private JList<String> listOfMajors = null;
+	private JButton graphButton = new JButton("Update selected major");
+	
 	private JTextArea jTextArea = new JTextArea();
 	private JScrollPane scrollPane = new JScrollPane(jTextArea);
 	private InteractiveModel interactiveModel = null;
 	
-	private JList<String> listOfColleges = null;
-	
-	private JList<String> listOfMajors = null;
 	
 	/**
 	 * Create and organize the components of the window.
 	 */
 	public InteractiveView(InteractiveModel interactiveModel) {
 		this.interactiveModel = interactiveModel;
-		
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 		this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Information"),
 				BorderFactory.createEmptyBorder(5, 5, 5, 150)));
@@ -63,9 +63,11 @@ public class InteractiveView extends JPanel {
 		this.add(listOfColleges);
 		
 		this.add(new JLabel("Major"));
-		//interactiveModel.setMajors("architecture");
-		listOfMajors = new JList<String>(interactiveModel.getMajors("architecture"));
+		interactiveModel.setMajors("architecture");
+		listOfMajors = new JList<String>(interactiveModel.getMajorList());
 		this.add(listOfMajors);
+		
+		this.add(graphButton);
 		
 		this.add(new JLabel("Course Information"));
 		jTextArea.setWrapStyleWord(true);
@@ -94,5 +96,9 @@ public class InteractiveView extends JPanel {
 	public String getSelectedMajor() {
 		return listOfMajors.getSelectedValue();
 	}	
+	
+	public void updateMajors(String selected) {
+		listOfMajors.setModel(interactiveModel.getMajorList());
+	}
 
 }

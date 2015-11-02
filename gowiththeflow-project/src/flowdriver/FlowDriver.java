@@ -1,14 +1,15 @@
 package flowdriver;
 
 import flowguicontroller.FlowController;
-import flowguicontroller.InteractiveController;
 import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
 import flowguimodel.MajorModel;
 import flowguimodel.MxGraphComponentModel;
 import flowguimodel.MxGraphModel;
 import flowguimodellisteners.CollegeListener;
+import flowguimodellisteners.DownloadListener;
 import flowguimodellisteners.MajorListener;
+import flowguimodellisteners.VertexListener;
 import flowguiview.FlowView;
 import flowguiview.InteractiveView;
 
@@ -38,13 +39,18 @@ public class FlowDriver {
 		InteractiveModel interactiveModel = new InteractiveModel();
 		
 		InteractiveView interactiveView = new InteractiveView(interactiveModel);
-		FlowView flowView = new FlowView(interactiveView, graphComponent);
+		FlowView graphView = new FlowView(interactiveView, graphComponent);
 		
-	//	CollegeListener collegeListener = new CollegeListener(interactiveView, interactiveModel);
-	//	MajorListener majorListener = new MajorListener(interactiveView, interactiveModel);
-		InteractiveController interactiveController = new InteractiveController(interactiveView, interactiveModel);
+		new FlowController(graphModel, graphView, interactiveModel, interactiveView);
 		
-		FlowController flowController = new FlowController(graphModel, flowView, interactiveView);
+		new DownloadListener(graphModel, graphView, interactiveModel,
+				interactiveView);
+		new CollegeListener(graphModel, graphView, interactiveModel,
+				interactiveView);
+		new MajorListener(graphModel, graphView, interactiveModel,
+				interactiveView);
+		new VertexListener(graphModel, graphView, interactiveModel,
+				interactiveView);
 		
 	}
 }		
