@@ -463,7 +463,7 @@ else {
 
 	<li>Requirements for direct admission to a College of Engineering major for transfer students who have earned 30 or more hours and have been admitted to the University:
 	<ol>
-		<li>Completed <span class="sc_courseinline"><a href="/search/?P=MAT 1214" title="MAT 1214" class="bubblelink code" onclick="return showCourse(this, 'MAT 1214');">MAT 1214</a> Calculus I</span>, or the equivalent with a grade of “C–” or better.</li>
+		<li>Completed <span class="sc_courseinline"><a href="/search/?P=MAT 1214" title="MAT 1214" class="bubblelink code" onclick="return showCourse(this, 'MAT 1214');">MAT 1214</a> Calculus I</span>, or the equivalent with a grade of “C–�? or better.</li>
 
 		<li>Meet GPA requirements:
 		<ol>
@@ -492,17 +492,17 @@ else {
 
 
 <a name="01Cc01301Dgraderule"></a>
-<h2>“C–” Grade Rule</h2>
+<h2>“C–�? Grade Rule</h2>
 
 
-<p>A grade of “D+” or lower in any science or mathematics course required for an engineering degree or any other course that is a prerequisite to a required Biomedical Engineering (BME), Civil Engineering (CE), Electrical Engineering (EE), Mechanical Engineering (ME), or Engineering (EGR) course indicates unsatisfactory preparation for further engineering education. Any such course in which a grade of “D+,” “D,” “D–,” “F,” or “W” is received must be repeated before enrolling in any course for which it is a prerequisite. This requirement is subject to the three-attempt limit.</p>
+<p>A grade of “D+�? or lower in any science or mathematics course required for an engineering degree or any other course that is a prerequisite to a required Biomedical Engineering (BME), Civil Engineering (CE), Electrical Engineering (EE), Mechanical Engineering (ME), or Engineering (EGR) course indicates unsatisfactory preparation for further engineering education. Any such course in which a grade of “D+,�? “D,�? “D–,�? “F,�? or “W�? is received must be repeated before enrolling in any course for which it is a prerequisite. This requirement is subject to the three-attempt limit.</p>
 
 
 <a name="three-attemptlimitforthecollegeofengineering"></a>
 <h2>Three-Attempt Limit for the College of Engineering</h2>
 
 
-<p>A student unable to achieve the minimum required grade in a required engineering course or in a prerequisite to a required engineering course within three enrollments (attempts) shall be required to change his or her major to a field outside of the College of Engineering. Enrollment in a course for a period of time sufficient for assignment of a grade, including a grade of “W,” is considered an attempt.</p>
+<p>A student unable to achieve the minimum required grade in a required engineering course or in a prerequisite to a required engineering course within three enrollments (attempts) shall be required to change his or her major to a field outside of the College of Engineering. Enrollment in a course for a period of time sufficient for assignment of a grade, including a grade of “W,�? is considered an attempt.</p>
 
 
 <a name="two-calculationgradepointaverage"></a>
@@ -541,7 +541,7 @@ else {
 <p>During their first semester, students should specify their interest in a specific engineering program by selecting biomedical, civil, computer, electrical, or mechanical engineering as a major. Undecided engineering students should select a major closest to their area of interest (refer to the following program descriptions). Students may obtain additional information about each program from their academic advisor or a faculty advisor in the appropriate department.</p>
 
 
-<p>Prerequisites for Biomedical Engineering (BME), Civil Engineering (CE), Computer Engineering (CpE), Electrical Engineering (EE), Mechanical Engineering (ME), and Engineering (EGR) courses must be completed with a grade of “C–” or better. A minimum grade of “C–” is required for all science and mathematics courses required in the Engineering programs. Students must satisfy the University’s Core Curriculum and ABET accreditation requirements. Recommended degree plans and current ABET requirements may be obtained from the College of Engineering.</p>
+<p>Prerequisites for Biomedical Engineering (BME), Civil Engineering (CE), Computer Engineering (CpE), Electrical Engineering (EE), Mechanical Engineering (ME), and Engineering (EGR) courses must be completed with a grade of “C–�? or better. A minimum grade of “C–�? is required for all science and mathematics courses required in the Engineering programs. Students must satisfy the University’s Core Curriculum and ABET accreditation requirements. Recommended degree plans and current ABET requirements may be obtained from the College of Engineering.</p>
 
 
 <p>All students admitted to the College of Engineering must complete at least 42 semester credit hours from their required major courses at UTSA before graduation.</p>
@@ -678,7 +678,7 @@ Kinetics of particles and plane rigid bodies, work and energy, impulse and momen
 <p class="courseblocktitle"><strong>EGR&#160;3303.  Engineering Co-op.  (0-0) 3 Credit Hours.</strong></p>
 <p class="courseblockdesc">
 Prerequisite: Acceptance into the Cooperative Education in Engineering Program.
-Designed for students participating in Cooperative Education in Engineering Program. Problems related to students’ work assignments during their work for co-op employers. No more than 3 semester credit hours of Engineering Co-op may apply to a bachelor’s degree. To apply 3 semester credit hours of Engineering Co-op as a technical elective toward a degree in engineering, a student must petition and get approval of a faculty advisor prior to co-op activities. The grade report for the course is either “CR” (satisfactory performance) or “NC” (unsatisfactory performance). Formerly EGR 3301.<br />
+Designed for students participating in Cooperative Education in Engineering Program. Problems related to students’ work assignments during their work for co-op employers. No more than 3 semester credit hours of Engineering Co-op may apply to a bachelor’s degree. To apply 3 semester credit hours of Engineering Co-op as a technical elective toward a degree in engineering, a student must petition and get approval of a faculty advisor prior to co-op activities. The grade report for the course is either “CR�? (satisfactory performance) or “NC�? (unsatisfactory performance). Formerly EGR 3301.<br />
 </p>
 </div><div class="courseblock">
 <p class="courseblocktitle"><strong>EGR&#160;3323.  Applied Engineering Analysis II.  (3-1) 3 Credit Hours.</strong></p>

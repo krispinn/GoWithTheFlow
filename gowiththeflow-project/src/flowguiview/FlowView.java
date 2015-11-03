@@ -1,12 +1,12 @@
 package flowguiview;
 
 import java.awt.BorderLayout;
+import java.awt.CardLayout;
+import java.awt.Frame;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
-
-import com.mxgraph.swing.mxGraphComponent;
 
 import flowguimodel.MxGraphComponentModel;
 
@@ -17,12 +17,6 @@ public class FlowView extends JFrame {
 	 */
 	private static final long serialVersionUID = -2707712944901661771L;
 	
-	private mxGraphComponent graphComponent;
-	
-	private FlowView instance;
-	
-	private InteractiveView interactiveView;
-	
 	private String purpose = "DISCLAIMER: This program is for informational purposes only. "
 			+ "Please refer to your academic advisor for degree and course planning.\n"
 			+ "GoWithTheFlow was developed by: Bilal Saddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, and Mostafa Dabas "
@@ -30,28 +24,37 @@ public class FlowView extends JFrame {
 
 	private GraphView graphView;
 	
-		public FlowView(InteractiveView interactiveView, MxGraphComponentModel graphComponent) throws Exception {
-		
+	private JPanel cards;
+	
+	public FlowView(InteractiveView interactiveView, MxGraphComponentModel graphComponent) throws Exception {
+	
 		super("GoWithTheFlow");
-		this.interactiveView = interactiveView;
+		
+		this.add(interactiveView, BorderLayout.EAST);
 		
 		JPanel info = new JPanel();
 		JTextArea infoArea = new JTextArea();
 		infoArea.setText(purpose);
 		infoArea.setWrapStyleWord(true);
 		info.add(infoArea);
-		
-		GraphView graphView = new GraphView(graphComponent);
-		this.add(graphView);
-		
-		this.add(interactiveView, BorderLayout.EAST);
 		this.add(info, BorderLayout.SOUTH);
+
+		graphView = new GraphView(graphComponent);
+		cards = new JPanel(new CardLayout());
+		cards.add(graphView);
+		this.add(cards);
 		
-		//this.pack();	
-		this.setSize(1366, 768);
+		this.setExtendedState(Frame.MAXIMIZED_BOTH);
 		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+	
+	}
+	
+	public void setGraph(GraphView graphView) {
+		cards.removeAll();
+		cards.add(graphView);
+		cards.validate();
+		cards.setVisible(true);
 	}
 	
 }

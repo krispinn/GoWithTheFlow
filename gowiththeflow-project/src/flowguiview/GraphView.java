@@ -1,7 +1,5 @@
 package flowguiview;
 
-import java.awt.EventQueue;
-
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JPanel;
@@ -27,17 +25,8 @@ public class GraphView extends JPanel{
 		graphComponent.getGraphControl().addMouseListener(listener);
 	}
 	
-	
 	public void setGraphComponent(final MxGraphComponentModel graphComponent) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					//instance = new FlowView(interactiveView, graphComponent);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
+		this.graphComponent = graphComponent;
 	}
 
 }

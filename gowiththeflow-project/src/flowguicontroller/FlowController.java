@@ -26,6 +26,7 @@ public class FlowController {
 	public InteractiveModel interactiveModel;
 	public GraphView graphView;
 	public MxGraphComponentModel graphComponent;
+	public VertexListener vertexListener;
 
 	public FlowController(GraphModel graphModel, FlowView flowView, InteractiveModel interactiveModel,
 			InteractiveView interactiveView, GraphView graphView, MxGraphComponentModel graphComponent) {
@@ -39,8 +40,11 @@ public class FlowController {
 		new DownloadListener(interactiveView);
 		new CollegeListener(interactiveModel, interactiveView);
 		new MajorListener(interactiveModel, interactiveView);
-		new VertexListener(graphModel, interactiveModel, interactiveView, graphComponent, graphView);
-		new UpdateSelectedMajorListener(graphModel, flowView, interactiveModel, interactiveView, graphView);
+		new UpdateSelectedMajorListener(this, graphModel, flowView, interactiveModel, interactiveView, graphView);
+		vertexListener = new VertexListener(graphModel, interactiveModel, interactiveView, graphComponent, graphView);
 	}
 
+	public void updateVertexListener(GraphModel graphModel, MxGraphComponentModel graphComponent, GraphView graphView) {
+		vertexListener = new VertexListener(graphModel, interactiveModel, interactiveView, graphComponent, graphView);
+	}
 }

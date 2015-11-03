@@ -3,6 +3,7 @@ package flowguimodellisteners;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
+import flowguicontroller.FlowController;
 import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
 import flowguimodel.ListModel;
@@ -20,9 +21,15 @@ public class UpdateSelectedMajorListener implements MouseListener{
 	private GraphView graphView = null;
 	
 	private InteractiveView interactiveView;
-	public UpdateSelectedMajorListener(GraphModel graphModel, FlowView flowView, InteractiveModel interactiveModel,
+		
+	private FlowView flowView;
+	
+	private FlowController flowController;
+	
+	public UpdateSelectedMajorListener(FlowController flowController, GraphModel graphModel, FlowView flowView, InteractiveModel interactiveModel,
 			InteractiveView interactiveView, GraphView graphView) {
-		//super(graphModel, flowView, interactiveModel, interactiveView);
+		this.flowController = flowController;
+		this.flowView = flowView;
 		this.graphView = graphView;
 		this.interactiveView = interactiveView;
 		interactiveView.registerUpdateSelectedMajorButton(this);
@@ -52,17 +59,22 @@ public class UpdateSelectedMajorListener implements MouseListener{
 		String selected = interactiveView.getSelectedMajor();
 		//System.out.println("Updating to: " +selected);
 		System.out.println(listModel.getMajorTextFilePath(selected));
-		MxGraphComponentModel graphComponent = null;
+		MajorModel majorModel = null;
+		GraphModel graphModel = null;
 		try {
-			MajorModel majorModel = new MajorModel(listModel.getMajorTextFilePath(selected));
-			GraphModel graphModel = new GraphModel(majorModel);
-			MxGraphModel mxgModel = new MxGraphModel(graphModel);
-			graphComponent = new MxGraphComponentModel(mxgModel);
+			majorModel = new MajorModel(listModel.getMajorTextFilePath(selected));
+			graphModel = new GraphModel(majorModel);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
+		MxGraphModel mxgModel = new MxGraphModel(graphModel);
+		MxGraphComponentModel graphComponent = new MxGraphComponentModel(mxgModel);
+		graphView = new GraphView(graphComponent);
 		
-		graphView.setGraphComponent(graphComponent);
+		
+		flowController.updateVertexListener(graphModel, graphComponent, graphView);
+		flowView.setGraph(graphView);
 	}
 
 }

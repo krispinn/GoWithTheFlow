@@ -27,10 +27,9 @@ public class FlowDriver {
 	public static void main(String[] args) throws Exception {
 
 		MajorModel majorModel = new MajorModel("data/courselists/sciences_computerscience.txt");
-
 		GraphModel graphModel = new GraphModel(majorModel);
 		MxGraphModel mxgModel = new MxGraphModel(graphModel);
-		
+				
 		MxGraphComponentModel graphComponent = new MxGraphComponentModel(mxgModel);
 		InteractiveModel interactiveModel = new InteractiveModel();
 		InteractiveView interactiveView = new InteractiveView(interactiveModel);
