@@ -36,6 +36,6 @@ public class FlowDriver {
 		GraphView graphView = new GraphView(graphComponent);
 		FlowView flowView = new FlowView(interactiveView, graphComponent);
 
-		new FlowController(graphModel, flowView, interactiveModel, interactiveView, graphView, graphComponent);
+		new FlowController(graphModel, flowView, interactiveModel, interactiveView, graphView, graphComponent, mxgModel);
 	}
 }

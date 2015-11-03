@@ -71,8 +71,6 @@ public class UpdateSelectedMajorListener implements MouseListener{
 		MxGraphModel mxgModel = new MxGraphModel(graphModel);
 		MxGraphComponentModel graphComponent = new MxGraphComponentModel(mxgModel);
 		graphView = new GraphView(graphComponent);
-		
-		
 		flowController.updateVertexListener(graphModel, graphComponent, graphView);
 		flowView.setGraph(graphView);
 	}

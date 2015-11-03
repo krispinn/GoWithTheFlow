@@ -37,7 +37,7 @@ public class InteractiveView extends JPanel {
 	 * a course
 	 */
 	
-	private JButton downloadButton = new JButton("Download Course Information");
+	private JButton downloadButton = new JButton("Update Course Information");
 	private JList<String> listOfColleges = null;
 	private JList<String> listOfMajors = null;
 	private JButton graphButton = new JButton("Update Selected Major");

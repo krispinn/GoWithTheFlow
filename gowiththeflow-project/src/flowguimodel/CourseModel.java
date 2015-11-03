@@ -121,7 +121,6 @@ public class CourseModel {
 	public String getFullName() {
 		return subject + " " + number + " " + name;
 	}
-	
 
 	public void update(String pre, String con) {
 		String tokens[] = pre.split(" ");

@@ -20,6 +20,8 @@ public class MxGraphComponentModel extends mxGraphComponent{
 		super(graph);
 		this.graph = graph;
 		this.update();
+		this.setEnabled(false);
+		this.graph.setCellsSelectable(true);
 	}
 	
 	public void update() {

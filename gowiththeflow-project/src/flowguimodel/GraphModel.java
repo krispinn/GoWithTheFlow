@@ -18,7 +18,7 @@ public class GraphModel {
 		this.listOfCourses = majorModel.getCourseModelList();
 		generateVertices();
 		generateEdges();
-		//printVertices();
+		printVertices();
 		printEdges();
 	}
 
@@ -29,6 +29,7 @@ public class GraphModel {
 	}
 
 	private void generateEdges() {
+
 		Iterator<CourseModel> it = listOfVertices.values().iterator();
 
 		while (it.hasNext()) {
@@ -40,7 +41,6 @@ public class GraphModel {
 			if (tempPrerequisiteList != null) {
 				for (int i = 0; i < tempPrerequisiteList.size(); i++) {
 					courseName = tempPrerequisiteList.get(i);
-
 					if (listOfVertices.containsKey(courseName)) {
 						DirectedEdgeModel e = new DirectedEdgeModel(listOfVertices.get(courseName), current,
 								listOfVertices.get(courseName).getNum(), current.getNum());
