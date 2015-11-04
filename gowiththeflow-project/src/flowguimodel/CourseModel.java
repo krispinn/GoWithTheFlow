@@ -25,7 +25,7 @@ public class CourseModel {
 	 * The name of the course (Calculus II, Application Programming, etc).
 	 */
 	private String name;
-
+	/////////////
 	private int vertexIndex;
 
 	/**

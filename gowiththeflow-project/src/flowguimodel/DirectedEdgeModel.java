@@ -1,5 +1,16 @@
 package flowguimodel;
 
+/**
+ * In the class below, we take to 'CourseModels' provided in the constructor and 
+ * use their relative indexes stored in the 'main CourseModel arraylist' to create links between them
+ * 
+ * @author zli781
+ *
+ */
+
+
+
+
 public class DirectedEdgeModel {
 
 	private CourseModel from;
