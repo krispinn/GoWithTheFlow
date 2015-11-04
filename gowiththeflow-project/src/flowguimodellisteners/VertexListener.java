@@ -61,7 +61,6 @@ public class VertexListener implements MouseListener, MouseMotionListener {
 			interactiveModel.setCourseInformation(info);
 			interactiveView.updateJTextArea(info);
 		}
-		
 	}
 
 	public void mouseEntered(MouseEvent e) {
