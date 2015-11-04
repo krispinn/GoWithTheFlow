@@ -4,25 +4,43 @@ import javax.swing.DefaultListModel;
 
 public class InteractiveModel {
 	
-	private ListModel listModel = new ListModel();
+	
+	/**
+	 * Below are the variables we use to construct the model 
+	 */
+	
+	private ListModel listModel = new ListModel();            //  we will be using this to get the majors
 		
-	private DefaultListModel<String> majors = new DefaultListModel<String>();
+	private DefaultListModel<String> majors = new DefaultListModel<String>();  // dynamic list model which refreshes as we go
 	
-	private String selectedMajor = "architecture";
+	private String selectedMajor;   // this is the major which is displayed by default
 	
-	private String courseInformation;
+	private String courseInformation;      // the course descriptions
 	
-	public InteractiveModel() {
+	
+	/**
+	 * empty constructor
+	 */
+	public InteractiveModel() {  
 		
 	}
+	
+	
+	/**
+	 *  
+	 */
 	
 	public void setMajors(String selected) {
-		majors.removeAllElements();
-		System.out.println(selected);
-		for(String s : listModel.getMajorsArray(selected)) {
-			majors.addElement(s);
+		majors.removeAllElements();               // remove previous list
+		System.out.println(selected);               
+		for(String s : listModel.getMajorsArray(selected)) {                
+			majors.addElement(s);                                   // populate the majors
 		}
 	}
+	
+	/**
+	 * 
+	 */
 	
 	public String[] getColleges() {
 		return listModel.getColleges();
@@ -40,9 +58,17 @@ public class InteractiveModel {
 		return majors;
 	}
 	
+	/**
+	 * The method returns the course description 
+	 */
+	
 	public String getCourseInformation() {
 		return courseInformation;
 	}
+	
+	/**
+	 * The method below sets the course description
+	 */
 	
 	public void setCourseInformation(String info) {
 		courseInformation = info;

@@ -154,9 +154,9 @@ public class FlowView extends JFrame implements ActionListener {
 		//String selected = interactiveView.getSelectedMajor();
 		//	model.setSelectedMajor(selected);
 		
-		view.updateMajors(selected);
+			view.updateMajors(selected);
 		//System.out.println(selected);
-	
+			
 	
 	}
 }

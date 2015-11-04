@@ -85,12 +85,17 @@ public class ListModel {
 
 		return list;
 	}
+	
+	/**
+	 * 
+	 * @param college - takes in the college
+	 * @return  returns a list of majors in that college
+	 */
 
 	public String[] getMajorsArray(String college) {
-		LinkedList<String> majors = collegeToMajorMap.get(college);
-		String[] list = new String[majors.size()];
-		list = majors.toArray(list);
+		LinkedList<String> majors = collegeToMajorMap.get(college);  //sets the majors' array to equal to the array pointed to by the index 
+		String[] list = new String[majors.size()];      // we use this to create a temp holder
+		list = majors.toArray(list);          // convert the majors linkedlist to a string array
 		return list;
 	}
-
 }
