@@ -1,4 +1,4 @@
-package flowdriver;
+package flowtest;
 
 import flowguicontroller.FlowController;    //
 import flowguimodel.GraphModel;

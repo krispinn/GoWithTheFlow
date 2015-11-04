@@ -1,10 +1,8 @@
-package flowguiview;
+package flowtest;
 
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
 import java.awt.Frame;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 
 import javax.swing.ButtonGroup;
@@ -15,11 +13,14 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JTextArea;
+import javax.swing.event.MenuListener;
 
 import flowguimodel.InteractiveModel;
 import flowguimodel.MxGraphComponentModel;
+import flowguiview.GraphView;
+import flowguiview.InteractiveView;
 
-public class FlowView extends JFrame implements ActionListener {
+public class FlowView extends JFrame {
 	
 	
 
@@ -143,20 +144,7 @@ public class FlowView extends JFrame implements ActionListener {
 	}
 	
 	
-	public void actionPerformed(ActionEvent command) {
-	
-		String selected = command.getActionCommand();
-		
-		//if(((JMenu)command.getSource()).isSelected())
-		//if(command.getSource().equals(menuBar1))
-			model.setMajors(selected);
-		//else
-		//String selected = interactiveView.getSelectedMajor();
-		//	model.setSelectedMajor(selected);
-		
-		view.updateMajors(selected);
-		//System.out.println(selected);
-	
-	
+	public void registerCollegeListener(JRadioButtonMenuItem button) {
+		menu1.addMenuListener(listener);
 	}
 }
