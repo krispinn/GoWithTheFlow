@@ -54,7 +54,7 @@ public class InteractiveView extends JPanel {
 		this.interactiveModel = interactiveModel;
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 		this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Information"),
-				BorderFactory.createEmptyBorder(5, 5, 5, 5)));
+				BorderFactory.createEmptyBorder(0, 0, 0, 5)));
 		this.add(downloadButton);
 		
 		this.add(new JLabel("College"));
