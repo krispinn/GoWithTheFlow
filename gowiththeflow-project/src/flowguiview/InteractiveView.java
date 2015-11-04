@@ -71,6 +71,7 @@ public class InteractiveView extends JPanel {
 		this.add(new JLabel("Course Information"));
 		jTextArea.setLineWrap(true);
 		jTextArea.setWrapStyleWord(true);
+		jTextArea.setEditable(false);
 		this.add(scrollPane);
 		
 

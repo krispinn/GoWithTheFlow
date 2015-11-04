@@ -3,7 +3,6 @@ package flowguiview;
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTextArea;
 
 public class DisclaimerView extends JPanel{
 
@@ -16,11 +15,7 @@ public class DisclaimerView extends JPanel{
 		
 		this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Disclaimer"),
 				BorderFactory.createEmptyBorder(0, 0, 0, 0)));
-		
 		JLabel jLabel = new JLabel(purpose);
-		JTextArea infoArea = new JTextArea();
-		infoArea.setText(purpose);
-		infoArea.setWrapStyleWord(true);
 		this.add(jLabel);
 		
 	}
