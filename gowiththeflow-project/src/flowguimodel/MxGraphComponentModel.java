@@ -27,6 +27,7 @@ public class MxGraphComponentModel extends mxGraphComponent{
 	public void update() {
 		this.setConnectable(false);
 		this.setDragEnabled(false);
+		this.setToolTips(true);
 		
 		mxHierarchicalLayout layout = new mxHierarchicalLayout(graph);
 		layout.setInterRankCellSpacing(100);
@@ -45,4 +46,10 @@ public class MxGraphComponentModel extends mxGraphComponent{
 			morph.startAnimation();
 		}
 	}
+	/*
+	@Override
+	public String getToolTipForCell(String info)
+	{
+		return info;
+	}*/
 }

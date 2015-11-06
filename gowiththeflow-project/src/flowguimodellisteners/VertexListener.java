@@ -2,7 +2,6 @@ package flowguimodellisteners;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
 
 import com.mxgraph.model.mxCell;
 import com.mxgraph.util.mxConstants;
@@ -14,7 +13,7 @@ import flowguimodel.MxGraphModel;
 import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
-public class VertexListener implements MouseListener, MouseMotionListener {
+public class VertexListener implements MouseListener {
 
 	private MxGraphComponentModel graphComponent;
 	private GraphModel graphModel;
@@ -22,51 +21,48 @@ public class VertexListener implements MouseListener, MouseMotionListener {
 	private InteractiveModel interactiveModel;
 	private MxGraphModel mxg;
 	private GraphView graphView;
-	
-	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel,
-			InteractiveView interactiveView, MxGraphComponentModel graphComponent, GraphView graphView, MxGraphModel mxg) {
+
+	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel, InteractiveView interactiveView,
+			MxGraphComponentModel graphComponent, GraphView graphView, MxGraphModel mxg) {
 		this.graphComponent = graphComponent;
 		this.graphModel = graphModel;
 		this.interactiveModel = interactiveModel;
 		this.interactiveView = interactiveView;
 		this.mxg = mxg;
 		this.graphView = graphView;
-		
+
 		graphView.registerVertexMouseListener(this);
 	}
 
-
-	
 	public void mouseClicked(MouseEvent e) {
 		Object cell = graphComponent.getCellAt(e.getX(), e.getY());
 		Object[] cells = mxg.getChildVertices(mxg.getDefaultParent());
 		for (Object o : cells) {
-			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[]{o});
+			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { o });
 		}
-		
-		/* NON WORKING CHANGE COLOR OF CHILDREN/PARENTS
-		Object[] childrenCells = mxg.getConnections(cell);
-		for (Object f : childrenCells) {
-			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[]{f});
-		}*/
-		
-		
-		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[]{cell});
-		
+
+		/*
+		 * NON WORKING CHANGE COLOR OF CHILDREN/PARENTS Object[] childrenCells =
+		 * mxg.getConnections(cell); for (Object f : childrenCells) {
+		 * mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new
+		 * Object[]{f}); }
+		 */
+
+		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[] { cell });
+
 		graphComponent.refresh();
-		
+
 		if (cell != null && cell instanceof mxCell) {
-			String something = ((mxCell) cell).getValue().toString();
-			String info = graphModel.returnCourseModel(something);
+			String info = graphModel.returnCourseModel(((mxCell) cell).getValue().toString());
 			interactiveModel.setCourseInformation(info);
 			interactiveView.updateJTextArea(info);
+
 		}
-		
+
 	}
 
 	public void mouseEntered(MouseEvent e) {
-
-
+		// do nothing
 	}
 
 	public void mouseExited(MouseEvent e) {
@@ -82,19 +78,6 @@ public class VertexListener implements MouseListener, MouseMotionListener {
 	public void mouseReleased(MouseEvent e) {
 		// do nothing
 
-	}
-
-
-
-	public void mouseDragged(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-
-	public void mouseMoved(MouseEvent e) {
-        
 	}
 
 }

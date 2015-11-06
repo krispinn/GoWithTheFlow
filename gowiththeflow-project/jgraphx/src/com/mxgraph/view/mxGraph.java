@@ -5286,7 +5286,7 @@ public class mxGraph extends mxEventSource
 	 */
 	public String getToolTipForCell(Object cell)
 	{
-		return convertValueToString(cell);
+		return cell.toString();
 	}
 
 	/**
