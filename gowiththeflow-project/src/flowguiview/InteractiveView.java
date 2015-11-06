@@ -1,11 +1,19 @@
 package flowguiview;
 
+import java.awt.event.KeyEvent;
+
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
+import javax.swing.ButtonGroup;
 import javax.swing.JButton;
+import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JLabel;
 import javax.swing.JList;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
+import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
@@ -47,6 +55,7 @@ public class InteractiveView extends JPanel {
 	private InteractiveModel interactiveModel = null;
 	
 	
+	
 	/**
 	 * Create and organize the components of the window.
 	 */
@@ -71,9 +80,9 @@ public class InteractiveView extends JPanel {
 		this.add(new JLabel("Course Information"));
 		jTextArea.setLineWrap(true);
 		jTextArea.setWrapStyleWord(true);
+		jTextArea.setEditable(false);
 		this.add(scrollPane);
 		
-
 	} // end constructor
 
 	public void updateJTextArea(String update) {
