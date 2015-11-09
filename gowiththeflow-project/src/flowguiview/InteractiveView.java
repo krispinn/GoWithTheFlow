@@ -1,19 +1,12 @@
 package flowguiview;
 
-import javax.swing.BorderFactory;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
+import javax.swing.*;
 
 import flowguimodel.InteractiveModel;
 import flowguimodellisteners.CollegeListener;
 import flowguimodellisteners.DownloadListener;
 import flowguimodellisteners.MajorListener;
+import flowguimodellisteners.RecitationListener;
 import flowguimodellisteners.UpdateSelectedMajorListener;
 
 
@@ -42,7 +35,7 @@ public class InteractiveView extends JPanel {
 	private JList<String> listOfColleges = null;
 	private JList<String> listOfMajors = null;
 	private JButton graphButton = new JButton("Update Selected Major");
-	private JRadioButton recitationButton = new JRadioButton("Show Recitations");
+	private JCheckBox recitationButton = new JCheckBox("Show Recitations");
 	
 	private JTextArea jTextArea = new JTextArea();
 	private JScrollPane scrollPane = new JScrollPane(jTextArea);
@@ -58,7 +51,9 @@ public class InteractiveView extends JPanel {
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 		this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Information"),
 				BorderFactory.createEmptyBorder(0, 0, 0, 0)));
+		
 		this.add(downloadButton);
+		this.add(recitationButton);
 		
 		this.add(new JLabel("College"));
 		listOfColleges = new JList<String>(interactiveModel.getColleges());
@@ -82,8 +77,13 @@ public class InteractiveView extends JPanel {
 	public void updateJTextArea(String update) {
 		jTextArea.setText(update);
 	}
+	
 	public void registerDownloadButton(DownloadListener listener) {
 		downloadButton.addMouseListener(listener);
+	}
+	
+	public void registerRecitationButton(RecitationListener listener) {
+		recitationButton.addActionListener(listener);
 	}
 	
 	public void registerCollegeListener(CollegeListener listener) {
