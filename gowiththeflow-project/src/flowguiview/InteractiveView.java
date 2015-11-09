@@ -35,7 +35,7 @@ public class InteractiveView extends JPanel {
 	private JList<String> listOfColleges = null;
 	private JList<String> listOfMajors = null;
 	private JButton graphButton = new JButton("Update Selected Major");
-	private JCheckBox recitationButton = new JCheckBox("Show Recitations");
+	private JCheckBox recitationButton = new JCheckBox("Hide Recitations");
 	
 	private JTextArea jTextArea = new JTextArea();
 	private JScrollPane scrollPane = new JScrollPane(jTextArea);
@@ -53,7 +53,6 @@ public class InteractiveView extends JPanel {
 				BorderFactory.createEmptyBorder(0, 0, 0, 0)));
 		
 		this.add(downloadButton);
-		this.add(recitationButton);
 		
 		this.add(new JLabel("College"));
 		listOfColleges = new JList<String>(interactiveModel.getColleges());
@@ -65,6 +64,7 @@ public class InteractiveView extends JPanel {
 		this.add(listOfMajors);
 		
 		this.add(graphButton);
+		this.add(recitationButton);
 		
 		this.add(new JLabel("Course Information"));
 		jTextArea.setLineWrap(true);
