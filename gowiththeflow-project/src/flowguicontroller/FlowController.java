@@ -7,6 +7,7 @@ import flowguimodel.MxGraphModel;
 import flowguimodellisteners.CollegeListener;
 import flowguimodellisteners.DownloadListener;
 import flowguimodellisteners.MajorListener;
+import flowguimodellisteners.RecitationListener;
 import flowguimodellisteners.UpdateSelectedMajorListener;
 import flowguimodellisteners.VertexListener;
 import flowguiview.FlowView;
@@ -44,6 +45,7 @@ public class FlowController {
 		new CollegeListener(interactiveModel, interactiveView);
 		new MajorListener(interactiveModel, interactiveView);
 		new UpdateSelectedMajorListener(this, graphModel, flowView, interactiveModel, interactiveView, graphView);
+		new RecitationListener(interactiveModel, interactiveView);
 		vertexListener = new VertexListener(graphModel, interactiveModel, interactiveView, graphComponent, graphView, mxg);
 	}
 

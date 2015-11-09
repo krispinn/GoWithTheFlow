@@ -80,7 +80,7 @@ public class CourseToTxt {
 
 			// if there was a pattern match, write the data to the output file
 			if (courseData.find()) {
-				//if (!courseData.group(2).substring(3, 4).equals("1")) {
+				if (!courseData.group(2).substring(3, 4).equals("1")) {
 					bw.write(courseData.group(1) + " | " + courseData.group(2) + " | "
 							+ courseData.group(3));
 	
@@ -103,7 +103,7 @@ public class CourseToTxt {
 					}
 					// move to the next line so that each course will be on its own line
 					bw.newLine();
-				//}
+				}
 			} // end if statement inside while loop
 		} // end while loop
 		in.close();
