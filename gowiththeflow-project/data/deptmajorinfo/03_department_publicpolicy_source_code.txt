@@ -444,16 +444,16 @@
 			<p>
 				<em>The PDF will include all information unique to this page.</em>
 			</p>
-		</div>
-		<div class="print-option">
+<div class="print-option">
 			<div class="option-head">
-				Download PDF of the entire publication (XX MB)
+				Download PDF of the entire catalog
 			</div>
-			<p>
-				<em>All pages in the publication.</em>
-			</p>
+			<ul>
+				<li><a href="/pdf/2015-16-information.pdf" target="_blank">2015-2016 Information Bulletin PDF</a></li>
+				<li><a href="/pdf/2015-16-undergraduate.pdf" target="_blank">2015-2016 Undergraduate Catalog PDF</a></li>
+				<li><a href="/pdf/2015-17-graduate.pdf" target="_blank">2015-2017 Graduate Catalog PDF</a></li>
+			</ul>
 		</div>
-	</div>
 	<div class="buttons clearfix">
 		<div class="cancel">
 			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>

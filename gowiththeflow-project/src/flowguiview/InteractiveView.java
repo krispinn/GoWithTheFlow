@@ -1,19 +1,12 @@
 package flowguiview;
 
-import java.awt.event.KeyEvent;
-
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
 import javax.swing.JButton;
-import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JLabel;
 import javax.swing.JList;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
 import javax.swing.JPanel;
-import javax.swing.JRadioButtonMenuItem;
+import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
@@ -49,6 +42,7 @@ public class InteractiveView extends JPanel {
 	private JList<String> listOfColleges = null;
 	private JList<String> listOfMajors = null;
 	private JButton graphButton = new JButton("Update Selected Major");
+	private JRadioButton recitationButton = new JRadioButton("Show Recitations");
 	
 	private JTextArea jTextArea = new JTextArea();
 	private JScrollPane scrollPane = new JScrollPane(jTextArea);
