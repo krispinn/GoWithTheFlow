@@ -83,17 +83,15 @@ public class MxGraphModel extends mxGraph {
 	public String getToolTipForCell(Object cell) {
 		try {
 			if (cell != null && cell instanceof mxCell) {
-				return graphModel.returnCourseModel(((mxCell) cell).getValue().toString());
-				// return "<html>" + "asdfadfasdfadfadfs" + "<br>" + "asdfasdfasdfadsf" + "</html>";
-				// In order to make the tooltip multiple lines we need to splice each string individually
+				String tooltip = graphModel.returnCourseModel(((mxCell) cell).getValue().toString());
+				tooltip = tooltip.replaceAll("(\\r\\n|\\n)", "<br>");
+				return ("<html> <p width=\"400\">" + tooltip + "</p></html>");
 			} else {
 				return "";
 			}
 		} catch (NullPointerException e) {
 			// deals with the error that shows up when the user hovers on an
 			// edge
-			// return e.toString(); // will show the error whenever an edge is
-			// hovered on LOL
 			return "";
 		}
 	}
