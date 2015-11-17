@@ -64,7 +64,7 @@ public class MajorModel {
 			String courseDescription = tokens[6].trim();
 			//this is where the checkbox affects the flowchart
 			if(this.recitationCheck == 0) {
-				if(!(courseName.endsWith("Recitation"))){
+				if((!(courseName.endsWith("Recitation"))) || (!(courseName.endsWith("Laboratory")))){
 					CourseModel course = new CourseModel(subject, courseNumber, courseName, prerequisiteCourses,
 							concurrentEnrollment, courseDescription, courseEnrollmentInfo, num++);
 					listOfCourses.add(course);
