@@ -34,7 +34,7 @@ public class DownloadListener implements MouseListener{
 
 	public void mouseReleased(MouseEvent arg0) {
 		try {
-			new GenerateInfo(1);
+			new GenerateInfo();
 			System.out.println("Successfully downloaded data!(1)");
 		} catch (Exception e1) {
 			System.err.println("Unable to download data!");

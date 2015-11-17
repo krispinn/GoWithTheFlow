@@ -37,10 +37,9 @@ public class CourseToTxt {
 	 *            the subject of the courses to be generated
 	 * @throws Exception
 	 */
-	public CourseToTxt(String department, String major, int check) throws Exception {
+	public CourseToTxt(String department, String major) throws Exception {
 		this.department = department;
 		this.major = major;
-		this.check = check;
 		generateCourses();
 	}
 
