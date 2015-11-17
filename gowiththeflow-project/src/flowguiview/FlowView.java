@@ -136,7 +136,6 @@ public class FlowView extends JFrame implements ActionListener {
 		cards.setVisible(true);
 	}
 	
-	
 	public void actionPerformed(ActionEvent command) {
 	
 		String selected = command.getActionCommand();
@@ -150,7 +149,5 @@ public class FlowView extends JFrame implements ActionListener {
 		
 			view.updateMajors(selected);
 		//System.out.println(selected);
-			
-	
 	}
 }

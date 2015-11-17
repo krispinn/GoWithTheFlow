@@ -26,7 +26,7 @@ public class FlowDriver {
 	 */
 	public static void main(String[] args) throws Exception {
 
-		MajorModel majorModel = new MajorModel("data/courselists/sciences_computerscience.txt");
+		MajorModel majorModel = new MajorModel("data/courselists/sciences_computerscience.txt", 1);
 		GraphModel graphModel = new GraphModel(majorModel);
 		MxGraphModel mxgModel = new MxGraphModel(graphModel);
 				

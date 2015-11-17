@@ -62,7 +62,7 @@ public class UpdateSelectedMajorListener implements MouseListener{
 		MajorModel majorModel = null;
 		GraphModel graphModel = null;
 		try {
-			majorModel = new MajorModel(listModel.getMajorTextFilePath(selected));
+			majorModel = new MajorModel(listModel.getMajorTextFilePath(selected), 1);
 			graphModel = new GraphModel(majorModel);
 		} catch (Exception e) {
 			e.printStackTrace();
