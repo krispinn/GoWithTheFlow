@@ -67,17 +67,14 @@ public class VertexListener implements MouseListener {
 
 	public void mouseExited(MouseEvent e) {
 		// do nothing
-
 	}
 
 	public void mousePressed(MouseEvent e) {
 		// do nothing
-
 	}
 
 	public void mouseReleased(MouseEvent e) {
 		// do nothing
-
 	}
 
 }

@@ -25,7 +25,7 @@ public class FlowDriver {
 	 * @throws Exception
 	 */
 	public static void main(String[] args) throws Exception {
-
+		/*Ideally we start the program so that student selects the department and major.*/
 		MajorModel majorModel = new MajorModel("data/courselists/sciences_computerscience.txt", 1);
 		GraphModel graphModel = new GraphModel(majorModel);
 		MxGraphModel mxgModel = new MxGraphModel(graphModel);

@@ -5,7 +5,6 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JCheckBox;
 
-import flowdata.GenerateInfo;
 import flowguicontroller.FlowController;
 import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
@@ -16,7 +15,12 @@ import flowguimodel.MxGraphModel;
 import flowguiview.FlowView;
 import flowguiview.GraphView;
 import flowguiview.InteractiveView;
-
+/**
+ * works similar to UpdateSelectedMajorListener.java because it redraws the map
+ * when the user clicks the Show/Hide Recitations.
+ * @author Jason
+ *
+ */
 public class RecitationListener implements ActionListener {
 
 	private ListModel listModel = new ListModel();
@@ -37,7 +41,9 @@ public class RecitationListener implements ActionListener {
 		this.interactiveView = interactiveView;
 		interactiveView.registerRecitationButton(this);
 	}
-	
+	/**
+	 * when the checkbox is selected the a brand new courselist is created and redrawn
+	 */
 	public void actionPerformed(ActionEvent e) {
 		JCheckBox cb = (JCheckBox) e.getSource();
 		try {

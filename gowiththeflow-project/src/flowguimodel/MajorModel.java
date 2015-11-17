@@ -42,6 +42,7 @@ public class MajorModel {
 
 	/**
 	 * Reads in and parses the data from the file and populates the ArrayList.
+	 * Depending on if the recitation check box is clicked the flow is built.
 	 * 
 	 * @return an ArrayList containing the info for all the courses of a single major
 	 * @throws Exception

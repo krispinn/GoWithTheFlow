@@ -46,7 +46,7 @@ public class FlowController {
 		new MajorListener(interactiveModel, interactiveView);
 		new UpdateSelectedMajorListener(this, graphModel, flowView, interactiveModel, interactiveView, graphView);
 		new RecitationListener(this, graphModel, flowView, interactiveModel, interactiveView, graphView);
-		vertexListener = new VertexListener(graphModel, interactiveModel, interactiveView, graphComponent, graphView, mxg);
+		new VertexListener(graphModel, interactiveModel, interactiveView, graphComponent, graphView, mxg);
 	}
 
 	public void updateVertexListener(GraphModel graphModel, MxGraphComponentModel graphComponent, GraphView graphView) {
