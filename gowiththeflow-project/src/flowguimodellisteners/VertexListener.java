@@ -37,6 +37,7 @@ public class VertexListener implements MouseListener {
 	public void mouseClicked(MouseEvent e) {
 		Object cell = graphComponent.getCellAt(e.getX(), e.getY());
 		Object[] cells = mxg.getChildVertices(mxg.getDefaultParent());
+		
 		for (Object o : cells) {
 			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { o });
 		}
@@ -44,7 +45,7 @@ public class VertexListener implements MouseListener {
 		/*
 		 * NON WORKING CHANGE COLOR OF CHILDREN/PARENTS Object[] childrenCells =
 		 * mxg.getConnections(cell); for (Object f : childrenCells) {
-		 * mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new
+		 * mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", ne
 		 * Object[]{f}); }
 		 */
 
@@ -56,9 +57,7 @@ public class VertexListener implements MouseListener {
 			String info = graphModel.returnCourseModel(((mxCell) cell).getValue().toString());
 			interactiveModel.setCourseInformation(info);
 			interactiveView.updateJTextArea(info);
-
 		}
-
 	}
 
 	public void mouseEntered(MouseEvent e) {

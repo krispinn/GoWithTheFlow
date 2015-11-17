@@ -27,10 +27,6 @@ public class CourseToTxt {
 	 */
 	private String major;
 	
-	/**
-	 * The integer check to show/hide Recitations.
-	 */
-	private int check;
 
 	/**
 	 * The constructor initializes the fields and calls a function to generate the course list.

@@ -23,10 +23,7 @@ public class GenerateInfo {
 			Arrays.asList("generalinformation", "bachelorsdegreeregulations", "certificateprograms",
 					"universitycollege", "honorscollege", "coursedescriptions", "texascommoncoursenumberingsystem",
 					"nationalstandardizedtests", "faculty", "azindex"));
-	private int check;
-
-	public GenerateInfo(int check) throws Exception {
-		this.check = check;
+	public GenerateInfo() throws Exception {
 		step1();
 		step2();
 		step3();
@@ -139,7 +136,7 @@ public class GenerateInfo {
 		while (allListReader.ready()) {
 			String departmentAndMajor2 = allListReader.readLine();
 			token = departmentAndMajor2.split("\\s");
-			new CourseToTxt(token[0], token[1], this.check);
+			new CourseToTxt(token[0], token[1]);
 		}
 		allListReader.close();
 		System.out.println("Step 6");
