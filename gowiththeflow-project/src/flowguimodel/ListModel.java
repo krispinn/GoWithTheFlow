@@ -35,7 +35,8 @@ public class ListModel {
 	private ArrayList<String> colleges = new ArrayList<String>();
 
 	/**
-	 * Calls ListModel's update method to populate the Model's variables
+	 * Calls ListModel's update method to create a brand new ListModel that
+	 * contains two maps and an ArrayList
 	 */
 	public ListModel() {
 		update();

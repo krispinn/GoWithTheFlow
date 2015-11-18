@@ -3,6 +3,9 @@ package flowguimodel;
 import javax.swing.DefaultListModel;
 
 /**
+ * This class contains the information that is used by the interactive view of
+ * the display. Holds a list of the Colleges of Study, a List of each of the
+ * college's majors, and a selected course's information/description.
  * 
  * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
  *         Blig
@@ -11,7 +14,8 @@ import javax.swing.DefaultListModel;
 public class InteractiveModel {
 
 	/**
-	 * This variable is used to obtain the majors
+	 * This variable contains two maps and an ArrayList used to get linking
+	 * information for the majors
 	 */
 	private ListModel listModel = new ListModel();
 
@@ -38,29 +42,37 @@ public class InteractiveModel {
 	}
 
 	/**
+	 * Sets up the majors ListModel and populates it with various majors
 	 * 
 	 * @param selected
+	 *            the currently selected major
 	 */
 	public void setMajors(String selected) {
-		majors.removeAllElements(); // remove previous list
+
+		// remove previous list
+		majors.removeAllElements();
 		System.out.println(selected);
+
+		// population the majors
 		for (String s : listModel.getMajorsArray(selected)) {
-			majors.addElement(s); // populate the majors
+			majors.addElement(s);
 		}
 	}
 
 	/**
+	 * Returns the list of colleges of study
 	 * 
-	 * @return
+	 * @return a String[] that contains the colleges of study
 	 */
 	public String[] getColleges() {
 		return listModel.getColleges();
 	}
 
 	/**
+	 * Changes the currently selected major to a new value
 	 * 
 	 * @param selected
-	 * 
+	 *            new selected major
 	 */
 	public void setSelectedMajor(String selected) {
 		selectedMajor = selected;
