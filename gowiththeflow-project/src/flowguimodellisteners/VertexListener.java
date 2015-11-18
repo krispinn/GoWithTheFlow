@@ -15,15 +15,40 @@ import flowguiview.InteractiveView;
 
 public class VertexListener implements MouseListener {
 
+	/**
+	 * 
+	 */
 	private MxGraphComponentModel graphComponent;
+	
+	/**
+	 * 
+	 */
 	private GraphModel graphModel;
+	
+	/**
+	 * 
+	 */
 	private InteractiveView interactiveView;
+	
+	/**
+	 * 
+	 */
 	private InteractiveModel interactiveModel;
+	
+	/**
+	 * 
+	 */
 	private MxGraphModel mxg;
+	
+	/**
+	 * 
+	 */
 	private GraphView graphView;
 
-	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel, InteractiveView interactiveView,
-			MxGraphComponentModel graphComponent, GraphView graphView, MxGraphModel mxg) {
+	
+	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel,
+			InteractiveView interactiveView, MxGraphComponentModel graphComponent,
+			GraphView graphView, MxGraphModel mxg) {
 		this.graphComponent = graphComponent;
 		this.graphModel = graphModel;
 		this.interactiveModel = interactiveModel;
@@ -34,20 +59,22 @@ public class VertexListener implements MouseListener {
 		graphView.registerVertexMouseListener(this);
 	}
 
+	
 	public void mouseClicked(MouseEvent e) {
 		Object cell = graphComponent.getCellAt(e.getX(), e.getY());
 		Object[] cells = mxg.getChildVertices(mxg.getDefaultParent());
+		//Object[] kids = mxg.getChildVertices(cell);
 		
 		for (Object o : cells) {
 			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { o });
 		}
 
-		/*
-		 * NON WORKING CHANGE COLOR OF CHILDREN/PARENTS Object[] childrenCells =
-		 * mxg.getConnections(cell); for (Object f : childrenCells) {
-		 * mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", ne
-		 * Object[]{f}); }
-		 */
+		 
+		Object[] childrenCells = mxg.getChildVertices(cell);
+		for (Object f : childrenCells) {
+			System.out.println(f);
+			//mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "red", new Object[] { f });
+		}
 
 		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[] { cell });
 
@@ -60,6 +87,7 @@ public class VertexListener implements MouseListener {
 		}
 	}
 
+	
 	public void mouseEntered(MouseEvent e) {
 		// do nothing
 	}
