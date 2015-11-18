@@ -64,25 +64,21 @@ public class MajorModel {
 			String concurrentEnrollment = tokens[4].trim();
 			String courseEnrollmentInfo = tokens[5].trim();
 			String courseDescription = tokens[6].trim();
+			
 			// this is where the check box affects the flowchart
 			if (this.recitationCheck == 0) {
-				if (!(courseName.contains("Recitation"))) {
+				if ((!(courseName.contains("Recitation") || (courseName.contains("Lab"))))) {
+
+					CourseModel course = new CourseModel(subject, courseNumber, courseName, prerequisiteCourses,
+							concurrentEnrollment, courseDescription, courseEnrollmentInfo, num++);
+					listOfCourses.add(course); 
+				}
+			} else {
 					CourseModel course = new CourseModel(subject, courseNumber, courseName, prerequisiteCourses,
 							concurrentEnrollment, courseDescription, courseEnrollmentInfo, num++);
 					listOfCourses.add(course);
-				} /*
-					 * if(!(courseName.contains("Laboratory"))) { CourseModel
-					 * course = new CourseModel(subject, courseNumber,
-					 * courseName, prerequisiteCourses, concurrentEnrollment,
-					 * courseDescription, courseEnrollmentInfo, num++);
-					 * listOfCourses.add(course); }
-					 */
-			} else {
-				CourseModel course = new CourseModel(subject, courseNumber, courseName, prerequisiteCourses,
-						concurrentEnrollment, courseDescription, courseEnrollmentInfo, num++);
-				listOfCourses.add(course);
+				}
 			}
-		}
 		bufferedReader.close();
 	}
 

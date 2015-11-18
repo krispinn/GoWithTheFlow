@@ -13,17 +13,47 @@ import flowguimodel.MxGraphModel;
 import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
+/**
+ * 
+ * @author zli781
+ *
+ */
+
 public class VertexListener implements MouseListener {
 
+	/**
+	 * 
+	 */
 	private MxGraphComponentModel graphComponent;
+
+	/**
+	 * 
+	 */
 	private GraphModel graphModel;
+
+	/**
+	 * 
+	 */
 	private InteractiveView interactiveView;
+
+	/**
+	 * 
+	 */
 	private InteractiveModel interactiveModel;
+
+	/**
+	 * 
+	 */
 	private MxGraphModel mxg;
+
+	/**
+	 * 
+	 */
 	private GraphView graphView;
 
-	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel, InteractiveView interactiveView,
-			MxGraphComponentModel graphComponent, GraphView graphView, MxGraphModel mxg) {
+	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel,
+			InteractiveView interactiveView, MxGraphComponentModel graphComponent,
+			GraphView graphView, MxGraphModel mxg) {
 		this.graphComponent = graphComponent;
 		this.graphModel = graphModel;
 		this.interactiveModel = interactiveModel;
@@ -36,42 +66,55 @@ public class VertexListener implements MouseListener {
 
 	public void mouseClicked(MouseEvent e) {
 		Object cell = graphComponent.getCellAt(e.getX(), e.getY());
-		Object[] cells = mxg.getChildVertices(mxg.getDefaultParent());
-		
-		for (Object o : cells) {
-			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { o });
-		}
 
-		/*
-		 * NON WORKING CHANGE COLOR OF CHILDREN/PARENTS Object[] childrenCells =
-		 * mxg.getConnections(cell); for (Object f : childrenCells) {
-		 * mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", ne
-		 * Object[]{f}); }
-		 */
+		Object[] kids = mxg.getChildVertices(mxg.getDefaultParent());
+
+		Object[] cells = mxg.getChildVertices(mxg.getDefaultParent());
+		// Object[] kids = mxg.getChildVertices(cell);
+
+		for (Object o : kids)
+			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { o });
+
+		Object[] childrenCells = mxg.getChildVertices(cell);
+		Object g = mxg.groupCells(cell, 0, childrenCells);
+		Object gc = mxg.createGroupCell(new Object[] { g });
+		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "red", new Object[] { gc });
 
 		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[] { cell });
 
 		graphComponent.refresh();
 
-		if (cell != null && cell instanceof mxCell) {
+		if (cell != null && cell instanceof mxCell)
+
+		{
 			String info = graphModel.returnCourseModel(((mxCell) cell).getValue().toString());
 			interactiveModel.setCourseInformation(info);
 			interactiveView.updateJTextArea(info);
 		}
+
 	}
 
 	public void mouseEntered(MouseEvent e) {
 		// do nothing
 	}
 
+	/**
+	 * Unutilized method
+	 */
 	public void mouseExited(MouseEvent e) {
 		// do nothing
 	}
 
+	/**
+	 * Unutilized method
+	 */
 	public void mousePressed(MouseEvent e) {
 		// do nothing
 	}
 
+	/**
+	 * Unutilized method
+	 */
 	public void mouseReleased(MouseEvent e) {
 		// do nothing
 	}
