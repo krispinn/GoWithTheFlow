@@ -61,5 +61,4 @@ public class FlowView extends JFrame {
 		cards.validate();
 		cards.setVisible(true);
 	}
-	
 }

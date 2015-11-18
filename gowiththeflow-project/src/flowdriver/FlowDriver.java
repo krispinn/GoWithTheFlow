@@ -29,7 +29,7 @@ public class FlowDriver {
 		MajorModel majorModel = new MajorModel("data/courselists/sciences_computerscience.txt", 1);
 		GraphModel graphModel = new GraphModel(majorModel);
 		MxGraphModel mxgModel = new MxGraphModel(graphModel);
-				
+
 		MxGraphComponentModel graphComponent = new MxGraphComponentModel(mxgModel);
 		InteractiveModel interactiveModel = new InteractiveModel();
 		InteractiveView interactiveView = new InteractiveView(interactiveModel);
