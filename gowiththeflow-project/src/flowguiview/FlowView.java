@@ -2,6 +2,7 @@ package flowguiview;
 
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
+import java.awt.Component;
 import java.awt.Frame;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -41,15 +42,13 @@ public class FlowView extends JFrame {
 		
 		this.model = model;
 		this.view = interactiveView;
-		
 		this.add(interactiveView, BorderLayout.EAST);
 		this.add(new DisclaimerView(), BorderLayout.SOUTH);
-
 		graphView = new GraphView(graphComponent);
 		cards = new JPanel(new CardLayout());
 		cards.add(graphView);
 		this.add(cards);
-		
+
 		this.setExtendedState(Frame.MAXIMIZED_BOTH);
 		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -61,4 +60,5 @@ public class FlowView extends JFrame {
 		cards.validate();
 		cards.setVisible(true);
 	}
+
 }
