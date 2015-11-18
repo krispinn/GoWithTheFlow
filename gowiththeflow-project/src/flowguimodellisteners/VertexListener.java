@@ -69,12 +69,14 @@ public class VertexListener implements MouseListener {
 			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { o });
 		}
 
-		 
+		
 		Object[] childrenCells = mxg.getChildVertices(cell);
-		for (Object f : childrenCells) {
-			System.out.println(f);
+		Object g = mxg.groupCells(cell, 0, childrenCells);
+		Object gc = mxg.createGroupCell(new Object[] {g});
+		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "red", new Object[] {gc});
+		//for (Object f : childrenCells) {
 			//mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "red", new Object[] { f });
-		}
+		//}
 
 		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[] { cell });
 
