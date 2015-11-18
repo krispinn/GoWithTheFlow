@@ -90,9 +90,7 @@ public class MajorModel {
 	 * @throws Exception
 	 */
 	public ArrayList<CourseModel> getCourseModelList() throws Exception {
-
 		return listOfCourses;
-
 	}
 
 }
