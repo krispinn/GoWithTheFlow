@@ -13,6 +13,12 @@ import flowguimodel.MxGraphModel;
 import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
+/**
+ * 
+ * @author zli781
+ *
+ */
+
 public class VertexListener implements MouseListener {
 
 	private MxGraphComponentModel graphComponent;
@@ -36,18 +42,16 @@ public class VertexListener implements MouseListener {
 
 	public void mouseClicked(MouseEvent e) {
 		Object cell = graphComponent.getCellAt(e.getX(), e.getY());
-		Object[] cells = mxg.getChildVertices(mxg.getDefaultParent());
+		Object[] kids = mxg.getChildVertices(mxg.getDefaultParent());
 		
-		for (Object o : cells) {
+		for (Object o : kids) {
 			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { o });
 		}
-
-		/*
-		 * NON WORKING CHANGE COLOR OF CHILDREN/PARENTS Object[] childrenCells =
-		 * mxg.getConnections(cell); for (Object f : childrenCells) {
-		 * mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", ne
-		 * Object[]{f}); }
-		 */
+		
+		// NON WORKING CHANGE COLOR OF CHILDREN/PARENTS 
+		Object[] childrenCells = mxg.getConnections(cell); 
+		for (Object f : childrenCells)
+			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[]{f});		 
 
 		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[] { cell });
 
@@ -60,18 +64,30 @@ public class VertexListener implements MouseListener {
 		}
 	}
 
+	/**
+	 * Unutilized method
+	 */
 	public void mouseEntered(MouseEvent e) {
 		// do nothing
 	}
 
+	/**
+	 * Unutilized method
+	 */
 	public void mouseExited(MouseEvent e) {
 		// do nothing
 	}
 
+	/**
+	 * Unutilized method
+	 */
 	public void mousePressed(MouseEvent e) {
 		// do nothing
 	}
 
+	/**
+	 * Unutilized method
+	 */
 	public void mouseReleased(MouseEvent e) {
 		// do nothing
 	}
