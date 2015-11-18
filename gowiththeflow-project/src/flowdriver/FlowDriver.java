@@ -21,14 +21,20 @@ import flowguiview.WelcomeView;
 public class FlowDriver {
 
 	/**
+	 * Main Execution method for the program calls all other methods for program
+	 * use
 	 * 
 	 * @param args
+	 *            command line arguments (not used)
 	 * @throws Exception
 	 */
 	public static void main(String[] args) throws Exception {
+
 		/*Ideally we start the program so that student selects the department and major.*/
 		//new WelcomeView();
+
 		MajorModel majorModel = new MajorModel("data/courselists/sciences_computerscience.txt", 1);
+		// ^ computer science is the default degree shown ^
 		GraphModel graphModel = new GraphModel(majorModel);
 		MxGraphModel mxgModel = new MxGraphModel(graphModel);
 
@@ -40,5 +46,6 @@ public class FlowDriver {
 		
 		
 		new FlowController(graphModel, flowView, interactiveModel, interactiveView, graphView, graphComponent, mxgModel);
+
 	}
 }
