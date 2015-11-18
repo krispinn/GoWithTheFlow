@@ -5,80 +5,103 @@ import java.util.Iterator;
 import com.mxgraph.model.mxCell;
 import com.mxgraph.view.mxGraph;
 
+/**
+ * MxGraphModel contains methods for creating and using an MxGraphModel object
+ * This class can create a model using a GraphModel, update the called model, as
+ * well as overrides mxgraph's getToolTip method to display course information
+ * via tool tips
+ * 
+ * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
+ *         Blig
+ *
+ */
 public class MxGraphModel extends mxGraph {
 
+	/**
+	 * Contains an ArrayList, and HashMaps for the current major
+	 */
 	private GraphModel graphModel;
-	private Object[] listOfVertices; // we have to CREAT since mxGraph only
-										// takes in a generic object not our
-										// CourseModel
 
+	/**
+	 * Contains a list of the model's current vertices
+	 */
+	private Object[] listOfVertices;
+	/*
+	 * we have to CREATE since mxGraph only takes in a generic object not our
+	 * CourseModel
+	 */
+
+	/**
+	 * The MxGraphModel constructor, takes in a GraphModel and uses its vertices
+	 * to assign a size to listOfVertices and updates the MxGraphModel
+	 * 
+	 * @param graphModel
+	 *            the GraphModel to be used by the MxGraphModel
+	 */
 	public MxGraphModel(GraphModel graphModel) {
 		super();
 		this.graphModel = graphModel;
-		this.listOfVertices = new Object[graphModel.getVertices().size()]; // we
-																			// initialize
-																			// the
-																			// size
-																			// of
-																			// the
-																			// listOfVertices
-																			// here
-																			// (which
-																			// will
-																			// store
-																			// the
-																			// generic
-																			// versions
-																			// of
-																			// our
-																			// CourseModels)
+
+		/*
+		 * we initialize the size of the listOfVertices here (which will store
+		 * the generic versions of our CourseModels)
+		 */
+		this.listOfVertices = new Object[graphModel.getVertices().size()];
+
 		this.update(); // we call this method to populate the graph
 	}
 
+	/**
+	 * Updates the MxGraphModel. listOfVertices is populated with the values
+	 * from the graphModel, this will effectively change what is displayed in
+	 * the end graph. Based on data from the graphModel, it also creates the
+	 * edges between the vertices.
+	 */
 	public void update() {
-		Iterator<CourseModel> nodeIterator = graphModel.getVertices().values().iterator(); // loop
-																							// through
-																							// the
-																							// hash
-																							// map
-																							// for
-																							// courses
-		Iterator<DirectedEdgeModel> edgeIterator = graphModel.getEdges().iterator(); // loop
-																						// through
-																						// set
-																						// for
-																						// edges
-																						// between
-																						// courses
-		int nodeCount = 0; // counter used to place a 'CourseModel' into the
-							// array
+
+		// loop through the has map for courses
+		Iterator<CourseModel> nodeIterator = graphModel.getVertices().values().iterator();
+
+		// loop through set for edges between courses
+		Iterator<DirectedEdgeModel> edgeIterator = graphModel.getEdges().iterator();
+
+		// counter used to place a 'CourseModel' into the array
+		int nodeCount = 0;
+
 		while (nodeIterator.hasNext()) {
 			CourseModel current = nodeIterator.next();
-			String subjectNumber = current.getSubjectNumber(); // this is the
-																// name
-																// displayed on
-																// each box of
-																// the graph
+
+			// this is the name displayed on each box of the graph
+			String subjectNumber = current.getSubjectNumber();
+
+			/*
+			 * the assignment returns an object which is initialized to out
+			 * desired properties
+			 */
 			listOfVertices[nodeCount++] = this.insertVertex(this.getDefaultParent(), null, subjectNumber, 0, 0, 80, 80,
-					"fillColor=white"); // the assignment returns an object
-										// which is initialized to out desired
-										// properties
+					"fillColor=white");
+
 		}
-		while (edgeIterator.hasNext()) { // this loop runs until all edges have
-											// been made
-			DirectedEdgeModel edge = edgeIterator.next(); // this gets an edge
-															// model
+
+		// this loop runs until all edges have been made
+		while (edgeIterator.hasNext()) {
+
+			// this gets an edge model
+			DirectedEdgeModel edge = edgeIterator.next();
+
+			/*
+			 * here we create the actual graph using the indexes provided from
+			 * the edgeModel (to get the course in name/model in listOfVertices)
+			 */
 			this.insertEdge(this.getDefaultParent(), null, "", listOfVertices[edge.getFromNum()],
-					listOfVertices[edge.getToNum()]); // here we create the
-														// actual graph using
-														// the indexes provided
-														// from the edgeModel
-														// (to get the course in
-														// name/model in
-														// listOfVertices)
+					listOfVertices[edge.getToNum()]);
 		}
 	}
 
+	/**
+	 * Displays the course information for the hovered on course instead of just
+	 * the course number
+	 */
 	@Override
 	public String getToolTipForCell(Object cell) {
 		try {
@@ -90,8 +113,11 @@ public class MxGraphModel extends mxGraph {
 				return "";
 			}
 		} catch (NullPointerException e) {
-			// deals with the error that shows up when the user hovers on an
-			// edge
+
+			/*
+			 * deals with the error that shows up when the user hovers on an
+			 * edge
+			 */
 			return "";
 		}
 	}

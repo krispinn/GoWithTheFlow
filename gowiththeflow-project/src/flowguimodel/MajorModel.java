@@ -4,11 +4,12 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-
 /**
- * This class reads in a list of course data and generates an ArrayList with that data.
+ * This class reads in a list of course data and generates an ArrayList that
+ * contains the data.
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason Blig
+ * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
+ *         Blig
  */
 public class MajorModel {
 
@@ -16,23 +17,24 @@ public class MajorModel {
 	 * The name of the input file with the course data.
 	 */
 	private String inputFile;
-	
+
 	/**
 	 * An ArrayList containing all the previous data.
 	 */
 	private ArrayList<CourseModel> listOfCourses = new ArrayList<CourseModel>();
-	
+
 	/**
 	 * An int that holds 0 or 1, 0 means hide recitations 1 means show them.
 	 */
 	private int recitationCheck;
 
 	/**
-	 * The constructor initializes the inputFile field.
+	 * The constructor initializes the inputFile field. And calls MajorModel's
+	 * update method.
 	 * 
 	 * @param inputFileName
 	 *            the name of the input file
-	 * @throws Exception 
+	 * @throws Exception
 	 */
 	public MajorModel(String inputFileName, int check) throws Exception {
 		this.inputFile = inputFileName;
@@ -44,10 +46,10 @@ public class MajorModel {
 	 * Reads in and parses the data from the file and populates the ArrayList.
 	 * Depending on if the recitation check box is clicked the flow is built.
 	 * 
-	 * @return an ArrayList containing the info for all the courses of a single major
+	 * @return an ArrayList containing the info for all the courses of a single
+	 *         major
 	 * @throws Exception
 	 */
-	
 	public void update() throws Exception {
 		int num = 0;
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
@@ -62,17 +64,19 @@ public class MajorModel {
 			String concurrentEnrollment = tokens[4].trim();
 			String courseEnrollmentInfo = tokens[5].trim();
 			String courseDescription = tokens[6].trim();
-			//this is where the checkbox affects the flowchart
-			if(this.recitationCheck == 0) {
-				if(!(courseName.contains("Recitation"))) {
+			// this is where the check box affects the flowchart
+			if (this.recitationCheck == 0) {
+				if (!(courseName.contains("Recitation"))) {
 					CourseModel course = new CourseModel(subject, courseNumber, courseName, prerequisiteCourses,
 							concurrentEnrollment, courseDescription, courseEnrollmentInfo, num++);
 					listOfCourses.add(course);
-				}/* if(!(courseName.contains("Laboratory"))) {
-					CourseModel course = new CourseModel(subject, courseNumber, courseName, prerequisiteCourses,
-							concurrentEnrollment, courseDescription, courseEnrollmentInfo, num++);
-					listOfCourses.add(course);
-				}*/
+				} /*
+					 * if(!(courseName.contains("Laboratory"))) { CourseModel
+					 * course = new CourseModel(subject, courseNumber,
+					 * courseName, prerequisiteCourses, concurrentEnrollment,
+					 * courseDescription, courseEnrollmentInfo, num++);
+					 * listOfCourses.add(course); }
+					 */
 			} else {
 				CourseModel course = new CourseModel(subject, courseNumber, courseName, prerequisiteCourses,
 						concurrentEnrollment, courseDescription, courseEnrollmentInfo, num++);
@@ -81,7 +85,14 @@ public class MajorModel {
 		}
 		bufferedReader.close();
 	}
-	
+
+	/**
+	 * Returns the model's list of courses
+	 * 
+	 * @return an ArrayList of CourseModels containing the major's list of
+	 *         courses
+	 * @throws Exception
+	 */
 	public ArrayList<CourseModel> getCourseModelList() throws Exception {
 
 		return listOfCourses;
