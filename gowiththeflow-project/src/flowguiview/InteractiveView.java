@@ -22,11 +22,6 @@ import flowguimodellisteners.UpdateSelectedMajorListener;
 public class InteractiveView extends JPanel {
 
 	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 7304916294755779603L;
-
-	/**
 	 * the panel where the course Info will be displayed after the user selected
 	 * a course
 	 */
