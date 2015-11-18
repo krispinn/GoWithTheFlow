@@ -38,7 +38,6 @@ public class FlowView extends JFrame {
 	public FlowView(InteractiveView interactiveView, InteractiveModel model, MxGraphComponentModel graphComponent) throws Exception {
 	
 		super("GoWithTheFlow");
-
 		
 		this.model = model;
 		this.view = interactiveView;

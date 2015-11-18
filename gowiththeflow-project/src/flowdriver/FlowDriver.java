@@ -1,6 +1,6 @@
 package flowdriver;
 
-import flowguicontroller.FlowController;    //
+import flowguicontroller.FlowController;
 import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
 import flowguimodel.MajorModel;
@@ -35,7 +35,7 @@ public class FlowDriver {
 		InteractiveView interactiveView = new InteractiveView(interactiveModel);
 		GraphView graphView = new GraphView(graphComponent);
 		FlowView flowView = new FlowView(interactiveView, interactiveModel, graphComponent);
-
+		
 		new FlowController(graphModel, flowView, interactiveModel, interactiveView, graphView, graphComponent, mxgModel);
 	}
 }
