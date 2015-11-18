@@ -23,7 +23,7 @@ public class MajorModel {
 	private ArrayList<CourseModel> listOfCourses = new ArrayList<CourseModel>();
 	
 	/**
-	 * An int that holds 0 or 1, 0 means hide recitations 1 means show them.
+	 * An int that holds 0 or 1, 0 means hide recitations	 1 means show them.
 	 */
 	private int recitationCheck;
 

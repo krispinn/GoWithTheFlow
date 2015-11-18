@@ -24,17 +24,18 @@ public class FlowView extends JFrame {
 	private JPanel cards;
 
 	
-	public FlowView(InteractiveView interactiveView, InteractiveModel model, MxGraphComponentModel graphComponent) throws Exception {
+	public FlowView(InteractiveView interactiveView, InteractiveModel model, MxGraphComponentModel graphComponent, WelcomeView welcomeView) throws Exception {
 	
 		super("GoWithTheFlow");
 		
 		this.model = model;
 		this.view = interactiveView;
+		
 		this.add(interactiveView, BorderLayout.EAST);
 		this.add(new DisclaimerView(), BorderLayout.SOUTH);
 		graphView = new GraphView(graphComponent);
 		cards = new JPanel(new CardLayout());
-		cards.add(graphView);
+		cards.add(welcomeView);
 		this.add(cards);
 
 		this.setExtendedState(Frame.MAXIMIZED_BOTH);
