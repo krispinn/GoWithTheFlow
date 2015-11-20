@@ -15,8 +15,8 @@ import flowguiview.InteractiveView;
 
 /**
  * 
- * @author zli781
- *
+ * 
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
 
 public class VertexListener implements MouseListener {
@@ -67,7 +67,7 @@ public class VertexListener implements MouseListener {
 	public void mouseClicked(MouseEvent e) {
 		Object cell = graphComponent.getCellAt(e.getX(), e.getY());
 
-		Object[] kids = mxg.getChildVertices(cell);
+		//Object[] kids = mxg.getChildCells(cell);
 
 		Object[] cells = mxg.getChildVertices(mxg.getDefaultParent());
 		// Object[] kids = mxg.getChildVertices(cell);
@@ -76,17 +76,11 @@ public class VertexListener implements MouseListener {
 			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { o });
 
 		/*
-		// NON WORKING CHANGE COLOR OF CHILDREN/PARENTS 
-		Object[] childrenCells = mxg.getConnections(mxg.getConnections(cell)); 
-		for (Object f : childrenCells)
-			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[]{f});
-		
-		childrenCells = mxg.getChildVertices(cell);
-		Object g = mxg.groupCells(cell, 0, childrenCells);
-		Object gc = mxg.createGroupCell(new Object[] { g });
-		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "red", new Object[] { gc });
+		//NON WORKING CHANGE COLOR OF CHILDREN/PARENTS 
+		for (Object f : kids)
+			mxg.getModel().setStyle(f, "fillColor=#00FF00");
 		*/
-
+		
 		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[] { cell });
 
 		graphComponent.refresh();
