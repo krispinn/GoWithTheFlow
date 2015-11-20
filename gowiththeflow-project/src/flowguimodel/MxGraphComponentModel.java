@@ -11,9 +11,7 @@ import com.mxgraph.util.mxEventSource.mxIEventListener;
  * This class extends the mxGraphComponent class which is used to change global
  * settings for the mxGraph itself
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
- *         Blig
- *
+ * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason Blig
  */
 public class MxGraphComponentModel extends mxGraphComponent {
 
