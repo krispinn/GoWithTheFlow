@@ -8,16 +8,43 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
 
+/**
+ * This class is in charge of populating two maps and an ArrayList that link the
+ * colleges and majors, majors and text file names, and college names allows the
+ * ability to get these variables as well.
+ * 
+ * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
+ *         Blig
+ *
+ */
 public class ListModel {
 
-	Map<String, String> majorToTextFileMap = new LinkedHashMap<String, String>();
-	Map<String, LinkedList<String>> collegeToMajorMap = new LinkedHashMap<String, LinkedList<String>>();
-	ArrayList<String> colleges = new ArrayList<String>();
+	/**
+	 * a Map that connects the majors to their text files
+	 */
+	private Map<String, String> majorToTextFileMap = new LinkedHashMap<String, String>();
 
+	/**
+	 * a Map that links the colleges to their respective majors
+	 */
+	private Map<String, LinkedList<String>> collegeToMajorMap = new LinkedHashMap<String, LinkedList<String>>();
+
+	/**
+	 * an ArrayList that contains the names of the various colleges of study
+	 */
+	private ArrayList<String> colleges = new ArrayList<String>();
+
+	/**
+	 * Calls ListModel's update method to create a brand new ListModel that
+	 * contains two maps and an ArrayList
+	 */
 	public ListModel() {
 		update();
 	}
 
+	/**
+	 * Populates the MajorToTextFileMap and the CollegeToMajorMap Maps
+	 */
 	public void update() {
 		File folder = new File("data/courselists");
 		File[] listOfFiles = folder.listFiles();
@@ -53,29 +80,49 @@ public class ListModel {
 			System.out.println(key + "\t" + value);
 		}
 
-		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap
-				.entrySet()) {
+		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap.entrySet()) {
 			String key = entry.getKey();
 			LinkedList<String> value = entry.getValue();
 			System.out.println(key + "\t" + value);
 		}
 	}
 
+	/**
+	 * Returns the model's CollegeToMajorMap
+	 * 
+	 * @return a Map that contains colleges to majors
+	 */
 	public Map<String, LinkedList<String>> getCollegeToMajorMap() {
 		return collegeToMajorMap;
 	}
 
+	/**
+	 * Returns the model's MajorToTextFileMap
+	 * 
+	 * @return a Map that contains Majors to text files
+	 */
 	public Map<String, String> getMajorToTextFileMap() {
 		return majorToTextFileMap;
 	}
-	
+
+	/**
+	 * Returns the major's file path.
+	 * 
+	 * @param selected
+	 *            currently selected major
+	 * @return a String that is a file path
+	 */
 	public String getMajorTextFilePath(String selected) {
 		return "data/courselists/" + majorToTextFileMap.get(selected);
 	}
 
+	/**
+	 * Returns a list of the available colleges of study.
+	 * 
+	 * @return a String[] of colleges of study
+	 */
 	public String[] getColleges() {
-		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap
-				.entrySet()) {
+		for (Entry<String, LinkedList<String>> entry : collegeToMajorMap.entrySet()) {
 			String key = entry.getKey();
 			colleges.add(key);
 		}
@@ -85,17 +132,25 @@ public class ListModel {
 
 		return list;
 	}
-	
-	/**
-	 * 
-	 * @param college - takes in the college
-	 * @return  returns a list of majors in that college
-	 */
 
+	/**
+	 * Takes in a college name and returns a list of that college's majors
+	 * 
+	 * @param college
+	 *            the College of Majors
+	 * @return a String[] of majors in that college
+	 */
 	public String[] getMajorsArray(String college) {
-		LinkedList<String> majors = collegeToMajorMap.get(college);  //sets the majors' array to equal to the array pointed to by the index 
-		String[] list = new String[majors.size()];      // we use this to create a temp holder
-		list = majors.toArray(list);          // convert the majors linkedlist to a string array
+
+		// sets the major's array to equal to the array pointed to by the index
+		LinkedList<String> majors = collegeToMajorMap.get(college);
+
+		// we use this to create a temporary holder
+		String[] list = new String[majors.size()];
+
+		// convert the major's LinkedList to a string array
+		list = majors.toArray(list);
+
 		return list;
 	}
 }

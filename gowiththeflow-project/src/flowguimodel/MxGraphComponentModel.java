@@ -7,15 +7,35 @@ import com.mxgraph.util.mxEvent;
 import com.mxgraph.util.mxEventObject;
 import com.mxgraph.util.mxEventSource.mxIEventListener;
 
-public class MxGraphComponentModel extends mxGraphComponent{
+/**
+ * This class extends the mxGraphComponent class which is used to change global
+ * settings for the mxGraph itself
+ * 
+ * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
+ *         Blig
+ *
+ */
+public class MxGraphComponentModel extends mxGraphComponent {
 
 	/**
-	 * 
+	 * A number that stores a value. Not needed.
+	 * "An exquisitely encrypted meme for meme connoisseurs across the world." -
+	 * a good memer
 	 */
 	private static final long serialVersionUID = -3833575207793082624L;
 
+	/**
+	 * The model used to change setting specific to the graph itself
+	 */
 	private MxGraphModel graph;
-	
+
+	/**
+	 * Calls the MxGraphComponentModel update method as well as changes some
+	 * settings specific to the graph
+	 * 
+	 * @param graph
+	 *            an MxGraphModel that will have settings changed
+	 */
 	public MxGraphComponentModel(MxGraphModel graph) {
 		super(graph);
 		this.graph = graph;
@@ -23,15 +43,20 @@ public class MxGraphComponentModel extends mxGraphComponent{
 		this.setEnabled(false);
 		this.graph.setCellsSelectable(true);
 	}
-	
+
+	/**
+	 * Updates the graph's settings that prevent the user from altering the
+	 * graph. As well as plays an animation that moves the graph into place on
+	 * the display window
+	 */
 	public void update() {
 		this.setConnectable(false);
 		this.setDragEnabled(false);
 		this.setToolTips(true);
-		
+
 		mxHierarchicalLayout layout = new mxHierarchicalLayout(graph);
 		layout.setInterRankCellSpacing(100);
-		
+
 		// layout using morphing
 		graph.getModel().beginUpdate();
 		try {
@@ -46,10 +71,4 @@ public class MxGraphComponentModel extends mxGraphComponent{
 			morph.startAnimation();
 		}
 	}
-	/*
-	@Override
-	public String getToolTipForCell(String info)
-	{
-		return info;
-	}*/
 }

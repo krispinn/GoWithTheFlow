@@ -6,6 +6,9 @@ import javax.swing.JPanel;
 
 public class DisclaimerView extends JPanel{
 
+	/**
+	 * 
+	 */
 	private String purpose = "<html><p>This program is for informational purposes only. "
 			+ "Please refer to your academic advisor for degree and course planning.<br>"
 			+ "GoWithTheFlow was developed by: Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, and Mostafa Dabas.<br>"
