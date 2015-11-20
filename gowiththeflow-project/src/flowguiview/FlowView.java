@@ -8,29 +8,51 @@ import javax.swing.JPanel;
 import flowguimodel.InteractiveModel;
 import flowguimodel.MxGraphComponentModel;
 
+/**
+ * 
+ * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
+ *         Cardenas
+ */
 public class FlowView extends JFrame {
-	
+
+	/**
+	 * 
+	 */
 	private InteractiveModel model;
-	
+
+	/**
+	 * 
+	 */
 	private InteractiveView view;
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -2707712944901661771L;
-	
+
+	/**
+	 * 
+	 */
 	private GraphView graphView;
-	
+
+	/**
+	 * 
+	 */
 	private JPanel cards;
 
-	
-	public FlowView(InteractiveView interactiveView, InteractiveModel model, MxGraphComponentModel graphComponent, WelcomeView welcomeView) throws Exception {
-	
+	/**
+	 * When FlowView is first initialized, a welcome screen is in place of the
+	 * graph (no major selected), The interactive view is added on the left side
+	 * of the panel, disclaimer is added to the bottom. 
+	 */
+	public FlowView(InteractiveView interactiveView, InteractiveModel model, MxGraphComponentModel graphComponent,
+			WelcomeView welcomeView) throws Exception {
+
 		super("GoWithTheFlow");
-		
+
 		this.model = model;
 		this.view = interactiveView;
-		
+
 		this.add(interactiveView, BorderLayout.EAST);
 		this.add(new DisclaimerView(), BorderLayout.SOUTH);
 		graphView = new GraphView(graphComponent);
@@ -42,7 +64,11 @@ public class FlowView extends JFrame {
 		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-	
+
+	/**
+	 * When this method is called the welcome screen is replaced by the graph of
+	 * the major that was selected
+	 */
 	public void setGraph(GraphView graphView) {
 		cards.removeAll();
 		cards.add(graphView);
