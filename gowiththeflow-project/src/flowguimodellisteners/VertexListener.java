@@ -37,7 +37,7 @@ public class VertexListener implements MouseListener {
 	private InteractiveView interactiveView;
 
 	/**
-	 * This is the object which holds all the necessary info to make the view work
+	 * 
 	 */
 	private InteractiveModel interactiveModel;
 
@@ -71,7 +71,7 @@ public class VertexListener implements MouseListener {
 
 		for(Object node : allNodes)
 			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { node });
-		mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[] { clickedNode });
+		//mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[] { clickedNode });
 		graphComponent.refresh();
 
 		/*
@@ -88,10 +88,6 @@ public class VertexListener implements MouseListener {
 		}
 	}
 
-	
-	/**
-	 * 
-	 */
 	public void mouseEntered(MouseEvent e) {
 		// do nothing
 	}
