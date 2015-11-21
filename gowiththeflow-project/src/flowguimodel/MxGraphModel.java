@@ -1,8 +1,10 @@
 package flowguimodel;
 
 import java.util.Iterator;
+import java.util.Map;
 
 import com.mxgraph.model.mxCell;
+import com.mxgraph.util.mxConstants;
 import com.mxgraph.view.mxGraph;
 
 /**
@@ -41,6 +43,9 @@ public class MxGraphModel extends mxGraph {
 	public MxGraphModel(GraphModel graphModel) {
 		super();
 		this.graphModel = graphModel;
+		
+		Map<String, Object> style = this.getStylesheet().getDefaultVertexStyle();
+	    style.put(mxConstants.STYLE_ROUNDED, true);
 
 		/*
 		 * we initialize the size of the listOfVertices here (which will store
@@ -78,9 +83,8 @@ public class MxGraphModel extends mxGraph {
 			 * the assignment returns an object which is initialized to out
 			 * desired properties
 			 */
-			listOfVertices[nodeCount++] = this.insertVertex(this.getDefaultParent(), null, subjectNumber, 0, 0, 80, 80,
-					"fillColor=white");
-
+			listOfVertices[nodeCount++] = this.insertVertex(this.getDefaultParent(), null, subjectNumber, 0, 0, 80, 40,
+					"ROUNDED;fillColor=white");
 		}
 
 		// this loop runs until all edges have been made

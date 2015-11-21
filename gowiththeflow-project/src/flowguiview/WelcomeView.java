@@ -6,6 +6,16 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 
+
+/**
+ * Simple JPanel class for the "welcome" Page
+ * 
+ * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
+ *         Cardena
+ *
+ */
+
+
 public class WelcomeView extends JPanel{
 	
 	
@@ -32,5 +42,4 @@ public class WelcomeView extends JPanel{
 		disclaimer.setHorizontalAlignment(SwingConstants.CENTER);
 		this.add(disclaimer, BorderLayout.SOUTH);	
 	}
-	
 }

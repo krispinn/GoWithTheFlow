@@ -14,15 +14,13 @@ import flowguiview.WelcomeView;
 /**
  * Executes the main method and finds departments/majors from given UTSA URL
  * 
- * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa
- *         Dabas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  * 
  */
 public class FlowDriver {
 
 	/**
-	 * Main Execution method for the program calls all other methods for program
-	 * use
+	 * Main Execution method for the program calls all other methods for program use.
 	 * 
 	 * @param args
 	 *            command line arguments (not used)
@@ -30,8 +28,8 @@ public class FlowDriver {
 	 */
 	public static void main(String[] args) throws Exception {
 
-		/*Ideally we start the program so that student selects the department and major.*/
-		//new WelcomeView();
+		/* Ideally we start the program so that student selects the department and major. */
+		// new WelcomeView();
 
 		MajorModel majorModel = new MajorModel("data/courselists/sciences_computerscience.txt", 1);
 		// ^ computer science is the default degree shown ^
@@ -42,10 +40,10 @@ public class FlowDriver {
 		InteractiveModel interactiveModel = new InteractiveModel();
 		InteractiveView interactiveView = new InteractiveView(interactiveModel);
 		GraphView graphView = new GraphView(graphComponent);
-		FlowView flowView = new FlowView(interactiveView, interactiveModel, graphComponent, new WelcomeView());
-		
-		
-		new FlowController(graphModel, flowView, interactiveModel, interactiveView, graphView, graphComponent, mxgModel);
+		FlowView flowView = new FlowView(interactiveView, interactiveModel, graphComponent,
+				new WelcomeView());
 
+		new FlowController(graphModel, flowView, interactiveModel, interactiveView, graphView,
+				graphComponent, mxgModel);
 	}
 }

@@ -9,7 +9,13 @@ import com.mxgraph.swing.mxGraphComponent;
 import flowguimodel.MxGraphComponentModel;
 import flowguimodellisteners.VertexListener;
 
-public class GraphView extends JPanel{
+/**
+ * 
+ * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
+ *         Cardenas
+ *
+ */
+public class GraphView extends JPanel {
 
 	private mxGraphComponent graphComponent;
 
@@ -20,11 +26,11 @@ public class GraphView extends JPanel{
 		this.setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
 		this.add(graphComponent);
 	}
-	
+
 	public void registerVertexMouseListener(VertexListener listener) {
 		graphComponent.getGraphControl().addMouseListener(listener);
 	}
-	
+
 	public void setGraphComponent(final MxGraphComponentModel graphComponent) {
 		this.graphComponent = graphComponent;
 	}
