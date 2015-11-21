@@ -57,7 +57,7 @@ public class FlowView extends JFrame {
 			WelcomeView welcomeView) throws Exception {
 
 		super("GoWithTheFlow");
-		ImageIcon img = new ImageIcon("logo.jpg");
+		ImageIcon img = new ImageIcon("cool.png");
 		this.setIconImage(img.getImage());
 		
 		menuBar = new JMenuBar();
