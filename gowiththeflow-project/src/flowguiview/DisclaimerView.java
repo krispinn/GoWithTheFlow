@@ -18,7 +18,7 @@ public class DisclaimerView extends JPanel{
 		
 		this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Disclaimer"),
 				BorderFactory.createEmptyBorder(0, 0, 0, 0)));
-		JLabel jLabel = new JLabel(purpose);
+		JLabel jLabel = new JLabel("<html><div style=\"text-align: center;\">" + purpose + "</html>");
 		this.add(jLabel);
 		
 	}
