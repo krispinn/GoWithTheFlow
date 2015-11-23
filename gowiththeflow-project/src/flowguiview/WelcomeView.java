@@ -19,10 +19,21 @@ import javax.swing.SwingConstants;
 public class WelcomeView extends JPanel{
 	
 	
-	private String info = "<html><p>Welcome to gowiththeflow.<br>"
+	/*private String info = "<html><p>Welcome to GoWithTheFlow.<br>"
 							+ "The program has two navigational menus, one to select your college and the second to specify the major.<br>"
 							+ "There is a hover feature implemented to allow for easy information access<br>"
 							+ "Lastly, a textbox is included as well to display the selected courses' info for a more traditional view.</p></html>";
+	*/
+	
+	private String info = "<html><p>Welcome!<br><br>"
+			+ "Quick Tutorial:<br><br>"
+			+ "1) Update Course Information - downloads data from UTSA undergraduate catalog<br><br>"
+			+ "2) Select your College - ex: sciences<br><br>"
+			+ "3) Select your Major - ex: computerscience<br><br>"
+			+ "4) Update Selected Major - displays your selected major in a graph<br><br>"
+			+ "5) Hide Labs/Recitations - redraws your graph with(out) labs and/or recitations<br><br>" 
+			+ "6) Course Information - updates when you select a course(vertex) on the graph<br><br>"
+			+ "7) Tooltips - shows up when the mouse is held over a course(vertex) on the graph</p></html>";
 	
 	private String purpose = "<html><p>This program is for informational purposes only. "
 			+ "Please refer to your academic advisor for degree and course planning.<br>"

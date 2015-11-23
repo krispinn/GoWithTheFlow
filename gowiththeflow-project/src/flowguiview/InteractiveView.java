@@ -53,7 +53,7 @@ public class InteractiveView extends JPanel {
 	 * Field for recitation checkbox which toggles the display of
 	 * labs/recitations
 	 */
-	private JCheckBox recitationButton = new JCheckBox("Hide Recitations");
+	private JCheckBox recitationButton = new JCheckBox("Hide Labs/Recitations");
 
 	/**
 	 * Field for a text area that will have course info, number, and description
