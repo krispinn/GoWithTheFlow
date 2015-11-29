@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
+ * This is the main driver for generating all needed information.
  * 
  * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa
  *         Dabas
@@ -23,6 +24,12 @@ public class GenerateInfo {
 			Arrays.asList("generalinformation", "bachelorsdegreeregulations", "certificateprograms",
 					"universitycollege", "honorscollege", "coursedescriptions", "texascommoncoursenumberingsystem",
 					"nationalstandardizedtests", "faculty", "azindex"));
+
+	/**
+	 * Calls all 'steps' to generate needed course information
+	 * 
+	 * @throws Exception
+	 */
 	public GenerateInfo() throws Exception {
 		step1();
 		step2();
@@ -55,8 +62,8 @@ public class GenerateInfo {
 	}
 
 	/**
-	 * Downloads source code from "02_list_of_departments.txt" into a
-	 * file "03_department_DEPARTMENTNAMEHERE_source_code.txt".
+	 * Downloads source code from "02_list_of_departments.txt" into a file
+	 * "03_department_DEPARTMENTNAMEHERE_source_code.txt".
 	 * 
 	 * @throws Exception
 	 */
@@ -123,10 +130,12 @@ public class GenerateInfo {
 		}
 		System.out.println("Step 5");
 	}
-	
+
 	/**
-	 * Generates list of courses from "05_list_of_all_departments_and_majors.txt" into files:
+	 * Generates list of courses from
+	 * "05_list_of_all_departments_and_majors.txt" into files:
 	 * "department_major.txt"
+	 * 
 	 * @throws Exception
 	 */
 	private void step6() throws Exception {
