@@ -14,46 +14,65 @@ import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
 /**
+ * This listeners listens for mouse clicks on the graphView. Displays a course
+ * description in a description box (located in the Interactive View) if the
+ * user clicks on a vertex of the graph.
  * 
- * 
- * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa
+ *         Dabas
  */
 
 public class VertexListener implements MouseListener {
 
 	/**
-	 * 
+	 * The graph's mxGraphComponent
 	 */
 	private MxGraphComponentModel graphComponent;
 
 	/**
-	 * 
+	 * The graph's model
 	 */
 	private GraphModel graphModel;
 
 	/**
-	 * This is the JPanel used for user selection of college/major
+	 * The Interactive View's view This is the JPanel used for user selection of
+	 * college/major
 	 */
 	private InteractiveView interactiveView;
 
 	/**
-	 * 
+	 * The Interactive View's model
 	 */
 	private InteractiveModel interactiveModel;
 
 	/**
-	 * 
+	 * The graph's mxGraph model
 	 */
 	private MxGraphModel mxg;
 
 	/**
-	 * 
+	 * The graph's view
 	 */
 	private GraphView graphView;
 
-	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel,
-			InteractiveView interactiveView, MxGraphComponentModel graphComponent,
-			GraphView graphView, MxGraphModel mxg) {
+	/**
+	 * The constructor. Calls the registerVertexMouseListener method.
+	 * 
+	 * @param graphModel
+	 *            The graph's model.
+	 * @param interactiveModel
+	 *            The Interactive View's model
+	 * @param interactiveView
+	 *            The Interactive View's view
+	 * @param graphComponent
+	 *            The graph's mxGraphComponent
+	 * @param graphView
+	 *            The graph's view
+	 * @param mxg
+	 *            The graph's mxGraph model
+	 */
+	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel, InteractiveView interactiveView,
+			MxGraphComponentModel graphComponent, GraphView graphView, MxGraphModel mxg) {
 		this.graphComponent = graphComponent;
 		this.graphModel = graphModel;
 		this.interactiveModel = interactiveModel;
@@ -64,50 +83,57 @@ public class VertexListener implements MouseListener {
 		graphView.registerVertexMouseListener(this);
 	}
 
+	/**
+	 * On mouse click, checks if the mouse is over a vertex (node). If so,
+	 * information from that vertex is taken and is displayed in a description
+	 * box located in the Interactive view.
+	 */
 	public void mouseClicked(MouseEvent e) {
 		Object[] allNodes = mxg.getChildVertices(mxg.getDefaultParent());
 		Object clickedNode = graphComponent.getCellAt(e.getX(), e.getY());
 		Object kids = mxg.getChildCells(clickedNode);
 
-		for(Object node : allNodes)
+		for (Object node : allNodes)
 			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { node });
-		//mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[] { clickedNode });
+		// mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[]
+		// { clickedNode });
 		graphComponent.refresh();
 
 		/*
-		//NON WORKING CHANGE COLOR OF CHILDREN/PARENTS 
-		for (Object f : kids)
-			mxg.getModel().setStyle(f, "fillColor=#00FF00");
-		*/
+		 * //NON WORKING CHANGE COLOR OF CHILDREN/PARENTS for (Object f : kids)
+		 * mxg.getModel().setStyle(f, "fillColor=#00FF00");
+		 */
 
-		if (clickedNode != null && clickedNode instanceof mxCell)
-		{
+		if (clickedNode != null && clickedNode instanceof mxCell) {
 			String info = graphModel.returnCourseModel(((mxCell) clickedNode).getValue().toString());
 			interactiveModel.setCourseInformation(info);
 			interactiveView.updateJTextArea(info);
 		}
 	}
 
+	/**
+	 * Doesn't do anything if the mouse enters the window
+	 */
 	public void mouseEntered(MouseEvent e) {
 		// do nothing
 	}
 
 	/**
-	 * Unutilized method
+	 * Doesn't do anything if the mouse exits the window
 	 */
 	public void mouseExited(MouseEvent e) {
 		// do nothing
 	}
 
 	/**
-	 * Unutilized method
+	 * Doesn't do anything on mouse press
 	 */
 	public void mousePressed(MouseEvent e) {
 		// do nothing
 	}
 
 	/**
-	 * Unutilized method
+	 * Doesn't do anything on mouse release
 	 */
 	public void mouseReleased(MouseEvent e) {
 		// do nothing
