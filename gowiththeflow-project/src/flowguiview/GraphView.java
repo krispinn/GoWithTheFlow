@@ -11,9 +11,7 @@ import flowguimodellisteners.VertexListener;
 
 /**
  * 
- * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
- *         Cardenas
- *
+ * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
 public class GraphView extends JPanel {
 
@@ -21,8 +19,9 @@ public class GraphView extends JPanel {
 
 	public GraphView(MxGraphComponentModel graphComponent) {
 		this.graphComponent = graphComponent;
-		this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Courses"),
-				BorderFactory.createEmptyBorder(5, 5, 5, 5)));
+		this.setBorder(
+				BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Courses"),
+						BorderFactory.createEmptyBorder(5, 5, 5, 5)));
 		this.setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
 		this.add(graphComponent);
 	}

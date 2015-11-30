@@ -8,17 +8,16 @@ import com.mxgraph.util.mxEventObject;
 import com.mxgraph.util.mxEventSource.mxIEventListener;
 
 /**
- * This class extends the mxGraphComponent class which is used to change global
- * settings for the mxGraph itself
+ * This class extends the mxGraphComponent class which is used to change global settings for the
+ * mxGraph itself
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason Blig
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
 public class MxGraphComponentModel extends mxGraphComponent {
 
 	/**
 	 * A number that stores a value. Not needed.
-	 * "An exquisitely encrypted meme for meme connoisseurs across the world." -
-	 * a good memer
+	 * "An exquisitely encrypted meme for meme connoisseurs across the world." - a good memer
 	 */
 	private static final long serialVersionUID = -3833575207793082624L;
 
@@ -28,8 +27,8 @@ public class MxGraphComponentModel extends mxGraphComponent {
 	private MxGraphModel graph;
 
 	/**
-	 * Calls the MxGraphComponentModel update method as well as changes some
-	 * settings specific to the graph
+	 * Calls the MxGraphComponentModel update method as well as changes some settings specific to
+	 * the graph
 	 * 
 	 * @param graph
 	 *            an MxGraphModel that will have settings changed
@@ -43,9 +42,8 @@ public class MxGraphComponentModel extends mxGraphComponent {
 	}
 
 	/**
-	 * Updates the graph's settings that prevent the user from altering the
-	 * graph. As well as plays an animation that moves the graph into place on
-	 * the display window
+	 * Updates the graph's settings that prevent the user from altering the graph. As well as plays
+	 * an animation that moves the graph into place on the display window
 	 */
 	public void update() {
 		this.setConnectable(false);
@@ -69,4 +67,5 @@ public class MxGraphComponentModel extends mxGraphComponent {
 			morph.startAnimation();
 		}
 	}
+
 }

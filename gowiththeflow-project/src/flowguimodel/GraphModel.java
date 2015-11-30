@@ -8,13 +8,11 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * This class takes in a majorModel then generates a list of courses based on
- * the major given. Generates a map of vertices for each course as well as a map
- * for the edges connecting the vertices together using prerequisites and
- * concurrent courses.
+ * This class takes in a majorModel then generates a list of courses based on the major given.
+ * Generates a map of vertices for each course as well as a map for the edges connecting the
+ * vertices together using prerequisites and concurrent courses.
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
- *         Blig
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  *
  */
 public class GraphModel {
@@ -35,8 +33,8 @@ public class GraphModel {
 	private Set<DirectedEdgeModel> listOfEdges = new LinkedHashSet<DirectedEdgeModel>();
 
 	/**
-	 * Takes the passed in Major and generates a list of courses based on the
-	 * major. Then generates the vertices and edges for that list of courses.
+	 * Takes the passed in Major and generates a list of courses based on the major. Then generates
+	 * the vertices and edges for that list of courses.
 	 * 
 	 * @param majorModel
 	 *            the Major that the courses are taken from
@@ -51,72 +49,56 @@ public class GraphModel {
 	}
 
 	/**
-	 * Generates a new vertex value into the Map for every CourseModel in
-	 * listOfCourses
+	 * Generates a new vertex value into the Map for every CourseModel in listOfCourses
 	 */
 	private void generateVertices() {
-		for (CourseModel c : listOfCourses) {
+		for (CourseModel c : listOfCourses)
 			listOfVertices.put(c.getSubjectNumber(), c);
-		}
 	}
 
 	/**
-	 * Goes through each course and makes edge connections between the courses
-	 * via the prerequisites as well as making edges for any concurrently
-	 * enrolled classes
+	 * Goes through each course and makes edge connections between the courses via the prerequisites
+	 * as well as making edges for any concurrently enrolled classes
 	 */
 	private void generateEdges() {
-
 		Iterator<CourseModel> it = listOfVertices.values().iterator();
 
 		while (it.hasNext()) {
-
 			// from the hash, get a course
 			CourseModel current = it.next();
-
 			// for that course, save its prerequisite ArrayList
 			ArrayList<String> tempPrerequisiteList = current.getPrerequisiteList();
-
 			// for that course, save its concurrent ArrayList
 			ArrayList<String> tempConcurrentList = current.getConcurrentList();
-
-			/*
-			 * We will be using this to index the hash-map (and subsequently
-			 * connect edges)
-			 */
+			// We will be using this to index the hash-map (and subsequently connect edges).
 			String courseName;
 
 			if (tempPrerequisiteList != null) {
 				for (int i = 0; i < tempPrerequisiteList.size(); i++) {
 					courseName = tempPrerequisiteList.get(i);
+
 					if (listOfVertices.containsKey(courseName)) {
-
 						/*
-						 * Create a link between a prerequisite and a course
-						 * based on their relative index in the main CourseModel
-						 * ArrayList
+						 * Create a link between a prerequisite and a course based on their relative
+						 * index in the main CourseModel ArrayList
 						 */
-						DirectedEdgeModel e = new DirectedEdgeModel(listOfVertices.get(courseName), current,
-								listOfVertices.get(courseName).getNum(), current.getNum());
-
+						DirectedEdgeModel e = new DirectedEdgeModel(listOfVertices.get(courseName),
+								current, listOfVertices.get(courseName).getNum(), current.getNum());
 						/*
-						 * Adds an 'Edge Model' to the list. Used for
-						 * drawing/connecting the vertices in the graph. Creates
-						 * a relation between two courses
+						 * Adds an 'Edge Model' to the list. Used for drawing/connecting the
+						 * vertices in the graph. Creates a relation between two courses
 						 */
 						listOfEdges.add(e);
-
 					}
 				}
-
 				// the loop is the same as the prerequisites
 			} else if (tempConcurrentList != null) {
 				for (int i = 0; i < tempConcurrentList.size(); i++) {
 					courseName = tempConcurrentList.get(i);
 
 					if (listOfVertices.containsKey(courseName)) {
-						DirectedEdgeModel e = new DirectedEdgeModel(listOfVertices.get(courseName), current,
-								listOfVertices.get(courseName).getNum(), current.getNum());
+						DirectedEdgeModel e = new DirectedEdgeModel(listOfVertices.get(courseName),
+								current, listOfVertices.get(courseName).getNum(), current.getNum());
 						listOfEdges.add(e);
 					}
 				}
@@ -171,9 +153,8 @@ public class GraphModel {
 	 */
 	public void printEdges() {
 		Iterator<DirectedEdgeModel> it = listOfEdges.iterator();
-		while (it.hasNext()) {
+		while (it.hasNext())
 			System.out.println(it.next().toString());
-		}
 	}
 
 	/**
@@ -181,10 +162,13 @@ public class GraphModel {
 	 */
 	public void printVertices() {
 		Iterator<CourseModel> it = listOfVertices.values().iterator();
+
 		while (it.hasNext()) {
 			CourseModel current = it.next();
 			System.out.println(current.getNum() + " " + current.getSubjectNumber() + " Pre: "
-					+ current.getPrerequisiteList().toString() + " Con: " + current.getConcurrentList().toString());
+					+ current.getPrerequisiteList().toString() + " Con: "
+					+ current.getConcurrentList().toString());
 		}
 	}
+
 }

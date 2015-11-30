@@ -14,14 +14,11 @@ import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
 /**
- * This listeners listens for mouse clicks on the graphView. Displays a course
- * description in a description box (located in the Interactive View) if the
- * user clicks on a vertex of the graph.
+ * This listeners listens for mouse clicks on the graphView. Displays a course description in a
+ * description box (located in the Interactive View) if the user clicks on a vertex of the graph.
  * 
- * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa
- *         Dabas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
-
 public class VertexListener implements MouseListener {
 
 	/**
@@ -35,8 +32,7 @@ public class VertexListener implements MouseListener {
 	private GraphModel graphModel;
 
 	/**
-	 * The Interactive View's view This is the JPanel used for user selection of
-	 * college/major
+	 * The Interactive View's view This is the JPanel used for user selection of college/major
 	 */
 	private InteractiveView interactiveView;
 
@@ -71,8 +67,9 @@ public class VertexListener implements MouseListener {
 	 * @param mxg
 	 *            The graph's mxGraph model
 	 */
-	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel, InteractiveView interactiveView,
-			MxGraphComponentModel graphComponent, GraphView graphView, MxGraphModel mxg) {
+	public VertexListener(GraphModel graphModel, InteractiveModel interactiveModel,
+			InteractiveView interactiveView, MxGraphComponentModel graphComponent,
+			GraphView graphView, MxGraphModel mxg) {
 		this.graphComponent = graphComponent;
 		this.graphModel = graphModel;
 		this.interactiveModel = interactiveModel;
@@ -84,9 +81,8 @@ public class VertexListener implements MouseListener {
 	}
 
 	/**
-	 * On mouse click, checks if the mouse is over a vertex (node). If so,
-	 * information from that vertex is taken and is displayed in a description
-	 * box located in the Interactive view.
+	 * On mouse click, checks if the mouse is over a vertex (node). If so, information from that
+	 * vertex is taken and is displayed in a description box located in the Interactive view.
 	 */
 	public void mouseClicked(MouseEvent e) {
 		Object[] allNodes = mxg.getChildVertices(mxg.getDefaultParent());
@@ -105,7 +101,8 @@ public class VertexListener implements MouseListener {
 		 */
 
 		if (clickedNode != null && clickedNode instanceof mxCell) {
-			String info = graphModel.returnCourseModel(((mxCell) clickedNode).getValue().toString());
+			String info = graphModel
+					.returnCourseModel(((mxCell) clickedNode).getValue().toString());
 			interactiveModel.setCourseInformation(info);
 			interactiveView.updateJTextArea(info);
 		}

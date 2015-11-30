@@ -8,16 +8,15 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JMenuBar;
 import javax.swing.JPanel;
-
-
 import javax.swing.JPanel;
+
 import flowguimodel.InteractiveModel;
 import flowguimodel.MxGraphComponentModel;
 
 /**
+ * The window where everything is displayed.
  * 
- * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
- *         Cardenas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
 public class FlowView extends JFrame {
 
@@ -30,7 +29,10 @@ public class FlowView extends JFrame {
 	 * 
 	 */
 	private InteractiveView view;
-	
+
+	/**
+	 * 
+	 */
 	private JMenuBar menuBar;
 
 	/**
@@ -49,26 +51,25 @@ public class FlowView extends JFrame {
 	private JPanel cards;
 
 	/**
-	 * When FlowView is first initialized, a welcome screen is in place of the
-	 * graph (no major selected), The interactive view is added on the left side
-	 * of the panel, disclaimer is added to the bottom. 
+	 * When FlowView is first initialized, a welcome screen is in place of the graph (no major
+	 * selected), The interactive view is added on the left side of the panel, disclaimer is added
+	 * to the bottom.
 	 */
-	public FlowView(InteractiveView interactiveView, InteractiveModel model, MxGraphComponentModel graphComponent,
-			WelcomeView welcomeView) throws Exception {
-
+	public FlowView(InteractiveView interactiveView, InteractiveModel model,
+			MxGraphComponentModel graphComponent, WelcomeView welcomeView) throws Exception {
 		super("GoWithTheFlow");
+
 		ImageIcon img = new ImageIcon("cool.png");
 		this.setIconImage(img.getImage());
-		
+
 		menuBar = new JMenuBar();
-		
-		//this.setJMenuBar(menuBar);
+		// this.setJMenuBar(menuBar);
 
 		this.model = model;
 		this.view = interactiveView;
 
 		this.add(interactiveView, BorderLayout.EAST);
-		//this.add(new DisclaimerView(), BorderLayout.SOUTH);
+		// this.add(new DisclaimerView(), BorderLayout.SOUTH);
 		graphView = new GraphView(graphComponent);
 		cards = new JPanel(new CardLayout());
 		cards.add(welcomeView);
@@ -80,8 +81,8 @@ public class FlowView extends JFrame {
 	}
 
 	/**
-	 * When this method is called the welcome screen is replaced by the graph of
-	 * the major that was selected
+	 * When this method is called the welcome screen is replaced by the graph of the major that was
+	 * selected
 	 */
 	public void setGraph(GraphView graphView) {
 		cards.removeAll();

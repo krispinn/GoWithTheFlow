@@ -9,15 +9,13 @@ import flowguiview.InteractiveView;
 /**
  * This class handles all mouse events for the Download button.
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
- *         Blig
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  *
  */
 public class DownloadListener implements MouseListener {
 
 	/**
-	 * The constructor for the Download Listener calls the
-	 * registerDownloadButton method
+	 * The constructor for the Download Listener calls the registerDownloadButton method
 	 * 
 	 * @param interactiveView
 	 */
@@ -30,7 +28,6 @@ public class DownloadListener implements MouseListener {
 	 */
 	public void mouseClicked(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-
 	}
 
 	/**
@@ -38,7 +35,6 @@ public class DownloadListener implements MouseListener {
 	 */
 	public void mouseEntered(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-
 	}
 
 	/**
@@ -46,7 +42,6 @@ public class DownloadListener implements MouseListener {
 	 */
 	public void mouseExited(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-
 	}
 
 	/**
@@ -54,12 +49,11 @@ public class DownloadListener implements MouseListener {
 	 */
 	public void mousePressed(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-
 	}
 
 	/**
-	 * If the mouse is released on the button it generates course information,
-	 * updating the current set of course data.
+	 * If the mouse is released on the button it generates course information, updating the current
+	 * set of course data.
 	 */
 	public void mouseReleased(MouseEvent arg0) {
 		try {
@@ -69,7 +63,6 @@ public class DownloadListener implements MouseListener {
 			System.err.println("Unable to download data!");
 			e1.printStackTrace();
 		}
-
 	}
 
 }

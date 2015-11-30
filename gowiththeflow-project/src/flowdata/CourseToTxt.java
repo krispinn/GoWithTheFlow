@@ -13,8 +13,7 @@ import java.util.regex.Pattern;
 /**
  * CourseToTxt generates a list of all courses of a specific subject.
  * 
- * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
- *         Cardenas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
 public class CourseToTxt {
 
@@ -180,7 +179,8 @@ public class CourseToTxt {
 	 *            the line that may contain concurrent enrollment courses
 	 * @throws Exception
 	 */
-	public void getConcurrent(BufferedReader in, BufferedWriter bw, String inputLine) throws Exception {
+	public void getConcurrent(BufferedReader in, BufferedWriter bw, String inputLine)
+			throws Exception {
 		// create a separator for the concurrent enrollment courses
 		bw.write(" | C");
 
@@ -216,4 +216,5 @@ public class CourseToTxt {
 			} // end for loop
 		} // end large if statement
 	} // end getConcurrent
+	
 } // end class

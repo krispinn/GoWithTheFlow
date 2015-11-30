@@ -9,12 +9,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 /**
- * This class is in charge of populating two maps and an ArrayList that link the
- * colleges and majors, majors and text file names, and college names allows the
- * ability to get these variables as well.
+ * This class is in charge of populating two maps and an ArrayList that link the colleges and
+ * majors, majors and text file names, and college names allows the ability to get these variables
+ * as well.
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
- *         Blig
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  *
  */
 public class ListModel {
@@ -35,8 +34,8 @@ public class ListModel {
 	private ArrayList<String> colleges = new ArrayList<String>();
 
 	/**
-	 * Calls ListModel's update method to create a brand new ListModel that
-	 * contains two maps and an ArrayList
+	 * Calls ListModel's update method to create a brand new ListModel that contains two maps and an
+	 * ArrayList
 	 */
 	public ListModel() {
 		update();
@@ -53,12 +52,10 @@ public class ListModel {
 			if (listOfFiles[i].isFile()) {
 				String temp = listOfFiles[i].getName();
 				String temp2[] = temp.split("_");
-
 				StringBuilder sb = new StringBuilder();
 
-				for (int j = 1; j < temp2.length; j++) {
+				for (int j = 1; j < temp2.length; j++)
 					sb.append(temp2[j]);
-				}
 
 				String newStr = sb.toString();
 				String newStr2 = newStr.replace(".txt", "");
@@ -70,7 +67,6 @@ public class ListModel {
 					collegeToMajorMap.put(temp2[0], majors);
 				}
 				collegeToMajorMap.get(temp2[0]).add(newStr2);
-
 			}
 		}
 
@@ -141,16 +137,15 @@ public class ListModel {
 	 * @return a String[] of majors in that college
 	 */
 	public String[] getMajorsArray(String college) {
-
 		// sets the major's array to equal to the array pointed to by the index
 		LinkedList<String> majors = collegeToMajorMap.get(college);
-
 		// we use this to create a temporary holder
 		String[] list = new String[majors.size()];
-
+		
 		// convert the major's LinkedList to a string array
 		list = majors.toArray(list);
-
+		
 		return list;
 	}
+	
 }

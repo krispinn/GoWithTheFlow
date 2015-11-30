@@ -17,11 +17,10 @@ import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
 /**
- * works similar to UpdateSelectedMajorListener.java because it redraws the map
- * when the user clicks the Show/Hide Recitations.
+ * works similar to UpdateSelectedMajorListener.java because it redraws the map when the user clicks
+ * the Show/Hide Recitations.
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
- *         Blig
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  *
  */
 public class RecitationListener implements ActionListener {
@@ -52,8 +51,8 @@ public class RecitationListener implements ActionListener {
 	private FlowController flowController;
 
 	/**
-	 * The constructor for the hide/show recitation button calls the
-	 * registerRecitationButton method.
+	 * The constructor for the hide/show recitation button calls the registerRecitationButton
+	 * method.
 	 * 
 	 * @param flowController
 	 *            The main controller
@@ -68,8 +67,9 @@ public class RecitationListener implements ActionListener {
 	 * @param graphView
 	 *            The graph's view
 	 */
-	public RecitationListener(FlowController flowController, GraphModel graphModel, FlowView flowView,
-			InteractiveModel interactiveModel, InteractiveView interactiveView, GraphView graphView) {
+	public RecitationListener(FlowController flowController, GraphModel graphModel,
+			FlowView flowView, InteractiveModel interactiveModel, InteractiveView interactiveView,
+			GraphView graphView) {
 		this.flowController = flowController;
 		this.flowView = flowView;
 		this.graphView = graphView;
@@ -78,11 +78,11 @@ public class RecitationListener implements ActionListener {
 	}
 
 	/**
-	 * when the checkbox is selected the a brand new courselist is created and
-	 * redrawn
+	 * When the checkbox is selected a brand new courselist is created and redrawn
 	 */
 	public void actionPerformed(ActionEvent e) {
 		JCheckBox cb = (JCheckBox) e.getSource();
+
 		try {
 			if (cb.isSelected() == true) {
 				String selected = interactiveView.getSelectedMajor();
@@ -90,6 +90,7 @@ public class RecitationListener implements ActionListener {
 				System.out.println(listModel.getMajorTextFilePath(selected));
 				MajorModel majorModel = null;
 				GraphModel graphModel = null;
+
 				try {
 					majorModel = new MajorModel(listModel.getMajorTextFilePath(selected), 0);
 					graphModel = new GraphModel(majorModel);
@@ -108,6 +109,7 @@ public class RecitationListener implements ActionListener {
 				System.out.println(listModel.getMajorTextFilePath(selected));
 				MajorModel majorModel = null;
 				GraphModel graphModel = null;
+
 				try {
 					majorModel = new MajorModel(listModel.getMajorTextFilePath(selected), 1);
 					graphModel = new GraphModel(majorModel);

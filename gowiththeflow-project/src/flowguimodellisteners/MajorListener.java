@@ -7,11 +7,9 @@ import flowguimodel.InteractiveModel;
 import flowguiview.InteractiveView;
 
 /**
- * This class deals with user interaction in the list of Majors in the
- * interactive view.
+ * This class deals with user interaction in the list of Majors in the interactive view.
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
- *         Blig
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  *
  */
 public class MajorListener implements ListSelectionListener {
@@ -41,12 +39,13 @@ public class MajorListener implements ListSelectionListener {
 	}
 
 	/**
-	 * If the list of majors in the interactive view is changed this method
-	 * changes the view and model according to it.
+	 * If the list of majors in the interactive view is changed this method changes the view and
+	 * model according to it.
 	 */
 	public void valueChanged(ListSelectionEvent e) {
 		String selected = interactiveView.getSelectedMajor();
 		interactiveModel.setSelectedMajor(selected);
 		System.out.println(selected);
 	}
+
 }

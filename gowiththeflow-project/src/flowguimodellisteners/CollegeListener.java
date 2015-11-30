@@ -7,11 +7,10 @@ import flowguimodel.InteractiveModel;
 import flowguiview.InteractiveView;
 
 /**
- * This class can listen to the list of colleges of study in the interactive
- * view and updates that list's view and model based off of user interaction.
+ * This class can listen to the list of colleges of study in the interactive view and updates that
+ * list's view and model based off of user interaction.
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
- *         Blig
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  *
  */
 public class CollegeListener implements ListSelectionListener {
@@ -27,8 +26,7 @@ public class CollegeListener implements ListSelectionListener {
 	private InteractiveModel interactiveModel;
 
 	/**
-	 * Constructs a college listener by calling the registerCollegeListener
-	 * method.
+	 * Constructs a college listener by calling the registerCollegeListener method.
 	 * 
 	 * @param interactiveModel
 	 *            The Interactive view's model
@@ -42,12 +40,12 @@ public class CollegeListener implements ListSelectionListener {
 	}
 
 	/**
-	 * Detects a change in the interactive list and updates the interactive
-	 * view's information.
+	 * Detects a change in the interactive list and updates the interactive view's information.
 	 */
 	public void valueChanged(ListSelectionEvent e) {
 		String selected = interactiveView.getSelectedCollege();
 		interactiveModel.setMajors(selected);
 		interactiveView.updateMajors(selected);
 	}
+
 }

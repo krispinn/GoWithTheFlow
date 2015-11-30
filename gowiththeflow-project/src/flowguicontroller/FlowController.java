@@ -15,11 +15,9 @@ import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
 /**
- * Controller used to handle events related GUI, is in charge of creating new
- * listeners.
+ * Controller used to handle events related GUI, is in charge of creating new listeners.
  * 
- * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
- *         Cardenas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
 public class FlowController {
 
@@ -64,8 +62,7 @@ public class FlowController {
 	public MxGraphModel mxg;
 
 	/**
-	 * The constructor for the controller, calls each Listener using the passed
-	 * parameters
+	 * The constructor for the controller, calls each Listener using the passed parameters
 	 * 
 	 * @param graphModel
 	 *            The Course model
@@ -82,9 +79,9 @@ public class FlowController {
 	 * @param mxg
 	 *            The mxGraph model
 	 */
-	public FlowController(GraphModel graphModel, FlowView flowView, InteractiveModel interactiveModel,
-			InteractiveView interactiveView, GraphView graphView, MxGraphComponentModel graphComponent,
-			MxGraphModel mxg) {
+	public FlowController(GraphModel graphModel, FlowView flowView,
+			InteractiveModel interactiveModel, InteractiveView interactiveView, GraphView graphView,
+			MxGraphComponentModel graphComponent, MxGraphModel mxg) {
 		this.graphModel = graphModel;
 		this.flowView = flowView;
 		this.interactiveModel = interactiveModel;
@@ -96,9 +93,12 @@ public class FlowController {
 		new DownloadListener(interactiveView);
 		new CollegeListener(interactiveModel, interactiveView);
 		new MajorListener(interactiveModel, interactiveView);
-		new UpdateSelectedMajorListener(this, graphModel, flowView, interactiveModel, interactiveView, graphView);
-		new RecitationListener(this, graphModel, flowView, interactiveModel, interactiveView, graphView);
-		new VertexListener(graphModel, interactiveModel, interactiveView, graphComponent, graphView, mxg);
+		new UpdateSelectedMajorListener(this, graphModel, flowView, interactiveModel,
+				interactiveView, graphView);
+		new RecitationListener(this, graphModel, flowView, interactiveModel, interactiveView,
+				graphView);
+		new VertexListener(graphModel, interactiveModel, interactiveView, graphComponent, graphView,
+				mxg);
 	}
 
 	/**
@@ -111,8 +111,10 @@ public class FlowController {
 	 * @param graphView
 	 *            The graph's view
 	 */
-	public void updateVertexListener(GraphModel graphModel, MxGraphComponentModel graphComponent, GraphView graphView) {
-		vertexListener = new VertexListener(graphModel, interactiveModel, interactiveView, graphComponent, graphView,
-				mxg);
+	public void updateVertexListener(GraphModel graphModel, MxGraphComponentModel graphComponent,
+			GraphView graphView) {
+		vertexListener = new VertexListener(graphModel, interactiveModel, interactiveView,
+				graphComponent, graphView, mxg);
 	}
+	
 }

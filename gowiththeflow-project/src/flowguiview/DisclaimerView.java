@@ -5,9 +5,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 /**
+ * Displays a disclaimer on startup.
  * 
- * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
- *         Cardenas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
 public class DisclaimerView extends JPanel {
 
@@ -20,16 +20,15 @@ public class DisclaimerView extends JPanel {
 			+ "The University of Texas at San Antonio. CS 3443 Applications Programming, Fall 2015, Professor Tom Bylander.</p></html>";
 
 	/**
-	 * Makes a new border in the panel and creates a label with the text from
-	 * the 'purpose' field
+	 * Makes a new border in the panel and creates a label with the text from the 'purpose' field
 	 */
 	public DisclaimerView() {
-
-		this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Disclaimer"),
-				BorderFactory.createEmptyBorder(0, 0, 0, 0)));
-		JLabel jLabel = new JLabel("<html><div style=\"text-align: center;\">" + purpose + "</html>");
+		this.setBorder(
+				BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Disclaimer"),
+						BorderFactory.createEmptyBorder(0, 0, 0, 0)));
+		JLabel jLabel = new JLabel(
+				"<html><div style=\"text-align: center;\">" + purpose + "</html>");
 		this.add(jLabel);
-
 	}
 
 }

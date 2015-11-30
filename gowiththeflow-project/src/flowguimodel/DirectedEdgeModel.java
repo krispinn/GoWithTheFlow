@@ -1,12 +1,10 @@
 package flowguimodel;
 
 /**
- * In the class below, we take to 'CourseModels' provided in the constructor and
- * use their relative indexes stored in the 'main CourseModel arraylist' to
- * create links between them
+ * In the class below, we take to 'CourseModels' provided in the constructor and use their relative
+ * indexes stored in the 'main CourseModel arraylist' to create links between them
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
- *         Blig
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  *
  */
 public class DirectedEdgeModel {
@@ -32,8 +30,7 @@ public class DirectedEdgeModel {
 	private int toNum;
 
 	/**
-	 * Assigns values based on the parameters to the DirectedEdgeModel's fields
-	 * (constructor)
+	 * Assigns values based on the parameters to the DirectedEdgeModel's fields (constructor)
 	 * 
 	 * @param from
 	 *            where the edge will be coming from
@@ -88,12 +85,12 @@ public class DirectedEdgeModel {
 	}
 
 	/**
-	 * Returns a description of the edge giving the 'to' and 'from' subject
-	 * numbers
+	 * Returns a description of the edge giving the 'to' and 'from' subject numbers
 	 */
 	@Override
 	public String toString() {
-		return "EDGE: [" + fromNum + "]" + from.getSubjectNumber() + " to [" + toNum + "]" + to.getSubjectNumber();
+		return "EDGE: [" + fromNum + "]" + from.getSubjectNumber() + " to [" + toNum + "]"
+				+ to.getSubjectNumber();
 	}
 
 }

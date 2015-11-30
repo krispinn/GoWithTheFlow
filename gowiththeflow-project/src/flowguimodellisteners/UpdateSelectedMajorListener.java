@@ -2,7 +2,6 @@ package flowguimodellisteners;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-
 import flowguicontroller.FlowController;
 import flowguimodel.GraphModel;
 import flowguimodel.InteractiveModel;
@@ -15,11 +14,10 @@ import flowguiview.GraphView;
 import flowguiview.InteractiveView;
 
 /**
- * This class is for 'Update Selected Major' button, has a constructor for the
- * listener and performs an action on mouse release.
+ * This class is for 'Update Selected Major' button, has a constructor for the listener and performs
+ * an action on mouse release.
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
- *         Blig
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  *
  */
 public class UpdateSelectedMajorListener implements MouseListener {
@@ -30,8 +28,7 @@ public class UpdateSelectedMajorListener implements MouseListener {
 	private ListModel listModel = new ListModel();
 
 	/**
-	 * The updated view for the graph. On creation, this variable is set to
-	 * null.
+	 * The updated view for the graph. On creation, this variable is set to null.
 	 */
 	private GraphView graphView = null;
 
@@ -51,8 +48,7 @@ public class UpdateSelectedMajorListener implements MouseListener {
 	private FlowController flowController;
 
 	/**
-	 * The constructor for this listener, calls the
-	 * registerUpdateSelectedMajorButton method.
+	 * The constructor for this listener, calls the registerUpdateSelectedMajorButton method.
 	 * 
 	 * @param flowController
 	 *            The main controller
@@ -67,8 +63,9 @@ public class UpdateSelectedMajorListener implements MouseListener {
 	 * @param graphView
 	 *            The graph's view
 	 */
-	public UpdateSelectedMajorListener(FlowController flowController, GraphModel graphModel, FlowView flowView,
-			InteractiveModel interactiveModel, InteractiveView interactiveView, GraphView graphView) {
+	public UpdateSelectedMajorListener(FlowController flowController, GraphModel graphModel,
+			FlowView flowView, InteractiveModel interactiveModel, InteractiveView interactiveView,
+			GraphView graphView) {
 		this.flowController = flowController;
 		this.flowView = flowView;
 		this.graphView = graphView;
@@ -81,7 +78,6 @@ public class UpdateSelectedMajorListener implements MouseListener {
 	 */
 	public void mouseClicked(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-
 	}
 
 	/**
@@ -89,7 +85,6 @@ public class UpdateSelectedMajorListener implements MouseListener {
 	 */
 	public void mouseEntered(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-
 	}
 
 	/**
@@ -97,7 +92,6 @@ public class UpdateSelectedMajorListener implements MouseListener {
 	 */
 	public void mouseExited(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-
 	}
 
 	/**
@@ -105,13 +99,11 @@ public class UpdateSelectedMajorListener implements MouseListener {
 	 */
 	public void mousePressed(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-
 	}
 
 	/**
-	 * On mouse release over the 'update selected major' button this method
-	 * calls all the necessary methods to update to the currently selected major
-	 * in the interactive list.
+	 * On mouse release over the 'update selected major' button this method calls all the necessary
+	 * methods to update to the currently selected major in the interactive list.
 	 */
 	public void mouseReleased(MouseEvent arg0) {
 		String selected = interactiveView.getSelectedMajor();
@@ -119,6 +111,7 @@ public class UpdateSelectedMajorListener implements MouseListener {
 		System.out.println(listModel.getMajorTextFilePath(selected));
 		MajorModel majorModel = null;
 		GraphModel graphModel = null;
+
 		try {
 			majorModel = new MajorModel(listModel.getMajorTextFilePath(selected), 1);
 			graphModel = new GraphModel(majorModel);

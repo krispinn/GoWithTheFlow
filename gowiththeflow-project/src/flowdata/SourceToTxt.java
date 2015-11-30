@@ -9,11 +9,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * DeptMajorList finds a regular expression from source code and
- * outputs what it finds to a text file.
+ * SourceToTxt finds a regular expression from the source code and then outputs what it finds to a
+ * .txt file.
  * 
- * @author CourseData: Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
- *         Cardenas, Mostafa Dabas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
 public class SourceToTxt {
 
@@ -23,8 +22,8 @@ public class SourceToTxt {
 	private File outputFile;
 
 	/**
-	 * Constructor method MatchPatternFromSourceCode sets fields 'inputFile',
-	 * 'expression', and 'outputFile' 'outputFile' is a File object
+	 * Constructor method MatchPatternFromSourceCode sets fields 'inputFile', 'expression', and
+	 * 'outputFile' 'outputFile' is a File object
 	 * 
 	 * A call is made to match() method.
 	 * 
@@ -37,7 +36,8 @@ public class SourceToTxt {
 	 * @throws Exception
 	 *             Throws Exception
 	 */
-	public SourceToTxt(String inputFileName, String inputExpression, String outputFileName) throws Exception {
+	public SourceToTxt(String inputFileName, String inputExpression, String outputFileName)
+			throws Exception {
 
 		inputFile = inputFileName; // file containing source code
 		expression = inputExpression; // expression to search for
@@ -45,17 +45,16 @@ public class SourceToTxt {
 		if (!outputFile.exists())
 			outputFile.createNewFile();
 		match();
-	} //end constructor
+	}
 
 	/**
-	 * match method creates four objects: BufferedReader - used to read data
-	 * from an input file. Pattern - used to match the pattern with the source
-	 * code. FileWriter - used to create the file that the matches will be
-	 * written to. BufferedWriter - used to efficiently write to output file
+	 * match method creates four objects: BufferedReader - used to read data from an input file.
+	 * Pattern - used to match the pattern with the source code. FileWriter - used to create the
+	 * file that the matches will be written to. BufferedWriter - used to efficiently write to
+	 * output file
 	 * 
-	 * After the objects are created a line is read from the input file and it
-	 * is compared to the pattern(regex) when there is match, the matched string
-	 * is then written to the output file.
+	 * After the objects are created a line is read from the input file and it is compared to the
+	 * pattern(regex) when there is match, the matched string is then written to the output file.
 	 * 
 	 * open files are then closed.
 	 * 
@@ -63,30 +62,25 @@ public class SourceToTxt {
 	 *             Throws Exception
 	 */
 	public void match() throws Exception {
-
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
 		Pattern compiledRegexPattern = Pattern.compile(expression);
 		FileWriter fileWriter = new FileWriter(outputFile.getAbsoluteFile());
 		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
 		while (bufferedReader.ready()) {
-			
 			String temporaryString = bufferedReader.readLine();
-			
+
 			if (temporaryString.matches("^\\s+.*href=\"/undergraduate/.*$")) {
 				Matcher matcher = compiledRegexPattern.matcher(temporaryString);
-				
+
 				while (matcher.find()) {
 					bufferedWriter.write(matcher.group(1));
 					bufferedWriter.newLine();
 				} // end while
-				
 			} // end if
-			
 		} // end while
 		bufferedReader.close();
 		bufferedWriter.close();
-
 	}// end method match
-
+	
 }// end class

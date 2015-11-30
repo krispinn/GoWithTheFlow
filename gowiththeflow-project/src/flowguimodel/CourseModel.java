@@ -3,11 +3,10 @@ package flowguimodel;
 import java.util.ArrayList;
 
 /**
- * This class contains all the information for a single course which will be
- * used to create nodes on the flowchart.
+ * This class contains all the information for a single course which will be used to create nodes on
+ * the flowchart.
  * 
- * @author Bilal Siddiqui, Mostafa Dabas, Danny Tsang, Miguel Cardenas, Jason
- *         Blig
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
 public class CourseModel {
 
@@ -42,10 +41,9 @@ public class CourseModel {
 	private ArrayList<String> concurrentList = new ArrayList<String>();
 
 	/**
-	 * The original line of text containing the prerequisites, concurrent
-	 * enrollment courses, and other information.
+	 * The original line of text containing the prerequisites, concurrent enrollment courses, and
+	 * other information.
 	 */
-
 	private String enrollmentInfo;
 
 	/**
@@ -71,8 +69,9 @@ public class CourseModel {
 	 * @param enrollmentInfo
 	 *            the original line containing enrollment info
 	 */
-	public CourseModel(String subject, int number, String name, String prerequisites, String concurrentEnrollment,
-			String description, String enrollmentInfo, int vertexIndex) {
+	public CourseModel(String subject, int number, String name, String prerequisites,
+			String concurrentEnrollment, String description, String enrollmentInfo,
+			int vertexIndex) {
 		this.subject = subject;
 		this.number = number;
 		this.name = name;
@@ -119,8 +118,8 @@ public class CourseModel {
 	}
 
 	/**
-	 * Returns a String of the enrollment information for the course which
-	 * includes the prerequisites and concurrent courses
+	 * Returns a String of the enrollment information for the course which includes the
+	 * prerequisites and concurrent courses
 	 * 
 	 * @return a String of the course's enrollment information
 	 */
@@ -138,8 +137,7 @@ public class CourseModel {
 	}
 
 	/**
-	 * Returns the course's name which is the subject and number (HIS 2123, CS
-	 * 1173)
+	 * Returns the course's name which is the subject and number (HIS 2123, CS 1173)
 	 * 
 	 * @return a String that contains the subject and course numbers
 	 */
@@ -148,8 +146,8 @@ public class CourseModel {
 	}
 
 	/**
-	 * Returns a String of the full length course name which includes subject,
-	 * number, and name. (EXAMPLE: CS 3333 Math Foundations of CS)
+	 * Returns a String of the full length course name which includes subject, number, and name.
+	 * (EXAMPLE: CS 3333 Math Foundations of CS)
 	 * 
 	 * @return a String of the course's subject, number, and name
 	 */
@@ -158,8 +156,8 @@ public class CourseModel {
 	}
 
 	/**
-	 * Takes in two Strings and splits them into two ArrayLists for the course's
-	 * prerequisites and concurrent courses
+	 * Takes in two Strings and splits them into two ArrayLists for the course's prerequisites and
+	 * concurrent courses
 	 * 
 	 * @param pre
 	 *            a String of prerequisite courses
@@ -169,25 +167,21 @@ public class CourseModel {
 	public void update(String pre, String con) {
 		String tokens[] = pre.split(" ");
 		if (tokens.length >= 3) {
-			for (int i = 1; i < tokens.length - 1; i += 2) {
+			for (int i = 1; i < tokens.length - 1; i += 2)
 				prerequisiteList.add(tokens[i] + " " + tokens[i + 1]);
-			}
-
 		}
+
 		tokens = con.split(" ");
 		if (tokens.length >= 3) {
-			for (int i = 1; i < tokens.length - 1; i += 2) {
+			for (int i = 1; i < tokens.length - 1; i += 2)
 				concurrentList.add(tokens[i] + " " + tokens[i + 1]);
-			}
 		}
-
 	}
 
 	/**
 	 * Returns the course's prerequisites
 	 * 
-	 * @return an ArrayList of Strings that contains a list of the course's
-	 *         prerequisites
+	 * @return an ArrayList of Strings that contains a list of the course's prerequisites
 	 */
 	public ArrayList<String> getPrerequisiteList() {
 		return prerequisiteList;
@@ -196,23 +190,23 @@ public class CourseModel {
 	/**
 	 * Returns the course's concurrent enrollments
 	 * 
-	 * @return an ArrayList of Strings containing a list of the course's
-	 *         concurrent enrollments
+	 * @return an ArrayList of Strings containing a list of the course's concurrent enrollments
 	 */
 	public ArrayList<String> getConcurrentList() {
 		return concurrentList;
 	}
 
 	/**
-	 * Returns the course's information as a String. This includes subject,
-	 * course number, course name, a list of the course's prerequisites, a list
-	 * of the course's concurrent courses list, the enrollment information, and
-	 * a description of the course. All of which is reformatted using new lines.
+	 * Returns the course's information as a String. This includes subject, course number, course
+	 * name, a list of the course's prerequisites, a list of the course's concurrent courses list,
+	 * the enrollment information, and a description of the course. All of which is reformatted
+	 * using new lines.
 	 */
 	@Override
 	public String toString() {
-		return subject + " " + number + "\n" + name + "\n\nPrerequisites: " + prerequisiteList.toString()
-				+ "\n\nConcurrent: " + concurrentList.toString() + "\n\nEnroll Info: " + enrollmentInfo
-				+ "\n\nDescription: " + description + "\n";
+		return subject + " " + number + "\n" + name + "\n\nPrerequisites: "
+				+ prerequisiteList.toString() + "\n\nConcurrent: " + concurrentList.toString()
+				+ "\n\nEnroll Info: " + enrollmentInfo + "\n\nDescription: " + description + "\n";
 	}
+	
 }

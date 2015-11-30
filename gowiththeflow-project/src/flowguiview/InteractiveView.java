@@ -18,13 +18,11 @@ import flowguimodellisteners.RecitationListener;
 import flowguimodellisteners.UpdateSelectedMajorListener;
 
 /**
- * The view is responsible for displaying the information. The view includes the
- * list of colors and a panel for painting with the mouse. The panel is
- * implemented as a separate class so that the painting is relatively
- * flicker-free.
+ * The view is responsible for displaying the information. The view includes the list of colors and
+ * a panel for painting with the mouse. The panel is implemented as a separate class so that the
+ * painting is relatively flicker-free.
  * 
- * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
- *         Cardenas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
 public class InteractiveView extends JPanel {
 
@@ -44,14 +42,13 @@ public class InteractiveView extends JPanel {
 	private JList<String> listOfMajors = null;
 
 	/**
-	 * Field for update button which gets info from certain text file (specified
-	 * by the selected major)
+	 * Field for update button which gets info from certain text file (specified by the selected
+	 * major)
 	 */
 	private JButton graphButton = new JButton("Update Selected Major");
 
 	/**
-	 * Field for recitation checkbox which toggles the display of
-	 * labs/recitations
+	 * Field for recitation checkbox which toggles the display of labs/recitations
 	 */
 	private JCheckBox recitationButton = new JCheckBox("Hide Labs/Recitations");
 
@@ -76,8 +73,9 @@ public class InteractiveView extends JPanel {
 	public InteractiveView(InteractiveModel interactiveModel) {
 		this.interactiveModel = interactiveModel;
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-		this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Information"),
-				BorderFactory.createEmptyBorder(0, 0, 0, 0)));
+		this.setBorder(
+				BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Information"),
+						BorderFactory.createEmptyBorder(0, 0, 0, 0)));
 
 		this.add(downloadButton);
 
@@ -98,7 +96,6 @@ public class InteractiveView extends JPanel {
 		jTextArea.setWrapStyleWord(true);
 		jTextArea.setEditable(false);
 		this.add(scrollPane);
-
 	} // end constructor
 
 	/**
