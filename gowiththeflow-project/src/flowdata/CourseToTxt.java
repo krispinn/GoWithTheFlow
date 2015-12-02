@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -71,7 +72,7 @@ public class CourseToTxt {
 		// used to write to the output file
 		FileWriter fw = new FileWriter(courseFile.getAbsoluteFile());
 		BufferedWriter bw = new BufferedWriter(fw);
-		BufferedReader in = new BufferedReader(new InputStreamReader(coursePage.openStream()));
+		BufferedReader in = new BufferedReader(new InputStreamReader(coursePage.openStream(), StandardCharsets.UTF_8));
 		// temporary input buffer
 		String inputLine;
 
