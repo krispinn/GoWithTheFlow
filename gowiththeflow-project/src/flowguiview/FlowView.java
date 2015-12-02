@@ -29,12 +29,7 @@ public class FlowView extends JFrame {
 	 * Displays the information in the InteractiveModel.
 	 */
 	private InteractiveView view;
-
-	/**
-	 * A menu bar at the top.
-	 */
-	private JMenuBar menuBar;
-
+	
 	/**
 	 * Not used.
 	 */
@@ -61,8 +56,6 @@ public class FlowView extends JFrame {
 
 		ImageIcon img = new ImageIcon("logo.png");
 		this.setIconImage(img.getImage());
-
-		menuBar = new JMenuBar();
 
 		this.model = model;
 		this.view = interactiveView;
