@@ -63,13 +63,11 @@ public class FlowView extends JFrame {
 		this.setIconImage(img.getImage());
 
 		menuBar = new JMenuBar();
-		// this.setJMenuBar(menuBar);
 
 		this.model = model;
 		this.view = interactiveView;
 
 		this.add(interactiveView, BorderLayout.EAST);
-		// this.add(new DisclaimerView(), BorderLayout.SOUTH);
 		graphView = new GraphView(graphComponent);
 		cards = new JPanel(new CardLayout());
 		cards.add(welcomeView);
