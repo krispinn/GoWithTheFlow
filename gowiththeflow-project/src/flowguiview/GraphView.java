@@ -12,8 +12,7 @@ import flowguimodellisteners.VertexListener;
 /**
  * Displays the graph.
  * 
- * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel
- *         Cardenas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
  */
 public class GraphView extends JPanel {
 
@@ -23,22 +22,22 @@ public class GraphView extends JPanel {
 	private mxGraphComponent graphComponent;
 
 	/**
-	 * Constructor sets the graphComponent field to the parameter sent. Then
-	 * sets up layout and borders before finally adding them to the view
+	 * Constructor sets the graphComponent field to the parameter sent. Then sets up layout and
+	 * borders before finally adding them to the view
 	 * 
 	 * @param graphComponent
 	 */
 	public GraphView(MxGraphComponentModel graphComponent) {
 		this.graphComponent = graphComponent;
-		this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Courses"),
-				BorderFactory.createEmptyBorder(5, 5, 5, 5)));
+		this.setBorder(
+				BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder("Courses"),
+						BorderFactory.createEmptyBorder(5, 5, 5, 5)));
 		this.setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
 		this.add(graphComponent);
 	}
 
 	/**
-	 * Registers the mouse listener to the graphComponent, when you click/hover
-	 * on the vertices.
+	 * Registers the mouse listener to the graphComponent, when you click/hover on the vertices.
 	 * 
 	 * @param listener
 	 */
