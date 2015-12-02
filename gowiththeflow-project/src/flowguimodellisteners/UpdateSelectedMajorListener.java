@@ -107,7 +107,6 @@ public class UpdateSelectedMajorListener implements MouseListener {
 	 */
 	public void mouseReleased(MouseEvent arg0) {
 		String selected = interactiveView.getSelectedMajor();
-		// System.out.println("Updating to: " +selected);
 		System.out.println(listModel.getMajorTextFilePath(selected));
 		MajorModel majorModel = null;
 		GraphModel graphModel = null;

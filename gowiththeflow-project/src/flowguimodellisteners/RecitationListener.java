@@ -86,7 +86,6 @@ public class RecitationListener implements ActionListener {
 		try {
 			if (cb.isSelected() == true) {
 				String selected = interactiveView.getSelectedMajor();
-				// System.out.println("Updating to: " +selected);
 				System.out.println(listModel.getMajorTextFilePath(selected));
 				MajorModel majorModel = null;
 				GraphModel graphModel = null;
@@ -105,7 +104,6 @@ public class RecitationListener implements ActionListener {
 				flowView.setGraph(graphView);
 			} else {
 				String selected = interactiveView.getSelectedMajor();
-				// System.out.println("Updating to: " +selected);
 				System.out.println(listModel.getMajorTextFilePath(selected));
 				MajorModel majorModel = null;
 				GraphModel graphModel = null;

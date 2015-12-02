@@ -91,14 +91,7 @@ public class VertexListener implements MouseListener {
 
 		for (Object node : allNodes)
 			mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "white", new Object[] { node });
-		// mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[]
-		// { clickedNode });
 		graphComponent.refresh();
-
-		/*
-		 * //NON WORKING CHANGE COLOR OF CHILDREN/PARENTS for (Object f : kids)
-		 * mxg.getModel().setStyle(f, "fillColor=#00FF00");
-		 */
 
 		if (clickedNode != null && clickedNode instanceof mxCell) {
 			String info = graphModel
