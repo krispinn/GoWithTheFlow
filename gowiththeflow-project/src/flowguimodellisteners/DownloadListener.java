@@ -27,28 +27,28 @@ public class DownloadListener implements MouseListener {
 	 * Doesn't do anything on mouse click
 	 */
 	public void mouseClicked(MouseEvent arg0) {
-		// TODO Auto-generated method stub
+		// do nothing
 	}
 
 	/**
 	 * Doesn't do anything if the mouse enters the window
 	 */
 	public void mouseEntered(MouseEvent arg0) {
-		// TODO Auto-generated method stub
+		// do nothing
 	}
 
 	/**
 	 * Doesn't do anything if the mouse exits the window
 	 */
 	public void mouseExited(MouseEvent arg0) {
-		// TODO Auto-generated method stub
+		// do nothing
 	}
 
 	/**
 	 * Doesn't do anything on mouse press
 	 */
 	public void mousePressed(MouseEvent arg0) {
-		// TODO Auto-generated method stub
+		// do nothing
 	}
 
 	/**

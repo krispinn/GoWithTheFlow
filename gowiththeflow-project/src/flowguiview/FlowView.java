@@ -21,32 +21,27 @@ import flowguimodel.MxGraphComponentModel;
 public class FlowView extends JFrame {
 
 	/**
-	 * 
+	 * The model for the side panel.
 	 */
 	private InteractiveModel model;
 
 	/**
-	 * 
+	 * Displays the information in the InteractiveModel.
 	 */
 	private InteractiveView view;
-
+	
 	/**
-	 * 
-	 */
-	private JMenuBar menuBar;
-
-	/**
-	 * 
+	 * Not used.
 	 */
 	private static final long serialVersionUID = -2707712944901661771L;
 
 	/**
-	 * 
+	 * The graph to be displayed.
 	 */
 	private GraphView graphView;
 
 	/**
-	 * 
+	 * Determines which graph to display.
 	 */
 	private JPanel cards;
 
@@ -59,17 +54,13 @@ public class FlowView extends JFrame {
 			MxGraphComponentModel graphComponent, WelcomeView welcomeView) throws Exception {
 		super("GoWithTheFlow");
 
-		ImageIcon img = new ImageIcon("cool.png");
+		ImageIcon img = new ImageIcon("logo.png");
 		this.setIconImage(img.getImage());
-
-		menuBar = new JMenuBar();
-		// this.setJMenuBar(menuBar);
 
 		this.model = model;
 		this.view = interactiveView;
 
 		this.add(interactiveView, BorderLayout.EAST);
-		// this.add(new DisclaimerView(), BorderLayout.SOUTH);
 		graphView = new GraphView(graphComponent);
 		cards = new JPanel(new CardLayout());
 		cards.add(welcomeView);
@@ -81,8 +72,7 @@ public class FlowView extends JFrame {
 	}
 
 	/**
-	 * When this method is called the welcome screen is replaced by the graph of the major that was
-	 * selected
+	 * Replaces welcome screen with graph of selected major.
 	 */
 	public void setGraph(GraphView graphView) {
 		cards.removeAll();

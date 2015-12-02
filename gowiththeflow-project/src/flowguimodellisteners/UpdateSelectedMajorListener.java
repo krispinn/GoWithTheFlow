@@ -77,28 +77,28 @@ public class UpdateSelectedMajorListener implements MouseListener {
 	 * Doesn't do anything on mouse release
 	 */
 	public void mouseClicked(MouseEvent arg0) {
-		// TODO Auto-generated method stub
+		// do nothing
 	}
 
 	/**
 	 * Doesn't do anything if the mouse enters the window
 	 */
 	public void mouseEntered(MouseEvent arg0) {
-		// TODO Auto-generated method stub
+		// do nothing
 	}
 
 	/**
 	 * Doesn't do anything if the mouse exits the window
 	 */
 	public void mouseExited(MouseEvent arg0) {
-		// TODO Auto-generated method stub
+		// do nothing
 	}
 
 	/**
 	 * Doesn't do anything on mouse press
 	 */
 	public void mousePressed(MouseEvent arg0) {
-		// TODO Auto-generated method stub
+		// do nothing
 	}
 
 	/**
@@ -107,7 +107,6 @@ public class UpdateSelectedMajorListener implements MouseListener {
 	 */
 	public void mouseReleased(MouseEvent arg0) {
 		String selected = interactiveView.getSelectedMajor();
-		// System.out.println("Updating to: " +selected);
 		System.out.println(listModel.getMajorTextFilePath(selected));
 		MajorModel majorModel = null;
 		GraphModel graphModel = null;

@@ -85,22 +85,19 @@ public class VertexListener implements MouseListener {
 	 * vertex is taken and is displayed in a description box located in the Interactive view.
 	 */
 	public void mouseClicked(MouseEvent e) {
-		Object[] allNodes = mxg.getChildCells(mxg.getDefaultParent());
+		Object[] allNodes = mxg.getChildVertices(mxg.getDefaultParent());
 		Object clickedNode = graphComponent.getCellAt(e.getX(), e.getY());
-		Object[] kids = mxg.getChildCells(clickedNode);
+		Object[] kids = mxg.getChildVertices(clickedNode);
 
-		System.out.println("This is the number of c");
+		
+		System.out.printf("This is the number of kids is: %d", kids.length);
+		
 		for (Object node : allNodes)
-			mxg.getModel().setStyle(node, "fillColor=#FFFFFF");
+			mxg.getModel().setStyle(node, "fillColor=add8e6");
 			//mxg.setCellStyles(mxConstants.STYLE_FILLCOLOR, "add8e6", new Object[] { node });
 		
 		mxg.getModel().setStyle(clickedNode, "fillColor=add8e6");
 		graphComponent.refresh();
-
-		/*
-		 * //NON WORKING CHANGE COLOR OF CHILDREN/PARENTS for (Object f : kids)
-		 * mxg.getModel().setStyle(f, "fillColor=#00FF00");
-		 */
 
 		if (clickedNode != null && clickedNode instanceof mxCell) {
 			String info = graphModel
