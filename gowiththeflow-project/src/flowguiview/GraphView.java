@@ -10,13 +10,22 @@ import flowguimodel.MxGraphComponentModel;
 import flowguimodellisteners.VertexListener;
 
 /**
+ * Displays the graph.
  * 
  * @author Mostafa Dabas, Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas
  */
 public class GraphView extends JPanel {
 
+	/**
+	 * The model for the graph.
+	 */
 	private mxGraphComponent graphComponent;
 
+	/**
+	 * 
+	 * 
+	 * @param graphComponent
+	 */
 	public GraphView(MxGraphComponentModel graphComponent) {
 		this.graphComponent = graphComponent;
 		this.setBorder(
@@ -26,10 +35,20 @@ public class GraphView extends JPanel {
 		this.add(graphComponent);
 	}
 
+	/**
+	 * 
+	 * 
+	 * @param listener
+	 */
 	public void registerVertexMouseListener(VertexListener listener) {
 		graphComponent.getGraphControl().addMouseListener(listener);
 	}
 
+	/**
+	 * 
+	 * 
+	 * @param graphComponent
+	 */
 	public void setGraphComponent(final MxGraphComponentModel graphComponent) {
 		this.graphComponent = graphComponent;
 	}

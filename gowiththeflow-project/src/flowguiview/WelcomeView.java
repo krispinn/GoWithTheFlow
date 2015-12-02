@@ -13,6 +13,9 @@ import javax.swing.SwingConstants;
  */
 public class WelcomeView extends JPanel {
 
+	/**
+	 * 
+	 */
 	private String info = "<html><p>Welcome!<br><br>" + "Quick Tutorial:<br><br>"
 			+ "1) Update Course Information - downloads data from UTSA undergraduate catalog<br><br>"
 			+ "2) Select your College - ex: sciences<br><br>"
@@ -22,11 +25,17 @@ public class WelcomeView extends JPanel {
 			+ "6) Course Information - updates when you select a course(vertex) on the graph<br><br>"
 			+ "7) Tooltips - shows up when the mouse is held over a course(vertex) on the graph</p></html>";
 
+	/**
+	 * 
+	 */
 	private String purpose = "<html><p>This program is for informational purposes only. "
 			+ "Please refer to your academic advisor for degree and course planning.<br>"
 			+ "GoWithTheFlow was developed by: Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, and Mostafa Dabas.<br>"
 			+ "The University of Texas at San Antonio. CS 3443 Applications Programming, Fall 2015, Professor Tom Bylander.</p></html>";
 
+	/**
+	 * 
+	 */
 	public WelcomeView() {
 		this.setLayout(new BorderLayout());
 

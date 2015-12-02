@@ -21,32 +21,32 @@ import flowguimodel.MxGraphComponentModel;
 public class FlowView extends JFrame {
 
 	/**
-	 * 
+	 * The model for the side panel.
 	 */
 	private InteractiveModel model;
 
 	/**
-	 * 
+	 * Displays the information in the InteractiveModel.
 	 */
 	private InteractiveView view;
 
 	/**
-	 * 
+	 * A menu bar at the top.
 	 */
 	private JMenuBar menuBar;
 
 	/**
-	 * 
+	 * Not used.
 	 */
 	private static final long serialVersionUID = -2707712944901661771L;
 
 	/**
-	 * 
+	 * The graph to be displayed.
 	 */
 	private GraphView graphView;
 
 	/**
-	 * 
+	 * Determines which graph to display.
 	 */
 	private JPanel cards;
 
