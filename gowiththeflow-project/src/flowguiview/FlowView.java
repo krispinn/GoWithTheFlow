@@ -16,7 +16,8 @@ import flowguimodel.MxGraphComponentModel;
 /**
  * The window where everything is displayed.
  * 
- * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa Dabas
+ * @author Bilal Siddiqui, Danny Tsang, Jason Blig, Miguel Cardenas, Mostafa
+ *         Dabas
  */
 public class FlowView extends JFrame {
 
@@ -51,12 +52,12 @@ public class FlowView extends JFrame {
 	private JPanel cards;
 
 	/**
-	 * When FlowView is first initialized, a welcome screen is in place of the graph (no major
-	 * selected), The interactive view is added on the left side of the panel, disclaimer is added
-	 * to the bottom.
+	 * When FlowView is first initialized, a welcome screen is in place of the
+	 * graph (no major selected), The interactive view is added on the left side
+	 * of the panel, disclaimer is added to the bottom.
 	 */
-	public FlowView(InteractiveView interactiveView, InteractiveModel model,
-			MxGraphComponentModel graphComponent, WelcomeView welcomeView) throws Exception {
+	public FlowView(InteractiveView interactiveView, InteractiveModel model, MxGraphComponentModel graphComponent,
+			WelcomeView welcomeView) throws Exception {
 		super("GoWithTheFlow");
 
 		ImageIcon img = new ImageIcon("cool.png");
@@ -81,8 +82,8 @@ public class FlowView extends JFrame {
 	}
 
 	/**
-	 * When this method is called the welcome screen is replaced by the graph of the major that was
-	 * selected
+	 * When this method is called the welcome screen is replaced by the graph of
+	 * the major that was selected
 	 */
 	public void setGraph(GraphView graphView) {
 		cards.removeAll();
