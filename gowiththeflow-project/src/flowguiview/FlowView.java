@@ -54,8 +54,8 @@ public class FlowView extends JFrame {
 			MxGraphComponentModel graphComponent, WelcomeView welcomeView) throws Exception {
 		super("GoWithTheFlow");
 
-		ImageIcon img = new ImageIcon("logo.png");
-		this.setIconImage(img.getImage());
+		//ImageIcon img = new ImageIcon("logo.png");
+		//this.setIconImage(img.getImage());
 
 		this.model = model;
 		this.view = interactiveView;
