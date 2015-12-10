@@ -14,4 +14,4 @@ Usage instructions:
 2) Run gowiththeflow.jar
 
 
-A tutorial will appear on startup
+A tutorial will appear on startup.
