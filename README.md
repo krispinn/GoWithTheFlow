@@ -14,3 +14,5 @@ Usage instructions:
 
 
 A tutorial will appear on startup.
+
+Contact us at: d87tsang@gmail.com
