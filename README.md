@@ -2,7 +2,7 @@
 Generates a flowchart of undergraduate courses for UTSA majors.
 
 
-Download the jar file here: 
+Download the zip file here: 
 https://goo.gl/y6J0CW
 
 
